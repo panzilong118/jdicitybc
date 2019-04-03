@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../../src/components/Release/ReleaseChannel/v1.0.0/view/index.js"],"names":["ReleaseChannel"],"mappings":";;;;;;AAAA;;;;;;kBACeA,wB","file":"index.js","sourcesContent":["import ReleaseChannel from './ReleaseChannel';\r\nexport default ReleaseChannel;"]}

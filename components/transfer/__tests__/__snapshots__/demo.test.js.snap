@@ -1,0 +1,794 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/transfer/demo/Advanced.js correctly test 1`] = `
+<div
+  class="jc-transfer"
+>
+  <div
+    class="jc-transfer-list jc-transfer-list-with-footer"
+    style="width:250px;height:300px"
+  >
+    <div
+      class="jc-transfer-list-header"
+    >
+      <label
+        class="jc-checkbox-wrapper"
+      >
+        <span
+          class="jc-checkbox"
+        >
+          <input
+            class="jc-checkbox-input"
+            type="checkbox"
+          />
+          <span
+            class="jc-checkbox-inner"
+          />
+        </span>
+      </label>
+      <span
+        class="jc-transfer-list-header-selected"
+      >
+        <span>
+          0 item
+        </span>
+        <span
+          class="jc-transfer-list-header-title"
+        />
+      </span>
+    </div>
+    <div
+      class="jc-transfer-list-body jc-transfer-list-body-with-search"
+    >
+      <div
+        class="jc-transfer-list-body-search-wrapper"
+      >
+        <div>
+          <input
+            class="jc-input jc-transfer-list-search"
+            placeholder="Search here"
+            type="text"
+            value=""
+          />
+          <span
+            class="jc-transfer-list-search-action"
+          >
+            <i
+              class="jcicon jcicon-search "
+            />
+          </span>
+        </div>
+      </div>
+      <ul
+        class="jc-transfer-list-content"
+      />
+      <div
+        class="jc-transfer-list-body-not-found"
+      >
+        Not Found
+      </div>
+    </div>
+    <div
+      class="jc-transfer-list-footer"
+    >
+      <button
+        class="jc-btn jc-btn-sm"
+        style="float:right;margin:5px"
+        type="button"
+      >
+        <span>
+          reload
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    class="jc-transfer-operation"
+  >
+    <button
+      class="jc-btn jc-btn-primary jc-btn-sm"
+      disabled=""
+      type="button"
+    >
+      <i
+        class="jcicon jcicon-left "
+      />
+      <span>
+        to left
+      </span>
+    </button>
+    <button
+      class="jc-btn jc-btn-primary jc-btn-sm"
+      disabled=""
+      type="button"
+    >
+      <i
+        class="jcicon jcicon-right "
+      />
+      <span>
+        to right
+      </span>
+    </button>
+  </div>
+  <div
+    class="jc-transfer-list jc-transfer-list-with-footer"
+    style="width:250px;height:300px"
+  >
+    <div
+      class="jc-transfer-list-header"
+    >
+      <label
+        class="jc-checkbox-wrapper"
+      >
+        <span
+          class="jc-checkbox"
+        >
+          <input
+            class="jc-checkbox-input"
+            type="checkbox"
+          />
+          <span
+            class="jc-checkbox-inner"
+          />
+        </span>
+      </label>
+      <span
+        class="jc-transfer-list-header-selected"
+      >
+        <span>
+          0 item
+        </span>
+        <span
+          class="jc-transfer-list-header-title"
+        />
+      </span>
+    </div>
+    <div
+      class="jc-transfer-list-body jc-transfer-list-body-with-search"
+    >
+      <div
+        class="jc-transfer-list-body-search-wrapper"
+      >
+        <div>
+          <input
+            class="jc-input jc-transfer-list-search"
+            placeholder="Search here"
+            type="text"
+            value=""
+          />
+          <span
+            class="jc-transfer-list-search-action"
+          >
+            <i
+              class="jcicon jcicon-search "
+            />
+          </span>
+        </div>
+      </div>
+      <ul
+        class="jc-transfer-list-content"
+      />
+      <div
+        class="jc-transfer-list-body-not-found"
+      >
+        Not Found
+      </div>
+    </div>
+    <div
+      class="jc-transfer-list-footer"
+    >
+      <button
+        class="jc-btn jc-btn-sm"
+        style="float:right;margin:5px"
+        type="button"
+      >
+        <span>
+          reload
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/transfer/demo/Basic.js correctly test 1`] = `
+<div
+  class="jc-transfer"
+>
+  <div
+    class="jc-transfer-list"
+  >
+    <div
+      class="jc-transfer-list-header"
+    >
+      <label
+        class="jc-checkbox-wrapper"
+      >
+        <span
+          class="jc-checkbox"
+        >
+          <input
+            class="jc-checkbox-input"
+            type="checkbox"
+          />
+          <span
+            class="jc-checkbox-inner"
+          />
+        </span>
+      </label>
+      <span
+        class="jc-transfer-list-header-selected"
+      >
+        <span>
+          14 items
+        </span>
+        <span
+          class="jc-transfer-list-header-title"
+        >
+          Source
+        </span>
+      </span>
+    </div>
+    <div
+      class="jc-transfer-list-body"
+    >
+      <ul
+        class="jc-transfer-list-content"
+      >
+        <div
+          class="LazyLoad"
+          style="height:32px"
+        />
+        <div
+          class="LazyLoad"
+          style="height:32px"
+        />
+        <div
+          class="LazyLoad"
+          style="height:32px"
+        />
+        <div
+          class="LazyLoad"
+          style="height:32px"
+        />
+        <div
+          class="LazyLoad"
+          style="height:32px"
+        />
+        <div
+          class="LazyLoad"
+          style="height:32px"
+        />
+        <div
+          class="LazyLoad"
+          style="height:32px"
+        />
+        <div
+          class="LazyLoad"
+          style="height:32px"
+        />
+        <div
+          class="LazyLoad"
+          style="height:32px"
+        />
+        <div
+          class="LazyLoad"
+          style="height:32px"
+        />
+        <div
+          class="LazyLoad"
+          style="height:32px"
+        />
+        <div
+          class="LazyLoad"
+          style="height:32px"
+        />
+        <div
+          class="LazyLoad"
+          style="height:32px"
+        />
+        <div
+          class="LazyLoad"
+          style="height:32px"
+        />
+      </ul>
+      <div
+        class="jc-transfer-list-body-not-found"
+      >
+        Not Found
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-transfer-operation"
+  >
+    <button
+      class="jc-btn jc-btn-primary jc-btn-sm jc-btn-icon-only"
+      disabled=""
+      type="button"
+    >
+      <i
+        class="jcicon jcicon-left "
+      />
+    </button>
+    <button
+      class="jc-btn jc-btn-primary jc-btn-sm jc-btn-icon-only"
+      disabled=""
+      type="button"
+    >
+      <i
+        class="jcicon jcicon-right "
+      />
+    </button>
+  </div>
+  <div
+    class="jc-transfer-list"
+  >
+    <div
+      class="jc-transfer-list-header"
+    >
+      <label
+        class="jc-checkbox-wrapper"
+      >
+        <span
+          class="jc-checkbox"
+        >
+          <input
+            class="jc-checkbox-input"
+            type="checkbox"
+          />
+          <span
+            class="jc-checkbox-inner"
+          />
+        </span>
+      </label>
+      <span
+        class="jc-transfer-list-header-selected"
+      >
+        <span>
+          6 items
+        </span>
+        <span
+          class="jc-transfer-list-header-title"
+        >
+          Target
+        </span>
+      </span>
+    </div>
+    <div
+      class="jc-transfer-list-body"
+    >
+      <ul
+        class="jc-transfer-list-content"
+      >
+        <div
+          class="LazyLoad"
+          style="height:32px"
+        />
+        <div
+          class="LazyLoad"
+          style="height:32px"
+        />
+        <div
+          class="LazyLoad"
+          style="height:32px"
+        />
+        <div
+          class="LazyLoad"
+          style="height:32px"
+        />
+        <div
+          class="LazyLoad"
+          style="height:32px"
+        />
+        <div
+          class="LazyLoad"
+          style="height:32px"
+        />
+      </ul>
+      <div
+        class="jc-transfer-list-body-not-found"
+      >
+        Not Found
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/transfer/demo/Custom-item.js correctly test 1`] = `
+<div
+  class="jc-transfer"
+>
+  <div
+    class="jc-transfer-list"
+    style="width:300px;height:300px"
+  >
+    <div
+      class="jc-transfer-list-header"
+    >
+      <label
+        class="jc-checkbox-wrapper"
+      >
+        <span
+          class="jc-checkbox"
+        >
+          <input
+            class="jc-checkbox-input"
+            type="checkbox"
+          />
+          <span
+            class="jc-checkbox-inner"
+          />
+        </span>
+      </label>
+      <span
+        class="jc-transfer-list-header-selected"
+      >
+        <span>
+          0 item
+        </span>
+        <span
+          class="jc-transfer-list-header-title"
+        />
+      </span>
+    </div>
+    <div
+      class="jc-transfer-list-body"
+    >
+      <ul
+        class="jc-transfer-list-content"
+      />
+      <div
+        class="jc-transfer-list-body-not-found"
+      >
+        Not Found
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-transfer-operation"
+  >
+    <button
+      class="jc-btn jc-btn-primary jc-btn-sm jc-btn-icon-only"
+      disabled=""
+      type="button"
+    >
+      <i
+        class="jcicon jcicon-left "
+      />
+    </button>
+    <button
+      class="jc-btn jc-btn-primary jc-btn-sm jc-btn-icon-only"
+      disabled=""
+      type="button"
+    >
+      <i
+        class="jcicon jcicon-right "
+      />
+    </button>
+  </div>
+  <div
+    class="jc-transfer-list"
+    style="width:300px;height:300px"
+  >
+    <div
+      class="jc-transfer-list-header"
+    >
+      <label
+        class="jc-checkbox-wrapper"
+      >
+        <span
+          class="jc-checkbox"
+        >
+          <input
+            class="jc-checkbox-input"
+            type="checkbox"
+          />
+          <span
+            class="jc-checkbox-inner"
+          />
+        </span>
+      </label>
+      <span
+        class="jc-transfer-list-header-selected"
+      >
+        <span>
+          0 item
+        </span>
+        <span
+          class="jc-transfer-list-header-title"
+        />
+      </span>
+    </div>
+    <div
+      class="jc-transfer-list-body"
+    >
+      <ul
+        class="jc-transfer-list-content"
+      />
+      <div
+        class="jc-transfer-list-body-not-found"
+      >
+        Not Found
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/transfer/demo/Large-data.js correctly test 1`] = `
+<div
+  class="jc-transfer"
+>
+  <div
+    class="jc-transfer-list"
+  >
+    <div
+      class="jc-transfer-list-header"
+    >
+      <label
+        class="jc-checkbox-wrapper"
+      >
+        <span
+          class="jc-checkbox"
+        >
+          <input
+            class="jc-checkbox-input"
+            type="checkbox"
+          />
+          <span
+            class="jc-checkbox-inner"
+          />
+        </span>
+      </label>
+      <span
+        class="jc-transfer-list-header-selected"
+      >
+        <span>
+          0 item
+        </span>
+        <span
+          class="jc-transfer-list-header-title"
+        />
+      </span>
+    </div>
+    <div
+      class="jc-transfer-list-body"
+    >
+      <ul
+        class="jc-transfer-list-content"
+      />
+      <div
+        class="jc-transfer-list-body-not-found"
+      >
+        Not Found
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-transfer-operation"
+  >
+    <button
+      class="jc-btn jc-btn-primary jc-btn-sm jc-btn-icon-only"
+      disabled=""
+      type="button"
+    >
+      <i
+        class="jcicon jcicon-left "
+      />
+    </button>
+    <button
+      class="jc-btn jc-btn-primary jc-btn-sm jc-btn-icon-only"
+      disabled=""
+      type="button"
+    >
+      <i
+        class="jcicon jcicon-right "
+      />
+    </button>
+  </div>
+  <div
+    class="jc-transfer-list"
+  >
+    <div
+      class="jc-transfer-list-header"
+    >
+      <label
+        class="jc-checkbox-wrapper"
+      >
+        <span
+          class="jc-checkbox"
+        >
+          <input
+            class="jc-checkbox-input"
+            type="checkbox"
+          />
+          <span
+            class="jc-checkbox-inner"
+          />
+        </span>
+      </label>
+      <span
+        class="jc-transfer-list-header-selected"
+      >
+        <span>
+          0 item
+        </span>
+        <span
+          class="jc-transfer-list-header-title"
+        />
+      </span>
+    </div>
+    <div
+      class="jc-transfer-list-body"
+    >
+      <ul
+        class="jc-transfer-list-content"
+      />
+      <div
+        class="jc-transfer-list-body-not-found"
+      >
+        Not Found
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/transfer/demo/Search.js correctly test 1`] = `
+<div
+  class="jc-transfer"
+>
+  <div
+    class="jc-transfer-list"
+  >
+    <div
+      class="jc-transfer-list-header"
+    >
+      <label
+        class="jc-checkbox-wrapper"
+      >
+        <span
+          class="jc-checkbox"
+        >
+          <input
+            class="jc-checkbox-input"
+            type="checkbox"
+          />
+          <span
+            class="jc-checkbox-inner"
+          />
+        </span>
+      </label>
+      <span
+        class="jc-transfer-list-header-selected"
+      >
+        <span>
+          0 item
+        </span>
+        <span
+          class="jc-transfer-list-header-title"
+        />
+      </span>
+    </div>
+    <div
+      class="jc-transfer-list-body jc-transfer-list-body-with-search"
+    >
+      <div
+        class="jc-transfer-list-body-search-wrapper"
+      >
+        <div>
+          <input
+            class="jc-input jc-transfer-list-search"
+            placeholder="Search here"
+            type="text"
+            value=""
+          />
+          <span
+            class="jc-transfer-list-search-action"
+          >
+            <i
+              class="jcicon jcicon-search "
+            />
+          </span>
+        </div>
+      </div>
+      <ul
+        class="jc-transfer-list-content"
+      />
+      <div
+        class="jc-transfer-list-body-not-found"
+      >
+        Not Found
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-transfer-operation"
+  >
+    <button
+      class="jc-btn jc-btn-primary jc-btn-sm jc-btn-icon-only"
+      disabled=""
+      type="button"
+    >
+      <i
+        class="jcicon jcicon-left "
+      />
+    </button>
+    <button
+      class="jc-btn jc-btn-primary jc-btn-sm jc-btn-icon-only"
+      disabled=""
+      type="button"
+    >
+      <i
+        class="jcicon jcicon-right "
+      />
+    </button>
+  </div>
+  <div
+    class="jc-transfer-list"
+  >
+    <div
+      class="jc-transfer-list-header"
+    >
+      <label
+        class="jc-checkbox-wrapper"
+      >
+        <span
+          class="jc-checkbox"
+        >
+          <input
+            class="jc-checkbox-input"
+            type="checkbox"
+          />
+          <span
+            class="jc-checkbox-inner"
+          />
+        </span>
+      </label>
+      <span
+        class="jc-transfer-list-header-selected"
+      >
+        <span>
+          0 item
+        </span>
+        <span
+          class="jc-transfer-list-header-title"
+        />
+      </span>
+    </div>
+    <div
+      class="jc-transfer-list-body jc-transfer-list-body-with-search"
+    >
+      <div
+        class="jc-transfer-list-body-search-wrapper"
+      >
+        <div>
+          <input
+            class="jc-input jc-transfer-list-search"
+            placeholder="Search here"
+            type="text"
+            value=""
+          />
+          <span
+            class="jc-transfer-list-search-action"
+          >
+            <i
+              class="jcicon jcicon-search "
+            />
+          </span>
+        </div>
+      </div>
+      <ul
+        class="jc-transfer-list-content"
+      />
+      <div
+        class="jc-transfer-list-body-not-found"
+      >
+        Not Found
+      </div>
+    </div>
+  </div>
+</div>
+`;

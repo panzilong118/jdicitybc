@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../../src/components/Release/UploadImage/v1.0.0/view/index.js"],"names":["UploadImage"],"mappings":";;;;;;AAAA;;;;;;kBACeA,qB","file":"index.js","sourcesContent":["import UploadImage from './UploadImage';\r\nexport default UploadImage;"]}

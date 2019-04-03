@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/notification/demo/Basic.js correctly test 1`] = `
+<button
+  class="jc-btn jc-btn-primary"
+  type="button"
+>
+  <span>
+    Open the notification box
+  </span>
+</button>
+`;
+
+exports[`renders ./components/notification/demo/Custom-icon.js correctly test 1`] = `
+<button
+  class="jc-btn jc-btn-primary"
+  type="button"
+>
+  <span>
+    Open the notification box
+  </span>
+</button>
+`;
+
+exports[`renders ./components/notification/demo/Custom-style.js correctly test 1`] = `
+<button
+  class="jc-btn jc-btn-primary"
+  type="button"
+>
+  <span>
+    Open the notification box
+  </span>
+</button>
+`;
+
+exports[`renders ./components/notification/demo/Duration.js correctly test 1`] = `
+<button
+  class="jc-btn jc-btn-primary"
+  type="button"
+>
+  <span>
+    Open the notification box
+  </span>
+</button>
+`;
+
+exports[`renders ./components/notification/demo/Placement.js correctly test 1`] = `
+<div>
+  <div
+    class="jc-select jc-select-enabled"
+    style="width:120px;margin-right:10px"
+  >
+    <div
+      aria-autocomplete="list"
+      aria-expanded="false"
+      aria-haspopup="true"
+      class="jc-select-selection
+            jc-select-selection--single"
+      role="combobox"
+      tabindex="0"
+    >
+      <div
+        class="jc-select-selection__rendered"
+      >
+        <div
+          class="jc-select-selection-selected-value"
+          style="display:block;opacity:1"
+          title="topRight"
+        >
+          topRight
+        </div>
+      </div>
+      <span
+        class="jc-select-arrow"
+        style="user-select:none;-webkit-user-select:none"
+        unselectable="unselectable"
+      >
+        <b />
+      </span>
+    </div>
+  </div>
+  <button
+    class="jc-btn jc-btn-primary"
+    type="button"
+  >
+    <span>
+      Open the notification box
+    </span>
+  </button>
+</div>
+`;
+
+exports[`renders ./components/notification/demo/With-btn.js correctly test 1`] = `
+<button
+  class="jc-btn jc-btn-primary"
+  type="button"
+>
+  <span>
+    Open the notification box
+  </span>
+</button>
+`;
+
+exports[`renders ./components/notification/demo/With-icon.js correctly test 1`] = `
+<div>
+  <button
+    class="jc-btn"
+    type="button"
+  >
+    <span>
+      Success
+    </span>
+  </button>
+  <button
+    class="jc-btn"
+    type="button"
+  >
+    <span>
+      Info
+    </span>
+  </button>
+  <button
+    class="jc-btn"
+    type="button"
+  >
+    <span>
+      Warning
+    </span>
+  </button>
+  <button
+    class="jc-btn"
+    type="button"
+  >
+    <span>
+      Error
+    </span>
+  </button>
+</div>
+`;

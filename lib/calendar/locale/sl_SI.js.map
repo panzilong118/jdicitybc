@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../components/calendar/locale/sl_SI.js"],"names":[],"mappings":";;;;;;AAAA","file":"sl_SI.js","sourcesContent":["import sl_SI from '../../date-picker/locale/sl_SI';\r\nexport default sl_SI;\r\n"]}

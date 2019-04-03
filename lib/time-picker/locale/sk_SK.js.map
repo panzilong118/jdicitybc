@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../components/time-picker/locale/sk_SK.js"],"names":["locale","placeholder"],"mappings":";;;;;AAAA,IAAMA,SAAS;AACbC,eAAa;AADA,CAAf;;kBAIeD,M","file":"sk_SK.js","sourcesContent":["const locale = {\r\n  placeholder: 'Vybrať čas',\r\n};\r\n\r\nexport default locale;\r\n"]}

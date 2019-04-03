@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../../src/components/Release/BasicName/v1.0.0/view/index.js"],"names":["BasicName"],"mappings":";;;;;;AACA;;;;;;kBACeA,mB","file":"index.js","sourcesContent":["\r\nimport BasicName from \"./BasicName\";\r\nexport default BasicName;\r\n"]}

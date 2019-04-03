@@ -1,0 +1,188 @@
+@import "../../style/themes/default";
+@import "../../style/mixins/index";
+
+@slider-prefix-cls: ~"@{jc-prefix}-slider";
+
+.@{slider-prefix-cls} {
+  .reset-component;
+  position: relative;
+  margin: @slider-margin;
+  padding: 4px 0;
+  height: 12px;
+  cursor: pointer;
+
+  .vertical();
+
+  &-with-marks {
+    margin-bottom: 28px;
+  }
+
+  &-rail {
+    position: absolute;
+    width: 100%;
+    height: @slider-rail-height;
+    border-radius: @slider-rail-border-radius;
+    background-color: @slider-rail-background-color;
+    transition: background-color .3s;
+  }
+
+  &-track {
+    position: absolute;
+    height: @slider-rail-height;
+    border-radius: @border-radius-base;
+    background-color: @slider-track-background-color;
+    transition: background-color 0.3s ease;
+  }
+
+  &-handle {
+    position: absolute;
+    margin-left: -(@slider-handle-height/2);
+    margin-top: -(@slider-handle-height/2-@slider-rail-height/2);
+    width: @slider-handle-height;
+    height: @slider-handle-height;
+    cursor: pointer;
+    border-radius: 50%;
+    border: solid 2px @slider-handle-color;
+    background-color: @slider-handle-background;
+    transition: border-color .3s, transform .3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+
+    &:focus {
+      border-color: @slider-handle-color-focus;
+      box-shadow: 0 0 0 5px @slider-handle-color-focus-shadow;
+      outline: none;
+    }
+
+    &.@{jc-prefix}-tooltip-open {
+      border-color: @slider-handle-color-tooltip-open;
+    }
+  }
+
+  &:hover {
+    .@{slider-prefix-cls}-rail {
+      background-color: @slider-rail-background-color-hover;
+    }
+    .@{slider-prefix-cls}-track {
+      background-color: @slider-track-background-color-hover;
+    }
+    .@{slider-prefix-cls}-handle:not(.@{jc-prefix}-tooltip-open) {
+      border-color: @slider-handle-color-hover;
+    }
+  }
+
+  &-mark {
+    position: absolute;
+    top: 14px;
+    left: 0;
+    width: 100%;
+    font-size: @font-size-base;
+  }
+
+  &-mark-text {
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    color: @text-color-secondary;
+
+    &-active {
+      color: @text-color;
+    }
+  }
+
+  &-step {
+    position: absolute;
+    width: 100%;
+    height: @slider-rail-height;
+    background: transparent;
+  }
+
+  &-dot {
+    position: absolute;
+    top: -(@slider-dot-height/2-@slider-rail-height/2);
+    margin-left: -(@slider-dot-height/2);
+    width: @slider-dot-height;
+    height: @slider-dot-height;
+    border: 2px solid @slider-dot-border-color;
+    background-color: @slider-dot-background;
+    cursor: pointer;
+    border-radius: 50%;
+    vertical-align: middle;
+    &:first-child {
+      margin-left: -(@slider-dot-height/2);
+    }
+    &:last-child {
+      margin-left: -(@slider-dot-height/2);
+    }
+    &-active {
+      border-color: @slider-dot-border-color-active;
+    }
+  }
+
+  &-disabled {
+    cursor: not-allowed;
+
+    .@{slider-prefix-cls}-track {
+      background-color: @slider-disabled-color !important;
+    }
+
+    .@{slider-prefix-cls}-handle,
+    .@{slider-prefix-cls}-dot {
+      border-color: @slider-disabled-color !important;
+      background-color: @component-background;
+      cursor: not-allowed;
+      box-shadow: none;
+    }
+
+    .@{slider-prefix-cls}-mark-text,
+    .@{slider-prefix-cls}-dot {
+      cursor: not-allowed !important;
+    }
+  }
+}
+
+.vertical() {
+  &-vertical {
+    // width: 12px;
+    height: 100%;
+    margin: 6px 10px;
+    padding: 0 4px;
+
+    .@{slider-prefix-cls}-rail {
+      height: 100%;
+      width: @slider-rail-height;
+    }
+
+    .@{slider-prefix-cls}-track {
+      width: @slider-rail-height;
+    }
+
+    .@{slider-prefix-cls}-handle {
+      margin-left: -(@slider-handle-height/2-@slider-rail-height/2);
+      margin-bottom: -(@slider-dot-height/2);
+    }
+
+    .@{slider-prefix-cls}-mark {
+      top: 0;
+      left: 12px;
+      width: 18px;
+      height: 100%;
+    }
+
+    .@{slider-prefix-cls}-mark-text {
+      left: @slider-vertical-mark-text-left;
+      white-space: nowrap;
+    }
+
+    .@{slider-prefix-cls}-step {
+      width: @slider-rail-height;
+      height: 100%;
+    }
+
+    .@{slider-prefix-cls}-dot {
+      top: auto;
+      left: -((@slider-dot-height/2-@slider-rail-height/2)-(@slider-dot-height/2));
+      margin-bottom: -(@slider-dot-height/2);
+    }
+  }
+}

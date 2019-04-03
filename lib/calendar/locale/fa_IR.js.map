@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../components/calendar/locale/fa_IR.js"],"names":[],"mappings":";;;;;;AAAA","file":"fa_IR.js","sourcesContent":["import fa_IR from '../../date-picker/locale/fa_IR';\r\nexport default fa_IR;\r\n"]}

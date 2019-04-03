@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../../src/components/Release/OtherFavourable/v1.0.0/view/index.js"],"names":["OtherFavourable"],"mappings":";;;;;;AAEA;;;;;;kBACeA,yB","file":"index.js","sourcesContent":["\r\n\r\nimport OtherFavourable from './OtherFavourable';\r\nexport default OtherFavourable;"]}

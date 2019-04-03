@@ -1,0 +1,3684 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/form/demo/advanced-search.js correctly test 1`] = `
+<div>
+  <form
+    class="jc-form jc-form-horizontal jc-advanced-search-form"
+  >
+    <div
+      class="jc-row"
+      style="margin-left:-12px;margin-right:-12px"
+    >
+      <div
+        class="jc-col-8"
+        style="padding-left:12px;padding-right:12px;display:block"
+      >
+        <div
+          class="jc-row jc-form-item"
+        >
+          <div
+            class="jc-form-item-label"
+          >
+            <label
+              class="jc-form-item-required"
+              for="field-0"
+              title="Field 0"
+            >
+              Field 0
+            </label>
+          </div>
+          <div
+            class="jc-form-item-control-wrapper"
+          >
+            <div
+              class="jc-form-item-control"
+            >
+              <span
+                class="jc-form-item-children"
+              >
+                <input
+                  class="jc-input"
+                  data-__field="[object Object]"
+                  data-__meta="[object Object]"
+                  id="field-0"
+                  placeholder="placeholder"
+                  type="text"
+                  value=""
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="jc-col-8"
+        style="padding-left:12px;padding-right:12px;display:block"
+      >
+        <div
+          class="jc-row jc-form-item"
+        >
+          <div
+            class="jc-form-item-label"
+          >
+            <label
+              class="jc-form-item-required"
+              for="field-1"
+              title="Field 1"
+            >
+              Field 1
+            </label>
+          </div>
+          <div
+            class="jc-form-item-control-wrapper"
+          >
+            <div
+              class="jc-form-item-control"
+            >
+              <span
+                class="jc-form-item-children"
+              >
+                <input
+                  class="jc-input"
+                  data-__field="[object Object]"
+                  data-__meta="[object Object]"
+                  id="field-1"
+                  placeholder="placeholder"
+                  type="text"
+                  value=""
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="jc-col-8"
+        style="padding-left:12px;padding-right:12px;display:block"
+      >
+        <div
+          class="jc-row jc-form-item"
+        >
+          <div
+            class="jc-form-item-label"
+          >
+            <label
+              class="jc-form-item-required"
+              for="field-2"
+              title="Field 2"
+            >
+              Field 2
+            </label>
+          </div>
+          <div
+            class="jc-form-item-control-wrapper"
+          >
+            <div
+              class="jc-form-item-control"
+            >
+              <span
+                class="jc-form-item-children"
+              >
+                <input
+                  class="jc-input"
+                  data-__field="[object Object]"
+                  data-__meta="[object Object]"
+                  id="field-2"
+                  placeholder="placeholder"
+                  type="text"
+                  value=""
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="jc-col-8"
+        style="padding-left:12px;padding-right:12px;display:block"
+      >
+        <div
+          class="jc-row jc-form-item"
+        >
+          <div
+            class="jc-form-item-label"
+          >
+            <label
+              class="jc-form-item-required"
+              for="field-3"
+              title="Field 3"
+            >
+              Field 3
+            </label>
+          </div>
+          <div
+            class="jc-form-item-control-wrapper"
+          >
+            <div
+              class="jc-form-item-control"
+            >
+              <span
+                class="jc-form-item-children"
+              >
+                <input
+                  class="jc-input"
+                  data-__field="[object Object]"
+                  data-__meta="[object Object]"
+                  id="field-3"
+                  placeholder="placeholder"
+                  type="text"
+                  value=""
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="jc-col-8"
+        style="padding-left:12px;padding-right:12px;display:block"
+      >
+        <div
+          class="jc-row jc-form-item"
+        >
+          <div
+            class="jc-form-item-label"
+          >
+            <label
+              class="jc-form-item-required"
+              for="field-4"
+              title="Field 4"
+            >
+              Field 4
+            </label>
+          </div>
+          <div
+            class="jc-form-item-control-wrapper"
+          >
+            <div
+              class="jc-form-item-control"
+            >
+              <span
+                class="jc-form-item-children"
+              >
+                <input
+                  class="jc-input"
+                  data-__field="[object Object]"
+                  data-__meta="[object Object]"
+                  id="field-4"
+                  placeholder="placeholder"
+                  type="text"
+                  value=""
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="jc-col-8"
+        style="padding-left:12px;padding-right:12px;display:block"
+      >
+        <div
+          class="jc-row jc-form-item"
+        >
+          <div
+            class="jc-form-item-label"
+          >
+            <label
+              class="jc-form-item-required"
+              for="field-5"
+              title="Field 5"
+            >
+              Field 5
+            </label>
+          </div>
+          <div
+            class="jc-form-item-control-wrapper"
+          >
+            <div
+              class="jc-form-item-control"
+            >
+              <span
+                class="jc-form-item-children"
+              >
+                <input
+                  class="jc-input"
+                  data-__field="[object Object]"
+                  data-__meta="[object Object]"
+                  id="field-5"
+                  placeholder="placeholder"
+                  type="text"
+                  value=""
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="jc-col-8"
+        style="padding-left:12px;padding-right:12px;display:none"
+      >
+        <div
+          class="jc-row jc-form-item"
+        >
+          <div
+            class="jc-form-item-label"
+          >
+            <label
+              class="jc-form-item-required"
+              for="field-6"
+              title="Field 6"
+            >
+              Field 6
+            </label>
+          </div>
+          <div
+            class="jc-form-item-control-wrapper"
+          >
+            <div
+              class="jc-form-item-control"
+            >
+              <span
+                class="jc-form-item-children"
+              >
+                <input
+                  class="jc-input"
+                  data-__field="[object Object]"
+                  data-__meta="[object Object]"
+                  id="field-6"
+                  placeholder="placeholder"
+                  type="text"
+                  value=""
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="jc-col-8"
+        style="padding-left:12px;padding-right:12px;display:none"
+      >
+        <div
+          class="jc-row jc-form-item"
+        >
+          <div
+            class="jc-form-item-label"
+          >
+            <label
+              class="jc-form-item-required"
+              for="field-7"
+              title="Field 7"
+            >
+              Field 7
+            </label>
+          </div>
+          <div
+            class="jc-form-item-control-wrapper"
+          >
+            <div
+              class="jc-form-item-control"
+            >
+              <span
+                class="jc-form-item-children"
+              >
+                <input
+                  class="jc-input"
+                  data-__field="[object Object]"
+                  data-__meta="[object Object]"
+                  id="field-7"
+                  placeholder="placeholder"
+                  type="text"
+                  value=""
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="jc-col-8"
+        style="padding-left:12px;padding-right:12px;display:none"
+      >
+        <div
+          class="jc-row jc-form-item"
+        >
+          <div
+            class="jc-form-item-label"
+          >
+            <label
+              class="jc-form-item-required"
+              for="field-8"
+              title="Field 8"
+            >
+              Field 8
+            </label>
+          </div>
+          <div
+            class="jc-form-item-control-wrapper"
+          >
+            <div
+              class="jc-form-item-control"
+            >
+              <span
+                class="jc-form-item-children"
+              >
+                <input
+                  class="jc-input"
+                  data-__field="[object Object]"
+                  data-__meta="[object Object]"
+                  id="field-8"
+                  placeholder="placeholder"
+                  type="text"
+                  value=""
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="jc-col-8"
+        style="padding-left:12px;padding-right:12px;display:none"
+      >
+        <div
+          class="jc-row jc-form-item"
+        >
+          <div
+            class="jc-form-item-label"
+          >
+            <label
+              class="jc-form-item-required"
+              for="field-9"
+              title="Field 9"
+            >
+              Field 9
+            </label>
+          </div>
+          <div
+            class="jc-form-item-control-wrapper"
+          >
+            <div
+              class="jc-form-item-control"
+            >
+              <span
+                class="jc-form-item-children"
+              >
+                <input
+                  class="jc-input"
+                  data-__field="[object Object]"
+                  data-__meta="[object Object]"
+                  id="field-9"
+                  placeholder="placeholder"
+                  type="text"
+                  value=""
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="jc-row"
+    >
+      <div
+        class="jc-col-24"
+        style="text-align:right"
+      >
+        <button
+          class="jc-btn jc-btn-primary"
+          type="submit"
+        >
+          <span>
+            Search
+          </span>
+        </button>
+        <button
+          class="jc-btn"
+          style="margin-left:8px"
+          type="button"
+        >
+          <span>
+            Clear
+          </span>
+        </button>
+        <a
+          style="margin-left:8px;font-size:12px"
+        >
+          Collapse 
+          <i
+            class="jcicon jcicon-down "
+          />
+        </a>
+      </div>
+    </div>
+  </form>
+  <div
+    class="search-result-list"
+  >
+    Search Result List
+  </div>
+</div>
+`;
+
+exports[`renders ./components/form/demo/coordinated.js correctly test 1`] = `
+<form
+  class="jc-form jc-form-horizontal"
+>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-col-5 jc-form-item-label"
+    >
+      <label
+        class="jc-form-item-required"
+        for="note"
+        title="Note"
+      >
+        Note
+      </label>
+    </div>
+    <div
+      class="jc-col-12 jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <input
+            class="jc-input"
+            data-__field="[object Object]"
+            data-__meta="[object Object]"
+            id="note"
+            type="text"
+            value=""
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-col-5 jc-form-item-label"
+    >
+      <label
+        class="jc-form-item-required"
+        for="gender"
+        title="Gender"
+      >
+        Gender
+      </label>
+    </div>
+    <div
+      class="jc-col-12 jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <div
+            class="jc-select jc-select-enabled"
+          >
+            <div
+              aria-autocomplete="list"
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="jc-select-selection
+            jc-select-selection--single"
+              role="combobox"
+              tabindex="0"
+            >
+              <div
+                class="jc-select-selection__rendered"
+              >
+                <div
+                  class="jc-select-selection__placeholder"
+                  style="display:block;user-select:none;-webkit-user-select:none"
+                  unselectable="unselectable"
+                >
+                  Select a option and change input text above
+                </div>
+              </div>
+              <span
+                class="jc-select-arrow"
+                style="user-select:none;-webkit-user-select:none"
+                unselectable="unselectable"
+              >
+                <b />
+              </span>
+            </div>
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-col-12 jc-col-offset-5 jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <button
+            class="jc-btn jc-btn-primary"
+            type="submit"
+          >
+            <span>
+              Submit
+            </span>
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`renders ./components/form/demo/customized-form-controls.js correctly test 1`] = `
+<form
+  class="jc-form jc-form-inline"
+>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-label"
+    >
+      <label
+        class=""
+        for="price"
+        title="Price"
+      >
+        Price
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control has-success"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <span>
+            <input
+              class="jc-input"
+              style="width:65%;margin-right:3%"
+              type="text"
+              value="0"
+            />
+            <div
+              class="jc-select jc-select-enabled"
+              style="width:32%"
+            >
+              <div
+                aria-autocomplete="list"
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="jc-select-selection
+            jc-select-selection--single"
+                role="combobox"
+                tabindex="0"
+              >
+                <div
+                  class="jc-select-selection__rendered"
+                >
+                  <div
+                    class="jc-select-selection-selected-value"
+                    style="display:block;opacity:1"
+                    title="RMB"
+                  >
+                    RMB
+                  </div>
+                </div>
+                <span
+                  class="jc-select-arrow"
+                  style="user-select:none;-webkit-user-select:none"
+                  unselectable="unselectable"
+                >
+                  <b />
+                </span>
+              </div>
+            </div>
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <button
+            class="jc-btn jc-btn-primary"
+            type="submit"
+          >
+            <span>
+              Submit
+            </span>
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`renders ./components/form/demo/dynamic-form-item.js correctly test 1`] = `
+<form
+  class="jc-form jc-form-horizontal"
+>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-xs-offset-0 jc-col-sm-20 jc-col-sm-offset-4"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <button
+            class="jc-btn jc-btn-dashed"
+            style="width:60%"
+            type="button"
+          >
+            <i
+              class="jcicon jcicon-plus "
+            />
+            <span>
+               Add field
+            </span>
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-xs-offset-0 jc-col-sm-20 jc-col-sm-offset-4"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <button
+            class="jc-btn jc-btn-primary"
+            type="submit"
+          >
+            <span>
+              Submit
+            </span>
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`renders ./components/form/demo/dynamic-rule.js correctly test 1`] = `
+<div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-col-4 jc-form-item-label"
+    >
+      <label
+        class="jc-form-item-required"
+        for="username"
+        title="Name"
+      >
+        Name
+      </label>
+    </div>
+    <div
+      class="jc-col-8 jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <input
+            class="jc-input"
+            data-__field="[object Object]"
+            data-__meta="[object Object]"
+            id="username"
+            placeholder="Please input your name"
+            type="text"
+            value=""
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-col-4 jc-form-item-label"
+    >
+      <label
+        class=""
+        for="nickname"
+        title="Nickname"
+      >
+        Nickname
+      </label>
+    </div>
+    <div
+      class="jc-col-8 jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <input
+            class="jc-input"
+            data-__field="[object Object]"
+            data-__meta="[object Object]"
+            id="nickname"
+            placeholder="Please input your nickname"
+            type="text"
+            value=""
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-col-8 jc-col-offset-4 jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <label
+            class="jc-checkbox-wrapper"
+          >
+            <span
+              class="jc-checkbox"
+            >
+              <input
+                class="jc-checkbox-input"
+                type="checkbox"
+                value="false"
+              />
+              <span
+                class="jc-checkbox-inner"
+              />
+            </span>
+            <span>
+              Nickname is required
+            </span>
+          </label>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-col-8 jc-col-offset-4 jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <button
+            class="jc-btn jc-btn-primary"
+            type="button"
+          >
+            <span>
+              Check
+            </span>
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/form/demo/form-in-modal.js correctly test 1`] = `
+<div>
+  <button
+    class="jc-btn jc-btn-primary"
+    type="button"
+  >
+    <span>
+      New Collection
+    </span>
+  </button>
+</div>
+`;
+
+exports[`renders ./components/form/demo/global-state.js correctly test 1`] = `
+<div>
+  <form
+    class="jc-form jc-form-inline"
+  >
+    <div
+      class="jc-row jc-form-item"
+    >
+      <div
+        class="jc-form-item-label"
+      >
+        <label
+          class="jc-form-item-required"
+          for="username"
+          title="Username"
+        >
+          Username
+        </label>
+      </div>
+      <div
+        class="jc-form-item-control-wrapper"
+      >
+        <div
+          class="jc-form-item-control has-success"
+        >
+          <span
+            class="jc-form-item-children"
+          >
+            <input
+              class="jc-input"
+              data-__field="[object Object]"
+              data-__meta="[object Object]"
+              id="username"
+              type="text"
+              value="benjycui"
+            />
+          </span>
+        </div>
+      </div>
+    </div>
+  </form>
+  <pre
+    class="language-bash"
+  >
+    {
+  "username": {
+    "value": "benjycui"
+  }
+}
+  </pre>
+</div>
+`;
+
+exports[`renders ./components/form/demo/horizontal-login.js correctly test 1`] = `
+<form
+  class="jc-form jc-form-inline"
+>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <span
+            class="jc-input-affix-wrapper"
+          >
+            <span
+              class="jc-input-prefix"
+            >
+               
+              <i
+                class="jcicon jcicon-user "
+                style="color:rgba(0,0,0,.25)"
+              />
+               
+            </span>
+            <input
+              class="jc-input"
+              data-__field="[object Object]"
+              data-__meta="[object Object]"
+              id="userName"
+              placeholder="Username"
+              type="text"
+              value=""
+            />
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <span
+            class="jc-input-affix-wrapper"
+          >
+            <span
+              class="jc-input-prefix"
+            >
+               
+              <i
+                class="jcicon jcicon-lock "
+                style="color:rgba(0,0,0,.25)"
+              />
+               
+            </span>
+            <input
+              class="jc-input"
+              data-__field="[object Object]"
+              data-__meta="[object Object]"
+              id="password"
+              placeholder="Password"
+              type="password"
+              value=""
+            />
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <button
+            class="jc-btn jc-btn-primary"
+            type="submit"
+          >
+            <span>
+              Log in
+            </span>
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`renders ./components/form/demo/layout.js correctly test 1`] = `
+<div>
+  <form
+    class="jc-form jc-form-horizontal"
+  >
+    <div
+      class="jc-row jc-form-item"
+    >
+      <div
+        class="jc-col-4 jc-form-item-label"
+      >
+        <label
+          class=""
+          title="Form Layout"
+        >
+          Form Layout
+        </label>
+      </div>
+      <div
+        class="jc-col-14 jc-form-item-control-wrapper"
+      >
+        <div
+          class="jc-form-item-control"
+        >
+          <span
+            class="jc-form-item-children"
+          >
+            <div
+              class="jc-radio-group"
+            >
+              <label
+                class="jc-radio-button-wrapper jc-radio-button-wrapper-checked"
+              >
+                <span
+                  class="jc-radio-button jc-radio-button-checked"
+                >
+                  <input
+                    checked=""
+                    class="jc-radio-button-input"
+                    type="radio"
+                    value="horizontal"
+                  />
+                  <span
+                    class="jc-radio-button-inner"
+                  />
+                </span>
+                <span>
+                  Horizontal
+                </span>
+              </label>
+              <label
+                class="jc-radio-button-wrapper"
+              >
+                <span
+                  class="jc-radio-button"
+                >
+                  <input
+                    class="jc-radio-button-input"
+                    type="radio"
+                    value="vertical"
+                  />
+                  <span
+                    class="jc-radio-button-inner"
+                  />
+                </span>
+                <span>
+                  Vertical
+                </span>
+              </label>
+              <label
+                class="jc-radio-button-wrapper"
+              >
+                <span
+                  class="jc-radio-button"
+                >
+                  <input
+                    class="jc-radio-button-input"
+                    type="radio"
+                    value="inline"
+                  />
+                  <span
+                    class="jc-radio-button-inner"
+                  />
+                </span>
+                <span>
+                  Inline
+                </span>
+              </label>
+            </div>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="jc-row jc-form-item"
+    >
+      <div
+        class="jc-col-4 jc-form-item-label"
+      >
+        <label
+          class=""
+          title="Field A"
+        >
+          Field A
+        </label>
+      </div>
+      <div
+        class="jc-col-14 jc-form-item-control-wrapper"
+      >
+        <div
+          class="jc-form-item-control"
+        >
+          <span
+            class="jc-form-item-children"
+          >
+            <input
+              class="jc-input"
+              placeholder="input placeholder"
+              type="text"
+            />
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="jc-row jc-form-item"
+    >
+      <div
+        class="jc-col-4 jc-form-item-label"
+      >
+        <label
+          class=""
+          title="Field B"
+        >
+          Field B
+        </label>
+      </div>
+      <div
+        class="jc-col-14 jc-form-item-control-wrapper"
+      >
+        <div
+          class="jc-form-item-control"
+        >
+          <span
+            class="jc-form-item-children"
+          >
+            <input
+              class="jc-input"
+              placeholder="input placeholder"
+              type="text"
+            />
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="jc-row jc-form-item"
+    >
+      <div
+        class="jc-col-14 jc-col-offset-4 jc-form-item-control-wrapper"
+      >
+        <div
+          class="jc-form-item-control"
+        >
+          <span
+            class="jc-form-item-children"
+          >
+            <button
+              class="jc-btn jc-btn-primary"
+              type="button"
+            >
+              <span>
+                Submit
+              </span>
+            </button>
+          </span>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`renders ./components/form/demo/normal-login.js correctly test 1`] = `
+<form
+  class="jc-form jc-form-horizontal login-form"
+>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <span
+            class="jc-input-affix-wrapper"
+          >
+            <span
+              class="jc-input-prefix"
+            >
+               
+              <i
+                class="jcicon jcicon-user "
+                style="color:rgba(0,0,0,.25)"
+              />
+               
+            </span>
+            <input
+              class="jc-input"
+              data-__field="[object Object]"
+              data-__meta="[object Object]"
+              id="userName"
+              placeholder="Username"
+              type="text"
+              value=""
+            />
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <span
+            class="jc-input-affix-wrapper"
+          >
+            <span
+              class="jc-input-prefix"
+            >
+               
+              <i
+                class="jcicon jcicon-lock "
+                style="color:rgba(0,0,0,.25)"
+              />
+               
+            </span>
+            <input
+              class="jc-input"
+              data-__field="[object Object]"
+              data-__meta="[object Object]"
+              id="password"
+              placeholder="Password"
+              type="password"
+              value=""
+            />
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control has-success"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <label
+            class="jc-checkbox-wrapper"
+          >
+            <span
+              class="jc-checkbox jc-checkbox-checked"
+            >
+              <input
+                checked=""
+                class="jc-checkbox-input"
+                data-__field="[object Object]"
+                data-__meta="[object Object]"
+                id="remember"
+                type="checkbox"
+              />
+              <span
+                class="jc-checkbox-inner"
+              />
+            </span>
+            <span>
+              Remember me
+            </span>
+          </label>
+          <a
+            class="login-form-forgot"
+            href=""
+          >
+            Forgot password
+          </a>
+          <button
+            class="jc-btn login-form-button jc-btn-primary"
+            type="submit"
+          >
+            <span>
+              Log in
+            </span>
+          </button>
+          Or 
+          <a
+            href=""
+          >
+            register now!
+          </a>
+        </span>
+      </div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`renders ./components/form/demo/register.js correctly test 1`] = `
+<form
+  class="jc-form jc-form-horizontal"
+>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-8"
+    >
+      <label
+        class="jc-form-item-required"
+        for="email"
+        title="E-mail"
+      >
+        E-mail
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-16"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <input
+            class="jc-input"
+            data-__field="[object Object]"
+            data-__meta="[object Object]"
+            id="email"
+            type="text"
+            value=""
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-8"
+    >
+      <label
+        class="jc-form-item-required"
+        for="password"
+        title="Password"
+      >
+        Password
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-16"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <input
+            class="jc-input"
+            data-__field="[object Object]"
+            data-__meta="[object Object]"
+            id="password"
+            type="password"
+            value=""
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-8"
+    >
+      <label
+        class="jc-form-item-required"
+        for="confirm"
+        title="Confirm Password"
+      >
+        Confirm Password
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-16"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <input
+            class="jc-input"
+            data-__field="[object Object]"
+            data-__meta="[object Object]"
+            id="confirm"
+            type="password"
+            value=""
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-8"
+    >
+      <label
+        class="jc-form-item-required"
+        for="nickname"
+        title=""
+      >
+        <span>
+          Nickname 
+          <i
+            class="jcicon jcicon-question-circle-o "
+          />
+        </span>
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-16"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <input
+            class="jc-input"
+            data-__field="[object Object]"
+            data-__meta="[object Object]"
+            id="nickname"
+            type="text"
+            value=""
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-8"
+    >
+      <label
+        class="jc-form-item-required"
+        for="residence"
+        title="Habitual Residence"
+      >
+        Habitual Residence
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-16"
+    >
+      <div
+        class="jc-form-item-control has-success"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <span
+            class="jc-cascader-picker"
+            tabindex="0"
+          >
+            <span
+              class="jc-cascader-picker-label"
+            >
+              Zhejiang / Hangzhou / West Lake
+            </span>
+            <input
+              autocomplete="off"
+              class="jc-input jc-cascader-input "
+              data-__field="[object Object]"
+              data-__meta="[object Object]"
+              id="residence"
+              readonly=""
+              type="text"
+              value=""
+            />
+            <i
+              class="jcicon jcicon-cross-circle  jc-cascader-picker-clear"
+            />
+            <i
+              class="jcicon jcicon-down  jc-cascader-picker-arrow"
+            />
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-8"
+    >
+      <label
+        class="jc-form-item-required"
+        for="phone"
+        title="Phone Number"
+      >
+        Phone Number
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-16"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <span
+            class="jc-input-group-wrapper"
+            style="width:100%"
+          >
+            <span
+              class="jc-input-wrapper jc-input-group"
+            >
+              <span
+                class="jc-input-group-addon"
+              >
+                 
+                <div
+                  class="jc-select jc-select-enabled"
+                  style="width:70px"
+                >
+                  <div
+                    aria-autocomplete="list"
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    class="jc-select-selection
+            jc-select-selection--single"
+                    role="combobox"
+                    tabindex="0"
+                  >
+                    <div
+                      class="jc-select-selection__rendered"
+                    >
+                      <div
+                        class="jc-select-selection-selected-value"
+                        style="display:block;opacity:1"
+                        title="+86"
+                      >
+                        +86
+                      </div>
+                    </div>
+                    <span
+                      class="jc-select-arrow"
+                      style="user-select:none;-webkit-user-select:none"
+                      unselectable="unselectable"
+                    >
+                      <b />
+                    </span>
+                  </div>
+                </div>
+                 
+              </span>
+              <input
+                class="jc-input"
+                data-__field="[object Object]"
+                data-__meta="[object Object]"
+                id="phone"
+                type="text"
+                value=""
+              />
+            </span>
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-8"
+    >
+      <label
+        class="jc-form-item-required"
+        for="website"
+        title="Website"
+      >
+        Website
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-16"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <div
+            class="jc-select-show-search jc-select-auto-complete jc-select jc-select-combobox jc-select-enabled"
+          >
+            <div
+              aria-autocomplete="list"
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="jc-select-selection
+            jc-select-selection--single"
+              role="combobox"
+            >
+              <div
+                class="jc-select-selection__rendered"
+              >
+                <div
+                  class="jc-select-selection__placeholder"
+                  style="display:block;user-select:none;-webkit-user-select:none"
+                  unselectable="unselectable"
+                >
+                  website
+                </div>
+                <ul>
+                  <li
+                    class="jc-select-search jc-select-search--inline"
+                  >
+                    <div
+                      class="jc-select-search__field__wrap"
+                    >
+                      <input
+                        class="jc-input jc-select-search__field"
+                        type="text"
+                        value=""
+                      />
+                      <span
+                        class="jc-select-search__field__mirror"
+                      >
+                         
+                      </span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <span
+                class="jc-select-arrow"
+                style="user-select:none;-webkit-user-select:none"
+                unselectable="unselectable"
+              >
+                <b />
+              </span>
+            </div>
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-8"
+    >
+      <label
+        class="jc-form-item-required"
+        for="captcha"
+        title="Captcha"
+      >
+        Captcha
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-16"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <div
+            class="jc-row"
+            style="margin-left:-4px;margin-right:-4px"
+          >
+            <div
+              class="jc-col-12"
+              style="padding-left:4px;padding-right:4px"
+            >
+              <input
+                class="jc-input"
+                data-__field="[object Object]"
+                data-__meta="[object Object]"
+                id="captcha"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="jc-col-12"
+              style="padding-left:4px;padding-right:4px"
+            >
+              <button
+                class="jc-btn"
+                type="button"
+              >
+                <span>
+                  Get captcha
+                </span>
+              </button>
+            </div>
+          </div>
+        </span>
+        <div
+          class="jc-form-extra"
+        >
+          We must make sure that your are a human.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-xs-offset-0 jc-col-sm-16 jc-col-sm-offset-8"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <label
+            class="jc-checkbox-wrapper"
+          >
+            <span
+              class="jc-checkbox"
+            >
+              <input
+                class="jc-checkbox-input"
+                data-__field="[object Object]"
+                data-__meta="[object Object]"
+                id="agreement"
+                type="checkbox"
+              />
+              <span
+                class="jc-checkbox-inner"
+              />
+            </span>
+            <span>
+              I have read the 
+              <a
+                href=""
+              >
+                agreement
+              </a>
+            </span>
+          </label>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-xs-offset-0 jc-col-sm-16 jc-col-sm-offset-8"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <button
+            class="jc-btn jc-btn-primary"
+            type="submit"
+          >
+            <span>
+              Register
+            </span>
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`renders ./components/form/demo/time-related-controls.js correctly test 1`] = `
+<form
+  class="jc-form jc-form-horizontal"
+>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-8"
+    >
+      <label
+        class="jc-form-item-required"
+        for="date-picker"
+        title="DatePicker"
+      >
+        DatePicker
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-16"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <span
+            class="jc-calendar-picker"
+            id="date-picker"
+          >
+            <div>
+              <input
+                class="jc-calendar-picker-input jc-input"
+                placeholder="Select date"
+                readonly=""
+                value=""
+              />
+              <span
+                class="jc-calendar-picker-icon"
+              />
+            </div>
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-8"
+    >
+      <label
+        class="jc-form-item-required"
+        for="date-time-picker"
+        title="DatePicker[showTime]"
+      >
+        DatePicker[showTime]
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-16"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <span
+            class="jc-calendar-picker"
+            id="date-time-picker"
+          >
+            <div>
+              <input
+                class="jc-calendar-picker-input jc-input"
+                placeholder="Select date"
+                readonly=""
+                value=""
+              />
+              <span
+                class="jc-calendar-picker-icon"
+              />
+            </div>
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-8"
+    >
+      <label
+        class="jc-form-item-required"
+        for="month-picker"
+        title="MonthPicker"
+      >
+        MonthPicker
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-16"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <span
+            class="jc-calendar-picker"
+            id="month-picker"
+          >
+            <div>
+              <input
+                class="jc-calendar-picker-input jc-input"
+                placeholder="Select date"
+                readonly=""
+                value=""
+              />
+              <span
+                class="jc-calendar-picker-icon"
+              />
+            </div>
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-8"
+    >
+      <label
+        class="jc-form-item-required"
+        for="range-picker"
+        title="RangePicker"
+      >
+        RangePicker
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-16"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <span
+            class="jc-calendar-picker"
+            id="range-picker"
+            tabindex="0"
+          >
+            <span
+              class="jc-calendar-picker-input jc-input"
+            >
+              <input
+                class="jc-calendar-range-picker-input"
+                placeholder="Start date"
+                readonly=""
+                tabindex="-1"
+                value=""
+              />
+              <span
+                class="jc-calendar-range-picker-separator"
+              >
+                 ~ 
+              </span>
+              <input
+                class="jc-calendar-range-picker-input"
+                placeholder="End date"
+                readonly=""
+                tabindex="-1"
+                value=""
+              />
+              <span
+                class="jc-calendar-picker-icon"
+              />
+            </span>
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-8"
+    >
+      <label
+        class="jc-form-item-required"
+        for="range-time-picker"
+        title="RangePicker[showTime]"
+      >
+        RangePicker[showTime]
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-16"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <span
+            class="jc-calendar-picker"
+            id="range-time-picker"
+            style="width:350px"
+            tabindex="0"
+          >
+            <span
+              class="jc-calendar-picker-input jc-input"
+            >
+              <input
+                class="jc-calendar-range-picker-input"
+                placeholder="Start date"
+                readonly=""
+                tabindex="-1"
+                value=""
+              />
+              <span
+                class="jc-calendar-range-picker-separator"
+              >
+                 ~ 
+              </span>
+              <input
+                class="jc-calendar-range-picker-input"
+                placeholder="End date"
+                readonly=""
+                tabindex="-1"
+                value=""
+              />
+              <span
+                class="jc-calendar-picker-icon"
+              />
+            </span>
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-8"
+    >
+      <label
+        class="jc-form-item-required"
+        for="time-picker"
+        title="TimePicker"
+      >
+        TimePicker
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-16"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <span
+            class="jc-time-picker "
+          >
+            <input
+              class="jc-time-picker-input"
+              placeholder="Select time"
+              type="text"
+              value=""
+            />
+            <span
+              class="jc-time-picker-icon"
+            />
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-xs-offset-0 jc-col-sm-16 jc-col-sm-offset-8"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <button
+            class="jc-btn jc-btn-primary"
+            type="submit"
+          >
+            <span>
+              Submit
+            </span>
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`renders ./components/form/demo/validate-other.js correctly test 1`] = `
+<form
+  class="jc-form jc-form-horizontal"
+>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-col-6 jc-form-item-label"
+    >
+      <label
+        class=""
+        title="Plain Text"
+      >
+        Plain Text
+      </label>
+    </div>
+    <div
+      class="jc-col-14 jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <span
+            class="jc-form-text"
+          >
+            China
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-col-6 jc-form-item-label"
+    >
+      <label
+        class="jc-form-item-required"
+        for="select"
+        title="Select"
+      >
+        Select
+      </label>
+    </div>
+    <div
+      class="jc-col-14 jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <div
+            class="jc-select jc-select-enabled"
+          >
+            <div
+              aria-autocomplete="list"
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="jc-select-selection
+            jc-select-selection--single"
+              role="combobox"
+              tabindex="0"
+            >
+              <div
+                class="jc-select-selection__rendered"
+              >
+                <div
+                  class="jc-select-selection__placeholder"
+                  style="display:block;user-select:none;-webkit-user-select:none"
+                  unselectable="unselectable"
+                >
+                  Please select a country
+                </div>
+              </div>
+              <span
+                class="jc-select-arrow"
+                style="user-select:none;-webkit-user-select:none"
+                unselectable="unselectable"
+              >
+                <b />
+              </span>
+            </div>
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-col-6 jc-form-item-label"
+    >
+      <label
+        class="jc-form-item-required"
+        for="select-multiple"
+        title="Select[multiple]"
+      >
+        Select[multiple]
+      </label>
+    </div>
+    <div
+      class="jc-col-14 jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <div
+            class="jc-select jc-select-enabled"
+          >
+            <div
+              aria-autocomplete="list"
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="jc-select-selection
+            jc-select-selection--multiple"
+              role="combobox"
+            >
+              <div
+                class="jc-select-selection__rendered"
+              >
+                <div
+                  class="jc-select-selection__placeholder"
+                  style="display:block;user-select:none;-webkit-user-select:none"
+                  unselectable="unselectable"
+                >
+                  Please select favourite colors
+                </div>
+                <ul>
+                  <li
+                    class="jc-select-search jc-select-search--inline"
+                  >
+                    <div
+                      class="jc-select-search__field__wrap"
+                    >
+                      <input
+                        autocomplete="off"
+                        class="jc-select-search__field"
+                        id="select-multiple"
+                        value=""
+                      />
+                      <span
+                        class="jc-select-search__field__mirror"
+                      >
+                         
+                      </span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-col-6 jc-form-item-label"
+    >
+      <label
+        class=""
+        for="input-number"
+        title="InputNumber"
+      >
+        InputNumber
+      </label>
+    </div>
+    <div
+      class="jc-col-14 jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control has-success"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <div
+            class="jc-input-number"
+          >
+            <div
+              class="jc-input-number-handler-wrap"
+            >
+              <span
+                aria-disabled="false"
+                aria-label="Increase Value"
+                class="jc-input-number-handler jc-input-number-handler-up "
+                role="button"
+                unselectable="unselectable"
+              >
+                <span
+                  class="jc-input-number-handler-up-inner"
+                  unselectable="unselectable"
+                />
+              </span>
+              <span
+                aria-disabled="false"
+                aria-label="Decrease Value"
+                class="jc-input-number-handler jc-input-number-handler-down "
+                role="button"
+                unselectable="unselectable"
+              >
+                <span
+                  class="jc-input-number-handler-down-inner"
+                  unselectable="unselectable"
+                />
+              </span>
+            </div>
+            <div
+              aria-valuemax="10"
+              aria-valuemin="1"
+              aria-valuenow="3"
+              class="jc-input-number-input-wrap"
+              role="spinbutton"
+            >
+              <input
+                autocomplete="off"
+                class="jc-input-number-input"
+                id="input-number"
+                max="10"
+                min="1"
+                step="1"
+                value="3"
+              />
+            </div>
+          </div>
+          <span
+            class="jc-form-text"
+          >
+             machines
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-col-6 jc-form-item-label"
+    >
+      <label
+        class=""
+        for="switch"
+        title="Switch"
+      >
+        Switch
+      </label>
+    </div>
+    <div
+      class="jc-col-14 jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <span
+            class="jc-switch"
+            data-__field="[object Object]"
+            data-__meta="[object Object]"
+            id="switch"
+            tabindex="0"
+          >
+            <span
+              class="jc-switch-inner"
+            />
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-col-6 jc-form-item-label"
+    >
+      <label
+        class=""
+        for="slider"
+        title="Slider"
+      >
+        Slider
+      </label>
+    </div>
+    <div
+      class="jc-col-14 jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <div
+            class="jc-slider jc-slider-with-marks"
+          >
+            <div
+              class="jc-slider-rail"
+            />
+            <div
+              class="jc-slider-track"
+              style="left:0%;width:0%"
+            />
+            <div
+              class="jc-slider-step"
+            >
+              <span
+                class="jc-slider-dot jc-slider-dot-active"
+                style="left:0%"
+              />
+              <span
+                class="jc-slider-dot"
+                style="left:20%"
+              />
+              <span
+                class="jc-slider-dot"
+                style="left:40%"
+              />
+              <span
+                class="jc-slider-dot"
+                style="left:60%"
+              />
+              <span
+                class="jc-slider-dot"
+                style="left:80%"
+              />
+              <span
+                class="jc-slider-dot"
+                style="left:100%"
+              />
+            </div>
+            <div
+              aria-disabled="false"
+              aria-valuemax="100"
+              aria-valuemin="0"
+              aria-valuenow="0"
+              class="jc-slider-handle"
+              role="slider"
+              style="left:0%"
+              tabindex="0"
+            />
+            <div
+              class="jc-slider-mark"
+            >
+              <span
+                class="jc-slider-mark-text jc-slider-mark-text-active"
+                style="width:18%;margin-left:-9%;left:0%"
+              >
+                A
+              </span>
+              <span
+                class="jc-slider-mark-text"
+                style="width:18%;margin-left:-9%;left:20%"
+              >
+                B
+              </span>
+              <span
+                class="jc-slider-mark-text"
+                style="width:18%;margin-left:-9%;left:40%"
+              >
+                C
+              </span>
+              <span
+                class="jc-slider-mark-text"
+                style="width:18%;margin-left:-9%;left:60%"
+              >
+                D
+              </span>
+              <span
+                class="jc-slider-mark-text"
+                style="width:18%;margin-left:-9%;left:80%"
+              >
+                E
+              </span>
+              <span
+                class="jc-slider-mark-text"
+                style="width:18%;margin-left:-9%;left:100%"
+              >
+                F
+              </span>
+            </div>
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-col-6 jc-form-item-label"
+    >
+      <label
+        class=""
+        for="radio-group"
+        title="Radio.Group"
+      >
+        Radio.Group
+      </label>
+    </div>
+    <div
+      class="jc-col-14 jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <div
+            class="jc-radio-group"
+            id="radio-group"
+          >
+            <label
+              class="jc-radio-wrapper"
+            >
+              <span
+                class="jc-radio"
+              >
+                <input
+                  class="jc-radio-input"
+                  type="radio"
+                  value="a"
+                />
+                <span
+                  class="jc-radio-inner"
+                />
+              </span>
+              <span>
+                item 1
+              </span>
+            </label>
+            <label
+              class="jc-radio-wrapper"
+            >
+              <span
+                class="jc-radio"
+              >
+                <input
+                  class="jc-radio-input"
+                  type="radio"
+                  value="b"
+                />
+                <span
+                  class="jc-radio-inner"
+                />
+              </span>
+              <span>
+                item 2
+              </span>
+            </label>
+            <label
+              class="jc-radio-wrapper"
+            >
+              <span
+                class="jc-radio"
+              >
+                <input
+                  class="jc-radio-input"
+                  type="radio"
+                  value="c"
+                />
+                <span
+                  class="jc-radio-inner"
+                />
+              </span>
+              <span>
+                item 3
+              </span>
+            </label>
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-col-6 jc-form-item-label"
+    >
+      <label
+        class=""
+        for="radio-button"
+        title="Radio.Button"
+      >
+        Radio.Button
+      </label>
+    </div>
+    <div
+      class="jc-col-14 jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <div
+            class="jc-radio-group"
+            id="radio-button"
+          >
+            <label
+              class="jc-radio-button-wrapper"
+            >
+              <span
+                class="jc-radio-button"
+              >
+                <input
+                  class="jc-radio-button-input"
+                  type="radio"
+                  value="a"
+                />
+                <span
+                  class="jc-radio-button-inner"
+                />
+              </span>
+              <span>
+                item 1
+              </span>
+            </label>
+            <label
+              class="jc-radio-button-wrapper"
+            >
+              <span
+                class="jc-radio-button"
+              >
+                <input
+                  class="jc-radio-button-input"
+                  type="radio"
+                  value="b"
+                />
+                <span
+                  class="jc-radio-button-inner"
+                />
+              </span>
+              <span>
+                item 2
+              </span>
+            </label>
+            <label
+              class="jc-radio-button-wrapper"
+            >
+              <span
+                class="jc-radio-button"
+              >
+                <input
+                  class="jc-radio-button-input"
+                  type="radio"
+                  value="c"
+                />
+                <span
+                  class="jc-radio-button-inner"
+                />
+              </span>
+              <span>
+                item 3
+              </span>
+            </label>
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-col-6 jc-form-item-label"
+    >
+      <label
+        class=""
+        for="rate"
+        title="Rate"
+      >
+        Rate
+      </label>
+    </div>
+    <div
+      class="jc-col-14 jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control has-success"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <ul
+            class="jc-rate"
+            tabindex="0"
+          >
+            <li
+              class="jc-rate-star jc-rate-star-full"
+            >
+              <div
+                class="jc-rate-star-first"
+              >
+                <i
+                  class="jcicon jcicon-star "
+                />
+              </div>
+              <div
+                class="jc-rate-star-second"
+              >
+                <i
+                  class="jcicon jcicon-star "
+                />
+              </div>
+            </li>
+            <li
+              class="jc-rate-star jc-rate-star-full"
+            >
+              <div
+                class="jc-rate-star-first"
+              >
+                <i
+                  class="jcicon jcicon-star "
+                />
+              </div>
+              <div
+                class="jc-rate-star-second"
+              >
+                <i
+                  class="jcicon jcicon-star "
+                />
+              </div>
+            </li>
+            <li
+              class="jc-rate-star jc-rate-star-full"
+            >
+              <div
+                class="jc-rate-star-first"
+              >
+                <i
+                  class="jcicon jcicon-star "
+                />
+              </div>
+              <div
+                class="jc-rate-star-second"
+              >
+                <i
+                  class="jcicon jcicon-star "
+                />
+              </div>
+            </li>
+            <li
+              class="jc-rate-star jc-rate-star-zero"
+            >
+              <div
+                class="jc-rate-star-first"
+              >
+                <i
+                  class="jcicon jcicon-star "
+                />
+              </div>
+              <div
+                class="jc-rate-star-second"
+              >
+                <i
+                  class="jcicon jcicon-star "
+                />
+              </div>
+            </li>
+            <li
+              class="jc-rate-star jc-rate-star-zero"
+            >
+              <div
+                class="jc-rate-star-first"
+              >
+                <i
+                  class="jcicon jcicon-star "
+                />
+              </div>
+              <div
+                class="jc-rate-star-second"
+              >
+                <i
+                  class="jcicon jcicon-star "
+                />
+              </div>
+            </li>
+          </ul>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-col-6 jc-form-item-label"
+    >
+      <label
+        class=""
+        for="upload"
+        title="Upload"
+      >
+        Upload
+      </label>
+    </div>
+    <div
+      class="jc-col-14 jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <span
+            class=""
+          >
+            <div
+              class="jc-upload jc-upload-select jc-upload-select-picture"
+              style="display:"
+            />
+            <div
+              class="jc-upload-list jc-upload-list-picture"
+            />
+          </span>
+        </span>
+        <div
+          class="jc-form-extra"
+        >
+          longgggggggggggggggggggggggggggggggggg
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-col-6 jc-form-item-label"
+    >
+      <label
+        class=""
+        for="dragger"
+        title="Dragger"
+      >
+        Dragger
+      </label>
+    </div>
+    <div
+      class="jc-col-14 jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <div
+            class="dropbox"
+          >
+            <span
+              class=""
+            >
+              <div
+                class="jc-upload jc-upload-drag"
+              />
+              <div
+                class="jc-upload-list jc-upload-list-text"
+              />
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-col-12 jc-col-offset-6 jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <button
+            class="jc-btn jc-btn-primary"
+            type="submit"
+          >
+            <span>
+              Submit
+            </span>
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`renders ./components/form/demo/validate-static.js correctly test 1`] = `
+<form
+  class="jc-form jc-form-horizontal"
+>
+  <div
+    class="jc-row jc-form-item jc-form-item-with-help"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-5"
+    >
+      <label
+        class=""
+        title="Fail"
+      >
+        Fail
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-12"
+    >
+      <div
+        class="jc-form-item-control has-error"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <input
+            class="jc-input"
+            id="error"
+            placeholder="unavailable choice"
+            type="text"
+          />
+        </span>
+        <div
+          class="jc-form-explain"
+        >
+          Should be combination of numbers & alphabets
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-5"
+    >
+      <label
+        class=""
+        title="Warning"
+      >
+        Warning
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-12"
+    >
+      <div
+        class="jc-form-item-control has-warning"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <input
+            class="jc-input"
+            id="warning"
+            placeholder="Warning"
+            type="text"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item jc-form-item-with-help"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-5"
+    >
+      <label
+        class=""
+        title="Validating"
+      >
+        Validating
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-12"
+    >
+      <div
+        class="jc-form-item-control has-feedback is-validating"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <input
+            class="jc-input"
+            id="validating"
+            placeholder="I'm the content is being validated"
+            type="text"
+          />
+        </span>
+        <div
+          class="jc-form-explain"
+        >
+          The information is being validated...
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-5"
+    >
+      <label
+        class=""
+        title="Success"
+      >
+        Success
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-12"
+    >
+      <div
+        class="jc-form-item-control has-feedback has-success"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <input
+            class="jc-input"
+            id="success"
+            placeholder="I'm the content"
+            type="text"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-5"
+    >
+      <label
+        class=""
+        title="Warning"
+      >
+        Warning
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-12"
+    >
+      <div
+        class="jc-form-item-control has-feedback has-warning"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <input
+            class="jc-input"
+            id="warning"
+            placeholder="Warning"
+            type="text"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item jc-form-item-with-help"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-5"
+    >
+      <label
+        class=""
+        title="Fail"
+      >
+        Fail
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-12"
+    >
+      <div
+        class="jc-form-item-control has-feedback has-error"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <input
+            class="jc-input"
+            id="error"
+            placeholder="unavailable choice"
+            type="text"
+          />
+        </span>
+        <div
+          class="jc-form-explain"
+        >
+          Should be combination of numbers & alphabets
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-5"
+    >
+      <label
+        class=""
+        title="Success"
+      >
+        Success
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-12"
+    >
+      <div
+        class="jc-form-item-control has-feedback has-success"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <span
+            class="jc-calendar-picker"
+            style="width:100%"
+          >
+            <div>
+              <input
+                class="jc-calendar-picker-input jc-input"
+                placeholder="Select date"
+                readonly=""
+                value=""
+              />
+              <span
+                class="jc-calendar-picker-icon"
+              />
+            </div>
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-5"
+    >
+      <label
+        class=""
+        title="Warning"
+      >
+        Warning
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-12"
+    >
+      <div
+        class="jc-form-item-control has-feedback has-warning"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <span
+            class="jc-time-picker "
+            style="width:100%"
+          >
+            <input
+              class="jc-time-picker-input"
+              placeholder="Select time"
+              type="text"
+              value=""
+            />
+            <span
+              class="jc-time-picker-icon"
+            />
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-5"
+    >
+      <label
+        class=""
+        title="Error"
+      >
+        Error
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-12"
+    >
+      <div
+        class="jc-form-item-control has-feedback has-error"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <div
+            class="jc-select jc-select-enabled"
+          >
+            <div
+              aria-autocomplete="list"
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="jc-select-selection
+            jc-select-selection--single"
+              role="combobox"
+              tabindex="0"
+            >
+              <div
+                class="jc-select-selection__rendered"
+              >
+                <div
+                  class="jc-select-selection-selected-value"
+                  style="display:block;opacity:1"
+                  title="Option 1"
+                >
+                  Option 1
+                </div>
+              </div>
+              <span
+                class="jc-select-arrow"
+                style="user-select:none;-webkit-user-select:none"
+                unselectable="unselectable"
+              >
+                <b />
+              </span>
+            </div>
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item jc-form-item-with-help"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-5"
+    >
+      <label
+        class=""
+        title="Validating"
+      >
+        Validating
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-12"
+    >
+      <div
+        class="jc-form-item-control has-feedback is-validating"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <span
+            class="jc-cascader-picker"
+            tabindex="0"
+          >
+            <span
+              class="jc-cascader-picker-label"
+            />
+            <input
+              autocomplete="off"
+              class="jc-input jc-cascader-input "
+              readonly=""
+              type="text"
+              value=""
+            />
+            <i
+              class="jcicon jcicon-cross-circle  jc-cascader-picker-clear"
+            />
+            <i
+              class="jcicon jcicon-down  jc-cascader-picker-arrow"
+            />
+          </span>
+        </span>
+        <div
+          class="jc-form-explain"
+        >
+          The information is being validated...
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-5"
+    >
+      <label
+        class=""
+        title="inline"
+      >
+        inline
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-12"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <div
+            class="jc-col-11"
+          >
+            <div
+              class="jc-row jc-form-item jc-form-item-with-help"
+            >
+              <div
+                class="jc-form-item-control-wrapper"
+              >
+                <div
+                  class="jc-form-item-control has-error"
+                >
+                  <span
+                    class="jc-form-item-children"
+                  >
+                    <span
+                      class="jc-calendar-picker"
+                    >
+                      <div>
+                        <input
+                          class="jc-calendar-picker-input jc-input"
+                          placeholder="Select date"
+                          readonly=""
+                          value=""
+                        />
+                        <span
+                          class="jc-calendar-picker-icon"
+                        />
+                      </div>
+                    </span>
+                  </span>
+                  <div
+                    class="jc-form-explain"
+                  >
+                    Please select the correct date
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="jc-col-2"
+          >
+            <span
+              style="display:inline-block;width:100%;text-align:center"
+            >
+              -
+            </span>
+          </div>
+          <div
+            class="jc-col-11"
+          >
+            <div
+              class="jc-row jc-form-item"
+            >
+              <div
+                class="jc-form-item-control-wrapper"
+              >
+                <div
+                  class="jc-form-item-control"
+                >
+                  <span
+                    class="jc-form-item-children"
+                  >
+                    <span
+                      class="jc-calendar-picker"
+                    >
+                      <div>
+                        <input
+                          class="jc-calendar-picker-input jc-input"
+                          placeholder="Select date"
+                          readonly=""
+                          value=""
+                        />
+                        <span
+                          class="jc-calendar-picker-icon"
+                        />
+                      </div>
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-row jc-form-item"
+  >
+    <div
+      class="jc-form-item-label jc-col-xs-24 jc-col-sm-5"
+    >
+      <label
+        class=""
+        title="Success"
+      >
+        Success
+      </label>
+    </div>
+    <div
+      class="jc-form-item-control-wrapper jc-col-xs-24 jc-col-sm-12"
+    >
+      <div
+        class="jc-form-item-control has-feedback has-success"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <div
+            class="jc-input-number"
+            style="width:100%"
+          >
+            <div
+              class="jc-input-number-handler-wrap"
+            >
+              <span
+                aria-disabled="false"
+                aria-label="Increase Value"
+                class="jc-input-number-handler jc-input-number-handler-up "
+                role="button"
+                unselectable="unselectable"
+              >
+                <span
+                  class="jc-input-number-handler-up-inner"
+                  unselectable="unselectable"
+                />
+              </span>
+              <span
+                aria-disabled="false"
+                aria-label="Decrease Value"
+                class="jc-input-number-handler jc-input-number-handler-down "
+                role="button"
+                unselectable="unselectable"
+              >
+                <span
+                  class="jc-input-number-handler-down-inner"
+                  unselectable="unselectable"
+                />
+              </span>
+            </div>
+            <div
+              aria-valuemin="-9007199254740991"
+              class="jc-input-number-input-wrap"
+              role="spinbutton"
+            >
+              <input
+                autocomplete="off"
+                class="jc-input-number-input"
+                min="-9007199254740991"
+                step="1"
+                value=""
+              />
+            </div>
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`renders ./components/form/demo/without-form-create.js correctly test 1`] = `
+<form
+  class="jc-form jc-form-horizontal"
+>
+  <div
+    class="jc-row jc-form-item jc-form-item-with-help"
+  >
+    <div
+      class="jc-col-7 jc-form-item-label"
+    >
+      <label
+        class=""
+        title="Prime between 8 & 12"
+      >
+        Prime between 8 & 12
+      </label>
+    </div>
+    <div
+      class="jc-col-12 jc-form-item-control-wrapper"
+    >
+      <div
+        class="jc-form-item-control"
+      >
+        <span
+          class="jc-form-item-children"
+        >
+          <div
+            class="jc-input-number"
+          >
+            <div
+              class="jc-input-number-handler-wrap"
+            >
+              <span
+                aria-disabled="false"
+                aria-label="Increase Value"
+                class="jc-input-number-handler jc-input-number-handler-up "
+                role="button"
+                unselectable="unselectable"
+              >
+                <span
+                  class="jc-input-number-handler-up-inner"
+                  unselectable="unselectable"
+                />
+              </span>
+              <span
+                aria-disabled="false"
+                aria-label="Decrease Value"
+                class="jc-input-number-handler jc-input-number-handler-down "
+                role="button"
+                unselectable="unselectable"
+              >
+                <span
+                  class="jc-input-number-handler-down-inner"
+                  unselectable="unselectable"
+                />
+              </span>
+            </div>
+            <div
+              aria-valuemax="12"
+              aria-valuemin="8"
+              aria-valuenow="11"
+              class="jc-input-number-input-wrap"
+              role="spinbutton"
+            >
+              <input
+                autocomplete="off"
+                class="jc-input-number-input"
+                max="12"
+                min="8"
+                step="1"
+                value="11"
+              />
+            </div>
+          </div>
+        </span>
+        <div
+          class="jc-form-explain"
+        >
+          A prime is a natural number greater than 1 that has no positive divisors other than 1 and itself.
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+`;

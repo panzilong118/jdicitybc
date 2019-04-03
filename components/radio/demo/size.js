@@ -1,0 +1,57 @@
+// ---
+// order: 5
+// title:
+//   zh-CN: 大小
+//   en-US: Size
+// ---
+
+// ## zh-CN
+
+// 大中小三种组合，可以和表单输入框进行对应配合。
+
+// ## en-US
+
+// There are three sizes available: large, medium, and small. It can coordinate with input box.
+
+// ```jsx
+import React from 'react';
+import { Radio } from '../../index';
+const RadioButton = Radio.Button;
+const RadioGroup = Radio.Group;
+
+export default class SizeApp extends React.Component {
+  state = {
+      
+  }
+
+  render() {
+      return (
+          <div>
+              <div>
+                  <RadioGroup defaultValue='a' size='large'>
+                      <RadioButton value='a'>Hangzhou</RadioButton>
+                      <RadioButton value='b'>Shanghai</RadioButton>
+                      <RadioButton value='c'>Beijing</RadioButton>
+                      <RadioButton value='d'>Chengdu</RadioButton>
+                  </RadioGroup>
+              </div>
+              <div style={{ marginTop: 16 }}>
+                  <RadioGroup defaultValue='a'>
+                      <RadioButton value='a'>Hangzhou</RadioButton>
+                      <RadioButton value='b'>Shanghai</RadioButton>
+                      <RadioButton value='c'>Beijing</RadioButton>
+                      <RadioButton value='d'>Chengdu</RadioButton>
+                  </RadioGroup>
+              </div>
+              <div style={{ marginTop: 16 }}>
+                  <RadioGroup defaultValue='a' size='small'>
+                      <RadioButton value='a'>Hangzhou</RadioButton>
+                      <RadioButton value='b'>Shanghai</RadioButton>
+                      <RadioButton value='c'>Beijing</RadioButton>
+                      <RadioButton value='d'>Chengdu</RadioButton>
+                  </RadioGroup>
+              </div>
+          </div>
+      );
+  }
+}

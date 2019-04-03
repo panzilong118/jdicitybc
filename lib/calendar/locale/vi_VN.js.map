@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../components/calendar/locale/vi_VN.js"],"names":[],"mappings":";;;;;;AAAA","file":"vi_VN.js","sourcesContent":["import vi_VN from '../../date-picker/locale/vi_VN';\r\nexport default vi_VN;\r\n"]}

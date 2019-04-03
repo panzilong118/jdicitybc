@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../../src/components/Release/OtherFreightInfo/v1.0.0/view/index.js"],"names":["OtherFreightInfo"],"mappings":";;;;;;AAAA;;;;;;kBACeA,0B","file":"index.js","sourcesContent":["import OtherFreightInfo from './OtherFreightInfo';\r\nexport default OtherFreightInfo;"]}

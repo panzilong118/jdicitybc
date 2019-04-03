@@ -1,0 +1,365 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/auto-complete/demo/Basic.js correctly test 1`] = `
+<div
+  class="jc-select-show-search jc-select-auto-complete jc-select jc-select-combobox jc-select-enabled"
+  style="width:200px"
+>
+  <div
+    aria-autocomplete="list"
+    aria-expanded="false"
+    aria-haspopup="true"
+    class="jc-select-selection
+            jc-select-selection--single"
+    role="combobox"
+  >
+    <div
+      class="jc-select-selection__rendered"
+    >
+      <div
+        class="jc-select-selection__placeholder"
+        style="display:block;user-select:none;-webkit-user-select:none"
+        unselectable="unselectable"
+      >
+        input here
+      </div>
+      <ul>
+        <li
+          class="jc-select-search jc-select-search--inline"
+        >
+          <div
+            class="jc-select-search__field__wrap"
+          >
+            <input
+              class="jc-input jc-select-search__field"
+              type="text"
+              value=""
+            />
+            <span
+              class="jc-select-search__field__mirror"
+            >
+               
+            </span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <span
+      class="jc-select-arrow"
+      style="user-select:none;-webkit-user-select:none"
+      unselectable="unselectable"
+    >
+      <b />
+    </span>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/auto-complete/demo/Certain-category.js correctly test 1`] = `
+<div
+  class="certain-category-search-wrapper"
+  style="width:250px"
+>
+  <div
+    class="jc-select-lg certain-category-search jc-select-show-search jc-select-auto-complete jc-select-lg jc-select jc-select-combobox jc-select-enabled"
+    style="width:100%"
+  >
+    <div
+      aria-autocomplete="list"
+      aria-expanded="false"
+      aria-haspopup="true"
+      class="jc-select-selection
+            jc-select-selection--single"
+      role="combobox"
+    >
+      <div
+        class="jc-select-selection__rendered"
+      >
+        <div
+          class="jc-select-selection__placeholder"
+          style="display:block;user-select:none;-webkit-user-select:none"
+          unselectable="unselectable"
+        >
+          input here
+        </div>
+        <ul>
+          <li
+            class="jc-select-search jc-select-search--inline"
+          >
+            <div
+              class="jc-select-search__field__wrap"
+            >
+              <span
+                class="jc-select-search__field jc-input-affix-wrapper"
+              >
+                <input
+                  class="jc-input"
+                  type="text"
+                  value=""
+                />
+                <span
+                  class="jc-input-suffix"
+                >
+                   
+                  <i
+                    class="jcicon jcicon-search  certain-category-icon"
+                  />
+                   
+                </span>
+              </span>
+              <span
+                class="jc-select-search__field__mirror"
+              >
+                 
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <span
+        class="jc-select-arrow"
+        style="user-select:none;-webkit-user-select:none"
+        unselectable="unselectable"
+      >
+        <b />
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/auto-complete/demo/Custom.js correctly test 1`] = `
+<div
+  class="jc-select-show-search jc-select-auto-complete jc-select jc-select-combobox jc-select-enabled"
+  style="width:200px"
+>
+  <div
+    aria-autocomplete="list"
+    aria-expanded="false"
+    aria-haspopup="true"
+    class="jc-select-selection
+            jc-select-selection--single"
+    role="combobox"
+  >
+    <div
+      class="jc-select-selection__rendered"
+    >
+      <ul>
+        <li
+          class="jc-select-search jc-select-search--inline"
+        >
+          <div
+            class="jc-select-search__field__wrap"
+          >
+            <textarea
+              class="jc-input custom jc-select-search__field"
+              placeholder="input here"
+              style="height:50px"
+            />
+            <span
+              class="jc-select-search__field__mirror"
+            >
+               
+            </span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <span
+      class="jc-select-arrow"
+      style="user-select:none;-webkit-user-select:none"
+      unselectable="unselectable"
+    >
+      <b />
+    </span>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/auto-complete/demo/Non-case-sensitive.js correctly test 1`] = `
+<div
+  class="jc-select-show-search jc-select-auto-complete jc-select jc-select-combobox jc-select-enabled"
+  style="width:200px"
+>
+  <div
+    aria-autocomplete="list"
+    aria-expanded="false"
+    aria-haspopup="true"
+    class="jc-select-selection
+            jc-select-selection--single"
+    role="combobox"
+  >
+    <div
+      class="jc-select-selection__rendered"
+    >
+      <div
+        class="jc-select-selection__placeholder"
+        style="display:block;user-select:none;-webkit-user-select:none"
+        unselectable="unselectable"
+      >
+        try to type \`b\`
+      </div>
+      <ul>
+        <li
+          class="jc-select-search jc-select-search--inline"
+        >
+          <div
+            class="jc-select-search__field__wrap"
+          >
+            <input
+              class="jc-input jc-select-search__field"
+              type="text"
+              value=""
+            />
+            <span
+              class="jc-select-search__field__mirror"
+            >
+               
+            </span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <span
+      class="jc-select-arrow"
+      style="user-select:none;-webkit-user-select:none"
+      unselectable="unselectable"
+    >
+      <b />
+    </span>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/auto-complete/demo/Options.js correctly test 1`] = `
+<div
+  class="jc-select-show-search jc-select-auto-complete jc-select jc-select-combobox jc-select-enabled"
+  style="width:200px"
+>
+  <div
+    aria-autocomplete="list"
+    aria-expanded="false"
+    aria-haspopup="true"
+    class="jc-select-selection
+            jc-select-selection--single"
+    role="combobox"
+  >
+    <div
+      class="jc-select-selection__rendered"
+    >
+      <div
+        class="jc-select-selection__placeholder"
+        style="display:block;user-select:none;-webkit-user-select:none"
+        unselectable="unselectable"
+      >
+        input here
+      </div>
+      <ul>
+        <li
+          class="jc-select-search jc-select-search--inline"
+        >
+          <div
+            class="jc-select-search__field__wrap"
+          >
+            <input
+              class="jc-input jc-select-search__field"
+              type="text"
+              value=""
+            />
+            <span
+              class="jc-select-search__field__mirror"
+            >
+               
+            </span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <span
+      class="jc-select-arrow"
+      style="user-select:none;-webkit-user-select:none"
+      unselectable="unselectable"
+    >
+      <b />
+    </span>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/auto-complete/demo/Uncertain-category.js correctly test 1`] = `
+<div
+  class="global-search-wrapper"
+  style="width:300px"
+>
+  <div
+    class="jc-select-lg global-search jc-select-show-search jc-select-auto-complete jc-select-lg jc-select jc-select-combobox jc-select-enabled"
+    style="width:100%"
+  >
+    <div
+      aria-autocomplete="list"
+      aria-expanded="false"
+      aria-haspopup="true"
+      class="jc-select-selection
+            jc-select-selection--single"
+      role="combobox"
+    >
+      <div
+        class="jc-select-selection__rendered"
+      >
+        <div
+          class="jc-select-selection__placeholder"
+          style="display:block;user-select:none;-webkit-user-select:none"
+          unselectable="unselectable"
+        >
+          input here
+        </div>
+        <ul>
+          <li
+            class="jc-select-search jc-select-search--inline"
+          >
+            <div
+              class="jc-select-search__field__wrap"
+            >
+              <span
+                class="jc-select-search__field jc-input-affix-wrapper"
+              >
+                <input
+                  class="jc-input"
+                  type="text"
+                  value=""
+                />
+                <span
+                  class="jc-input-suffix"
+                >
+                   
+                  <button
+                    class="jc-btn search-btn jc-btn-primary jc-btn-lg"
+                    type="button"
+                  >
+                    <i
+                      class="jcicon jcicon-search "
+                    />
+                  </button>
+                   
+                </span>
+              </span>
+              <span
+                class="jc-select-search__field__mirror"
+              >
+                 
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <span
+        class="jc-select-arrow"
+        style="user-select:none;-webkit-user-select:none"
+        unselectable="unselectable"
+      >
+        <b />
+      </span>
+    </div>
+  </div>
+</div>
+`;

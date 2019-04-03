@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../components/locale-provider/style/index.js"],"names":[],"mappings":";;AAIA","file":"index.js","sourcesContent":["\r\n/**\r\n * Created by gaoqingli on 2018/04/08.\r\n */\r\nimport './index.less';\r\n"]}

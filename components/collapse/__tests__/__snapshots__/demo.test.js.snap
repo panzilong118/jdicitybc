@@ -1,0 +1,357 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/collapse/demo/Accordion.js correctly test 1`] = `
+<div
+  class="jc-collapse"
+  role="tablist"
+>
+  <div
+    class="jc-collapse-item"
+  >
+    <div
+      aria-expanded="false"
+      class="jc-collapse-header"
+      role="tab"
+      tabindex="0"
+    >
+      <i
+        class="arrow"
+      />
+      This is panel header 1
+    </div>
+  </div>
+  <div
+    class="jc-collapse-item"
+  >
+    <div
+      aria-expanded="false"
+      class="jc-collapse-header"
+      role="tab"
+      tabindex="0"
+    >
+      <i
+        class="arrow"
+      />
+      This is panel header 2
+    </div>
+  </div>
+  <div
+    class="jc-collapse-item"
+  >
+    <div
+      aria-expanded="false"
+      class="jc-collapse-header"
+      role="tab"
+      tabindex="0"
+    >
+      <i
+        class="arrow"
+      />
+      This is panel header 3
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/collapse/demo/Basic.js correctly test 1`] = `
+<div
+  class="jc-collapse"
+>
+  <div
+    class="jc-collapse-item jc-collapse-item-active"
+  >
+    <div
+      aria-expanded="true"
+      class="jc-collapse-header"
+      role="button"
+      tabindex="0"
+    >
+      <i
+        class="arrow"
+      />
+      This is panel header 1
+    </div>
+    <div
+      class="jc-collapse-content jc-collapse-content-active"
+    >
+      <div
+        class="jc-collapse-content-box"
+      >
+        <p>
+          
+  A dog is a type of domesticated animal.
+  Known for its loyalty and faithfulness,
+  it can be found as a welcome guest in many households across the world.
+
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-collapse-item"
+  >
+    <div
+      aria-expanded="false"
+      class="jc-collapse-header"
+      role="button"
+      tabindex="0"
+    >
+      <i
+        class="arrow"
+      />
+      This is panel header 2
+    </div>
+  </div>
+  <div
+    class="jc-collapse-item jc-collapse-item-disabled"
+  >
+    <div
+      aria-expanded="false"
+      class="jc-collapse-header"
+      role="button"
+      tabindex="-1"
+    >
+      <i
+        class="arrow"
+      />
+      This is panel header 3
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/collapse/demo/Borderless.js correctly test 1`] = `
+<div
+  class="jc-collapse jc-collapse-borderless"
+>
+  <div
+    class="jc-collapse-item jc-collapse-item-active"
+  >
+    <div
+      aria-expanded="true"
+      class="jc-collapse-header"
+      role="button"
+      tabindex="0"
+    >
+      <i
+        class="arrow"
+      />
+      This is panel header 1
+    </div>
+    <div
+      class="jc-collapse-content jc-collapse-content-active"
+    >
+      <div
+        class="jc-collapse-content-box"
+      >
+        <p
+          style="padding-left:24px"
+        >
+          A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-collapse-item"
+  >
+    <div
+      aria-expanded="false"
+      class="jc-collapse-header"
+      role="button"
+      tabindex="0"
+    >
+      <i
+        class="arrow"
+      />
+      This is panel header 2
+    </div>
+  </div>
+  <div
+    class="jc-collapse-item"
+  >
+    <div
+      aria-expanded="false"
+      class="jc-collapse-header"
+      role="button"
+      tabindex="0"
+    >
+      <i
+        class="arrow"
+      />
+      This is panel header 3
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/collapse/demo/Custom.js correctly test 1`] = `
+<div
+  class="jc-collapse jc-collapse-borderless"
+>
+  <div
+    class="jc-collapse-item jc-collapse-item-active"
+    style="background:#f7f7f7;border-radius:4px;margin-bottom:24px;border:0;overflow:hidden"
+  >
+    <div
+      aria-expanded="true"
+      class="jc-collapse-header"
+      role="button"
+      tabindex="0"
+    >
+      <i
+        class="arrow"
+      />
+      This is panel header 1
+    </div>
+    <div
+      class="jc-collapse-content jc-collapse-content-active"
+    >
+      <div
+        class="jc-collapse-content-box"
+      >
+        <p>
+          
+  A dog is a type of domesticated animal.
+  Known for its loyalty and faithfulness,
+  it can be found as a welcome guest in many households across the world.
+
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-collapse-item"
+    style="background:#f7f7f7;border-radius:4px;margin-bottom:24px;border:0;overflow:hidden"
+  >
+    <div
+      aria-expanded="false"
+      class="jc-collapse-header"
+      role="button"
+      tabindex="0"
+    >
+      <i
+        class="arrow"
+      />
+      This is panel header 2
+    </div>
+  </div>
+  <div
+    class="jc-collapse-item"
+    style="background:#f7f7f7;border-radius:4px;margin-bottom:24px;border:0;overflow:hidden"
+  >
+    <div
+      aria-expanded="false"
+      class="jc-collapse-header"
+      role="button"
+      tabindex="0"
+    >
+      <i
+        class="arrow"
+      />
+      This is panel header 3
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/collapse/demo/Mix.js correctly test 1`] = `
+<div
+  class="jc-collapse"
+>
+  <div
+    class="jc-collapse-item"
+  >
+    <div
+      aria-expanded="false"
+      class="jc-collapse-header"
+      role="button"
+      tabindex="0"
+    >
+      <i
+        class="arrow"
+      />
+      This is panel header 1
+    </div>
+  </div>
+  <div
+    class="jc-collapse-item"
+  >
+    <div
+      aria-expanded="false"
+      class="jc-collapse-header"
+      role="button"
+      tabindex="0"
+    >
+      <i
+        class="arrow"
+      />
+      This is panel header 2
+    </div>
+  </div>
+  <div
+    class="jc-collapse-item"
+  >
+    <div
+      aria-expanded="false"
+      class="jc-collapse-header"
+      role="button"
+      tabindex="0"
+    >
+      <i
+        class="arrow"
+      />
+      This is panel header 3
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/collapse/demo/Noarrow.js correctly test 1`] = `
+<div
+  class="jc-collapse"
+>
+  <div
+    class="jc-collapse-item jc-collapse-item-active"
+  >
+    <div
+      aria-expanded="true"
+      class="jc-collapse-header"
+      role="button"
+      tabindex="0"
+    >
+      <i
+        class="arrow"
+      />
+      This is panel header with arrow icon
+    </div>
+    <div
+      class="jc-collapse-content jc-collapse-content-active"
+    >
+      <div
+        class="jc-collapse-content-box"
+      >
+        <p>
+          
+  A dog is a type of domesticated animal.
+  Known for its loyalty and faithfulness,
+  it can be found as a welcome guest in many households across the world.
+
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-collapse-item jc-collapse-no-arrow"
+  >
+    <div
+      aria-expanded="false"
+      class="jc-collapse-header"
+      role="button"
+      tabindex="0"
+    >
+      This is panel header with no arrow icon
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,33 @@
+@import "../../style/themes/default";
+@import "../../style/mixins/index";
+@import "../../button/style/mixin";
+@import "./mixin";
+
+@search-prefix: ~"@{jc-prefix}-input-search";
+
+.@{search-prefix} {
+  &-icon {
+    pointer-events: none;
+    color: @text-color-secondary;
+  }
+
+  &:not(&-small) > .@{jc-prefix}-input-suffix {
+    right: @control-padding-horizontal;
+  }
+
+  > .@{jc-prefix}-input-suffix > .@{search-prefix}-button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    > .@{iconfont-css-prefix}-search {
+      font-size: @font-size-lg;
+    }
+  }
+
+  &.@{search-prefix}-enter-button > .@{jc-prefix}-input {
+    padding-right: 46px;
+  }
+
+  &.@{search-prefix}-enter-button > .@{jc-prefix}-input-suffix {
+    right: 0;
+  }
+}

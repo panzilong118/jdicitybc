@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../components/calendar/Constants.js"],"names":["PREFIX_CLS"],"mappings":";;;;;AAAO,IAAMA,kCAAa,iBAAnB","file":"Constants.js","sourcesContent":["export const PREFIX_CLS = 'jc-fullcalendar';\r\n"]}

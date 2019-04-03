@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../components/col/index.js"],"names":[],"mappings":";;;;;;AAGA;;6BAHA","file":"index.js","sourcesContent":["/**\r\n * Created by huangxiao3 on 2018/3/16.\r\n */\r\nimport { Col } from '../grid';\r\nexport default Col;\r\n"]}

@@ -1,0 +1,2085 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Layout /> Both the top navigation and the sidebar, commonly used in application site 1`] = `
+<div
+  className="jc-layout"
+>
+  <div
+    className="header jc-layout-header"
+    type=""
+  >
+    <div
+      className="logo"
+    />
+    <ul
+      aria-activedescendant=""
+      className="jc-menu jc-menu-dark jc-menu-root jc-menu-horizontal"
+      onKeyDown={[Function]}
+      role="menu"
+      style={
+        Object {
+          "lineHeight": "64px",
+        }
+      }
+      tabIndex="0"
+    >
+      <li
+        aria-disabled={undefined}
+        aria-selected={false}
+        className="jc-menu-item"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        role="menuitem"
+        style={Object {}}
+        title={undefined}
+      >
+        nav 1
+      </li>
+      <li
+        aria-disabled={undefined}
+        aria-selected={true}
+        className="jc-menu-item jc-menu-item-selected"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        role="menuitem"
+        style={Object {}}
+        title={undefined}
+      >
+        nav 2
+      </li>
+      <li
+        aria-disabled={undefined}
+        aria-selected={false}
+        className="jc-menu-item"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        role="menuitem"
+        style={Object {}}
+        title={undefined}
+      >
+        nav 3
+      </li>
+    </ul>
+  </div>
+  <div
+    className="jc-layout jc-layout-has-sider"
+  >
+    <div
+      className="jc-layout-sider"
+      style={
+        Object {
+          "background": "#fff",
+          "flex": "0 0 200px",
+          "width": "200px",
+        }
+      }
+    >
+      <div
+        className="jc-layout-sider-content"
+      >
+        <ul
+          aria-activedescendant=""
+          className="jc-menu jc-menu-light jc-menu-root jc-menu-inline"
+          onKeyDown={[Function]}
+          role="menu"
+          style={
+            Object {
+              "borderRight": 0,
+              "height": "100%",
+            }
+          }
+          tabIndex="0"
+        >
+          <li
+            className="jc-menu-submenu jc-menu-submenu-inline jc-menu-submenu-open jc-menu-submenu-selected"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            style={undefined}
+          >
+            <div
+              aria-expanded={true}
+              aria-haspopup="true"
+              aria-owns="sub1$Menu"
+              className="jc-menu-submenu-title"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "paddingLeft": 24,
+                }
+              }
+              title={undefined}
+            >
+              <span>
+                <i
+                  className="jcicon jcicon-user "
+                  style={Object {}}
+                />
+                subnav 1
+              </span>
+              <i
+                className="jc-menu-submenu-arrow"
+              />
+            </div>
+            <ul
+              aria-activedescendant=""
+              className="jc-menu  jc-menu-sub jc-menu-inline"
+              id="sub1$Menu"
+              role="menu"
+              style={Object {}}
+            >
+              <li
+                aria-disabled={undefined}
+                aria-selected={true}
+                className="jc-menu-item jc-menu-item-selected"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                role="menuitem"
+                style={
+                  Object {
+                    "paddingLeft": 48,
+                  }
+                }
+                title={undefined}
+              >
+                option1
+              </li>
+              <li
+                aria-disabled={undefined}
+                aria-selected={false}
+                className="jc-menu-item"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                role="menuitem"
+                style={
+                  Object {
+                    "paddingLeft": 48,
+                  }
+                }
+                title={undefined}
+              >
+                option2
+              </li>
+              <li
+                aria-disabled={undefined}
+                aria-selected={false}
+                className="jc-menu-item"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                role="menuitem"
+                style={
+                  Object {
+                    "paddingLeft": 48,
+                  }
+                }
+                title={undefined}
+              >
+                option3
+              </li>
+              <li
+                aria-disabled={undefined}
+                aria-selected={false}
+                className="jc-menu-item"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                role="menuitem"
+                style={
+                  Object {
+                    "paddingLeft": 48,
+                  }
+                }
+                title={undefined}
+              >
+                option4
+              </li>
+            </ul>
+          </li>
+          <li
+            className="jc-menu-submenu jc-menu-submenu-inline"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            style={undefined}
+          >
+            <div
+              aria-expanded={false}
+              aria-haspopup="true"
+              aria-owns="sub2$Menu"
+              className="jc-menu-submenu-title"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "paddingLeft": 24,
+                }
+              }
+              title={undefined}
+            >
+              <span>
+                <i
+                  className="jcicon jcicon-laptop "
+                  style={Object {}}
+                />
+                subnav 2
+              </span>
+              <i
+                className="jc-menu-submenu-arrow"
+              />
+            </div>
+          </li>
+          <li
+            className="jc-menu-submenu jc-menu-submenu-inline"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            style={undefined}
+          >
+            <div
+              aria-expanded={false}
+              aria-haspopup="true"
+              aria-owns="sub3$Menu"
+              className="jc-menu-submenu-title"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "paddingLeft": 24,
+                }
+              }
+              title={undefined}
+            >
+              <span>
+                <i
+                  className="jcicon jcicon-notification "
+                  style={Object {}}
+                />
+                subnav 3
+              </span>
+              <i
+                className="jc-menu-submenu-arrow"
+              />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      className="jc-layout"
+      style={
+        Object {
+          "padding": "0 24px 24px",
+        }
+      }
+    >
+      <div
+        className="jc-breadcrumb"
+        style={
+          Object {
+            "margin": "16px 0",
+          }
+        }
+      >
+        <span>
+          <span
+            className="jc-breadcrumb-link"
+          >
+            Home
+          </span>
+          <span
+            className="jc-breadcrumb-separator"
+          >
+            /
+          </span>
+        </span>
+        <span>
+          <span
+            className="jc-breadcrumb-link"
+          >
+            List
+          </span>
+          <span
+            className="jc-breadcrumb-separator"
+          >
+            /
+          </span>
+        </span>
+        <span>
+          <span
+            className="jc-breadcrumb-link"
+          >
+            App
+          </span>
+          <span
+            className="jc-breadcrumb-separator"
+          >
+            /
+          </span>
+        </span>
+      </div>
+      <div
+        className="jc-layout-content"
+        style={
+          Object {
+            "background": "#fff",
+            "margin": 0,
+            "minHeight": 280,
+            "padding": 24,
+          }
+        }
+        type=""
+      >
+        Content
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Layout /> Both the top navigation and the sidebar, commonly used in documentation site 1`] = `
+<div
+  className="jc-layout"
+>
+  <div
+    className="header jc-layout-header"
+    type=""
+  >
+    <div
+      className="logo"
+    />
+    <ul
+      aria-activedescendant=""
+      className="jc-menu jc-menu-dark jc-menu-root jc-menu-horizontal"
+      onKeyDown={[Function]}
+      role="menu"
+      style={
+        Object {
+          "lineHeight": "64px",
+        }
+      }
+      tabIndex="0"
+    >
+      <li
+        aria-disabled={undefined}
+        aria-selected={false}
+        className="jc-menu-item"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        role="menuitem"
+        style={Object {}}
+        title={undefined}
+      >
+        nav 1
+      </li>
+      <li
+        aria-disabled={undefined}
+        aria-selected={true}
+        className="jc-menu-item jc-menu-item-selected"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        role="menuitem"
+        style={Object {}}
+        title={undefined}
+      >
+        nav 2
+      </li>
+      <li
+        aria-disabled={undefined}
+        aria-selected={false}
+        className="jc-menu-item"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        role="menuitem"
+        style={Object {}}
+        title={undefined}
+      >
+        nav 3
+      </li>
+    </ul>
+  </div>
+  <div
+    className="jc-layout-content"
+    style={
+      Object {
+        "padding": "0 50px",
+      }
+    }
+    type=""
+  >
+    <div
+      className="jc-breadcrumb"
+      style={
+        Object {
+          "margin": "16px 0",
+        }
+      }
+    >
+      <span>
+        <span
+          className="jc-breadcrumb-link"
+        >
+          Home
+        </span>
+        <span
+          className="jc-breadcrumb-separator"
+        >
+          /
+        </span>
+      </span>
+      <span>
+        <span
+          className="jc-breadcrumb-link"
+        >
+          List
+        </span>
+        <span
+          className="jc-breadcrumb-separator"
+        >
+          /
+        </span>
+      </span>
+      <span>
+        <span
+          className="jc-breadcrumb-link"
+        >
+          App
+        </span>
+        <span
+          className="jc-breadcrumb-separator"
+        >
+          /
+        </span>
+      </span>
+    </div>
+    <div
+      className="jc-layout jc-layout-has-sider"
+      style={
+        Object {
+          "background": "#fff",
+          "padding": "24px 0",
+        }
+      }
+    >
+      <div
+        className="jc-layout-sider"
+        style={
+          Object {
+            "background": "#fff",
+            "flex": "0 0 200px",
+            "width": "200px",
+          }
+        }
+      >
+        <div
+          className="jc-layout-sider-content"
+        >
+          <ul
+            aria-activedescendant=""
+            className="jc-menu jc-menu-light jc-menu-root jc-menu-inline"
+            onKeyDown={[Function]}
+            role="menu"
+            style={
+              Object {
+                "height": "100%",
+              }
+            }
+            tabIndex="0"
+          >
+            <li
+              className="jc-menu-submenu jc-menu-submenu-inline jc-menu-submenu-open jc-menu-submenu-selected"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={undefined}
+            >
+              <div
+                aria-expanded={true}
+                aria-haspopup="true"
+                aria-owns="sub1$Menu"
+                className="jc-menu-submenu-title"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "paddingLeft": 24,
+                  }
+                }
+                title={undefined}
+              >
+                <span>
+                  <i
+                    className="jcicon jcicon-user "
+                    style={Object {}}
+                  />
+                  subnav 1
+                </span>
+                <i
+                  className="jc-menu-submenu-arrow"
+                />
+              </div>
+              <ul
+                aria-activedescendant=""
+                className="jc-menu  jc-menu-sub jc-menu-inline"
+                id="sub1$Menu"
+                role="menu"
+                style={Object {}}
+              >
+                <li
+                  aria-disabled={undefined}
+                  aria-selected={true}
+                  className="jc-menu-item jc-menu-item-selected"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  role="menuitem"
+                  style={
+                    Object {
+                      "paddingLeft": 48,
+                    }
+                  }
+                  title={undefined}
+                >
+                  option1
+                </li>
+                <li
+                  aria-disabled={undefined}
+                  aria-selected={false}
+                  className="jc-menu-item"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  role="menuitem"
+                  style={
+                    Object {
+                      "paddingLeft": 48,
+                    }
+                  }
+                  title={undefined}
+                >
+                  option2
+                </li>
+                <li
+                  aria-disabled={undefined}
+                  aria-selected={false}
+                  className="jc-menu-item"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  role="menuitem"
+                  style={
+                    Object {
+                      "paddingLeft": 48,
+                    }
+                  }
+                  title={undefined}
+                >
+                  option3
+                </li>
+                <li
+                  aria-disabled={undefined}
+                  aria-selected={false}
+                  className="jc-menu-item"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  role="menuitem"
+                  style={
+                    Object {
+                      "paddingLeft": 48,
+                    }
+                  }
+                  title={undefined}
+                >
+                  option4
+                </li>
+              </ul>
+            </li>
+            <li
+              className="jc-menu-submenu jc-menu-submenu-inline"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={undefined}
+            >
+              <div
+                aria-expanded={false}
+                aria-haspopup="true"
+                aria-owns="sub2$Menu"
+                className="jc-menu-submenu-title"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "paddingLeft": 24,
+                  }
+                }
+                title={undefined}
+              >
+                <span>
+                  <i
+                    className="jcicon jcicon-laptop "
+                    style={Object {}}
+                  />
+                  subnav 2
+                </span>
+                <i
+                  className="jc-menu-submenu-arrow"
+                />
+              </div>
+            </li>
+            <li
+              className="jc-menu-submenu jc-menu-submenu-inline"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={undefined}
+            >
+              <div
+                aria-expanded={false}
+                aria-haspopup="true"
+                aria-owns="sub3$Menu"
+                className="jc-menu-submenu-title"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "paddingLeft": 24,
+                  }
+                }
+                title={undefined}
+              >
+                <span>
+                  <i
+                    className="jcicon jcicon-notification "
+                    style={Object {}}
+                  />
+                  subnav 3
+                </span>
+                <i
+                  className="jc-menu-submenu-arrow"
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        className="jc-layout-content"
+        style={
+          Object {
+            "minHeight": 280,
+            "padding": "0 24px",
+          }
+        }
+        type=""
+      >
+        Content
+      </div>
+    </div>
+  </div>
+  <div
+    className="jc-layout-footer"
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+    type=""
+  >
+    Ant Design ©2016 Created by Ant UED
+  </div>
+</div>
+`;
+
+exports[`<Layout /> Classic page layouts 1`] = `
+<div>
+  <div
+    className="jc-layout"
+  >
+    <div
+      className="jc-layout-header"
+      type=""
+    >
+      Header
+    </div>
+    <div
+      className="jc-layout-content"
+      type=""
+    >
+      Content
+    </div>
+    <div
+      className="jc-layout-footer"
+      type=""
+    >
+      Footer
+    </div>
+  </div>
+  <div
+    className="jc-layout"
+  >
+    <div
+      className="jc-layout-header"
+      type=""
+    >
+      Header
+    </div>
+    <div
+      className="jc-layout jc-layout-has-sider"
+    >
+      <div
+        className="jc-layout-sider"
+        style={
+          Object {
+            "flex": "0 0 200px",
+            "width": "200px",
+          }
+        }
+      >
+        <div
+          className="jc-layout-sider-content"
+        >
+          Sider
+        </div>
+      </div>
+      <div
+        className="jc-layout-content"
+        type=""
+      >
+        Content
+      </div>
+    </div>
+    <div
+      className="jc-layout-footer"
+      type=""
+    >
+      Footer
+    </div>
+  </div>
+  <div
+    className="jc-layout"
+  >
+    <div
+      className="jc-layout-header"
+      type=""
+    >
+      Header
+    </div>
+    <div
+      className="jc-layout jc-layout-has-sider"
+    >
+      <div
+        className="jc-layout-content"
+        type=""
+      >
+        Content
+      </div>
+      <div
+        className="jc-layout-sider"
+        style={
+          Object {
+            "flex": "0 0 200px",
+            "width": "200px",
+          }
+        }
+      >
+        <div
+          className="jc-layout-sider-content"
+        >
+          Sider
+        </div>
+      </div>
+    </div>
+    <div
+      className="jc-layout-footer"
+      type=""
+    >
+      Footer
+    </div>
+  </div>
+  <div
+    className="jc-layout jc-layout-has-sider"
+  >
+    <div
+      className="jc-layout-sider"
+      style={
+        Object {
+          "flex": "0 0 200px",
+          "width": "200px",
+        }
+      }
+    >
+      <div
+        className="jc-layout-sider-content"
+      >
+        Sider
+      </div>
+    </div>
+    <div
+      className="jc-layout"
+    >
+      <div
+        className="jc-layout-header"
+        type=""
+      >
+        Header
+      </div>
+      <div
+        className="jc-layout-content"
+        type=""
+      >
+        Content
+      </div>
+      <div
+        className="jc-layout-footer"
+        type=""
+      >
+        Footer
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Layout /> CustomTrigger 1`] = `
+<div
+  className="jc-layout jc-layout-has-sider"
+>
+  <div
+    className="jc-layout-sider"
+    style={
+      Object {
+        "flex": "0 0 200px",
+        "width": "200px",
+      }
+    }
+  >
+    <div
+      className="jc-layout-sider-content"
+    >
+      <div
+        className="logo"
+      />
+      <ul
+        aria-activedescendant=""
+        className="jc-menu jc-menu-dark jc-menu-root jc-menu-inline"
+        onKeyDown={[Function]}
+        role="menu"
+        style={Object {}}
+        tabIndex="0"
+      >
+        <li
+          aria-disabled={undefined}
+          aria-selected={true}
+          className="jc-menu-item jc-menu-item-selected"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          role="menuitem"
+          style={
+            Object {
+              "paddingLeft": 24,
+            }
+          }
+          title={undefined}
+        >
+          <i
+            className="jcicon jcicon-user "
+            style={Object {}}
+          />
+          <span>
+            nav 1
+          </span>
+        </li>
+        <li
+          aria-disabled={undefined}
+          aria-selected={false}
+          className="jc-menu-item"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          role="menuitem"
+          style={
+            Object {
+              "paddingLeft": 24,
+            }
+          }
+          title={undefined}
+        >
+          <i
+            className="jcicon jcicon-video-camera "
+            style={Object {}}
+          />
+          <span>
+            nav 2
+          </span>
+        </li>
+        <li
+          aria-disabled={undefined}
+          aria-selected={false}
+          className="jc-menu-item"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          role="menuitem"
+          style={
+            Object {
+              "paddingLeft": 24,
+            }
+          }
+          title={undefined}
+        >
+          <i
+            className="jcicon jcicon-upload "
+            style={Object {}}
+          />
+          <span>
+            nav 3
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="jc-layout-sider-trigger"
+      onClick={[Function]}
+    >
+      <i
+        className="jcicon jcicon-left  jc-layout-sider-trigger-icon"
+        style={Object {}}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Layout /> Fixed Header 1`] = `
+<div
+  className="jc-layout"
+>
+  <div
+    className="jc-layout-header"
+    style={
+      Object {
+        "position": "fixed",
+        "width": "100%",
+      }
+    }
+    type=""
+  >
+    <div
+      className="logo"
+    />
+    <ul
+      aria-activedescendant=""
+      className="jc-menu jc-menu-dark jc-menu-root jc-menu-horizontal"
+      onKeyDown={[Function]}
+      role="menu"
+      style={
+        Object {
+          "lineHeight": "64px",
+        }
+      }
+      tabIndex="0"
+    >
+      <li
+        aria-disabled={undefined}
+        aria-selected={false}
+        className="jc-menu-item"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        role="menuitem"
+        style={Object {}}
+        title={undefined}
+      >
+        nav 1
+      </li>
+      <li
+        aria-disabled={undefined}
+        aria-selected={true}
+        className="jc-menu-item jc-menu-item-selected"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        role="menuitem"
+        style={Object {}}
+        title={undefined}
+      >
+        nav 2
+      </li>
+      <li
+        aria-disabled={undefined}
+        aria-selected={false}
+        className="jc-menu-item"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        role="menuitem"
+        style={Object {}}
+        title={undefined}
+      >
+        nav 3
+      </li>
+    </ul>
+  </div>
+  <div
+    className="jc-layout-content"
+    style={
+      Object {
+        "marginTop": 64,
+        "padding": "0 50px",
+      }
+    }
+    type=""
+  >
+    <div
+      className="jc-breadcrumb"
+      style={
+        Object {
+          "margin": "16px 0",
+        }
+      }
+    >
+      <span>
+        <span
+          className="jc-breadcrumb-link"
+        >
+          Home
+        </span>
+        <span
+          className="jc-breadcrumb-separator"
+        >
+          /
+        </span>
+      </span>
+      <span>
+        <span
+          className="jc-breadcrumb-link"
+        >
+          List
+        </span>
+        <span
+          className="jc-breadcrumb-separator"
+        >
+          /
+        </span>
+      </span>
+      <span>
+        <span
+          className="jc-breadcrumb-link"
+        >
+          App
+        </span>
+        <span
+          className="jc-breadcrumb-separator"
+        >
+          /
+        </span>
+      </span>
+    </div>
+    <div
+      style={
+        Object {
+          "background": "#fff",
+          "minHeight": 380,
+          "padding": 24,
+        }
+      }
+    >
+      Content
+    </div>
+  </div>
+  <div
+    className="jc-layout-footer"
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+    type=""
+  >
+    Ant Design ©2016 Created by Ant UED
+  </div>
+</div>
+`;
+
+exports[`<Layout /> Fixed Sider 固定侧边栏 1`] = `
+<div
+  className="jc-layout jc-layout-has-sider"
+>
+  <div
+    className="jc-layout-sider"
+    style={
+      Object {
+        "flex": "0 0 200px",
+        "height": "100vh",
+        "left": 0,
+        "overflow": "auto",
+        "position": "fixed",
+        "width": "200px",
+      }
+    }
+  >
+    <div
+      className="jc-layout-sider-content"
+    >
+      <div
+        className="logo"
+      />
+      <ul
+        aria-activedescendant=""
+        className="jc-menu jc-menu-dark jc-menu-root jc-menu-inline"
+        onKeyDown={[Function]}
+        role="menu"
+        style={Object {}}
+        tabIndex="0"
+      >
+        <li
+          aria-disabled={undefined}
+          aria-selected={false}
+          className="jc-menu-item"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          role="menuitem"
+          style={
+            Object {
+              "paddingLeft": 24,
+            }
+          }
+          title={undefined}
+        >
+          <i
+            className="jcicon jcicon-user "
+            style={Object {}}
+          />
+          <span
+            className="nav-text"
+          >
+            nav 1
+          </span>
+        </li>
+        <li
+          aria-disabled={undefined}
+          aria-selected={false}
+          className="jc-menu-item"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          role="menuitem"
+          style={
+            Object {
+              "paddingLeft": 24,
+            }
+          }
+          title={undefined}
+        >
+          <i
+            className="jcicon jcicon-video-camera "
+            style={Object {}}
+          />
+          <span
+            className="nav-text"
+          >
+            nav 2
+          </span>
+        </li>
+        <li
+          aria-disabled={undefined}
+          aria-selected={false}
+          className="jc-menu-item"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          role="menuitem"
+          style={
+            Object {
+              "paddingLeft": 24,
+            }
+          }
+          title={undefined}
+        >
+          <i
+            className="jcicon jcicon-upload "
+            style={Object {}}
+          />
+          <span
+            className="nav-text"
+          >
+            nav 3
+          </span>
+        </li>
+        <li
+          aria-disabled={undefined}
+          aria-selected={true}
+          className="jc-menu-item jc-menu-item-selected"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          role="menuitem"
+          style={
+            Object {
+              "paddingLeft": 24,
+            }
+          }
+          title={undefined}
+        >
+          <i
+            className="jcicon jcicon-bar-chart "
+            style={Object {}}
+          />
+          <span
+            className="nav-text"
+          >
+            nav 4
+          </span>
+        </li>
+        <li
+          aria-disabled={undefined}
+          aria-selected={false}
+          className="jc-menu-item"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          role="menuitem"
+          style={
+            Object {
+              "paddingLeft": 24,
+            }
+          }
+          title={undefined}
+        >
+          <i
+            className="jcicon jcicon-cloud-o "
+            style={Object {}}
+          />
+          <span
+            className="nav-text"
+          >
+            nav 5
+          </span>
+        </li>
+        <li
+          aria-disabled={undefined}
+          aria-selected={false}
+          className="jc-menu-item"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          role="menuitem"
+          style={
+            Object {
+              "paddingLeft": 24,
+            }
+          }
+          title={undefined}
+        >
+          <i
+            className="jcicon jcicon-appstore-o "
+            style={Object {}}
+          />
+          <span
+            className="nav-text"
+          >
+            nav 6
+          </span>
+        </li>
+        <li
+          aria-disabled={undefined}
+          aria-selected={false}
+          className="jc-menu-item"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          role="menuitem"
+          style={
+            Object {
+              "paddingLeft": 24,
+            }
+          }
+          title={undefined}
+        >
+          <i
+            className="jcicon jcicon-team "
+            style={Object {}}
+          />
+          <span
+            className="nav-text"
+          >
+            nav 7
+          </span>
+        </li>
+        <li
+          aria-disabled={undefined}
+          aria-selected={false}
+          className="jc-menu-item"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          role="menuitem"
+          style={
+            Object {
+              "paddingLeft": 24,
+            }
+          }
+          title={undefined}
+        >
+          <i
+            className="jcicon jcicon-shop "
+            style={Object {}}
+          />
+          <span
+            className="nav-text"
+          >
+            nav 8
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    className="jc-layout"
+    style={
+      Object {
+        "marginLeft": 200,
+      }
+    }
+  >
+    <div
+      className="jc-layout-header"
+      style={
+        Object {
+          "background": "#fff",
+          "padding": 0,
+        }
+      }
+      type=""
+    />
+    <div
+      className="jc-layout-content"
+      style={
+        Object {
+          "margin": "24px 16px 0",
+          "overflow": "initial",
+        }
+      }
+      type=""
+    >
+      <div
+        style={
+          Object {
+            "background": "#fff",
+            "padding": 24,
+            "textAlign": "center",
+          }
+        }
+      >
+        ...
+        <br />
+        Really
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        long
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        ...
+        <br />
+        content
+      </div>
+    </div>
+    <div
+      className="jc-layout-footer"
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+      type=""
+    >
+      Ant Design ©2016 Created by Ant UED
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Layout /> Header-Content-Footer 1`] = `
+<div
+  className="layout jc-layout"
+>
+  <div
+    className="jc-layout-header"
+    type=""
+  >
+    <div
+      className="logo"
+    />
+    <ul
+      aria-activedescendant=""
+      className="jc-menu jc-menu-dark jc-menu-root jc-menu-horizontal"
+      onKeyDown={[Function]}
+      role="menu"
+      style={
+        Object {
+          "lineHeight": "64px",
+        }
+      }
+      tabIndex="0"
+    >
+      <li
+        aria-disabled={undefined}
+        aria-selected={false}
+        className="jc-menu-item"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        role="menuitem"
+        style={Object {}}
+        title={undefined}
+      >
+        nav 1
+      </li>
+      <li
+        aria-disabled={undefined}
+        aria-selected={true}
+        className="jc-menu-item jc-menu-item-selected"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        role="menuitem"
+        style={Object {}}
+        title={undefined}
+      >
+        nav 2
+      </li>
+      <li
+        aria-disabled={undefined}
+        aria-selected={false}
+        className="jc-menu-item"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        role="menuitem"
+        style={Object {}}
+        title={undefined}
+      >
+        nav 3
+      </li>
+    </ul>
+  </div>
+  <div
+    className="jc-layout-content"
+    style={
+      Object {
+        "padding": "0 50px",
+      }
+    }
+    type=""
+  >
+    <div
+      className="jc-breadcrumb"
+      style={
+        Object {
+          "margin": "16px 0",
+        }
+      }
+    >
+      <span>
+        <span
+          className="jc-breadcrumb-link"
+        >
+          Home
+        </span>
+        <span
+          className="jc-breadcrumb-separator"
+        >
+          /
+        </span>
+      </span>
+      <span>
+        <span
+          className="jc-breadcrumb-link"
+        >
+          List
+        </span>
+        <span
+          className="jc-breadcrumb-separator"
+        >
+          /
+        </span>
+      </span>
+      <span>
+        <span
+          className="jc-breadcrumb-link"
+        >
+          App
+        </span>
+        <span
+          className="jc-breadcrumb-separator"
+        >
+          /
+        </span>
+      </span>
+    </div>
+    <div
+      style={
+        Object {
+          "background": "#fff",
+          "minHeight": 280,
+          "padding": 24,
+        }
+      }
+    >
+      Content
+    </div>
+  </div>
+  <div
+    className="jc-layout-footer"
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+    type=""
+  >
+    Ant Design ©2016 Created by Ant UED
+  </div>
+</div>
+`;
+
+exports[`<Layout /> Responsive 响应式布局 1`] = `
+<div
+  className="jc-layout jc-layout-has-sider"
+>
+  <div
+    className="jc-layout-sider jc-layout-sider-collapsed-zero"
+    style={
+      Object {
+        "flex": "0 0 200px",
+        "width": "200px",
+      }
+    }
+  >
+    <div
+      className="jc-layout-sider-content"
+    >
+      <div
+        className="logo"
+      />
+      <ul
+        aria-activedescendant=""
+        className="jc-menu jc-menu-dark jc-menu-root jc-menu-inline"
+        onKeyDown={[Function]}
+        role="menu"
+        style={Object {}}
+        tabIndex="0"
+      >
+        <li
+          aria-disabled={undefined}
+          aria-selected={false}
+          className="jc-menu-item"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          role="menuitem"
+          style={
+            Object {
+              "paddingLeft": 24,
+            }
+          }
+          title={undefined}
+        >
+          <i
+            className="jcicon jcicon-user "
+            style={Object {}}
+          />
+          <span
+            className="nav-text"
+          >
+            nav 1
+          </span>
+        </li>
+        <li
+          aria-disabled={undefined}
+          aria-selected={false}
+          className="jc-menu-item"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          role="menuitem"
+          style={
+            Object {
+              "paddingLeft": 24,
+            }
+          }
+          title={undefined}
+        >
+          <i
+            className="jcicon jcicon-video-camera "
+            style={Object {}}
+          />
+          <span
+            className="nav-text"
+          >
+            nav 2
+          </span>
+        </li>
+        <li
+          aria-disabled={undefined}
+          aria-selected={false}
+          className="jc-menu-item"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          role="menuitem"
+          style={
+            Object {
+              "paddingLeft": 24,
+            }
+          }
+          title={undefined}
+        >
+          <i
+            className="jcicon jcicon-upload "
+            style={Object {}}
+          />
+          <span
+            className="nav-text"
+          >
+            nav 3
+          </span>
+        </li>
+        <li
+          aria-disabled={undefined}
+          aria-selected={true}
+          className="jc-menu-item jc-menu-item-selected"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          role="menuitem"
+          style={
+            Object {
+              "paddingLeft": 24,
+            }
+          }
+          title={undefined}
+        >
+          <i
+            className="jcicon jcicon-user "
+            style={Object {}}
+          />
+          <span
+            className="nav-text"
+          >
+            nav 4
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    className="jc-layout"
+  >
+    <div
+      className="jc-layout-header"
+      style={
+        Object {
+          "background": "#fff",
+          "padding": 0,
+        }
+      }
+      type=""
+    />
+    <div
+      className="jc-layout-content"
+      style={
+        Object {
+          "margin": "24px 16px 0",
+        }
+      }
+      type=""
+    >
+      <div
+        style={
+          Object {
+            "background": "#fff",
+            "minHeight": 360,
+            "padding": 24,
+          }
+        }
+      >
+        content
+      </div>
+    </div>
+    <div
+      className="jc-layout-footer"
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+      type=""
+    >
+      Ant Design ©2016 Created by Ant UED
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Layout /> Two-columns layout. The sider menu can be collapsed when horizontal space is limited. 1`] = `
+<div
+  className="jc-layout jc-layout-has-sider"
+  style={
+    Object {
+      "minHeight": "100vh",
+    }
+  }
+>
+  <div
+    className="jc-layout-sider"
+    style={
+      Object {
+        "flex": "0 0 200px",
+        "width": "200px",
+      }
+    }
+  >
+    <div
+      className="jc-layout-sider-content"
+    >
+      <div
+        className="logo"
+      />
+      <ul
+        aria-activedescendant=""
+        className="jc-menu jc-menu-dark jc-menu-root jc-menu-inline"
+        onKeyDown={[Function]}
+        role="menu"
+        style={Object {}}
+        tabIndex="0"
+      >
+        <li
+          aria-disabled={undefined}
+          aria-selected={true}
+          className="jc-menu-item jc-menu-item-selected"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          role="menuitem"
+          style={
+            Object {
+              "paddingLeft": 24,
+            }
+          }
+          title={undefined}
+        >
+          <i
+            className="jcicon jcicon-pie-chart "
+            style={Object {}}
+          />
+          <span>
+            Option 1
+          </span>
+        </li>
+        <li
+          aria-disabled={undefined}
+          aria-selected={false}
+          className="jc-menu-item"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          role="menuitem"
+          style={
+            Object {
+              "paddingLeft": 24,
+            }
+          }
+          title={undefined}
+        >
+          <i
+            className="jcicon jcicon-desktop "
+            style={Object {}}
+          />
+          <span>
+            Option 2
+          </span>
+        </li>
+        <li
+          className="jc-menu-submenu jc-menu-submenu-inline"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          style={undefined}
+        >
+          <div
+            aria-expanded={false}
+            aria-haspopup="true"
+            aria-owns="sub1$Menu"
+            className="jc-menu-submenu-title"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            style={
+              Object {
+                "paddingLeft": 24,
+              }
+            }
+            title={undefined}
+          >
+            <span>
+              <i
+                className="jcicon jcicon-user "
+                style={Object {}}
+              />
+              <span>
+                User
+              </span>
+            </span>
+            <i
+              className="jc-menu-submenu-arrow"
+            />
+          </div>
+        </li>
+        <li
+          className="jc-menu-submenu jc-menu-submenu-inline"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          style={undefined}
+        >
+          <div
+            aria-expanded={false}
+            aria-haspopup="true"
+            aria-owns="sub2$Menu"
+            className="jc-menu-submenu-title"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            style={
+              Object {
+                "paddingLeft": 24,
+              }
+            }
+            title={undefined}
+          >
+            <span>
+              <i
+                className="jcicon jcicon-team "
+                style={Object {}}
+              />
+              <span>
+                Team
+              </span>
+            </span>
+            <i
+              className="jc-menu-submenu-arrow"
+            />
+          </div>
+        </li>
+        <li
+          aria-disabled={undefined}
+          aria-selected={false}
+          className="jc-menu-item"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          role="menuitem"
+          style={
+            Object {
+              "paddingLeft": 24,
+            }
+          }
+          title={undefined}
+        >
+          <i
+            className="jcicon jcicon-file "
+            style={Object {}}
+          />
+          <span>
+            File
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="jc-layout-sider-trigger"
+      onClick={[Function]}
+    >
+      <i
+        className="jcicon jcicon-left  jc-layout-sider-trigger-icon"
+        style={Object {}}
+      />
+    </div>
+  </div>
+  <div
+    className="jc-layout"
+  >
+    <div
+      className="jc-layout-header"
+      style={
+        Object {
+          "background": "#fff",
+          "padding": 0,
+        }
+      }
+      type=""
+    />
+    <div
+      className="jc-layout-content"
+      style={
+        Object {
+          "margin": "0 16px",
+        }
+      }
+      type=""
+    >
+      <div
+        className="jc-breadcrumb"
+        style={
+          Object {
+            "margin": "16px 0",
+          }
+        }
+      >
+        <span>
+          <span
+            className="jc-breadcrumb-link"
+          >
+            User
+          </span>
+          <span
+            className="jc-breadcrumb-separator"
+          >
+            /
+          </span>
+        </span>
+        <span>
+          <span
+            className="jc-breadcrumb-link"
+          >
+            Bill
+          </span>
+          <span
+            className="jc-breadcrumb-separator"
+          >
+            /
+          </span>
+        </span>
+      </div>
+      <div
+        style={
+          Object {
+            "background": "#fff",
+            "minHeight": 360,
+            "padding": 24,
+          }
+        }
+      >
+        Bill is a cat.
+      </div>
+    </div>
+    <div
+      className="jc-layout-footer"
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+      type=""
+    >
+      Ant Design ©2016 Created by Ant UED
+    </div>
+  </div>
+</div>
+`;

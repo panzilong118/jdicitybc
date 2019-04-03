@@ -1,170 +1,137 @@
-'use strict';
+// import Radio from 'antd';
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.CreatePage = exports.SideCustomer = exports.AppConfigHoc = exports.App = exports.Crumbs = exports.CustomerRenderHtml = exports.GridViewLayout = exports.GridView = exports.StatusText = exports.JcRangePicker = exports.ItemInfo = exports.Price = exports.JcBreadCrumb = exports.TableItemInfo = exports.Loading = exports.UploadSelect = exports.RiskUser = exports.MenuLinkPermission = exports.SubAccount = exports.LinkPermission = exports.MoneyConvert = exports.FuncPermission = exports.UploadImg = exports.CustomerMini = exports.Customer = exports.Message = exports.Buyer = exports.ShopToolBar = exports.Shop = exports.Operating = exports.OperatingOnlyTop = undefined;
+// export { default as Button } from "./button";
+// export { default as Icon } from "./icon";
+// export { default as Input } from "./input";
+//
+// export { default as Row } from "./row";
+// export { default as Col } from "./col";
+//命名规则
+// function camelCase(name) {
+//     return name.charAt(0).toUpperCase() +
+//         name.slice(1).replace(/-(\w)/g, (m, n) => {
+//             return n.toUpperCase();
+//         });
+// }
+// // 增加批量导入功能，不需要单独增加出口
+// const req = require.context('../components', true, /^\.\/[^_][\w-]+\/index\.js?$/);
+// req.keys().forEach((mod) => {
+//     let v = req(mod);
+//     if (v && v.default) {
+//         v = v.default;
+//     }
+//     const match = mod.match(/^\.\/([^_][\w-]+)\/index\.js?$/);
+//     if (match && match[1]) {
+//         exports[camelCase(match[1])] = v;
+//     }
+// });
+// console.log('export',exports);
 
-var _GridView = require('./GridView/GridView');
 
-Object.defineProperty(exports, 'GridView', {
-  enumerable: true,
-  get: function get() {
-    return _GridView.GridView;
-  }
-});
-Object.defineProperty(exports, 'GridViewLayout', {
-  enumerable: true,
-  get: function get() {
-    return _GridView.GridViewLayout;
-  }
-});
+export { default as Col } from './col';
 
-var _OperatingOnlyTop2 = require('./OperatingOnlyTop/OperatingOnlyTop');
+export { default as Icon } from './icon';
 
-var _OperatingOnlyTop3 = _interopRequireDefault(_OperatingOnlyTop2);
+export { default as Input } from './input';
 
-var _Operating2 = require('./Operating/Operating');
+export { default as Dropdown } from './dropdown';
 
-var _Operating3 = _interopRequireDefault(_Operating2);
+export { default as Form } from './form';
 
-var _Shop2 = require('./Shop/Shop');
+export { default as Layout } from './layout';
 
-var _Shop3 = _interopRequireDefault(_Shop2);
+export { default as Breadcrumb } from './breadcrumb';
 
-var _ShopToolBar2 = require('./ShopToolBar/ShopToolBar');
+export { default as Button } from './button';
 
-var _ShopToolBar3 = _interopRequireDefault(_ShopToolBar2);
+export { default as Menu } from './menu';
 
-var _Buyer2 = require('./Buyer/Buyer');
+export { default as Row } from './row';
 
-var _Buyer3 = _interopRequireDefault(_Buyer2);
+export { default as Tooltip } from './tooltip';
 
-var _Message2 = require('./Message/Message');
+export { default as Badge } from './badge';
 
-var _Message3 = _interopRequireDefault(_Message2);
+export { default as DatePicker } from './date-picker';
 
-var _Customer2 = require('./Customer/Customer');
+export { default as Checkbox } from './checkbox';
 
-var _Customer3 = _interopRequireDefault(_Customer2);
+export { default as message } from './message';
 
-var _CustomerMini2 = require('./CustomerMini/CustomerMini');
+export { default as Modal } from './modal';
 
-var _CustomerMini3 = _interopRequireDefault(_CustomerMini2);
+export { default as Upload } from './upload';
 
-var _UploadImg2 = require('./UploadImg/UploadImg');
+export { default as Progress } from './progress';
 
-var _UploadImg3 = _interopRequireDefault(_UploadImg2);
+export { default as Select } from './select';
 
-var _FuncPermission2 = require('./FuncPermission/FuncPermission');
+export { default as Tabs } from './tabs';
 
-var _FuncPermission3 = _interopRequireDefault(_FuncPermission2);
+export { default as Pagination } from './pagination';
 
-var _MoneyConvert2 = require('./MoneyConvert/MoneyConvert');
+export { default as TimePicker } from './time-picker';
 
-var _MoneyConvert3 = _interopRequireDefault(_MoneyConvert2);
+export { default as Steps } from './steps';
 
-var _LinkPermission2 = require('./FuncPermission/LinkPermission');
+export { default as Spin } from './spin';
 
-var _LinkPermission3 = _interopRequireDefault(_LinkPermission2);
+export { default as InputNumber } from './input-number';
 
-var _SubAccount2 = require('./SubAccount/SubAccount');
+export { default as Radio } from './radio';
 
-var _SubAccount3 = _interopRequireDefault(_SubAccount2);
+export { default as TreeSelect } from './tree-select';
 
-var _MenuLinkPermission2 = require('./FuncPermission/MenuLinkPermission');
+export { default as Tree } from './tree';
 
-var _MenuLinkPermission3 = _interopRequireDefault(_MenuLinkPermission2);
+export { default as Avatar } from './avatar';
 
-var _RiskUser2 = require('./RiskUser/RiskUser');
+export { default as Timeline } from './timeline';
 
-var _RiskUser3 = _interopRequireDefault(_RiskUser2);
+export { default as Transfer } from './transfer';
 
-var _UploadSelect2 = require('./UploadSelect/UploadSelect');
+export { default as Table } from './table';
 
-var _UploadSelect3 = _interopRequireDefault(_UploadSelect2);
+export { default as Rate } from './rate';
 
-var _Loading2 = require('./Loading/Loading');
+export { default as Alert } from './alert';
 
-var _Loading3 = _interopRequireDefault(_Loading2);
+export { default as List } from './list';
 
-var _TableItemInfo2 = require('./TableItemInfo/TableItemInfo');
+export { default as Switch } from './switch';
 
-var _TableItemInfo3 = _interopRequireDefault(_TableItemInfo2);
+export { default as Notification } from './notification';
 
-var _JcBreadCrumb2 = require('./JcBreadCrumb/JcBreadCrumb');
+export { default as Popconfirm } from './popconfirm';
 
-var _JcBreadCrumb3 = _interopRequireDefault(_JcBreadCrumb2);
+export { default as AutoComplete } from './auto-complete';
 
-var _Price2 = require('./Price/Price');
+export { default as Slider } from './slider';
 
-var _Price3 = _interopRequireDefault(_Price2);
+export { default as Calendar } from './calendar';
 
-var _ItemInfo2 = require('./ItemInfo/ItemInfo');
+export { default as Collapse } from './collapse';
 
-var _ItemInfo3 = _interopRequireDefault(_ItemInfo2);
+export { default as Cascader } from './cascader/';
 
-var _JcRangePicker2 = require('./JcRangePicker/JcRangePicker');
+export { default as Affix } from './affix';
 
-var _JcRangePicker3 = _interopRequireDefault(_JcRangePicker2);
+export { default as Carousel } from './carousel';
 
-var _StatusText2 = require('./StatusText/StatusText');
+export { default as Card } from './card';
 
-var _StatusText3 = _interopRequireDefault(_StatusText2);
+export { default as Anchor } from './anchor';
 
-var _CustomerRenderHtml2 = require('./CustomerRenderHtml/CustomerRenderHtml');
+export { default as Popover } from './popover';
 
-var _CustomerRenderHtml3 = _interopRequireDefault(_CustomerRenderHtml2);
+export { default as BackTop } from './back-top';
 
-var _CrumbsWrap = require('./Crumbs/CrumbsWrap');
+export { default as version } from './version';
 
-var _CrumbsWrap2 = _interopRequireDefault(_CrumbsWrap);
+export { default as LocaleProvider } from './locale-provider';
 
-var _App2 = require('./AppConfig/App');
+export { default as Mention } from './mention';
 
-var _App3 = _interopRequireDefault(_App2);
+export { default as Tag } from './tag';
 
-var _AppConfigHoc2 = require('./AppConfig/AppConfigHoc');
-
-var _AppConfigHoc3 = _interopRequireDefault(_AppConfigHoc2);
-
-var _SideCustomer2 = require('./SideCustomer/SideCustomer');
-
-var _SideCustomer3 = _interopRequireDefault(_SideCustomer2);
-
-var _CreatePageWrap = require('./CreatePage/CreatePageWrap');
-
-var _CreatePageWrap2 = _interopRequireDefault(_CreatePageWrap);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.OperatingOnlyTop = _OperatingOnlyTop3.default;
-exports.Operating = _Operating3.default;
-exports.Shop = _Shop3.default;
-exports.ShopToolBar = _ShopToolBar3.default;
-exports.Buyer = _Buyer3.default;
-exports.Message = _Message3.default;
-exports.Customer = _Customer3.default;
-exports.CustomerMini = _CustomerMini3.default;
-exports.UploadImg = _UploadImg3.default;
-exports.FuncPermission = _FuncPermission3.default;
-exports.MoneyConvert = _MoneyConvert3.default;
-exports.LinkPermission = _LinkPermission3.default;
-exports.SubAccount = _SubAccount3.default;
-exports.MenuLinkPermission = _MenuLinkPermission3.default;
-exports.RiskUser = _RiskUser3.default;
-exports.UploadSelect = _UploadSelect3.default;
-exports.Loading = _Loading3.default;
-exports.TableItemInfo = _TableItemInfo3.default;
-exports.JcBreadCrumb = _JcBreadCrumb3.default;
-exports.Price = _Price3.default;
-exports.ItemInfo = _ItemInfo3.default;
-exports.JcRangePicker = _JcRangePicker3.default;
-exports.StatusText = _StatusText3.default;
-exports.CustomerRenderHtml = _CustomerRenderHtml3.default;
-exports.Crumbs = _CrumbsWrap2.default;
-exports.App = _App3.default;
-exports.AppConfigHoc = _AppConfigHoc3.default;
-exports.SideCustomer = _SideCustomer3.default;
-exports.CreatePage = _CreatePageWrap2.default;
-//# sourceMappingURL=index.js.map
+export { default as Divider } from './divider';

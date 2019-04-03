@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input/> demo test Snapshot 1`] = `
+<div
+  className="jc-row"
+  style={
+    Object {
+      "marginLeft": -8,
+      "marginRight": -8,
+    }
+  }
+>
+  <div
+    className="jc-col-8"
+    style={
+      Object {
+        "paddingLeft": 8,
+        "paddingRight": 8,
+      }
+    }
+  >
+    123
+  </div>
+  <div
+    className="jc-col-8"
+    style={
+      Object {
+        "paddingLeft": 8,
+        "paddingRight": 8,
+      }
+    }
+  >
+    456
+  </div>
+  <div
+    className="jc-col-8"
+    style={
+      Object {
+        "paddingLeft": 8,
+        "paddingRight": 8,
+      }
+    }
+  >
+    789
+  </div>
+</div>
+`;

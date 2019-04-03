@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/breadcrumb/demo/basic.js correctly test 1`] = `
+<div
+  class="jc-breadcrumb"
+>
+  <span>
+    <span
+      class="jc-breadcrumb-link"
+    >
+      Home
+    </span>
+    <span
+      class="jc-breadcrumb-separator"
+    >
+      /
+    </span>
+  </span>
+  <span>
+    <span
+      class="jc-breadcrumb-link"
+    >
+      <a
+        href=""
+      >
+        Application Center
+      </a>
+    </span>
+    <span
+      class="jc-breadcrumb-separator"
+    >
+      /
+    </span>
+  </span>
+  <span>
+    <span
+      class="jc-breadcrumb-link"
+    >
+      <a
+        href=""
+      >
+        Application List
+      </a>
+    </span>
+    <span
+      class="jc-breadcrumb-separator"
+    >
+      /
+    </span>
+  </span>
+  <span>
+    <span
+      class="jc-breadcrumb-link"
+    >
+      An Application
+    </span>
+    <span
+      class="jc-breadcrumb-separator"
+    >
+      /
+    </span>
+  </span>
+</div>
+`;
+
+exports[`renders ./components/breadcrumb/demo/router.js correctly test 1`] = `null`;
+
+exports[`renders ./components/breadcrumb/demo/router-4.js correctly test 1`] = `
+<div
+  class="demo"
+>
+  <div
+    class="demo-nav"
+  >
+    <a
+      href="#/"
+    >
+      Home
+    </a>
+    <a
+      href="#/apps"
+    >
+      Application List
+    </a>
+  </div>
+  <span>
+    Home Page
+  </span>
+  <div
+    class="jc-alert jc-alert-info jc-alert-no-icon"
+    data-show="true"
+    style="margin:16px 0"
+  >
+    <span
+      class="jc-alert-message"
+    >
+      Click the navigation above to switch:
+    </span>
+    <span
+      class="jc-alert-description"
+    />
+  </div>
+  <div
+    class="jc-breadcrumb"
+  >
+    <span>
+      <span
+        class="jc-breadcrumb-link"
+      >
+        <a
+          href="#/"
+        >
+          Home
+        </a>
+      </span>
+      <span
+        class="jc-breadcrumb-separator"
+      >
+        /
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/breadcrumb/demo/separator.js correctly test 1`] = `
+<div
+  class="jc-breadcrumb"
+>
+  <span>
+    <span
+      class="jc-breadcrumb-link"
+    >
+      Home
+    </span>
+    <span
+      class="jc-breadcrumb-separator"
+    >
+      &gt;
+    </span>
+  </span>
+  <span>
+    <a
+      class="jc-breadcrumb-link"
+      href=""
+    >
+      Application Center
+    </a>
+    <span
+      class="jc-breadcrumb-separator"
+    >
+      &gt;
+    </span>
+  </span>
+  <span>
+    <a
+      class="jc-breadcrumb-link"
+      href=""
+    >
+      Application List
+    </a>
+    <span
+      class="jc-breadcrumb-separator"
+    >
+      &gt;
+    </span>
+  </span>
+  <span>
+    <span
+      class="jc-breadcrumb-link"
+    >
+      An Application
+    </span>
+    <span
+      class="jc-breadcrumb-separator"
+    >
+      &gt;
+    </span>
+  </span>
+</div>
+`;
+
+exports[`renders ./components/breadcrumb/demo/withIcon.js correctly test 1`] = `
+<div
+  class="jc-breadcrumb"
+>
+  <span>
+    <a
+      class="jc-breadcrumb-link"
+      href=""
+    >
+      <i
+        class="jcicon jcicon-home "
+      />
+    </a>
+    <span
+      class="jc-breadcrumb-separator"
+    >
+      /
+    </span>
+  </span>
+  <span>
+    <a
+      class="jc-breadcrumb-link"
+      href=""
+    >
+      <i
+        class="jcicon jcicon-user "
+      />
+      <span>
+        Application List
+      </span>
+    </a>
+    <span
+      class="jc-breadcrumb-separator"
+    >
+      /
+    </span>
+  </span>
+  <span>
+    <span
+      class="jc-breadcrumb-link"
+    >
+      Application
+    </span>
+    <span
+      class="jc-breadcrumb-separator"
+    >
+      /
+    </span>
+  </span>
+</div>
+`;

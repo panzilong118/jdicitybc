@@ -1,0 +1,615 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/button/demo/Basic.js correctly test 1`] = `
+<div>
+  <button
+    class="jc-btn jc-btn-primary"
+    type="button"
+  >
+    <span>
+      Primary
+    </span>
+  </button>
+  <button
+    class="jc-btn"
+    type="button"
+  >
+    <span>
+      Default
+    </span>
+  </button>
+  <button
+    class="jc-btn jc-btn-dashed"
+    type="button"
+  >
+    <span>
+      Dashed
+    </span>
+  </button>
+  <button
+    class="jc-btn jc-btn-danger"
+    type="button"
+  >
+    <span>
+      Danger
+    </span>
+  </button>
+</div>
+`;
+
+exports[`renders ./components/button/demo/Button-group.js correctly test 1`] = `
+<div>
+  <h4>
+    Basic
+  </h4>
+  <div
+    class="jc-btn-group"
+  >
+    <button
+      class="jc-btn"
+      type="button"
+    >
+      <span>
+        Cancel
+      </span>
+    </button>
+    <button
+      class="jc-btn"
+      type="button"
+    >
+      <span>
+        OK
+      </span>
+    </button>
+  </div>
+  <div
+    class="jc-btn-group"
+  >
+    <button
+      class="jc-btn"
+      disabled=""
+      type="button"
+    >
+      <span>
+        L
+      </span>
+    </button>
+    <button
+      class="jc-btn"
+      disabled=""
+      type="button"
+    >
+      <span>
+        M
+      </span>
+    </button>
+    <button
+      class="jc-btn"
+      disabled=""
+      type="button"
+    >
+      <span>
+        R
+      </span>
+    </button>
+  </div>
+  <div
+    class="jc-btn-group"
+  >
+    <button
+      class="jc-btn"
+      type="button"
+    >
+      <span>
+        L
+      </span>
+    </button>
+    <button
+      class="jc-btn"
+      type="button"
+    >
+      <span>
+        M
+      </span>
+    </button>
+    <button
+      class="jc-btn"
+      type="button"
+    >
+      <span>
+        R
+      </span>
+    </button>
+  </div>
+  <h4>
+    With Icon
+  </h4>
+  <div
+    class="jc-btn-group"
+  >
+    <button
+      class="jc-btn jc-btn-primary"
+      type="button"
+    >
+      <i
+        class="jcicon jcicon-left "
+      />
+      <span>
+        Go back
+      </span>
+    </button>
+    <button
+      class="jc-btn jc-btn-primary"
+      type="button"
+    >
+      <span>
+        Go forward
+      </span>
+      <i
+        class="jcicon jcicon-right "
+      />
+    </button>
+  </div>
+  <div
+    class="jc-btn-group"
+  >
+    <button
+      class="jc-btn jc-btn-primary jc-btn-icon-only"
+      type="button"
+    >
+      <i
+        class="jcicon jcicon-cloud "
+      />
+    </button>
+    <button
+      class="jc-btn jc-btn-primary jc-btn-icon-only"
+      type="button"
+    >
+      <i
+        class="jcicon jcicon-cloud-download "
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/button/demo/Disabled.js correctly test 1`] = `
+<div>
+  <button
+    class="jc-btn jc-btn-primary"
+    type="button"
+  >
+    <span>
+      Primary
+    </span>
+  </button>
+  <button
+    class="jc-btn jc-btn-primary"
+    disabled=""
+    type="button"
+  >
+    <span>
+      Primary(disabled)
+    </span>
+  </button>
+  <br />
+  <button
+    class="jc-btn"
+    type="button"
+  >
+    <span>
+      Default
+    </span>
+  </button>
+  <button
+    class="jc-btn"
+    disabled=""
+    type="button"
+  >
+    <span>
+      Default(disabled)
+    </span>
+  </button>
+  <br />
+  <button
+    class="jc-btn"
+    type="button"
+  >
+    <span>
+      Ghost
+    </span>
+  </button>
+  <button
+    class="jc-btn"
+    disabled=""
+    type="button"
+  >
+    <span>
+      Ghost(disabled)
+    </span>
+  </button>
+  <br />
+  <button
+    class="jc-btn jc-btn-dashed"
+    type="button"
+  >
+    <span>
+      Dashed
+    </span>
+  </button>
+  <button
+    class="jc-btn jc-btn-dashed"
+    disabled=""
+    type="button"
+  >
+    <span>
+      Dashed(disabled)
+    </span>
+  </button>
+</div>
+`;
+
+exports[`renders ./components/button/demo/Ghost.js correctly test 1`] = `
+<div
+  style="background:rgb(190, 200, 200);padding:26px 16px 16px"
+>
+  <button
+    class="jc-btn jc-btn-primary jc-btn-background-ghost"
+    type="button"
+  >
+    <span>
+      Primary
+    </span>
+  </button>
+  <button
+    class="jc-btn jc-btn-background-ghost"
+    type="button"
+  >
+    <span>
+      Default
+    </span>
+  </button>
+  <button
+    class="jc-btn jc-btn-dashed jc-btn-background-ghost"
+    type="button"
+  >
+    <span>
+      Dashed
+    </span>
+  </button>
+  <button
+    class="jc-btn jc-btn-danger jc-btn-background-ghost"
+    type="button"
+  >
+    <span>
+      danger
+    </span>
+  </button>
+</div>
+`;
+
+exports[`renders ./components/button/demo/Icon.js correctly test 1`] = `
+<div>
+  <button
+    class="jc-btn jc-btn-primary jc-btn-circle jc-btn-icon-only"
+    type="button"
+  >
+    <i
+      class="jcicon jcicon-search "
+    />
+  </button>
+  <button
+    class="jc-btn jc-btn-primary"
+    type="button"
+  >
+    <i
+      class="jcicon jcicon-search "
+    />
+    <span>
+      Search
+    </span>
+  </button>
+  <button
+    class="jc-btn jc-btn-circle jc-btn-icon-only"
+    type="button"
+  >
+    <i
+      class="jcicon jcicon-search "
+    />
+  </button>
+  <button
+    class="jc-btn"
+    type="button"
+  >
+    <i
+      class="jcicon jcicon-search "
+    />
+    <span>
+      Search
+    </span>
+  </button>
+  <br />
+  <button
+    class="jc-btn jc-btn-circle jc-btn-icon-only"
+    type="button"
+  >
+    <i
+      class="jcicon jcicon-search "
+    />
+  </button>
+  <button
+    class="jc-btn"
+    type="button"
+  >
+    <i
+      class="jcicon jcicon-search "
+    />
+    <span>
+      Search
+    </span>
+  </button>
+  <button
+    class="jc-btn jc-btn-dashed jc-btn-circle jc-btn-icon-only"
+    type="button"
+  >
+    <i
+      class="jcicon jcicon-search "
+    />
+  </button>
+  <button
+    class="jc-btn jc-btn-dashed"
+    type="button"
+  >
+    <i
+      class="jcicon jcicon-search "
+    />
+    <span>
+      Search
+    </span>
+  </button>
+</div>
+`;
+
+exports[`renders ./components/button/demo/Loading.js correctly test 1`] = `
+<span>
+  <button
+    class="jc-btn jc-btn-primary jc-btn-loading"
+    type="button"
+  >
+    <i
+      class="jcicon jcicon-loading  jcicon-spin"
+    />
+    <span>
+      Loading
+    </span>
+  </button>
+  <button
+    class="jc-btn jc-btn-primary jc-btn-sm jc-btn-loading"
+    type="button"
+  >
+    <i
+      class="jcicon jcicon-loading  jcicon-spin"
+    />
+    <span>
+      Loading
+    </span>
+  </button>
+  <br />
+  <button
+    class="jc-btn jc-btn-primary"
+    type="button"
+  >
+    <span>
+      Click me!
+    </span>
+  </button>
+  <button
+    class="jc-btn jc-btn-primary"
+    type="button"
+  >
+    <i
+      class="jcicon jcicon-poweroff "
+    />
+    <span>
+      Click me!
+    </span>
+  </button>
+  <br />
+  <button
+    class="jc-btn jc-btn-circle jc-btn-loading"
+    type="button"
+  >
+    <i
+      class="jcicon jcicon-loading  jcicon-spin"
+    />
+  </button>
+  <button
+    class="jc-btn jc-btn-primary jc-btn-circle jc-btn-loading"
+    type="button"
+  >
+    <i
+      class="jcicon jcicon-loading  jcicon-spin"
+    />
+  </button>
+</span>
+`;
+
+exports[`renders ./components/button/demo/Multiple.js correctly test 1`] = `
+<div>
+  <button
+    class="jc-btn jc-btn-primary"
+    type="button"
+  >
+    <span>
+      primary
+    </span>
+  </button>
+  <button
+    class="jc-btn"
+    type="button"
+  >
+    <span>
+      secondary
+    </span>
+  </button>
+  <button
+    class="jc-btn jc-dropdown-trigger"
+    type="button"
+  >
+    <span>
+      Actions 
+    </span>
+    <i
+      class="jcicon jcicon-down "
+    />
+  </button>
+</div>
+`;
+
+exports[`renders ./components/button/demo/Size.js correctly test 1`] = `
+<div>
+  <div
+    class="jc-radio-group"
+  >
+    <label
+      class="jc-radio-button-wrapper jc-radio-button-wrapper-checked"
+    >
+      <span
+        class="jc-radio-button jc-radio-button-checked"
+      >
+        <input
+          checked=""
+          class="jc-radio-button-input"
+          type="radio"
+          value="large"
+        />
+        <span
+          class="jc-radio-button-inner"
+        />
+      </span>
+      <span>
+        Large
+      </span>
+    </label>
+    <label
+      class="jc-radio-button-wrapper"
+    >
+      <span
+        class="jc-radio-button"
+      >
+        <input
+          class="jc-radio-button-input"
+          type="radio"
+          value="default"
+        />
+        <span
+          class="jc-radio-button-inner"
+        />
+      </span>
+      <span>
+        Default
+      </span>
+    </label>
+    <label
+      class="jc-radio-button-wrapper"
+    >
+      <span
+        class="jc-radio-button"
+      >
+        <input
+          class="jc-radio-button-input"
+          type="radio"
+          value="small"
+        />
+        <span
+          class="jc-radio-button-inner"
+        />
+      </span>
+      <span>
+        Small
+      </span>
+    </label>
+  </div>
+  <br />
+  <br />
+  <button
+    class="jc-btn jc-btn-primary jc-btn-lg"
+    type="button"
+  >
+    <span>
+      Primary
+    </span>
+  </button>
+  <button
+    class="jc-btn jc-btn-lg"
+    type="button"
+  >
+    <span>
+      Normal
+    </span>
+  </button>
+  <button
+    class="jc-btn jc-btn-dashed jc-btn-lg"
+    type="button"
+  >
+    <span>
+      Dashed
+    </span>
+  </button>
+  <button
+    class="jc-btn jc-btn-danger jc-btn-lg"
+    type="button"
+  >
+    <span>
+      Danger
+    </span>
+  </button>
+  <br />
+  <button
+    class="jc-btn jc-btn-primary jc-btn-circle jc-btn-lg jc-btn-icon-only"
+    type="button"
+  >
+    <i
+      class="jcicon jcicon-download "
+    />
+  </button>
+  <button
+    class="jc-btn jc-btn-primary jc-btn-lg"
+    type="button"
+  >
+    <i
+      class="jcicon jcicon-download "
+    />
+    <span>
+      Download
+    </span>
+  </button>
+  <br />
+  <div
+    class="jc-btn-group $[prefixCls]-lg"
+  >
+    <button
+      class="jc-btn jc-btn-primary"
+      type="button"
+    >
+      <i
+        class="jcicon jcicon-left "
+      />
+      <span>
+        Backward
+      </span>
+    </button>
+    <button
+      class="jc-btn jc-btn-primary"
+      type="button"
+    >
+      <span>
+        Forward
+      </span>
+      <i
+        class="jcicon jcicon-right "
+      />
+    </button>
+  </div>
+</div>
+`;

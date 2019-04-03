@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../../src/components/Release/ReleasePlatformGoodsImage/v1.0.0/view/index.js"],"names":["ReleasePlatformGoodsImage"],"mappings":";;;;;;AAAA;;;;;;kBACeA,mC","file":"index.js","sourcesContent":["import ReleasePlatformGoodsImage from './ReleasePlatformGoodsImage';\r\nexport default ReleasePlatformGoodsImage;\r\n"]}

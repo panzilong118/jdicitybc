@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../components/calendar/locale/bg_BG.js"],"names":[],"mappings":";;;;;;AAAA","file":"bg_BG.js","sourcesContent":["import bg_BG from '../../date-picker/locale/bg_BG';\r\nexport default bg_BG;\r\n"]}

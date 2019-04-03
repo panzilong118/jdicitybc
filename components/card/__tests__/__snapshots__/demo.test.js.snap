@@ -1,0 +1,775 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/card/demo/basic.js correctly test 1`] = `
+<div
+  class="jc-card jc-card-bordered"
+  style="width:300px"
+>
+  <div
+    class="jc-card-head"
+  >
+    <div
+      class="jc-card-head-wrapper"
+    >
+      <div
+        class="jc-card-head-title"
+      >
+        Card title
+      </div>
+      <div
+        class="jc-card-extra"
+      >
+        <a
+          href="#"
+        >
+          More
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-card-body"
+  >
+    <p>
+      Card content
+    </p>
+    <p>
+      Card content
+    </p>
+    <p>
+      Card content
+    </p>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/card/demo/border-less.js correctly test 1`] = `
+<div
+  style="background:#ECECEC;padding:30px"
+>
+  <div
+    class="jc-card"
+    style="width:300px"
+  >
+    <div
+      class="jc-card-head"
+    >
+      <div
+        class="jc-card-head-wrapper"
+      >
+        <div
+          class="jc-card-head-title"
+        >
+          Card title
+        </div>
+      </div>
+    </div>
+    <div
+      class="jc-card-body"
+    >
+      <p>
+        Card content
+      </p>
+      <p>
+        Card content
+      </p>
+      <p>
+        Card content
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/card/demo/flexible-content.js correctly test 1`] = `
+<div
+  class="jc-card jc-card-bordered jc-card-hoverable"
+  style="width:240px"
+>
+  <div
+    class="jc-card-cover"
+  >
+    <img
+      alt="example"
+      src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+    />
+  </div>
+  <div
+    class="jc-card-body"
+  >
+    <div
+      class="jc-card-meta"
+    >
+      <div
+        class="jc-card-meta-detail"
+      >
+        <div
+          class="jc-card-meta-title"
+        >
+          Europe Street beat
+        </div>
+        <div
+          class="jc-card-meta-description"
+        >
+          www.instagram.com
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/card/demo/grid-card.js correctly test 1`] = `
+<div
+  class="jc-card jc-card-bordered jc-card-contain-grid"
+>
+  <div
+    class="jc-card-head"
+  >
+    <div
+      class="jc-card-head-wrapper"
+    >
+      <div
+        class="jc-card-head-title"
+      >
+        Card Title
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-card-body"
+  >
+    <div
+      class="jc-card-grid"
+      style="width:25%;text-align:center"
+    >
+      Content
+    </div>
+    <div
+      class="jc-card-grid"
+      style="width:25%;text-align:center"
+    >
+      Content
+    </div>
+    <div
+      class="jc-card-grid"
+      style="width:25%;text-align:center"
+    >
+      Content
+    </div>
+    <div
+      class="jc-card-grid"
+      style="width:25%;text-align:center"
+    >
+      Content
+    </div>
+    <div
+      class="jc-card-grid"
+      style="width:25%;text-align:center"
+    >
+      Content
+    </div>
+    <div
+      class="jc-card-grid"
+      style="width:25%;text-align:center"
+    >
+      Content
+    </div>
+    <div
+      class="jc-card-grid"
+      style="width:25%;text-align:center"
+    >
+      Content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/card/demo/in-column.js correctly test 1`] = `
+<div
+  style="background:#ECECEC;padding:30px"
+>
+  <div
+    class="jc-row"
+    style="margin-left:-8px;margin-right:-8px"
+  >
+    <div
+      class="jc-col-8"
+      style="padding-left:8px;padding-right:8px"
+    >
+      <div
+        class="jc-card"
+      >
+        <div
+          class="jc-card-head"
+        >
+          <div
+            class="jc-card-head-wrapper"
+          >
+            <div
+              class="jc-card-head-title"
+            >
+              Card title
+            </div>
+          </div>
+        </div>
+        <div
+          class="jc-card-body"
+        >
+          Card content
+        </div>
+      </div>
+    </div>
+    <div
+      class="jc-col-8"
+      style="padding-left:8px;padding-right:8px"
+    >
+      <div
+        class="jc-card"
+      >
+        <div
+          class="jc-card-head"
+        >
+          <div
+            class="jc-card-head-wrapper"
+          >
+            <div
+              class="jc-card-head-title"
+            >
+              Card title
+            </div>
+          </div>
+        </div>
+        <div
+          class="jc-card-body"
+        >
+          Card content
+        </div>
+      </div>
+    </div>
+    <div
+      class="jc-col-8"
+      style="padding-left:8px;padding-right:8px"
+    >
+      <div
+        class="jc-card"
+      >
+        <div
+          class="jc-card-head"
+        >
+          <div
+            class="jc-card-head-wrapper"
+          >
+            <div
+              class="jc-card-head-title"
+            >
+              Card title
+            </div>
+          </div>
+        </div>
+        <div
+          class="jc-card-body"
+        >
+          Card content
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/card/demo/inner.js correctly test 1`] = `
+<div
+  class="jc-card jc-card-bordered"
+>
+  <div
+    class="jc-card-head"
+  >
+    <div
+      class="jc-card-head-wrapper"
+    >
+      <div
+        class="jc-card-head-title"
+      >
+        Card title
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-card-body"
+  >
+    <p
+      style="font-size:14px;color:rgba(0, 0, 0, 0.85);margin-bottom:16px;font-weight:500"
+    >
+      Group title
+    </p>
+    <div
+      class="jc-card jc-card-bordered jc-card-type-inner"
+    >
+      <div
+        class="jc-card-head"
+      >
+        <div
+          class="jc-card-head-wrapper"
+        >
+          <div
+            class="jc-card-head-title"
+          >
+            Inner Card title
+          </div>
+          <div
+            class="jc-card-extra"
+          >
+            <a
+              href="#"
+            >
+              More
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="jc-card-body"
+      >
+        Inner Card content
+      </div>
+    </div>
+    <div
+      class="jc-card jc-card-bordered jc-card-type-inner"
+      style="margin-top:16px"
+    >
+      <div
+        class="jc-card-head"
+      >
+        <div
+          class="jc-card-head-wrapper"
+        >
+          <div
+            class="jc-card-head-title"
+          >
+            Inner Card title
+          </div>
+          <div
+            class="jc-card-extra"
+          >
+            <a
+              href="#"
+            >
+              More
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="jc-card-body"
+      >
+        Inner Card content
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/card/demo/loading.js correctly test 1`] = `
+<div
+  class="jc-card jc-card-loading jc-card-bordered"
+  style="width:34%"
+>
+  <div
+    class="jc-card-head"
+  >
+    <div
+      class="jc-card-head-wrapper"
+    >
+      <div
+        class="jc-card-head-title"
+      >
+        Card title
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-card-body"
+  >
+    <div
+      class="jc-card-loading-content"
+    >
+      <p
+        class="jc-card-loading-block"
+        style="width:94%"
+      />
+      <p>
+        <span
+          class="jc-card-loading-block"
+          style="width:28%"
+        />
+        <span
+          class="jc-card-loading-block"
+          style="width:62%"
+        />
+      </p>
+      <p>
+        <span
+          class="jc-card-loading-block"
+          style="width:22%"
+        />
+        <span
+          class="jc-card-loading-block"
+          style="width:66%"
+        />
+      </p>
+      <p>
+        <span
+          class="jc-card-loading-block"
+          style="width:56%"
+        />
+        <span
+          class="jc-card-loading-block"
+          style="width:39%"
+        />
+      </p>
+      <p>
+        <span
+          class="jc-card-loading-block"
+          style="width:21%"
+        />
+        <span
+          class="jc-card-loading-block"
+          style="width:15%"
+        />
+        <span
+          class="jc-card-loading-block"
+          style="width:40%"
+        />
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/card/demo/meta.js correctly test 1`] = `
+<div
+  class="jc-card jc-card-bordered"
+  style="width:300px"
+>
+  <div
+    class="jc-card-cover"
+  >
+    <img
+      alt="example"
+      src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+    />
+  </div>
+  <div
+    class="jc-card-body"
+  >
+    <div
+      class="jc-card-meta"
+    >
+      <div
+        class="jc-card-meta-avatar"
+      >
+        <span
+          class="jc-avatar jc-avatar-circle jc-avatar-image"
+        >
+          <img
+            alt=""
+            src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+          />
+        </span>
+      </div>
+      <div
+        class="jc-card-meta-detail"
+      >
+        <div
+          class="jc-card-meta-title"
+        >
+          Card title
+        </div>
+        <div
+          class="jc-card-meta-description"
+        >
+          This is the description
+        </div>
+      </div>
+    </div>
+  </div>
+  <ul
+    class="jc-card-actions"
+  >
+    <li
+      style="width:33.333333333333336%"
+    >
+      <span>
+        <i
+          class="jcicon jcicon-setting "
+        />
+      </span>
+    </li>
+    <li
+      style="width:33.333333333333336%"
+    >
+      <span>
+        <i
+          class="jcicon jcicon-edit "
+        />
+      </span>
+    </li>
+    <li
+      style="width:33.333333333333336%"
+    >
+      <span>
+        <i
+          class="jcicon jcicon-ellipsis "
+        />
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`renders ./components/card/demo/simple.js correctly test 1`] = `
+<div
+  class="jc-card jc-card-bordered"
+  style="width:300px"
+>
+  <div
+    class="jc-card-body"
+  >
+    <p>
+      Card content
+    </p>
+    <p>
+      Card content
+    </p>
+    <p>
+      Card content
+    </p>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/card/demo/tabs.js correctly test 1`] = `
+<div>
+  <div
+    class="jc-card jc-card-bordered jc-card-contain-tabs"
+    style="width:100%"
+  >
+    <div
+      class="jc-card-head"
+    >
+      <div
+        class="jc-card-head-wrapper"
+      >
+        <div
+          class="jc-card-head-title"
+        >
+          Card title
+        </div>
+        <div
+          class="jc-card-extra"
+        >
+          <a
+            href="#"
+          >
+            More
+          </a>
+        </div>
+      </div>
+      <div
+        class="jc-tabs jc-tabs-top jc-card-head-tabs jc-tabs-large jc-tabs-line"
+      >
+        <div
+          class="jc-tabs-bar"
+          role="tablist"
+          tabindex="0"
+        >
+          <div
+            class="jc-tabs-nav-container"
+          >
+            <span
+              class="jc-tabs-tab-prev jc-tabs-tab-btn-disabled"
+              unselectable="unselectable"
+            >
+              <span
+                class="jc-tabs-tab-prev-icon"
+              />
+            </span>
+            <span
+              class="jc-tabs-tab-next jc-tabs-tab-btn-disabled"
+              unselectable="unselectable"
+            >
+              <span
+                class="jc-tabs-tab-next-icon"
+              />
+            </span>
+            <div
+              class="jc-tabs-nav-wrap"
+            >
+              <div
+                class="jc-tabs-nav-scroll"
+              >
+                <div
+                  class="jc-tabs-nav jc-tabs-nav-animated"
+                >
+                  <div
+                    class="jc-tabs-ink-bar jc-tabs-ink-bar-animated"
+                  />
+                  <div
+                    aria-disabled="false"
+                    aria-selected="false"
+                    class=" jc-tabs-tab"
+                    role="tab"
+                  >
+                    tab1
+                  </div>
+                  <div
+                    aria-disabled="false"
+                    aria-selected="false"
+                    class=" jc-tabs-tab"
+                    role="tab"
+                  >
+                    tab2
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="jc-tabs-content jc-tabs-content-animated"
+          style="display:none"
+        >
+          <div
+            aria-hidden="true"
+            class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+            role="tabpanel"
+          />
+          <div
+            aria-hidden="true"
+            class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+            role="tabpanel"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="jc-card-body"
+    >
+      <p>
+        content1
+      </p>
+    </div>
+  </div>
+  <br />
+  <br />
+  <div
+    class="jc-card jc-card-bordered jc-card-contain-tabs"
+    style="width:100%"
+  >
+    <div
+      class="jc-card-head"
+    >
+      <div
+        class="jc-card-head-wrapper"
+      />
+      <div
+        class="jc-tabs jc-tabs-top jc-card-head-tabs jc-tabs-large jc-tabs-line"
+      >
+        <div
+          class="jc-tabs-bar"
+          role="tablist"
+          tabindex="0"
+        >
+          <div
+            class="jc-tabs-nav-container"
+          >
+            <span
+              class="jc-tabs-tab-prev jc-tabs-tab-btn-disabled"
+              unselectable="unselectable"
+            >
+              <span
+                class="jc-tabs-tab-prev-icon"
+              />
+            </span>
+            <span
+              class="jc-tabs-tab-next jc-tabs-tab-btn-disabled"
+              unselectable="unselectable"
+            >
+              <span
+                class="jc-tabs-tab-next-icon"
+              />
+            </span>
+            <div
+              class="jc-tabs-nav-wrap"
+            >
+              <div
+                class="jc-tabs-nav-scroll"
+              >
+                <div
+                  class="jc-tabs-nav jc-tabs-nav-animated"
+                >
+                  <div
+                    class="jc-tabs-ink-bar jc-tabs-ink-bar-animated"
+                  />
+                  <div
+                    aria-disabled="false"
+                    aria-selected="false"
+                    class=" jc-tabs-tab"
+                    role="tab"
+                  >
+                    article
+                  </div>
+                  <div
+                    aria-disabled="false"
+                    aria-selected="true"
+                    class="jc-tabs-tab-active jc-tabs-tab"
+                    role="tab"
+                  >
+                    app
+                  </div>
+                  <div
+                    aria-disabled="false"
+                    aria-selected="false"
+                    class=" jc-tabs-tab"
+                    role="tab"
+                  >
+                    project
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="jc-tabs-content jc-tabs-content-animated"
+          style="margin-left:-100%"
+        >
+          <div
+            aria-hidden="true"
+            class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+            role="tabpanel"
+          />
+          <div
+            aria-hidden="false"
+            class="jc-tabs-tabpane jc-tabs-tabpane-active"
+            role="tabpanel"
+          />
+          <div
+            aria-hidden="true"
+            class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+            role="tabpanel"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="jc-card-body"
+    >
+      <p>
+        app content
+      </p>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../components/time-picker/locale/ar_EG.js"],"names":["locale","placeholder"],"mappings":";;;;;AAAA,IAAMA,SAAS;AACbC,eAAa;AADA,CAAf;;kBAIeD,M","file":"ar_EG.js","sourcesContent":["const locale = {\r\n  placeholder: 'اختيار الوقت',\r\n};\r\n\r\nexport default locale;\r\n"]}

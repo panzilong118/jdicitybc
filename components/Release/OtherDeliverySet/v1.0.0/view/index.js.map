@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../../src/components/Release/OtherDeliverySet/v1.0.0/view/index.js"],"names":["default"],"mappings":";;;;;;;;;;;;;QAEOA,O","file":"index.js","sourcesContent":["\r\n\r\nexport default from './BindOtherDeliverySet';\r\n"]}

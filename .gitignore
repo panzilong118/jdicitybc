@@ -5,3 +5,4 @@ webpack-stats.json
 npm-debug.log
 *.swp
 npm-debug.log.*
+src

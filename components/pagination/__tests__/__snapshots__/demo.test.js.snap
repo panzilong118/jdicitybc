@@ -1,0 +1,1038 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/pagination/demo/Basic.js correctly test 1`] = `
+<ul
+  class="jc-pagination "
+  unselectable="unselectable"
+>
+  <li
+    aria-disabled="true"
+    class="jc-pagination-disabled jc-pagination-prev"
+    title="Previous Page"
+  >
+    <a
+      class="jc-pagination-item-link"
+    />
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-1 jc-pagination-item-active"
+    tabindex="0"
+    title="1"
+  >
+    <a>
+      1
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-2"
+    tabindex="0"
+    title="2"
+  >
+    <a>
+      2
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-3"
+    tabindex="0"
+    title="3"
+  >
+    <a>
+      3
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-4"
+    tabindex="0"
+    title="4"
+  >
+    <a>
+      4
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-5"
+    tabindex="0"
+    title="5"
+  >
+    <a>
+      5
+    </a>
+  </li>
+  <li
+    aria-disabled="false"
+    class=" jc-pagination-next"
+    tabindex="0"
+    title="Next Page"
+  >
+    <a
+      class="jc-pagination-item-link"
+    />
+  </li>
+</ul>
+`;
+
+exports[`renders ./components/pagination/demo/Changer.js correctly test 1`] = `
+<ul
+  class="jc-pagination "
+  unselectable="unselectable"
+>
+  <li
+    aria-disabled="false"
+    class=" jc-pagination-prev"
+    tabindex="0"
+    title="Previous Page"
+  >
+    <a
+      class="jc-pagination-item-link"
+    />
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-1"
+    tabindex="0"
+    title="1"
+  >
+    <a>
+      1
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-2"
+    tabindex="0"
+    title="2"
+  >
+    <a>
+      2
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-3 jc-pagination-item-active"
+    tabindex="0"
+    title="3"
+  >
+    <a>
+      3
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-4"
+    tabindex="0"
+    title="4"
+  >
+    <a>
+      4
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-5 jc-pagination-item-before-jump-next"
+    tabindex="0"
+    title="5"
+  >
+    <a>
+      5
+    </a>
+  </li>
+  <li
+    class="jc-pagination-jump-next"
+    tabindex="0"
+    title="Next 5 Pages"
+  >
+    <a
+      class="jc-pagination-item-link"
+    />
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-50"
+    tabindex="0"
+    title="50"
+  >
+    <a>
+      50
+    </a>
+  </li>
+  <li
+    aria-disabled="false"
+    class=" jc-pagination-next"
+    tabindex="0"
+    title="Next Page"
+  >
+    <a
+      class="jc-pagination-item-link"
+    />
+  </li>
+  <li
+    class="jc-pagination-options"
+  >
+    <div
+      class="jc-pagination-options-size-changer jc-select jc-select-enabled"
+    >
+      <div
+        aria-autocomplete="list"
+        aria-expanded="false"
+        aria-haspopup="true"
+        class="jc-select-selection
+            jc-select-selection--single"
+        role="combobox"
+        tabindex="0"
+      >
+        <div
+          class="jc-select-selection__rendered"
+        >
+          <div
+            class="jc-select-selection-selected-value"
+            style="display:block;opacity:1"
+            title="10 / page"
+          >
+            10 / page
+          </div>
+        </div>
+        <span
+          class="jc-select-arrow"
+          style="user-select:none;-webkit-user-select:none"
+          unselectable="unselectable"
+        >
+          <b />
+        </span>
+      </div>
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`renders ./components/pagination/demo/Controlled.js correctly test 1`] = `
+<ul
+  class="jc-pagination "
+  unselectable="unselectable"
+>
+  <li
+    aria-disabled="false"
+    class=" jc-pagination-prev"
+    tabindex="0"
+    title="Previous Page"
+  >
+    <a
+      class="jc-pagination-item-link"
+    />
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-1"
+    tabindex="0"
+    title="1"
+  >
+    <a>
+      1
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-2"
+    tabindex="0"
+    title="2"
+  >
+    <a>
+      2
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-3 jc-pagination-item-active"
+    tabindex="0"
+    title="3"
+  >
+    <a>
+      3
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-4"
+    tabindex="0"
+    title="4"
+  >
+    <a>
+      4
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-5"
+    tabindex="0"
+    title="5"
+  >
+    <a>
+      5
+    </a>
+  </li>
+  <li
+    aria-disabled="false"
+    class=" jc-pagination-next"
+    tabindex="0"
+    title="Next Page"
+  >
+    <a
+      class="jc-pagination-item-link"
+    />
+  </li>
+</ul>
+`;
+
+exports[`renders ./components/pagination/demo/ItemRender.js correctly test 1`] = `
+<ul
+  class="jc-pagination "
+  unselectable="unselectable"
+>
+  <li
+    aria-disabled="true"
+    class="jc-pagination-disabled jc-pagination-prev"
+    title="Previous Page"
+  >
+    <a>
+      Previous
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-1 jc-pagination-item-active"
+    tabindex="0"
+    title="1"
+  >
+    <a>
+      1
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-2"
+    tabindex="0"
+    title="2"
+  >
+    <a>
+      2
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-3"
+    tabindex="0"
+    title="3"
+  >
+    <a>
+      3
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-4"
+    tabindex="0"
+    title="4"
+  >
+    <a>
+      4
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-5 jc-pagination-item-before-jump-next"
+    tabindex="0"
+    title="5"
+  >
+    <a>
+      5
+    </a>
+  </li>
+  <li
+    class="jc-pagination-jump-next"
+    tabindex="0"
+    title="Next 5 Pages"
+  >
+    <a
+      class="jc-pagination-item-link"
+    />
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-50"
+    tabindex="0"
+    title="50"
+  >
+    <a>
+      50
+    </a>
+  </li>
+  <li
+    aria-disabled="false"
+    class=" jc-pagination-next"
+    tabindex="0"
+    title="Next Page"
+  >
+    <a>
+      Next
+    </a>
+  </li>
+</ul>
+`;
+
+exports[`renders ./components/pagination/demo/Jump.js correctly test 1`] = `
+<ul
+  class="jc-pagination "
+  unselectable="unselectable"
+>
+  <li
+    aria-disabled="false"
+    class=" jc-pagination-prev"
+    tabindex="0"
+    title="Previous Page"
+  >
+    <a
+      class="jc-pagination-item-link"
+    />
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-1"
+    tabindex="0"
+    title="1"
+  >
+    <a>
+      1
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-2 jc-pagination-item-active"
+    tabindex="0"
+    title="2"
+  >
+    <a>
+      2
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-3"
+    tabindex="0"
+    title="3"
+  >
+    <a>
+      3
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-4"
+    tabindex="0"
+    title="4"
+  >
+    <a>
+      4
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-5 jc-pagination-item-before-jump-next"
+    tabindex="0"
+    title="5"
+  >
+    <a>
+      5
+    </a>
+  </li>
+  <li
+    class="jc-pagination-jump-next"
+    tabindex="0"
+    title="Next 5 Pages"
+  >
+    <a
+      class="jc-pagination-item-link"
+    />
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-50"
+    tabindex="0"
+    title="50"
+  >
+    <a>
+      50
+    </a>
+  </li>
+  <li
+    aria-disabled="false"
+    class=" jc-pagination-next"
+    tabindex="0"
+    title="Next Page"
+  >
+    <a
+      class="jc-pagination-item-link"
+    />
+  </li>
+  <li
+    class="jc-pagination-options"
+  >
+    <div
+      class="jc-pagination-options-quick-jumper"
+    >
+      Goto
+      <input
+        type="text"
+        value=""
+      />
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`renders ./components/pagination/demo/Mini.js correctly test 1`] = `
+<div>
+  <ul
+    class="jc-pagination mini"
+    unselectable="unselectable"
+  >
+    <li
+      aria-disabled="true"
+      class="jc-pagination-disabled jc-pagination-prev"
+      title="Previous Page"
+    >
+      <a
+        class="jc-pagination-item-link"
+      />
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-1 jc-pagination-item-active"
+      tabindex="0"
+      title="1"
+    >
+      <a>
+        1
+      </a>
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-2"
+      tabindex="0"
+      title="2"
+    >
+      <a>
+        2
+      </a>
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-3"
+      tabindex="0"
+      title="3"
+    >
+      <a>
+        3
+      </a>
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-4"
+      tabindex="0"
+      title="4"
+    >
+      <a>
+        4
+      </a>
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-5"
+      tabindex="0"
+      title="5"
+    >
+      <a>
+        5
+      </a>
+    </li>
+    <li
+      aria-disabled="false"
+      class=" jc-pagination-next"
+      tabindex="0"
+      title="Next Page"
+    >
+      <a
+        class="jc-pagination-item-link"
+      />
+    </li>
+  </ul>
+  <ul
+    class="jc-pagination mini"
+    unselectable="unselectable"
+  >
+    <li
+      aria-disabled="true"
+      class="jc-pagination-disabled jc-pagination-prev"
+      title="Previous Page"
+    >
+      <a
+        class="jc-pagination-item-link"
+      />
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-1 jc-pagination-item-active"
+      tabindex="0"
+      title="1"
+    >
+      <a>
+        1
+      </a>
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-2"
+      tabindex="0"
+      title="2"
+    >
+      <a>
+        2
+      </a>
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-3"
+      tabindex="0"
+      title="3"
+    >
+      <a>
+        3
+      </a>
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-4"
+      tabindex="0"
+      title="4"
+    >
+      <a>
+        4
+      </a>
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-5"
+      tabindex="0"
+      title="5"
+    >
+      <a>
+        5
+      </a>
+    </li>
+    <li
+      aria-disabled="false"
+      class=" jc-pagination-next"
+      tabindex="0"
+      title="Next Page"
+    >
+      <a
+        class="jc-pagination-item-link"
+      />
+    </li>
+    <li
+      class="jc-pagination-options"
+    >
+      <div
+        class="jc-pagination-options-size-changer jc-select-sm jc-select jc-select-enabled"
+      >
+        <div
+          aria-autocomplete="list"
+          aria-expanded="false"
+          aria-haspopup="true"
+          class="jc-select-selection
+            jc-select-selection--single"
+          role="combobox"
+          tabindex="0"
+        >
+          <div
+            class="jc-select-selection__rendered"
+          >
+            <div
+              class="jc-select-selection-selected-value"
+              style="display:block;opacity:1"
+              title="10 / page"
+            >
+              10 / page
+            </div>
+          </div>
+          <span
+            class="jc-select-arrow"
+            style="user-select:none;-webkit-user-select:none"
+            unselectable="unselectable"
+          >
+            <b />
+          </span>
+        </div>
+      </div>
+      <div
+        class="jc-pagination-options-quick-jumper"
+      >
+        Goto
+        <input
+          type="text"
+          value=""
+        />
+      </div>
+    </li>
+  </ul>
+  <ul
+    class="jc-pagination mini"
+    unselectable="unselectable"
+  >
+    <li
+      class="jc-pagination-total-text"
+    >
+      Total 50 items
+    </li>
+    <li
+      aria-disabled="true"
+      class="jc-pagination-disabled jc-pagination-prev"
+      title="Previous Page"
+    >
+      <a
+        class="jc-pagination-item-link"
+      />
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-1 jc-pagination-item-active"
+      tabindex="0"
+      title="1"
+    >
+      <a>
+        1
+      </a>
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-2"
+      tabindex="0"
+      title="2"
+    >
+      <a>
+        2
+      </a>
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-3"
+      tabindex="0"
+      title="3"
+    >
+      <a>
+        3
+      </a>
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-4"
+      tabindex="0"
+      title="4"
+    >
+      <a>
+        4
+      </a>
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-5"
+      tabindex="0"
+      title="5"
+    >
+      <a>
+        5
+      </a>
+    </li>
+    <li
+      aria-disabled="false"
+      class=" jc-pagination-next"
+      tabindex="0"
+      title="Next Page"
+    >
+      <a
+        class="jc-pagination-item-link"
+      />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`renders ./components/pagination/demo/More.js correctly test 1`] = `
+<ul
+  class="jc-pagination "
+  unselectable="unselectable"
+>
+  <li
+    aria-disabled="false"
+    class=" jc-pagination-prev"
+    tabindex="0"
+    title="Previous Page"
+  >
+    <a
+      class="jc-pagination-item-link"
+    />
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-1"
+    tabindex="0"
+    title="1"
+  >
+    <a>
+      1
+    </a>
+  </li>
+  <li
+    class="jc-pagination-jump-prev"
+    tabindex="0"
+    title="Previous 5 Pages"
+  >
+    <a
+      class="jc-pagination-item-link"
+    />
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-4 jc-pagination-item-after-jump-prev"
+    tabindex="0"
+    title="4"
+  >
+    <a>
+      4
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-5"
+    tabindex="0"
+    title="5"
+  >
+    <a>
+      5
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-6 jc-pagination-item-active"
+    tabindex="0"
+    title="6"
+  >
+    <a>
+      6
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-7"
+    tabindex="0"
+    title="7"
+  >
+    <a>
+      7
+    </a>
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-8 jc-pagination-item-before-jump-next"
+    tabindex="0"
+    title="8"
+  >
+    <a>
+      8
+    </a>
+  </li>
+  <li
+    class="jc-pagination-jump-next"
+    tabindex="0"
+    title="Next 5 Pages"
+  >
+    <a
+      class="jc-pagination-item-link"
+    />
+  </li>
+  <li
+    class="jc-pagination-item jc-pagination-item-50"
+    tabindex="0"
+    title="50"
+  >
+    <a>
+      50
+    </a>
+  </li>
+  <li
+    aria-disabled="false"
+    class=" jc-pagination-next"
+    tabindex="0"
+    title="Next Page"
+  >
+    <a
+      class="jc-pagination-item-link"
+    />
+  </li>
+</ul>
+`;
+
+exports[`renders ./components/pagination/demo/Simple.js correctly test 1`] = `
+<ul
+  class="jc-pagination jc-pagination-simple "
+>
+  <li
+    aria-disabled="false"
+    class=" jc-pagination-prev"
+    tabindex="0"
+    title="Previous Page"
+  >
+    <a
+      class="jc-pagination-item-link"
+    />
+  </li>
+  <li
+    class="jc-pagination-simple-pager"
+    title="2/5"
+  >
+    <input
+      size="3"
+      type="text"
+      value="2"
+    />
+    <span
+      class="jc-pagination-slash"
+    >
+      ／
+    </span>
+    5
+  </li>
+  <li
+    aria-disabled="false"
+    class=" jc-pagination-next"
+    tabindex="0"
+    title="Next Page"
+  >
+    <a
+      class="jc-pagination-item-link"
+    />
+  </li>
+</ul>
+`;
+
+exports[`renders ./components/pagination/demo/Total.js correctly test 1`] = `
+<div>
+  <ul
+    class="jc-pagination "
+    unselectable="unselectable"
+  >
+    <li
+      class="jc-pagination-total-text"
+    >
+      Total 85 items
+    </li>
+    <li
+      aria-disabled="true"
+      class="jc-pagination-disabled jc-pagination-prev"
+      title="Previous Page"
+    >
+      <a
+        class="jc-pagination-item-link"
+      />
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-1 jc-pagination-item-active"
+      tabindex="0"
+      title="1"
+    >
+      <a>
+        1
+      </a>
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-2"
+      tabindex="0"
+      title="2"
+    >
+      <a>
+        2
+      </a>
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-3"
+      tabindex="0"
+      title="3"
+    >
+      <a>
+        3
+      </a>
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-4"
+      tabindex="0"
+      title="4"
+    >
+      <a>
+        4
+      </a>
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-5"
+      tabindex="0"
+      title="5"
+    >
+      <a>
+        5
+      </a>
+    </li>
+    <li
+      aria-disabled="false"
+      class=" jc-pagination-next"
+      tabindex="0"
+      title="Next Page"
+    >
+      <a
+        class="jc-pagination-item-link"
+      />
+    </li>
+  </ul>
+  ,
+  <br />
+  ,
+  <ul
+    class="jc-pagination "
+    unselectable="unselectable"
+  >
+    <li
+      class="jc-pagination-total-text"
+    >
+      1-20 of 85 items
+    </li>
+    <li
+      aria-disabled="true"
+      class="jc-pagination-disabled jc-pagination-prev"
+      title="Previous Page"
+    >
+      <a
+        class="jc-pagination-item-link"
+      />
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-1 jc-pagination-item-active"
+      tabindex="0"
+      title="1"
+    >
+      <a>
+        1
+      </a>
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-2"
+      tabindex="0"
+      title="2"
+    >
+      <a>
+        2
+      </a>
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-3"
+      tabindex="0"
+      title="3"
+    >
+      <a>
+        3
+      </a>
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-4"
+      tabindex="0"
+      title="4"
+    >
+      <a>
+        4
+      </a>
+    </li>
+    <li
+      class="jc-pagination-item jc-pagination-item-5"
+      tabindex="0"
+      title="5"
+    >
+      <a>
+        5
+      </a>
+    </li>
+    <li
+      aria-disabled="false"
+      class=" jc-pagination-next"
+      tabindex="0"
+      title="Next Page"
+    >
+      <a
+        class="jc-pagination-item-link"
+      />
+    </li>
+  </ul>
+  ,
+</div>
+`;

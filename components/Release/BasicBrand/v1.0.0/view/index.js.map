@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../../src/components/Release/BasicBrand/v1.0.0/view/index.js"],"names":["BindBasicBrand"],"mappings":";;;;;;AACA;;;;;;kBACeA,wB","file":"index.js","sourcesContent":["\r\nimport BindBasicBrand from \"./BindBasicBrand\";\r\nexport default BindBasicBrand;\r\n"]}

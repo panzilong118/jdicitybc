@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button fixbug renders {0} , 0 and {false} 1`] = `
+<button
+  class="jc-btn"
+  type="button"
+>
+  0
+</button>
+`;
+
+exports[`Button fixbug renders {0} , 0 and {false} 2`] = `
+<button
+  class="jc-btn"
+  type="button"
+>
+  <span>
+    0
+  </span>
+</button>
+`;
+
+exports[`Button fixbug renders {0} , 0 and {false} 3`] = `
+<button
+  class="jc-btn"
+  type="button"
+/>
+`;
+
+exports[`Button renders Chinese characters correctly 1`] = `
+<button
+  class="jc-btn"
+  type="button"
+>
+  <span>
+    按 钮
+  </span>
+</button>
+`;
+
+exports[`Button renders Chinese characters correctly 2`] = `
+<button
+  class="jc-btn"
+  type="button"
+>
+  <i
+    class="jcicon jcicon-search "
+  />
+  <span>
+    按钮
+  </span>
+</button>
+`;
+
+exports[`Button renders Chinese characters correctly 3`] = `
+<button
+  class="jc-btn"
+  type="button"
+>
+  <i
+    class="jcicon jcicon-search "
+  />
+  <span>
+    按钮
+  </span>
+</button>
+`;
+
+exports[`Button renders correctly 1`] = `
+<button
+  class="jc-btn"
+  type="button"
+>
+  <span>
+    Follow
+  </span>
+</button>
+`;
+
+exports[`Button should support link button 1`] = `
+<button
+  class="jc-btn"
+  href="http://jc.design"
+  target="_blank"
+  type="button"
+>
+  <span>
+    link button
+  </span>
+</button>
+`;

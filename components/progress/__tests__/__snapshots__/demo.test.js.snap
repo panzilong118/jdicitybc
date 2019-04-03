@@ -1,0 +1,752 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/progress/demo/Circle.js correctly test 1`] = `
+<div>
+  <div
+    class="jc-progress jc-progress-circle jc-progress-status-normal jc-progress-show-info jc-progress-default"
+  >
+    <div
+      class="jc-progress-inner"
+      style="width:120px;height:120px;font-size:24px"
+    >
+      <svg
+        class="jc-progress-circle "
+        viewBox="0 0 100 100"
+      >
+        <path
+          class="jc-progress-circle-trail"
+          d="M 50,50 m 0,-47
+     a 47,47 0 1 1 0,94
+     a 47,47 0 1 1 0,-94"
+          fill-opacity="0"
+          stroke="#f3f3f3"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s"
+        />
+        <path
+          class="jc-progress-circle-path"
+          d="M 50,50 m 0,-47
+     a 47,47 0 1 1 0,94
+     a 47,47 0 1 1 0,-94"
+          fill-opacity="0"
+          stroke="#108ee9"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:221.48228207808043px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s"
+        />
+      </svg>
+      <span
+        class="jc-progress-text"
+      >
+        75%
+      </span>
+    </div>
+  </div>
+  <div
+    class="jc-progress jc-progress-circle jc-progress-status-exception jc-progress-show-info jc-progress-default"
+  >
+    <div
+      class="jc-progress-inner"
+      style="width:120px;height:120px;font-size:24px"
+    >
+      <svg
+        class="jc-progress-circle "
+        viewBox="0 0 100 100"
+      >
+        <path
+          class="jc-progress-circle-trail"
+          d="M 50,50 m 0,-47
+     a 47,47 0 1 1 0,94
+     a 47,47 0 1 1 0,-94"
+          fill-opacity="0"
+          stroke="#f3f3f3"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s"
+        />
+        <path
+          class="jc-progress-circle-path"
+          d="M 50,50 m 0,-47
+     a 47,47 0 1 1 0,94
+     a 47,47 0 1 1 0,-94"
+          fill-opacity="0"
+          stroke="#ff5500"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:206.7167966062084px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s"
+        />
+      </svg>
+      <span
+        class="jc-progress-text"
+      >
+        <i
+          class="jcicon jcicon-cross "
+        />
+      </span>
+    </div>
+  </div>
+  <div
+    class="jc-progress jc-progress-circle jc-progress-status-success jc-progress-show-info jc-progress-default"
+  >
+    <div
+      class="jc-progress-inner"
+      style="width:120px;height:120px;font-size:24px"
+    >
+      <svg
+        class="jc-progress-circle "
+        viewBox="0 0 100 100"
+      >
+        <path
+          class="jc-progress-circle-trail"
+          d="M 50,50 m 0,-47
+     a 47,47 0 1 1 0,94
+     a 47,47 0 1 1 0,-94"
+          fill-opacity="0"
+          stroke="#f3f3f3"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s"
+        />
+        <path
+          class="jc-progress-circle-path"
+          d="M 50,50 m 0,-47
+     a 47,47 0 1 1 0,94
+     a 47,47 0 1 1 0,-94"
+          fill-opacity="0"
+          stroke="#87d068"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s"
+        />
+      </svg>
+      <span
+        class="jc-progress-text"
+      >
+        <i
+          class="jcicon jcicon-check "
+        />
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/progress/demo/Circle-dynamic.js correctly test 1`] = `
+<div>
+  <div
+    class="jc-progress jc-progress-circle jc-progress-status-normal jc-progress-show-info jc-progress-default"
+  >
+    <div
+      class="jc-progress-inner"
+      style="width:120px;height:120px;font-size:24px"
+    >
+      <svg
+        class="jc-progress-circle "
+        viewBox="0 0 100 100"
+      >
+        <path
+          class="jc-progress-circle-trail"
+          d="M 50,50 m 0,-47
+     a 47,47 0 1 1 0,94
+     a 47,47 0 1 1 0,-94"
+          fill-opacity="0"
+          stroke="#f3f3f3"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s"
+        />
+        <path
+          class="jc-progress-circle-path"
+          d="M 50,50 m 0,-47
+     a 47,47 0 1 1 0,94
+     a 47,47 0 1 1 0,-94"
+          fill-opacity="0"
+          stroke="#108ee9"
+          stroke-linecap="round"
+          stroke-width="0"
+          style="stroke-dasharray:0px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s"
+        />
+      </svg>
+      <span
+        class="jc-progress-text"
+      >
+        0%
+      </span>
+    </div>
+  </div>
+  <div
+    class="jc-btn-group"
+  >
+    <button
+      class="jc-btn jc-btn-icon-only"
+      type="button"
+    >
+      <i
+        class="jcicon jcicon-minus "
+      />
+    </button>
+    <button
+      class="jc-btn jc-btn-icon-only"
+      type="button"
+    >
+      <i
+        class="jcicon jcicon-plus "
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/progress/demo/Circle-mini.js correctly test 1`] = `
+<div>
+  <div
+    class="jc-progress jc-progress-circle jc-progress-status-normal jc-progress-show-info jc-progress-default"
+  >
+    <div
+      class="jc-progress-inner"
+      style="width:80px;height:80px;font-size:18px"
+    >
+      <svg
+        class="jc-progress-circle "
+        viewBox="0 0 100 100"
+      >
+        <path
+          class="jc-progress-circle-trail"
+          d="M 50,50 m 0,-47
+     a 47,47 0 1 1 0,94
+     a 47,47 0 1 1 0,-94"
+          fill-opacity="0"
+          stroke="#f3f3f3"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s"
+        />
+        <path
+          class="jc-progress-circle-path"
+          d="M 50,50 m 0,-47
+     a 47,47 0 1 1 0,94
+     a 47,47 0 1 1 0,-94"
+          fill-opacity="0"
+          stroke="#108ee9"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:88.59291283123217px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s"
+        />
+      </svg>
+      <span
+        class="jc-progress-text"
+      >
+        30%
+      </span>
+    </div>
+  </div>
+  <div
+    class="jc-progress jc-progress-circle jc-progress-status-exception jc-progress-show-info jc-progress-default"
+  >
+    <div
+      class="jc-progress-inner"
+      style="width:80px;height:80px;font-size:18px"
+    >
+      <svg
+        class="jc-progress-circle "
+        viewBox="0 0 100 100"
+      >
+        <path
+          class="jc-progress-circle-trail"
+          d="M 50,50 m 0,-47
+     a 47,47 0 1 1 0,94
+     a 47,47 0 1 1 0,-94"
+          fill-opacity="0"
+          stroke="#f3f3f3"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s"
+        />
+        <path
+          class="jc-progress-circle-path"
+          d="M 50,50 m 0,-47
+     a 47,47 0 1 1 0,94
+     a 47,47 0 1 1 0,-94"
+          fill-opacity="0"
+          stroke="#ff5500"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:206.7167966062084px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s"
+        />
+      </svg>
+      <span
+        class="jc-progress-text"
+      >
+        <i
+          class="jcicon jcicon-cross "
+        />
+      </span>
+    </div>
+  </div>
+  <div
+    class="jc-progress jc-progress-circle jc-progress-status-success jc-progress-show-info jc-progress-default"
+  >
+    <div
+      class="jc-progress-inner"
+      style="width:80px;height:80px;font-size:18px"
+    >
+      <svg
+        class="jc-progress-circle "
+        viewBox="0 0 100 100"
+      >
+        <path
+          class="jc-progress-circle-trail"
+          d="M 50,50 m 0,-47
+     a 47,47 0 1 1 0,94
+     a 47,47 0 1 1 0,-94"
+          fill-opacity="0"
+          stroke="#f3f3f3"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s"
+        />
+        <path
+          class="jc-progress-circle-path"
+          d="M 50,50 m 0,-47
+     a 47,47 0 1 1 0,94
+     a 47,47 0 1 1 0,-94"
+          fill-opacity="0"
+          stroke="#87d068"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s"
+        />
+      </svg>
+      <span
+        class="jc-progress-text"
+      >
+        <i
+          class="jcicon jcicon-check "
+        />
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/progress/demo/Dashboard.js correctly test 1`] = `
+<div
+  class="jc-progress jc-progress-circle jc-progress-status-normal jc-progress-show-info jc-progress-default"
+>
+  <div
+    class="jc-progress-inner"
+    style="width:120px;height:120px;font-size:24px"
+  >
+    <svg
+      class="jc-progress-circle "
+      viewBox="0 0 100 100"
+    >
+      <path
+        class="jc-progress-circle-trail"
+        d="M 50,50 m 0,47
+     a 47,47 0 1 1 0,-94
+     a 47,47 0 1 1 0,94"
+        fill-opacity="0"
+        stroke="#f3f3f3"
+        stroke-width="6"
+        style="stroke-dasharray:220.30970943744057px 295.3097094374406px;stroke-dashoffset:-37.5px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s"
+      />
+      <path
+        class="jc-progress-circle-path"
+        d="M 50,50 m 0,47
+     a 47,47 0 1 1 0,-94
+     a 47,47 0 1 1 0,94"
+        fill-opacity="0"
+        stroke="#108ee9"
+        stroke-linecap="round"
+        stroke-width="6"
+        style="stroke-dasharray:165.23228207808043px 295.3097094374406px;stroke-dashoffset:-37.5px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s"
+      />
+    </svg>
+    <span
+      class="jc-progress-text"
+    >
+      75%
+    </span>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/progress/demo/Dynamic.js correctly test 1`] = `
+<div>
+  <div
+    class="jc-progress jc-progress-line jc-progress-status-normal jc-progress-show-info jc-progress-default"
+  >
+    <div>
+      <div
+        class="jc-progress-outer"
+      >
+        <div
+          class="jc-progress-inner"
+        >
+          <div
+            class="jc-progress-bg"
+            style="width:0%;height:8px"
+          />
+        </div>
+      </div>
+      <span
+        class="jc-progress-text"
+      >
+        0%
+      </span>
+    </div>
+  </div>
+  <div
+    class="jc-btn-group"
+  >
+    <button
+      class="jc-btn jc-btn-icon-only"
+      type="button"
+    >
+      <i
+        class="jcicon jcicon-minus "
+      />
+    </button>
+    <button
+      class="jc-btn jc-btn-icon-only"
+      type="button"
+    >
+      <i
+        class="jcicon jcicon-plus "
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/progress/demo/Format.js correctly test 1`] = `
+<div>
+  <div
+    class="jc-progress jc-progress-circle jc-progress-status-normal jc-progress-show-info jc-progress-default"
+  >
+    <div
+      class="jc-progress-inner"
+      style="width:120px;height:120px;font-size:24px"
+    >
+      <svg
+        class="jc-progress-circle "
+        viewBox="0 0 100 100"
+      >
+        <path
+          class="jc-progress-circle-trail"
+          d="M 50,50 m 0,-47
+     a 47,47 0 1 1 0,94
+     a 47,47 0 1 1 0,-94"
+          fill-opacity="0"
+          stroke="#f3f3f3"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s"
+        />
+        <path
+          class="jc-progress-circle-path"
+          d="M 50,50 m 0,-47
+     a 47,47 0 1 1 0,94
+     a 47,47 0 1 1 0,-94"
+          fill-opacity="0"
+          stroke="#108ee9"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:221.48228207808043px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s"
+        />
+      </svg>
+      <span
+        class="jc-progress-text"
+      >
+        75 Days
+      </span>
+    </div>
+  </div>
+  <div
+    class="jc-progress jc-progress-circle jc-progress-status-success jc-progress-show-info jc-progress-default"
+  >
+    <div
+      class="jc-progress-inner"
+      style="width:120px;height:120px;font-size:24px"
+    >
+      <svg
+        class="jc-progress-circle "
+        viewBox="0 0 100 100"
+      >
+        <path
+          class="jc-progress-circle-trail"
+          d="M 50,50 m 0,-47
+     a 47,47 0 1 1 0,94
+     a 47,47 0 1 1 0,-94"
+          fill-opacity="0"
+          stroke="#f3f3f3"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s"
+        />
+        <path
+          class="jc-progress-circle-path"
+          d="M 50,50 m 0,-47
+     a 47,47 0 1 1 0,94
+     a 47,47 0 1 1 0,-94"
+          fill-opacity="0"
+          stroke="#87d068"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s"
+        />
+      </svg>
+      <span
+        class="jc-progress-text"
+      >
+        Done
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/progress/demo/Line.js correctly test 1`] = `
+<div>
+  <div
+    class="jc-progress jc-progress-line jc-progress-status-normal jc-progress-show-info jc-progress-default"
+  >
+    <div>
+      <div
+        class="jc-progress-outer"
+      >
+        <div
+          class="jc-progress-inner"
+        >
+          <div
+            class="jc-progress-bg"
+            style="width:30%;height:8px"
+          />
+        </div>
+      </div>
+      <span
+        class="jc-progress-text"
+      >
+        30%
+      </span>
+    </div>
+  </div>
+  <div
+    class="jc-progress jc-progress-line jc-progress-status-active jc-progress-show-info jc-progress-default"
+  >
+    <div>
+      <div
+        class="jc-progress-outer"
+      >
+        <div
+          class="jc-progress-inner"
+        >
+          <div
+            class="jc-progress-bg"
+            style="width:50%;height:8px"
+          />
+        </div>
+      </div>
+      <span
+        class="jc-progress-text"
+      >
+        50%
+      </span>
+    </div>
+  </div>
+  <div
+    class="jc-progress jc-progress-line jc-progress-status-exception jc-progress-show-info jc-progress-default"
+  >
+    <div>
+      <div
+        class="jc-progress-outer"
+      >
+        <div
+          class="jc-progress-inner"
+        >
+          <div
+            class="jc-progress-bg"
+            style="width:70%;height:8px"
+          />
+        </div>
+      </div>
+      <span
+        class="jc-progress-text"
+      >
+        <i
+          class="jcicon jcicon-cross-circle "
+        />
+      </span>
+    </div>
+  </div>
+  <div
+    class="jc-progress jc-progress-line jc-progress-status-success jc-progress-show-info jc-progress-default"
+  >
+    <div>
+      <div
+        class="jc-progress-outer"
+      >
+        <div
+          class="jc-progress-inner"
+        >
+          <div
+            class="jc-progress-bg"
+            style="width:100%;height:8px"
+          />
+        </div>
+      </div>
+      <span
+        class="jc-progress-text"
+      >
+        <i
+          class="jcicon jcicon-check-circle "
+        />
+      </span>
+    </div>
+  </div>
+  <div
+    class="jc-progress jc-progress-line jc-progress-status-normal jc-progress-default"
+  >
+    <div>
+      <div
+        class="jc-progress-outer"
+      >
+        <div
+          class="jc-progress-inner"
+        >
+          <div
+            class="jc-progress-bg"
+            style="width:50%;height:8px"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/progress/demo/Line-mini.js correctly test 1`] = `
+<div
+  style="width:170px"
+>
+  <div
+    class="jc-progress jc-progress-line jc-progress-status-normal jc-progress-show-info jc-progress-small"
+  >
+    <div>
+      <div
+        class="jc-progress-outer"
+      >
+        <div
+          class="jc-progress-inner"
+        >
+          <div
+            class="jc-progress-bg"
+            style="width:30%;height:6px"
+          />
+        </div>
+      </div>
+      <span
+        class="jc-progress-text"
+      >
+        30%
+      </span>
+    </div>
+  </div>
+  <div
+    class="jc-progress jc-progress-line jc-progress-status-active jc-progress-show-info jc-progress-small"
+  >
+    <div>
+      <div
+        class="jc-progress-outer"
+      >
+        <div
+          class="jc-progress-inner"
+        >
+          <div
+            class="jc-progress-bg"
+            style="width:50%;height:6px"
+          />
+        </div>
+      </div>
+      <span
+        class="jc-progress-text"
+      >
+        50%
+      </span>
+    </div>
+  </div>
+  <div
+    class="jc-progress jc-progress-line jc-progress-status-exception jc-progress-show-info jc-progress-small"
+  >
+    <div>
+      <div
+        class="jc-progress-outer"
+      >
+        <div
+          class="jc-progress-inner"
+        >
+          <div
+            class="jc-progress-bg"
+            style="width:70%;height:6px"
+          />
+        </div>
+      </div>
+      <span
+        class="jc-progress-text"
+      >
+        <i
+          class="jcicon jcicon-cross-circle "
+        />
+      </span>
+    </div>
+  </div>
+  <div
+    class="jc-progress jc-progress-line jc-progress-status-success jc-progress-show-info jc-progress-small"
+  >
+    <div>
+      <div
+        class="jc-progress-outer"
+      >
+        <div
+          class="jc-progress-inner"
+        >
+          <div
+            class="jc-progress-bg"
+            style="width:100%;height:6px"
+          />
+        </div>
+      </div>
+      <span
+        class="jc-progress-text"
+      >
+        <i
+          class="jcicon jcicon-check-circle "
+        />
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/progress/demo/Segment.js correctly test 1`] = `
+<div
+  class="jc-progress jc-progress-line jc-progress-status-normal jc-progress-show-info jc-progress-default"
+>
+  <div>
+    <div
+      class="jc-progress-outer"
+    >
+      <div
+        class="jc-progress-inner"
+      >
+        <div
+          class="jc-progress-bg"
+          style="width:60%;height:8px"
+        />
+        <div
+          class="jc-progress-success-bg"
+          style="width:30%;height:8px"
+        />
+      </div>
+    </div>
+    <span
+      class="jc-progress-text"
+    >
+      60%
+    </span>
+  </div>
+</div>
+`;

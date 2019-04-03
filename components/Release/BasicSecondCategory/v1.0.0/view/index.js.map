@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../../src/components/Release/BasicSecondCategory/v1.0.0/view/index.js"],"names":["BindSecondCategory"],"mappings":";;;;;;AAAA;;;;;;kBACeA,4B","file":"index.js","sourcesContent":["import BindSecondCategory from './BindSecondCategory';\r\nexport default BindSecondCategory;"]}

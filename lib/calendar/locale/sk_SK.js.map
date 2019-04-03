@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../components/calendar/locale/sk_SK.js"],"names":[],"mappings":";;;;;;AAAA","file":"sk_SK.js","sourcesContent":["import sk_SK from '../../date-picker/locale/sk_SK';\r\nexport default sk_SK;\r\n"]}

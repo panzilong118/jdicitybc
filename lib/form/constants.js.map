@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../components/form/constants.js"],"names":["FIELD_META_PROP","FIELD_DATA_PROP"],"mappings":";;;;;AAAA;;;AAGO,IAAMA,4CAAkB,aAAxB;AACA,IAAMC,4CAAkB,cAAxB","file":"constants.js","sourcesContent":["/**\r\n * Created by huangxiao3 on 2018/3/26.\r\n */\r\nexport const FIELD_META_PROP = 'data-__meta';\r\nexport const FIELD_DATA_PROP = 'data-__field';\r\n"]}

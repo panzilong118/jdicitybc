@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/cascader/demo/Basic.js correctly test 1`] = `
+<span
+  class="jc-cascader-picker"
+  tabindex="0"
+>
+  <span
+    class="jc-cascader-picker-label"
+  />
+  <input
+    autocomplete="off"
+    class="jc-input jc-cascader-input "
+    placeholder="Please select"
+    readonly=""
+    type="text"
+    value=""
+  />
+  <i
+    class="jcicon jcicon-down  jc-cascader-picker-arrow"
+  />
+</span>
+`;
+
+exports[`renders ./components/cascader/demo/Change-on-select.js correctly test 1`] = `
+<span
+  class="jc-cascader-picker"
+  tabindex="0"
+>
+  <span
+    class="jc-cascader-picker-label"
+  />
+  <input
+    autocomplete="off"
+    class="jc-input jc-cascader-input "
+    placeholder="Please select"
+    readonly=""
+    type="text"
+    value=""
+  />
+  <i
+    class="jcicon jcicon-down  jc-cascader-picker-arrow"
+  />
+</span>
+`;
+
+exports[`renders ./components/cascader/demo/Custom-render.js correctly test 1`] = `
+<span
+  class="jc-cascader-picker"
+  style="width:100%"
+  tabindex="0"
+>
+  <span
+    class="jc-cascader-picker-label"
+  >
+    <span>
+      Zhejiang / 
+    </span>
+    <span>
+      Hangzhou / 
+    </span>
+    <span>
+      West Lake (
+      <a>
+        752100
+      </a>
+      )
+    </span>
+  </span>
+  <input
+    autocomplete="off"
+    class="jc-input jc-cascader-input "
+    readonly=""
+    type="text"
+    value=""
+  />
+  <i
+    class="jcicon jcicon-cross-circle  jc-cascader-picker-clear"
+  />
+  <i
+    class="jcicon jcicon-down  jc-cascader-picker-arrow"
+  />
+</span>
+`;
+
+exports[`renders ./components/cascader/demo/Custom-trigger.js correctly test 1`] = `
+<span>
+  Unselect 
+  <a
+    href="#"
+    tabindex="0"
+  >
+    Change city
+  </a>
+</span>
+`;
+
+exports[`renders ./components/cascader/demo/Default-value.js correctly test 1`] = `
+<span
+  class="jc-cascader-picker"
+  tabindex="0"
+>
+  <span
+    class="jc-cascader-picker-label"
+  >
+    Zhejiang / Hangzhou / West Lake
+  </span>
+  <input
+    autocomplete="off"
+    class="jc-input jc-cascader-input "
+    readonly=""
+    type="text"
+    value=""
+  />
+  <i
+    class="jcicon jcicon-cross-circle  jc-cascader-picker-clear"
+  />
+  <i
+    class="jcicon jcicon-down  jc-cascader-picker-arrow"
+  />
+</span>
+`;
+
+exports[`renders ./components/cascader/demo/Disabled-option.js correctly test 1`] = `
+<span
+  class="jc-cascader-picker"
+  tabindex="0"
+>
+  <span
+    class="jc-cascader-picker-label"
+  />
+  <input
+    autocomplete="off"
+    class="jc-input jc-cascader-input "
+    placeholder="Please select"
+    readonly=""
+    type="text"
+    value=""
+  />
+  <i
+    class="jcicon jcicon-down  jc-cascader-picker-arrow"
+  />
+</span>
+`;
+
+exports[`renders ./components/cascader/demo/Hover.js correctly test 1`] = `
+<span
+  class="jc-cascader-picker"
+  tabindex="0"
+>
+  <span
+    class="jc-cascader-picker-label"
+  />
+  <input
+    autocomplete="off"
+    class="jc-input jc-cascader-input "
+    placeholder="Please select"
+    readonly=""
+    type="text"
+    value=""
+  />
+  <i
+    class="jcicon jcicon-down  jc-cascader-picker-arrow"
+  />
+</span>
+`;
+
+exports[`renders ./components/cascader/demo/Lazy.js correctly test 1`] = `
+<span
+  class="jc-cascader-picker"
+  tabindex="0"
+>
+  <span
+    class="jc-cascader-picker-label"
+  />
+  <input
+    autocomplete="off"
+    class="jc-input jc-cascader-input "
+    placeholder="Please select"
+    readonly=""
+    type="text"
+    value=""
+  />
+  <i
+    class="jcicon jcicon-down  jc-cascader-picker-arrow"
+  />
+</span>
+`;
+
+exports[`renders ./components/cascader/demo/Search.js correctly test 1`] = `
+<span
+  class="jc-cascader-picker"
+  tabindex="0"
+>
+  <span
+    class="jc-cascader-picker-label"
+  />
+  <input
+    autocomplete="off"
+    class="jc-input jc-cascader-input "
+    placeholder="Please select"
+    type="text"
+    value=""
+  />
+  <i
+    class="jcicon jcicon-down  jc-cascader-picker-arrow"
+  />
+</span>
+`;
+
+exports[`renders ./components/cascader/demo/Size.js correctly test 1`] = `
+<div>
+  <span
+    class="jc-cascader-picker jc-cascader-picker-large"
+    tabindex="0"
+  >
+    <span
+      class="jc-cascader-picker-label"
+    />
+    <input
+      autocomplete="off"
+      class="jc-input jc-cascader-input jc-input-lg"
+      placeholder="Please select"
+      readonly=""
+      type="text"
+      value=""
+    />
+    <i
+      class="jcicon jcicon-down  jc-cascader-picker-arrow"
+    />
+  </span>
+  <br />
+  <br />
+  <span
+    class="jc-cascader-picker"
+    tabindex="0"
+  >
+    <span
+      class="jc-cascader-picker-label"
+    />
+    <input
+      autocomplete="off"
+      class="jc-input jc-cascader-input "
+      placeholder="Please select"
+      readonly=""
+      type="text"
+      value=""
+    />
+    <i
+      class="jcicon jcicon-down  jc-cascader-picker-arrow"
+    />
+  </span>
+  <br />
+  <br />
+  <span
+    class="jc-cascader-picker jc-cascader-picker-small"
+    tabindex="0"
+  >
+    <span
+      class="jc-cascader-picker-label"
+    />
+    <input
+      autocomplete="off"
+      class="jc-input jc-cascader-input jc-input-sm"
+      placeholder="Please select"
+      readonly=""
+      type="text"
+      value=""
+    />
+    <i
+      class="jcicon jcicon-down  jc-cascader-picker-arrow"
+    />
+  </span>
+  <br />
+  <br />
+</div>
+`;

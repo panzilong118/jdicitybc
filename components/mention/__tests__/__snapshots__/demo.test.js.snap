@@ -1,0 +1,681 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/mention/demo/Async.js correctly test 1`] = `
+<div
+  class="jc-mention-wrapper"
+  style="width:100%"
+>
+  <div
+    class="jc-mention-editor oneline"
+    style="width:100%"
+  >
+    <div
+      class="jc-mention-toolbar"
+    />
+    <div
+      class="jc-mention-editor-wrapper"
+      style="width:100%"
+    >
+      <div
+        class="DraftEditor-root"
+      >
+        <div
+          class="DraftEditor-editorContainer"
+        >
+          <div
+            aria-describedby="placeholder-2a6hg"
+            class="notranslate public-DraftEditor-content"
+            contenteditable="true"
+            role="textbox"
+            spellcheck="false"
+            style="outline:none;user-select:text;-webkit-user-select:text;white-space:pre-wrap;word-wrap:break-word"
+          >
+            <div
+              data-contents="true"
+            >
+              <div
+                class=""
+                data-block="true"
+                data-editor="2a6hg"
+                data-offset-key="fgq8f-0-0"
+              >
+                <div
+                  class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"
+                  data-offset-key="fgq8f-0-0"
+                >
+                  <span
+                    data-offset-key="fgq8f-0-0"
+                  >
+                    <br
+                      data-text="true"
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/mention/demo/Avatar.js correctly test 1`] = `
+<div
+  class="jc-mention-wrapper"
+  style="width:100%"
+>
+  <div
+    class="jc-mention-editor oneline"
+    style="width:100%"
+  >
+    <div
+      class="jc-mention-toolbar"
+    />
+    <div
+      class="jc-mention-editor-wrapper"
+      style="width:100%"
+    >
+      <div
+        class="DraftEditor-root"
+      >
+        <div
+          class="DraftEditor-editorContainer"
+        >
+          <div
+            aria-describedby="placeholder-6nkpo"
+            class="notranslate public-DraftEditor-content"
+            contenteditable="true"
+            role="textbox"
+            spellcheck="false"
+            style="outline:none;user-select:text;-webkit-user-select:text;white-space:pre-wrap;word-wrap:break-word"
+          >
+            <div
+              data-contents="true"
+            >
+              <div
+                class=""
+                data-block="true"
+                data-editor="6nkpo"
+                data-offset-key="5kbqh-0-0"
+              >
+                <div
+                  class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"
+                  data-offset-key="5kbqh-0-0"
+                >
+                  <span
+                    data-offset-key="5kbqh-0-0"
+                  >
+                    <br
+                      data-text="true"
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/mention/demo/Basic.js correctly test 1`] = `
+<div
+  class="jc-mention-wrapper"
+  style="width:100%"
+>
+  <div
+    class="jc-mention-editor oneline"
+    style="width:100%"
+  >
+    <div
+      class="jc-mention-toolbar"
+    />
+    <div
+      class="jc-mention-editor-wrapper"
+      style="width:100%"
+    >
+      <div
+        class="DraftEditor-root"
+      >
+        <div
+          class="DraftEditor-editorContainer"
+        >
+          <div
+            aria-describedby="placeholder-ddt7g"
+            class="notranslate public-DraftEditor-content"
+            contenteditable="true"
+            role="textbox"
+            spellcheck="false"
+            style="outline:none;user-select:text;-webkit-user-select:text;white-space:pre-wrap;word-wrap:break-word"
+          >
+            <div
+              data-contents="true"
+            >
+              <div
+                class=""
+                data-block="true"
+                data-editor="ddt7g"
+                data-offset-key="c99u-0-0"
+              >
+                <div
+                  class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"
+                  data-offset-key="c99u-0-0"
+                >
+                  <span>
+                    <span
+                      data-offset-key="c99u-0-0"
+                    >
+                      <span
+                        data-text="true"
+                      >
+                        @afc163
+                      </span>
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/mention/demo/Controllder-simple.js correctly test 1`] = `
+<div
+  class="jc-mention-wrapper"
+>
+  <div
+    class="jc-mention-editor oneline"
+  >
+    <div
+      class="jc-mention-toolbar"
+    />
+    <div
+      class="jc-mention-editor-wrapper"
+    >
+      <div
+        class="DraftEditor-root"
+      >
+        <div
+          class="DraftEditor-editorContainer"
+        >
+          <div
+            aria-describedby="placeholder-c4iiq"
+            class="notranslate public-DraftEditor-content"
+            contenteditable="true"
+            role="textbox"
+            spellcheck="false"
+            style="outline:none;user-select:text;-webkit-user-select:text;white-space:pre-wrap;word-wrap:break-word"
+          >
+            <div
+              data-contents="true"
+            >
+              <div
+                class=""
+                data-block="true"
+                data-editor="c4iiq"
+                data-offset-key="4m0g6-0-0"
+              >
+                <div
+                  class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"
+                  data-offset-key="4m0g6-0-0"
+                >
+                  <span>
+                    <span
+                      data-offset-key="4m0g6-0-0"
+                    >
+                      <span
+                        data-text="true"
+                      >
+                        @afc163
+                      </span>
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/mention/demo/Controlled.js correctly test 1`] = `null`;
+
+exports[`renders ./components/mention/demo/Custom-tag.js correctly test 1`] = `
+<div
+  class="jc-mention-wrapper"
+  style="width:100%"
+>
+  <div
+    class="jc-mention-editor oneline"
+    style="width:100%"
+  >
+    <div
+      class="jc-mention-toolbar"
+    />
+    <div
+      class="jc-mention-editor-wrapper"
+      style="width:100%"
+    >
+      <div
+        class="DraftEditor-root"
+      >
+        <div
+          class="public-DraftEditorPlaceholder-root"
+        >
+          <div
+            class="public-DraftEditorPlaceholder-inner"
+            id="placeholder-fj87i"
+            style="white-space:pre-wrap"
+          >
+            @someone
+          </div>
+        </div>
+        <div
+          class="DraftEditor-editorContainer"
+        >
+          <div
+            aria-describedby="placeholder-fj87i"
+            class="notranslate public-DraftEditor-content"
+            contenteditable="true"
+            role="textbox"
+            spellcheck="false"
+            style="outline:none;user-select:text;-webkit-user-select:text;white-space:pre-wrap;word-wrap:break-word"
+          >
+            <div
+              data-contents="true"
+            >
+              <div
+                class=""
+                data-block="true"
+                data-editor="fj87i"
+                data-offset-key="aufmu-0-0"
+              >
+                <div
+                  class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"
+                  data-offset-key="aufmu-0-0"
+                >
+                  <span
+                    data-offset-key="aufmu-0-0"
+                  >
+                    <br
+                      data-text="true"
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/mention/demo/Multilines.js correctly test 1`] = `
+<div
+  class="jc-mention-wrapper multilines"
+  style="width:100%;height:100px"
+>
+  <div
+    class="jc-mention-editor"
+    style="width:100%;height:100px"
+  >
+    <div
+      class="jc-mention-toolbar"
+    />
+    <div
+      class="jc-mention-editor-wrapper"
+      style="width:100%;height:100px"
+    >
+      <div
+        class="DraftEditor-root"
+      >
+        <div
+          class="DraftEditor-editorContainer"
+        >
+          <div
+            aria-describedby="placeholder-91gku"
+            class="notranslate public-DraftEditor-content"
+            contenteditable="true"
+            role="textbox"
+            spellcheck="false"
+            style="outline:none;user-select:text;-webkit-user-select:text;white-space:pre-wrap;word-wrap:break-word"
+          >
+            <div
+              data-contents="true"
+            >
+              <div
+                class=""
+                data-block="true"
+                data-editor="91gku"
+                data-offset-key="3kblr-0-0"
+              >
+                <div
+                  class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"
+                  data-offset-key="3kblr-0-0"
+                >
+                  <span
+                    data-offset-key="3kblr-0-0"
+                  >
+                    <br
+                      data-text="true"
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/mention/demo/Multiple-trigger.js correctly test 1`] = `
+<div
+  class="jc-mention-wrapper"
+  style="width:100%"
+>
+  <div
+    class="jc-mention-editor oneline"
+    style="width:100%"
+  >
+    <div
+      class="jc-mention-toolbar"
+    />
+    <div
+      class="jc-mention-editor-wrapper"
+      style="width:100%"
+    >
+      <div
+        class="DraftEditor-root"
+      >
+        <div
+          class="public-DraftEditorPlaceholder-root"
+        >
+          <div
+            class="public-DraftEditorPlaceholder-inner"
+            id="placeholder-1cop7"
+            style="white-space:pre-wrap"
+          >
+            input @ to mention people, # to mention tag
+          </div>
+        </div>
+        <div
+          class="DraftEditor-editorContainer"
+        >
+          <div
+            aria-describedby="placeholder-1cop7"
+            class="notranslate public-DraftEditor-content"
+            contenteditable="true"
+            role="textbox"
+            spellcheck="false"
+            style="outline:none;user-select:text;-webkit-user-select:text;white-space:pre-wrap;word-wrap:break-word"
+          >
+            <div
+              data-contents="true"
+            >
+              <div
+                class=""
+                data-block="true"
+                data-editor="1cop7"
+                data-offset-key="3blru-0-0"
+              >
+                <div
+                  class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"
+                  data-offset-key="3blru-0-0"
+                >
+                  <span
+                    data-offset-key="3blru-0-0"
+                  >
+                    <br
+                      data-text="true"
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/mention/demo/Placement.js correctly test 1`] = `
+<div
+  class="jc-mention-placement-top jc-mention-wrapper"
+  style="width:100%"
+>
+  <div
+    class="jc-mention-editor oneline"
+    style="width:100%"
+  >
+    <div
+      class="jc-mention-toolbar"
+    />
+    <div
+      class="jc-mention-editor-wrapper"
+      style="width:100%"
+    >
+      <div
+        class="DraftEditor-root"
+      >
+        <div
+          class="DraftEditor-editorContainer"
+        >
+          <div
+            aria-describedby="placeholder-730fr"
+            class="notranslate public-DraftEditor-content"
+            contenteditable="true"
+            role="textbox"
+            spellcheck="false"
+            style="outline:none;user-select:text;-webkit-user-select:text;white-space:pre-wrap;word-wrap:break-word"
+          >
+            <div
+              data-contents="true"
+            >
+              <div
+                class=""
+                data-block="true"
+                data-editor="730fr"
+                data-offset-key="6aufs-0-0"
+              >
+                <div
+                  class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"
+                  data-offset-key="6aufs-0-0"
+                >
+                  <span
+                    data-offset-key="6aufs-0-0"
+                  >
+                    <br
+                      data-text="true"
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/mention/demo/PopupContainer.js correctly test 1`] = `
+<button
+  class="jc-btn jc-btn-primary"
+  type="button"
+>
+  <span>
+    Click Me
+  </span>
+</button>
+`;
+
+exports[`renders ./components/mention/demo/Readonly.js correctly test 1`] = `
+<div>
+  <div
+    style="margin-bottom:10px"
+  >
+    <div
+      class="jc-mention-wrapper disabled"
+      style="width:100%"
+    >
+      <div
+        class="jc-mention-editor readonly oneline"
+        style="width:100%"
+      >
+        <div
+          class="jc-mention-toolbar"
+        />
+        <div
+          class="jc-mention-editor-wrapper"
+          style="width:100%"
+        >
+          <div
+            class="DraftEditor-root"
+          >
+            <div
+              class="public-DraftEditorPlaceholder-root"
+            >
+              <div
+                class="public-DraftEditorPlaceholder-inner"
+                id="placeholder-815k1"
+                style="white-space:pre-wrap"
+              >
+                this is disabled Mention
+              </div>
+            </div>
+            <div
+              class="DraftEditor-editorContainer"
+            >
+              <div
+                aria-describedby="placeholder-815k1"
+                class="public-DraftEditor-content"
+                contenteditable="false"
+                spellcheck="false"
+                style="outline:none;user-select:text;-webkit-user-select:text;white-space:pre-wrap;word-wrap:break-word"
+              >
+                <div
+                  data-contents="true"
+                >
+                  <div
+                    class=""
+                    data-block="true"
+                    data-editor="815k1"
+                    data-offset-key="60pkf-0-0"
+                  >
+                    <div
+                      class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"
+                      data-offset-key="60pkf-0-0"
+                    >
+                      <span
+                        data-offset-key="60pkf-0-0"
+                      >
+                        <br
+                          data-text="true"
+                        />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <input
+            style="width:0;opacity:0;border:0;position:absolute;left:0;top:0"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  ,
+  <div
+    class="jc-mention-wrapper readonly"
+    style="width:100%"
+  >
+    <div
+      class="jc-mention-editor readonly oneline"
+      style="width:100%"
+    >
+      <div
+        class="jc-mention-toolbar"
+      />
+      <div
+        class="jc-mention-editor-wrapper"
+        style="width:100%"
+      >
+        <div
+          class="DraftEditor-root"
+        >
+          <div
+            class="public-DraftEditorPlaceholder-root"
+          >
+            <div
+              class="public-DraftEditorPlaceholder-inner"
+              id="placeholder-6672b"
+              style="white-space:pre-wrap"
+            >
+              this is readOnly Mention
+            </div>
+          </div>
+          <div
+            class="DraftEditor-editorContainer"
+          >
+            <div
+              aria-describedby="placeholder-6672b"
+              class="public-DraftEditor-content"
+              contenteditable="false"
+              spellcheck="false"
+              style="outline:none;user-select:text;-webkit-user-select:text;white-space:pre-wrap;word-wrap:break-word"
+            >
+              <div
+                data-contents="true"
+              >
+                <div
+                  class=""
+                  data-block="true"
+                  data-editor="6672b"
+                  data-offset-key="52mpj-0-0"
+                >
+                  <div
+                    class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"
+                    data-offset-key="52mpj-0-0"
+                  >
+                    <span
+                      data-offset-key="52mpj-0-0"
+                    >
+                      <br
+                        data-text="true"
+                      />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <input
+          style="width:0;opacity:0;border:0;position:absolute;left:0;top:0"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

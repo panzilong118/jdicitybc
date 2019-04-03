@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../../src/components/Release/ReleaseSpecification/v1.0.0/view/index.js"],"names":["BindReleaseSpecification"],"mappings":";;;;;;AAAA;;;;;;kBACeA,kC","file":"index.js","sourcesContent":["import BindReleaseSpecification from './BindReleaseSpecification';\r\nexport default BindReleaseSpecification;"]}

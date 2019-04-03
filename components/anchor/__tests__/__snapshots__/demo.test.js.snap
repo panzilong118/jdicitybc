@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/anchor/demo/Basic.js correctly test 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class="jc-anchor-wrapper"
+      style="max-height:100vh"
+    >
+      <div
+        class="jc-anchor"
+      >
+        <div
+          class="jc-anchor-ink"
+        >
+          <span
+            class="jc-anchor-ink-ball"
+          />
+        </div>
+        <div
+          class="jc-anchor-link"
+        >
+          <a
+            class="jc-anchor-link-title"
+            href="#components-anchor-demo-basic"
+            title="Basic demo"
+          >
+            Basic demo
+          </a>
+        </div>
+        <div
+          class="jc-anchor-link"
+        >
+          <a
+            class="jc-anchor-link-title"
+            href="#components-anchor-demo-fixed"
+            title="Fixed demo"
+          >
+            Fixed demo
+          </a>
+        </div>
+        <div
+          class="jc-anchor-link"
+        >
+          <a
+            class="jc-anchor-link-title"
+            href="#API"
+            title="API"
+          >
+            API
+          </a>
+          <div
+            class="jc-anchor-link"
+          >
+            <a
+              class="jc-anchor-link-title"
+              href="#Anchor-Props"
+              title="Anchor Props"
+            >
+              Anchor Props
+            </a>
+          </div>
+          <div
+            class="jc-anchor-link"
+          >
+            <a
+              class="jc-anchor-link-title"
+              href="#Link-Props"
+              title="Link Props"
+            >
+              Link Props
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/anchor/demo/Static.js correctly test 1`] = `
+<div
+  class="jc-anchor-wrapper"
+  style="max-height:100vh"
+>
+  <div
+    class="jc-anchor fixed"
+  >
+    <div
+      class="jc-anchor-ink"
+    >
+      <span
+        class="jc-anchor-ink-ball"
+      />
+    </div>
+    <div
+      class="jc-anchor-link"
+    >
+      <a
+        class="jc-anchor-link-title"
+        href="#components-anchor-demo-basic"
+        title="Basic demo"
+      >
+        Basic demo
+      </a>
+    </div>
+    <div
+      class="jc-anchor-link"
+    >
+      <a
+        class="jc-anchor-link-title"
+        href="#components-anchor-demo-fixed"
+        title="Fixed demo"
+      >
+        Fixed demo
+      </a>
+    </div>
+    <div
+      class="jc-anchor-link"
+    >
+      <a
+        class="jc-anchor-link-title"
+        href="#API"
+        title="API"
+      >
+        API
+      </a>
+      <div
+        class="jc-anchor-link"
+      >
+        <a
+          class="jc-anchor-link-title"
+          href="#Anchor-Props"
+          title="Anchor Props"
+        >
+          Anchor Props
+        </a>
+      </div>
+      <div
+        class="jc-anchor-link"
+      >
+        <a
+          class="jc-anchor-link-title"
+          href="#Link-Props"
+          title="Link Props"
+        >
+          Link Props
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

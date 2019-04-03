@@ -1,0 +1,824 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/date-picker/demo/basic.js correctly test 1`] = `
+<div>
+  <span
+    class="jc-calendar-picker"
+  >
+    <div>
+      <input
+        class="jc-calendar-picker-input jc-input"
+        placeholder="Select date"
+        readonly=""
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </div>
+  </span>
+  <br />
+  <span
+    class="jc-calendar-picker"
+  >
+    <div>
+      <input
+        class="jc-calendar-picker-input jc-input"
+        placeholder="Select month"
+        readonly=""
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </div>
+  </span>
+  <br />
+  <span
+    class="jc-calendar-picker"
+    tabindex="0"
+  >
+    <span
+      class="jc-calendar-picker-input jc-input"
+    >
+      <input
+        class="jc-calendar-range-picker-input"
+        placeholder="Start date"
+        readonly=""
+        tabindex="-1"
+        value=""
+      />
+      <span
+        class="jc-calendar-range-picker-separator"
+      >
+         ~ 
+      </span>
+      <input
+        class="jc-calendar-range-picker-input"
+        placeholder="End date"
+        readonly=""
+        tabindex="-1"
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </span>
+  </span>
+  <br />
+  <span
+    class="jc-calendar-picker"
+  >
+    <span>
+      <input
+        class="jc-calendar-picker-input jc-input"
+        placeholder="Select week"
+        readonly=""
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </span>
+  </span>
+</div>
+`;
+
+exports[`renders ./components/date-picker/demo/date-render.js correctly test 1`] = `
+<div>
+  <span
+    class="jc-calendar-picker"
+  >
+    <div>
+      <input
+        class="jc-calendar-picker-input jc-input"
+        placeholder="Select date"
+        readonly=""
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </div>
+  </span>
+  <span
+    class="jc-calendar-picker"
+    tabindex="0"
+  >
+    <span
+      class="jc-calendar-picker-input jc-input"
+    >
+      <input
+        class="jc-calendar-range-picker-input"
+        placeholder="Start date"
+        readonly=""
+        tabindex="-1"
+        value=""
+      />
+      <span
+        class="jc-calendar-range-picker-separator"
+      >
+         ~ 
+      </span>
+      <input
+        class="jc-calendar-range-picker-input"
+        placeholder="End date"
+        readonly=""
+        tabindex="-1"
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </span>
+  </span>
+</div>
+`;
+
+exports[`renders ./components/date-picker/demo/disabled.js correctly test 1`] = `
+<div>
+  <span
+    class="jc-calendar-picker"
+  >
+    <div>
+      <input
+        class="jc-calendar-picker-input jc-input jc-input-disabled"
+        disabled=""
+        placeholder="Select date"
+        readonly=""
+        value="2015-06-06"
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </div>
+  </span>
+  <br />
+  <span
+    class="jc-calendar-picker"
+  >
+    <div>
+      <input
+        class="jc-calendar-picker-input jc-input jc-input-disabled"
+        disabled=""
+        placeholder="Select date"
+        readonly=""
+        value="2015-06"
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </div>
+  </span>
+  <br />
+  <span
+    class="jc-calendar-picker"
+    tabindex="-1"
+  >
+    <span
+      class="jc-calendar-picker-input jc-input jc-input-disabled"
+    >
+      <input
+        class="jc-calendar-range-picker-input"
+        disabled=""
+        placeholder="Start date"
+        readonly=""
+        tabindex="-1"
+        value="2015-06-06"
+      />
+      <span
+        class="jc-calendar-range-picker-separator"
+      >
+         ~ 
+      </span>
+      <input
+        class="jc-calendar-range-picker-input"
+        disabled=""
+        placeholder="End date"
+        readonly=""
+        tabindex="-1"
+        value="2015-06-06"
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </span>
+  </span>
+</div>
+`;
+
+exports[`renders ./components/date-picker/demo/disabled-date.js correctly test 1`] = `
+<div>
+  <span
+    class="jc-calendar-picker"
+  >
+    <div>
+      <input
+        class="jc-calendar-picker-input jc-input"
+        placeholder="Select date"
+        readonly=""
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </div>
+  </span>
+  <br />
+  <span
+    class="jc-calendar-picker"
+  >
+    <div>
+      <input
+        class="jc-calendar-picker-input jc-input"
+        placeholder="Select month"
+        readonly=""
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </div>
+  </span>
+  <br />
+  <span
+    class="jc-calendar-picker"
+    style="width:350px"
+    tabindex="0"
+  >
+    <span
+      class="jc-calendar-picker-input jc-input"
+    >
+      <input
+        class="jc-calendar-range-picker-input"
+        placeholder="Start date"
+        readonly=""
+        tabindex="-1"
+        value=""
+      />
+      <span
+        class="jc-calendar-range-picker-separator"
+      >
+         ~ 
+      </span>
+      <input
+        class="jc-calendar-range-picker-input"
+        placeholder="End date"
+        readonly=""
+        tabindex="-1"
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </span>
+  </span>
+</div>
+`;
+
+exports[`renders ./components/date-picker/demo/extra-footer.js correctly test 1`] = `
+<div>
+  <span
+    class="jc-calendar-picker"
+  >
+    <div>
+      <input
+        class="jc-calendar-picker-input jc-input"
+        placeholder="Select date"
+        readonly=""
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </div>
+  </span>
+  <span
+    class="jc-calendar-picker"
+  >
+    <div>
+      <input
+        class="jc-calendar-picker-input jc-input"
+        placeholder="Select date"
+        readonly=""
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </div>
+  </span>
+  <span
+    class="jc-calendar-picker"
+    tabindex="0"
+  >
+    <span
+      class="jc-calendar-picker-input jc-input"
+    >
+      <input
+        class="jc-calendar-range-picker-input"
+        placeholder="Start date"
+        readonly=""
+        tabindex="-1"
+        value=""
+      />
+      <span
+        class="jc-calendar-range-picker-separator"
+      >
+         ~ 
+      </span>
+      <input
+        class="jc-calendar-range-picker-input"
+        placeholder="End date"
+        readonly=""
+        tabindex="-1"
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </span>
+  </span>
+  <span
+    class="jc-calendar-picker"
+    style="width:350px"
+    tabindex="0"
+  >
+    <span
+      class="jc-calendar-picker-input jc-input"
+    >
+      <input
+        class="jc-calendar-range-picker-input"
+        placeholder="Start date"
+        readonly=""
+        tabindex="-1"
+        value=""
+      />
+      <span
+        class="jc-calendar-range-picker-separator"
+      >
+         ~ 
+      </span>
+      <input
+        class="jc-calendar-range-picker-input"
+        placeholder="End date"
+        readonly=""
+        tabindex="-1"
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </span>
+  </span>
+  <span
+    class="jc-calendar-picker"
+  >
+    <div>
+      <input
+        class="jc-calendar-picker-input jc-input"
+        placeholder="Select month"
+        readonly=""
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </div>
+  </span>
+</div>
+`;
+
+exports[`renders ./components/date-picker/demo/format.js correctly test 1`] = `
+<div>
+  <span
+    class="jc-calendar-picker"
+  >
+    <div>
+      <input
+        class="jc-calendar-picker-input jc-input"
+        placeholder="Select date"
+        readonly=""
+        value="2015/01/01"
+      />
+      <i
+        class="jcicon jcicon-cross-circle  jc-calendar-picker-clear"
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </div>
+  </span>
+  <br />
+  <span
+    class="jc-calendar-picker"
+  >
+    <div>
+      <input
+        class="jc-calendar-picker-input jc-input"
+        placeholder="Select date"
+        readonly=""
+        value="2015/01"
+      />
+      <i
+        class="jcicon jcicon-cross-circle  jc-calendar-picker-clear"
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </div>
+  </span>
+  <br />
+  <span
+    class="jc-calendar-picker"
+    tabindex="0"
+  >
+    <span
+      class="jc-calendar-picker-input jc-input"
+    >
+      <input
+        class="jc-calendar-range-picker-input"
+        placeholder="Start date"
+        readonly=""
+        tabindex="-1"
+        value="2015/01/01"
+      />
+      <span
+        class="jc-calendar-range-picker-separator"
+      >
+         ~ 
+      </span>
+      <input
+        class="jc-calendar-range-picker-input"
+        placeholder="End date"
+        readonly=""
+        tabindex="-1"
+        value="2015/01/01"
+      />
+      <i
+        class="jcicon jcicon-cross-circle  jc-calendar-picker-clear"
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </span>
+  </span>
+</div>
+`;
+
+exports[`renders ./components/date-picker/demo/mode.js correctly test 1`] = `
+<div>
+  <span
+    class="jc-calendar-picker"
+  >
+    <div>
+      <input
+        class="jc-calendar-picker-input jc-input"
+        placeholder="Select date"
+        readonly=""
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </div>
+  </span>
+  <br />
+  <span
+    class="jc-calendar-picker"
+    tabindex="0"
+  >
+    <span
+      class="jc-calendar-picker-input jc-input"
+    >
+      <input
+        class="jc-calendar-range-picker-input"
+        placeholder="Start month"
+        readonly=""
+        tabindex="-1"
+        value=""
+      />
+      <span
+        class="jc-calendar-range-picker-separator"
+      >
+         ~ 
+      </span>
+      <input
+        class="jc-calendar-range-picker-input"
+        placeholder="End month"
+        readonly=""
+        tabindex="-1"
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </span>
+  </span>
+</div>
+`;
+
+exports[`renders ./components/date-picker/demo/presetted-ranges.js correctly test 1`] = `
+<div>
+  <span
+    class="jc-calendar-picker"
+    tabindex="0"
+  >
+    <span
+      class="jc-calendar-picker-input jc-input"
+    >
+      <input
+        class="jc-calendar-range-picker-input"
+        placeholder="Start date"
+        readonly=""
+        tabindex="-1"
+        value=""
+      />
+      <span
+        class="jc-calendar-range-picker-separator"
+      >
+         ~ 
+      </span>
+      <input
+        class="jc-calendar-range-picker-input"
+        placeholder="End date"
+        readonly=""
+        tabindex="-1"
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </span>
+  </span>
+  <br />
+  <span
+    class="jc-calendar-picker"
+    style="width:350px"
+    tabindex="0"
+  >
+    <span
+      class="jc-calendar-picker-input jc-input"
+    >
+      <input
+        class="jc-calendar-range-picker-input"
+        placeholder="Start date"
+        readonly=""
+        tabindex="-1"
+        value=""
+      />
+      <span
+        class="jc-calendar-range-picker-separator"
+      >
+         ~ 
+      </span>
+      <input
+        class="jc-calendar-range-picker-input"
+        placeholder="End date"
+        readonly=""
+        tabindex="-1"
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </span>
+  </span>
+</div>
+`;
+
+exports[`renders ./components/date-picker/demo/size.js correctly test 1`] = `
+<div>
+  <div
+    class="jc-radio-group"
+  >
+    <label
+      class="jc-radio-button-wrapper"
+    >
+      <span
+        class="jc-radio-button"
+      >
+        <input
+          class="jc-radio-button-input"
+          type="radio"
+          value="large"
+        />
+        <span
+          class="jc-radio-button-inner"
+        />
+      </span>
+      <span>
+        Large
+      </span>
+    </label>
+    <label
+      class="jc-radio-button-wrapper jc-radio-button-wrapper-checked"
+    >
+      <span
+        class="jc-radio-button jc-radio-button-checked"
+      >
+        <input
+          checked=""
+          class="jc-radio-button-input"
+          type="radio"
+          value="default"
+        />
+        <span
+          class="jc-radio-button-inner"
+        />
+      </span>
+      <span>
+        Default
+      </span>
+    </label>
+    <label
+      class="jc-radio-button-wrapper"
+    >
+      <span
+        class="jc-radio-button"
+      >
+        <input
+          class="jc-radio-button-input"
+          type="radio"
+          value="small"
+        />
+        <span
+          class="jc-radio-button-inner"
+        />
+      </span>
+      <span>
+        Small
+      </span>
+    </label>
+  </div>
+  <br />
+  <br />
+  <span
+    class="jc-calendar-picker jc-calendar-picker-default"
+  >
+    <div>
+      <input
+        class="jc-calendar-picker-input jc-input"
+        placeholder="Select date"
+        readonly=""
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </div>
+  </span>
+  <br />
+  <span
+    class="jc-calendar-picker jc-calendar-picker-default"
+  >
+    <div>
+      <input
+        class="jc-calendar-picker-input jc-input"
+        placeholder="Select Month"
+        readonly=""
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </div>
+  </span>
+  <br />
+  <span
+    class="jc-calendar-picker jc-calendar-picker-default"
+    tabindex="0"
+  >
+    <span
+      class="jc-calendar-picker-input jc-input"
+    >
+      <input
+        class="jc-calendar-range-picker-input"
+        placeholder="Start date"
+        readonly=""
+        tabindex="-1"
+        value=""
+      />
+      <span
+        class="jc-calendar-range-picker-separator"
+      >
+         ~ 
+      </span>
+      <input
+        class="jc-calendar-range-picker-input"
+        placeholder="End date"
+        readonly=""
+        tabindex="-1"
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </span>
+  </span>
+  <br />
+  <span
+    class="jc-calendar-picker jc-calendar-picker-default"
+  >
+    <span>
+      <input
+        class="jc-calendar-picker-input jc-input"
+        placeholder="Select Week"
+        readonly=""
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </span>
+  </span>
+</div>
+`;
+
+exports[`renders ./components/date-picker/demo/start-end.js correctly test 1`] = `
+<div>
+  <span
+    class="jc-calendar-picker"
+  >
+    <div>
+      <input
+        class="jc-calendar-picker-input jc-input"
+        placeholder="Start"
+        readonly=""
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </div>
+  </span>
+  <span
+    class="jc-calendar-picker"
+  >
+    <div>
+      <input
+        class="jc-calendar-picker-input jc-input"
+        placeholder="End"
+        readonly=""
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </div>
+  </span>
+</div>
+`;
+
+exports[`renders ./components/date-picker/demo/time.js correctly test 1`] = `
+<div>
+  <span
+    class="jc-calendar-picker"
+  >
+    <div>
+      <input
+        class="jc-calendar-picker-input jc-input"
+        placeholder="Select Time"
+        readonly=""
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </div>
+  </span>
+  <br />
+  <span
+    class="jc-calendar-picker"
+    style="width:350px"
+    tabindex="0"
+  >
+    <span
+      class="jc-calendar-picker-input jc-input"
+    >
+      <input
+        class="jc-calendar-range-picker-input"
+        placeholder="Start Time"
+        readonly=""
+        tabindex="-1"
+        value=""
+      />
+      <span
+        class="jc-calendar-range-picker-separator"
+      >
+         ~ 
+      </span>
+      <input
+        class="jc-calendar-range-picker-input"
+        placeholder="End Time"
+        readonly=""
+        tabindex="-1"
+        value=""
+      />
+      <span
+        class="jc-calendar-picker-icon"
+      />
+    </span>
+  </span>
+</div>
+`;

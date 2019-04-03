@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../components/mention/style/index.js"],"names":[],"mappings":";;AAGA","file":"index.js","sourcesContent":["/**\r\n * Created by gaoqingli on 2018/4/26.\r\n */\r\nimport './index.less';\r\n"]}

@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/tree-select/demo/Basic.js correctly test 1`] = `
+<span
+  class="jc-select jc-select-enabled jc-select-allow-clear"
+  style="width:300px"
+>
+  <span
+    aria-autocomplete="list"
+    aria-haspopup="true"
+    class="jc-select-selection
+            jc-select-selection--single"
+    role="combobox"
+    tabindex="0"
+  >
+    <span
+      class="jc-select-selection__rendered"
+    >
+      <span
+        class="jc-select-selection__placeholder"
+      >
+        Please select
+      </span>
+    </span>
+    <span
+      class="jc-select-arrow"
+      style="outline:none"
+    >
+      <b />
+    </span>
+  </span>
+</span>
+`;
+
+exports[`renders ./components/tree-select/demo/Checkable.js correctly test 1`] = `
+<span
+  class="jc-select jc-select-enabled"
+  style="width:300px"
+>
+  <span
+    aria-autocomplete="list"
+    aria-haspopup="true"
+    class="jc-select-selection
+            jc-select-selection--multiple"
+    role="combobox"
+  >
+    <ul
+      class="jc-select-selection__rendered"
+    >
+      <li
+        class="jc-select-selection__choice"
+        style="user-select:none;-webkit-user-select:none"
+        title="Node1"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-select-selection__choice__remove"
+        />
+        <span
+          class="jc-select-selection__choice__content"
+        >
+          Node1
+        </span>
+      </li>
+      <li
+        class="jc-select-search jc-select-search--inline"
+      >
+        <span
+          class="jc-select-search__field__wrap"
+        >
+          <input
+            class="jc-select-search__field"
+            role="textbox"
+            value=""
+          />
+          <span
+            class="jc-select-search__field__mirror"
+          >
+             
+          </span>
+        </span>
+      </li>
+    </ul>
+    <span
+      class="jc-select-search__field__placeholder"
+      style="display:none"
+    >
+      Please select
+    </span>
+  </span>
+</span>
+`;
+
+exports[`renders ./components/tree-select/demo/Multiple.js correctly test 1`] = `
+<span
+  class="jc-select jc-select-enabled jc-select-allow-clear"
+  style="width:300px"
+>
+  <span
+    aria-autocomplete="list"
+    aria-haspopup="true"
+    class="jc-select-selection
+            jc-select-selection--multiple"
+    role="combobox"
+  >
+    <ul
+      class="jc-select-selection__rendered"
+    >
+      <li
+        class="jc-select-search jc-select-search--inline"
+      >
+        <span
+          class="jc-select-search__field__wrap"
+        >
+          <input
+            class="jc-select-search__field"
+            role="textbox"
+            value=""
+          />
+          <span
+            class="jc-select-search__field__mirror"
+          >
+             
+          </span>
+        </span>
+      </li>
+    </ul>
+    <span
+      class="jc-select-search__field__placeholder"
+      style="display:block"
+    >
+      Please select
+    </span>
+  </span>
+</span>
+`;
+
+exports[`renders ./components/tree-select/demo/TreeData.js correctly test 1`] = `
+<span
+  class="jc-select jc-select-enabled"
+  style="width:300px"
+>
+  <span
+    aria-autocomplete="list"
+    aria-haspopup="true"
+    class="jc-select-selection
+            jc-select-selection--single"
+    role="combobox"
+    tabindex="0"
+  >
+    <span
+      class="jc-select-selection__rendered"
+    >
+      <span
+        class="jc-select-selection__placeholder"
+      >
+        Please select
+      </span>
+    </span>
+    <span
+      class="jc-select-arrow"
+      style="outline:none"
+    >
+      <b />
+    </span>
+  </span>
+</span>
+`;

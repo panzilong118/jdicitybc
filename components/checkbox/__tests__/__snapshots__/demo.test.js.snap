@@ -1,0 +1,524 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/checkbox/demo/Basic.js correctly test 1`] = `
+<label
+  class="jc-checkbox-wrapper"
+>
+  <span
+    class="jc-checkbox"
+  >
+    <input
+      class="jc-checkbox-input"
+      type="checkbox"
+    />
+    <span
+      class="jc-checkbox-inner"
+    />
+  </span>
+  <span>
+    Checkbox
+  </span>
+</label>
+`;
+
+exports[`renders ./components/checkbox/demo/CheckAll.js correctly test 1`] = `
+<div>
+  <div
+    style="border-bottom:1px solid #E9E9E9"
+  >
+    <label
+      class="jc-checkbox-wrapper"
+    >
+      <span
+        class="jc-checkbox jc-checkbox-indeterminate"
+      >
+        <input
+          class="jc-checkbox-input"
+          type="checkbox"
+        />
+        <span
+          class="jc-checkbox-inner"
+        />
+      </span>
+      <span>
+        Check all
+      </span>
+    </label>
+  </div>
+  <br />
+  <div
+    class="jc-checkbox-group"
+  >
+    <label
+      class="jc-checkbox-group-item jc-checkbox-wrapper"
+    >
+      <span
+        class="jc-checkbox jc-checkbox-checked"
+      >
+        <input
+          checked=""
+          class="jc-checkbox-input"
+          type="checkbox"
+          value="Apple"
+        />
+        <span
+          class="jc-checkbox-inner"
+        />
+      </span>
+      <span>
+        Apple
+      </span>
+    </label>
+    <label
+      class="jc-checkbox-group-item jc-checkbox-wrapper"
+    >
+      <span
+        class="jc-checkbox"
+      >
+        <input
+          class="jc-checkbox-input"
+          type="checkbox"
+          value="Pear"
+        />
+        <span
+          class="jc-checkbox-inner"
+        />
+      </span>
+      <span>
+        Pear
+      </span>
+    </label>
+    <label
+      class="jc-checkbox-group-item jc-checkbox-wrapper"
+    >
+      <span
+        class="jc-checkbox jc-checkbox-checked"
+      >
+        <input
+          checked=""
+          class="jc-checkbox-input"
+          type="checkbox"
+          value="Orange"
+        />
+        <span
+          class="jc-checkbox-inner"
+        />
+      </span>
+      <span>
+        Orange
+      </span>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/checkbox/demo/Controller.js correctly test 1`] = `
+<div>
+  <p
+    style="margin-bottom:20px"
+  >
+    <label
+      class="jc-checkbox-wrapper"
+    >
+      <span
+        class="jc-checkbox jc-checkbox-checked"
+      >
+        <input
+          checked=""
+          class="jc-checkbox-input"
+          type="checkbox"
+        />
+        <span
+          class="jc-checkbox-inner"
+        />
+      </span>
+      <span>
+        Checked-Enabled
+      </span>
+    </label>
+  </p>
+  <p>
+    <button
+      class="jc-btn jc-btn-primary jc-btn-sm"
+      type="button"
+    >
+      <span>
+        Uncheck
+      </span>
+    </button>
+    <button
+      class="jc-btn jc-btn-primary jc-btn-sm"
+      style="margin-left:10px"
+      type="button"
+    >
+      <span>
+        Disable
+      </span>
+    </button>
+  </p>
+</div>
+`;
+
+exports[`renders ./components/checkbox/demo/Disabled.js correctly test 1`] = `
+<div>
+  <label
+    class="jc-checkbox-wrapper"
+  >
+    <span
+      class="jc-checkbox jc-checkbox-disabled"
+    >
+      <input
+        class="jc-checkbox-input"
+        disabled=""
+        type="checkbox"
+      />
+      <span
+        class="jc-checkbox-inner"
+      />
+    </span>
+  </label>
+  <br />
+  <label
+    class="jc-checkbox-wrapper"
+  >
+    <span
+      class="jc-checkbox jc-checkbox-checked jc-checkbox-disabled"
+    >
+      <input
+        checked=""
+        class="jc-checkbox-input"
+        disabled=""
+        type="checkbox"
+      />
+      <span
+        class="jc-checkbox-inner"
+      />
+    </span>
+  </label>
+</div>
+`;
+
+exports[`renders ./components/checkbox/demo/Group.js correctly test 1`] = `
+<div>
+  <div
+    class="jc-checkbox-group"
+  >
+    <label
+      class="jc-checkbox-group-item jc-checkbox-wrapper"
+    >
+      <span
+        class="jc-checkbox jc-checkbox-checked"
+      >
+        <input
+          checked=""
+          class="jc-checkbox-input"
+          type="checkbox"
+          value="Apple"
+        />
+        <span
+          class="jc-checkbox-inner"
+        />
+      </span>
+      <span>
+        Apple
+      </span>
+    </label>
+    <label
+      class="jc-checkbox-group-item jc-checkbox-wrapper"
+    >
+      <span
+        class="jc-checkbox"
+      >
+        <input
+          class="jc-checkbox-input"
+          type="checkbox"
+          value="Pear"
+        />
+        <span
+          class="jc-checkbox-inner"
+        />
+      </span>
+      <span>
+        Pear
+      </span>
+    </label>
+    <label
+      class="jc-checkbox-group-item jc-checkbox-wrapper"
+    >
+      <span
+        class="jc-checkbox"
+      >
+        <input
+          class="jc-checkbox-input"
+          type="checkbox"
+          value="Orange"
+        />
+        <span
+          class="jc-checkbox-inner"
+        />
+      </span>
+      <span>
+        Orange
+      </span>
+    </label>
+  </div>
+  <br />
+  <br />
+  <div
+    class="jc-checkbox-group"
+  >
+    <label
+      class="jc-checkbox-group-item jc-checkbox-wrapper"
+    >
+      <span
+        class="jc-checkbox"
+      >
+        <input
+          class="jc-checkbox-input"
+          type="checkbox"
+          value="Apple"
+        />
+        <span
+          class="jc-checkbox-inner"
+        />
+      </span>
+      <span>
+        Apple
+      </span>
+    </label>
+    <label
+      class="jc-checkbox-group-item jc-checkbox-wrapper"
+    >
+      <span
+        class="jc-checkbox jc-checkbox-checked"
+      >
+        <input
+          checked=""
+          class="jc-checkbox-input"
+          type="checkbox"
+          value="Pear"
+        />
+        <span
+          class="jc-checkbox-inner"
+        />
+      </span>
+      <span>
+        Pear
+      </span>
+    </label>
+    <label
+      class="jc-checkbox-group-item jc-checkbox-wrapper"
+    >
+      <span
+        class="jc-checkbox"
+      >
+        <input
+          class="jc-checkbox-input"
+          type="checkbox"
+          value="Orange"
+        />
+        <span
+          class="jc-checkbox-inner"
+        />
+      </span>
+      <span>
+        Orange
+      </span>
+    </label>
+  </div>
+  <br />
+  <br />
+  <div
+    class="jc-checkbox-group"
+  >
+    <label
+      class="jc-checkbox-group-item jc-checkbox-wrapper"
+    >
+      <span
+        class="jc-checkbox jc-checkbox-checked jc-checkbox-disabled"
+      >
+        <input
+          checked=""
+          class="jc-checkbox-input"
+          disabled=""
+          type="checkbox"
+          value="Apple"
+        />
+        <span
+          class="jc-checkbox-inner"
+        />
+      </span>
+      <span>
+        Apple
+      </span>
+    </label>
+    <label
+      class="jc-checkbox-group-item jc-checkbox-wrapper"
+    >
+      <span
+        class="jc-checkbox jc-checkbox-disabled"
+      >
+        <input
+          class="jc-checkbox-input"
+          disabled=""
+          type="checkbox"
+          value="Pear"
+        />
+        <span
+          class="jc-checkbox-inner"
+        />
+      </span>
+      <span>
+        Pear
+      </span>
+    </label>
+    <label
+      class="jc-checkbox-group-item jc-checkbox-wrapper"
+    >
+      <span
+        class="jc-checkbox jc-checkbox-disabled"
+      >
+        <input
+          class="jc-checkbox-input"
+          disabled=""
+          type="checkbox"
+          value="Orange"
+        />
+        <span
+          class="jc-checkbox-inner"
+        />
+      </span>
+      <span>
+        Orange
+      </span>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/checkbox/demo/Layout.js correctly test 1`] = `
+<div
+  class="jc-checkbox-group"
+  style="width:100%"
+>
+  <div
+    class="jc-row"
+  >
+    <div
+      class="jc-col-8"
+    >
+      <label
+        class="jc-checkbox-wrapper"
+      >
+        <span
+          class="jc-checkbox"
+        >
+          <input
+            class="jc-checkbox-input"
+            type="checkbox"
+            value="A"
+          />
+          <span
+            class="jc-checkbox-inner"
+          />
+        </span>
+        <span>
+          A
+        </span>
+      </label>
+    </div>
+    <div
+      class="jc-col-8"
+    >
+      <label
+        class="jc-checkbox-wrapper"
+      >
+        <span
+          class="jc-checkbox"
+        >
+          <input
+            class="jc-checkbox-input"
+            type="checkbox"
+            value="B"
+          />
+          <span
+            class="jc-checkbox-inner"
+          />
+        </span>
+        <span>
+          B
+        </span>
+      </label>
+    </div>
+    <div
+      class="jc-col-8"
+    >
+      <label
+        class="jc-checkbox-wrapper"
+      >
+        <span
+          class="jc-checkbox"
+        >
+          <input
+            class="jc-checkbox-input"
+            type="checkbox"
+            value="C"
+          />
+          <span
+            class="jc-checkbox-inner"
+          />
+        </span>
+        <span>
+          C
+        </span>
+      </label>
+    </div>
+    <div
+      class="jc-col-8"
+    >
+      <label
+        class="jc-checkbox-wrapper"
+      >
+        <span
+          class="jc-checkbox"
+        >
+          <input
+            class="jc-checkbox-input"
+            type="checkbox"
+            value="D"
+          />
+          <span
+            class="jc-checkbox-inner"
+          />
+        </span>
+        <span>
+          D
+        </span>
+      </label>
+    </div>
+    <div
+      class="jc-col-8"
+    >
+      <label
+        class="jc-checkbox-wrapper"
+      >
+        <span
+          class="jc-checkbox"
+        >
+          <input
+            class="jc-checkbox-input"
+            type="checkbox"
+            value="E"
+          />
+          <span
+            class="jc-checkbox-inner"
+          />
+        </span>
+        <span>
+          E
+        </span>
+      </label>
+    </div>
+  </div>
+</div>
+`;

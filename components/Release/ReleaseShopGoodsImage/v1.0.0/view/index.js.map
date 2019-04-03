@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../../src/components/Release/ReleaseShopGoodsImage/v1.0.0/view/index.js"],"names":["ReleaseShopGoodsImage"],"mappings":";;;;;;AAAA;;;;;;kBACeA,+B","file":"index.js","sourcesContent":["import ReleaseShopGoodsImage from './ReleaseShopGoodsImage';\r\nexport default ReleaseShopGoodsImage;\r\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../components/time-picker/locale/el_GR.js"],"names":["locale","placeholder"],"mappings":";;;;;AAAA,IAAMA,SAAS;AACbC,eAAa;AADA,CAAf;;kBAIeD,M","file":"el_GR.js","sourcesContent":["const locale = {\r\n  placeholder: 'Επιλέξτε ώρα',\r\n};\r\n\r\nexport default locale;\r\n"]}

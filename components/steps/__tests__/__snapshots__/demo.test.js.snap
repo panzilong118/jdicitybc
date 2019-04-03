@@ -1,0 +1,913 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/steps/demo/Customized-progress-dot.js correctly test 1`] = `
+<div
+  class="jc-steps jc-steps-horizontal jc-steps-label-vertical jc-steps-dot"
+>
+  <div
+    class="jc-steps-item jc-steps-item-finish"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon"
+      >
+        <span
+          class="jc-steps-icon-dot"
+        />
+      </span>
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        Finished
+      </div>
+      <div
+        class="jc-steps-item-description"
+      >
+        You can hover on the dot.
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-steps-item jc-steps-item-process"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon"
+      >
+        <span
+          class="jc-steps-icon-dot"
+        />
+      </span>
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        In Progress
+      </div>
+      <div
+        class="jc-steps-item-description"
+      >
+        You can hover on the dot.
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-steps-item jc-steps-item-wait"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon"
+      >
+        <span
+          class="jc-steps-icon-dot"
+        />
+      </span>
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        Waiting
+      </div>
+      <div
+        class="jc-steps-item-description"
+      >
+        You can hover on the dot.
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-steps-item jc-steps-item-wait"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon"
+      >
+        <span
+          class="jc-steps-icon-dot"
+        />
+      </span>
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        Waiting
+      </div>
+      <div
+        class="jc-steps-item-description"
+      >
+        You can hover on the dot.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/steps/demo/Error.js correctly test 1`] = `
+<div
+  class="jc-steps jc-steps-horizontal jc-steps-label-horizontal"
+>
+  <div
+    class="jc-steps-item jc-steps-item-finish jc-steps-next-error"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon jcicon jcicon-check"
+      />
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        Finished
+      </div>
+      <div
+        class="jc-steps-item-description"
+      >
+        This is a description
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-steps-item jc-steps-item-error"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon jcicon jcicon-cross"
+      />
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        In Process
+      </div>
+      <div
+        class="jc-steps-item-description"
+      >
+        This is a description
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-steps-item jc-steps-item-wait"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon"
+      >
+        3
+      </span>
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        Waiting
+      </div>
+      <div
+        class="jc-steps-item-description"
+      >
+        This is a description
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/steps/demo/Icon.js correctly test 1`] = `
+<div
+  class="jc-steps jc-steps-horizontal jc-steps-label-horizontal"
+>
+  <div
+    class="jc-steps-item jc-steps-item-finish jc-steps-item-custom"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon"
+      >
+        <i
+          class="jcicon jcicon-user "
+        />
+      </span>
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        Login
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-steps-item jc-steps-item-finish jc-steps-item-custom"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon"
+      >
+        <i
+          class="jcicon jcicon-solution "
+        />
+      </span>
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        Verification
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-steps-item jc-steps-item-process jc-steps-item-custom"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon"
+      >
+        <i
+          class="jcicon jcicon-loading  jcicon-spin"
+        />
+      </span>
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        Pay
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-steps-item jc-steps-item-wait jc-steps-item-custom"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon"
+      >
+        <i
+          class="jcicon jcicon-smile-o "
+        />
+      </span>
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        Done
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/steps/demo/Progress-dot.js correctly test 1`] = `
+<div
+  class="jc-steps jc-steps-horizontal jc-steps-label-vertical jc-steps-dot"
+>
+  <div
+    class="jc-steps-item jc-steps-item-finish"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon"
+      >
+        <span
+          class="jc-steps-icon-dot"
+        />
+      </span>
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        Finished
+      </div>
+      <div
+        class="jc-steps-item-description"
+      >
+        This is a description.
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-steps-item jc-steps-item-process"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon"
+      >
+        <span
+          class="jc-steps-icon-dot"
+        />
+      </span>
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        In Progress
+      </div>
+      <div
+        class="jc-steps-item-description"
+      >
+        This is a description.
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-steps-item jc-steps-item-wait"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon"
+      >
+        <span
+          class="jc-steps-icon-dot"
+        />
+      </span>
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        Waiting
+      </div>
+      <div
+        class="jc-steps-item-description"
+      >
+        This is a description.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/steps/demo/Simple.js correctly test 1`] = `
+<div
+  class="jc-steps jc-steps-horizontal jc-steps-label-horizontal"
+>
+  <div
+    class="jc-steps-item jc-steps-item-finish"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon jcicon jcicon-check"
+      />
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        Finished
+      </div>
+      <div
+        class="jc-steps-item-description"
+      >
+        This is a description.
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-steps-item jc-steps-item-process"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon"
+      >
+        2
+      </span>
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        In Progress
+      </div>
+      <div
+        class="jc-steps-item-description"
+      >
+        This is a description.
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-steps-item jc-steps-item-wait"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon"
+      >
+        3
+      </span>
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        Waiting
+      </div>
+      <div
+        class="jc-steps-item-description"
+      >
+        This is a description.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/steps/demo/Small-size.js correctly test 1`] = `
+<div
+  class="jc-steps jc-steps-horizontal jc-steps-small jc-steps-label-horizontal"
+>
+  <div
+    class="jc-steps-item jc-steps-item-finish"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon jcicon jcicon-check"
+      />
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        Finished
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-steps-item jc-steps-item-process"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon"
+      >
+        2
+      </span>
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        In Progress
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-steps-item jc-steps-item-wait"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon"
+      >
+        3
+      </span>
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        Waiting
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/steps/demo/Step-next.js correctly test 1`] = `
+<div>
+  <div
+    class="jc-steps jc-steps-horizontal jc-steps-label-horizontal"
+  >
+    <div
+      class="jc-steps-item jc-steps-item-process"
+    >
+      <div
+        class="jc-steps-item-tail"
+      />
+      <div
+        class="jc-steps-item-icon"
+      >
+        <span
+          class="jc-steps-icon"
+        >
+          1
+        </span>
+      </div>
+      <div
+        class="jc-steps-item-content"
+      >
+        <div
+          class="jc-steps-item-title"
+        >
+          First
+        </div>
+      </div>
+    </div>
+    <div
+      class="jc-steps-item jc-steps-item-wait"
+    >
+      <div
+        class="jc-steps-item-tail"
+      />
+      <div
+        class="jc-steps-item-icon"
+      >
+        <span
+          class="jc-steps-icon"
+        >
+          2
+        </span>
+      </div>
+      <div
+        class="jc-steps-item-content"
+      >
+        <div
+          class="jc-steps-item-title"
+        >
+          Second
+        </div>
+      </div>
+    </div>
+    <div
+      class="jc-steps-item jc-steps-item-wait"
+    >
+      <div
+        class="jc-steps-item-tail"
+      />
+      <div
+        class="jc-steps-item-icon"
+      >
+        <span
+          class="jc-steps-icon"
+        >
+          3
+        </span>
+      </div>
+      <div
+        class="jc-steps-item-content"
+      >
+        <div
+          class="jc-steps-item-title"
+        >
+          Last
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="steps-content"
+  >
+    First-content
+  </div>
+  <div
+    class="steps-action"
+  >
+    <button
+      class="jc-btn jc-btn-primary"
+      type="button"
+    >
+      <span>
+        Next
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/steps/demo/Vertical.js correctly test 1`] = `
+<div
+  class="jc-steps jc-steps-vertical"
+>
+  <div
+    class="jc-steps-item jc-steps-item-finish"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon jcicon jcicon-check"
+      />
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        Finished
+      </div>
+      <div
+        class="jc-steps-item-description"
+      >
+        This is a description.
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-steps-item jc-steps-item-process"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon"
+      >
+        2
+      </span>
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        In Progress
+      </div>
+      <div
+        class="jc-steps-item-description"
+      >
+        This is a description.
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-steps-item jc-steps-item-wait"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon"
+      >
+        3
+      </span>
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        Waiting
+      </div>
+      <div
+        class="jc-steps-item-description"
+      >
+        This is a description.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/steps/demo/Vertical-small.js correctly test 1`] = `
+<div
+  class="jc-steps jc-steps-vertical jc-steps-small"
+>
+  <div
+    class="jc-steps-item jc-steps-item-finish"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon jcicon jcicon-check"
+      />
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        Finished
+      </div>
+      <div
+        class="jc-steps-item-description"
+      >
+        This is a description.
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-steps-item jc-steps-item-process"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon"
+      >
+        2
+      </span>
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        In Progress
+      </div>
+      <div
+        class="jc-steps-item-description"
+      >
+        This is a description.
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-steps-item jc-steps-item-wait"
+  >
+    <div
+      class="jc-steps-item-tail"
+    />
+    <div
+      class="jc-steps-item-icon"
+    >
+      <span
+        class="jc-steps-icon"
+      >
+        3
+      </span>
+    </div>
+    <div
+      class="jc-steps-item-content"
+    >
+      <div
+        class="jc-steps-item-title"
+      >
+        Waiting
+      </div>
+      <div
+        class="jc-steps-item-description"
+      >
+        This is a description.
+      </div>
+    </div>
+  </div>
+</div>
+`;

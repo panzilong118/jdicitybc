@@ -1,0 +1,1340 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/tabs/demo/Basic.js correctly test 1`] = `
+<div
+  class="jc-tabs jc-tabs-top jc-tabs-line"
+>
+  <div
+    class="jc-tabs-bar"
+    role="tablist"
+    tabindex="0"
+  >
+    <div
+      class="jc-tabs-nav-container"
+    >
+      <span
+        class="jc-tabs-tab-prev jc-tabs-tab-btn-disabled"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-tabs-tab-prev-icon"
+        />
+      </span>
+      <span
+        class="jc-tabs-tab-next jc-tabs-tab-btn-disabled"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-tabs-tab-next-icon"
+        />
+      </span>
+      <div
+        class="jc-tabs-nav-wrap"
+      >
+        <div
+          class="jc-tabs-nav-scroll"
+        >
+          <div
+            class="jc-tabs-nav jc-tabs-nav-animated"
+          >
+            <div
+              class="jc-tabs-ink-bar jc-tabs-ink-bar-animated"
+            />
+            <div
+              aria-disabled="false"
+              aria-selected="true"
+              class="jc-tabs-tab-active jc-tabs-tab"
+              role="tab"
+            >
+              Tab 1
+            </div>
+            <div
+              aria-disabled="false"
+              aria-selected="false"
+              class=" jc-tabs-tab"
+              role="tab"
+            >
+              Tab 2
+            </div>
+            <div
+              aria-disabled="false"
+              aria-selected="false"
+              class=" jc-tabs-tab"
+              role="tab"
+            >
+              Tab 3
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-tabs-content jc-tabs-content-animated"
+    style="margin-left:0%"
+  >
+    <div
+      aria-hidden="false"
+      class="jc-tabs-tabpane jc-tabs-tabpane-active"
+      role="tabpanel"
+    >
+      Content of Tab Pane 1
+    </div>
+    <div
+      aria-hidden="true"
+      class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+      role="tabpanel"
+    />
+    <div
+      aria-hidden="true"
+      class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+      role="tabpanel"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders ./components/tabs/demo/Card.js correctly test 1`] = `
+<div
+  class="jc-tabs jc-tabs-top jc-tabs-card jc-tabs-no-animation"
+>
+  <div
+    class="jc-tabs-bar"
+    role="tablist"
+    tabindex="0"
+  >
+    <div
+      class="jc-tabs-nav-container"
+    >
+      <span
+        class="jc-tabs-tab-prev jc-tabs-tab-btn-disabled"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-tabs-tab-prev-icon"
+        />
+      </span>
+      <span
+        class="jc-tabs-tab-next jc-tabs-tab-btn-disabled"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-tabs-tab-next-icon"
+        />
+      </span>
+      <div
+        class="jc-tabs-nav-wrap"
+      >
+        <div
+          class="jc-tabs-nav-scroll"
+        >
+          <div
+            class="jc-tabs-nav jc-tabs-nav-animated"
+          >
+            <div
+              class="jc-tabs-ink-bar jc-tabs-ink-bar-animated"
+            />
+            <div
+              aria-disabled="false"
+              aria-selected="true"
+              class="jc-tabs-tab-active jc-tabs-tab"
+              role="tab"
+            >
+              Tab 1
+            </div>
+            <div
+              aria-disabled="false"
+              aria-selected="false"
+              class=" jc-tabs-tab"
+              role="tab"
+            >
+              Tab 2
+            </div>
+            <div
+              aria-disabled="false"
+              aria-selected="false"
+              class=" jc-tabs-tab"
+              role="tab"
+            >
+              Tab 3
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-tabs-content jc-tabs-content-no-animated"
+  >
+    <div
+      aria-hidden="false"
+      class="jc-tabs-tabpane jc-tabs-tabpane-active"
+      role="tabpanel"
+    >
+      Content of Tab Pane 1
+    </div>
+    <div
+      aria-hidden="true"
+      class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+      role="tabpanel"
+    />
+    <div
+      aria-hidden="true"
+      class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+      role="tabpanel"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders ./components/tabs/demo/Card-top.js correctly test 1`] = `
+<div
+  class="card-container"
+>
+  <div
+    class="jc-tabs jc-tabs-top jc-tabs-card jc-tabs-no-animation"
+  >
+    <div
+      class="jc-tabs-bar"
+      role="tablist"
+      tabindex="0"
+    >
+      <div
+        class="jc-tabs-nav-container"
+      >
+        <span
+          class="jc-tabs-tab-prev jc-tabs-tab-btn-disabled"
+          unselectable="unselectable"
+        >
+          <span
+            class="jc-tabs-tab-prev-icon"
+          />
+        </span>
+        <span
+          class="jc-tabs-tab-next jc-tabs-tab-btn-disabled"
+          unselectable="unselectable"
+        >
+          <span
+            class="jc-tabs-tab-next-icon"
+          />
+        </span>
+        <div
+          class="jc-tabs-nav-wrap"
+        >
+          <div
+            class="jc-tabs-nav-scroll"
+          >
+            <div
+              class="jc-tabs-nav jc-tabs-nav-animated"
+            >
+              <div
+                class="jc-tabs-ink-bar jc-tabs-ink-bar-animated"
+              />
+              <div
+                aria-disabled="false"
+                aria-selected="true"
+                class="jc-tabs-tab-active jc-tabs-tab"
+                role="tab"
+              >
+                Tab Title 1
+              </div>
+              <div
+                aria-disabled="false"
+                aria-selected="false"
+                class=" jc-tabs-tab"
+                role="tab"
+              >
+                Tab Title 2
+              </div>
+              <div
+                aria-disabled="false"
+                aria-selected="false"
+                class=" jc-tabs-tab"
+                role="tab"
+              >
+                Tab Title 3
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="jc-tabs-content jc-tabs-content-no-animated"
+    >
+      <div
+        aria-hidden="false"
+        class="jc-tabs-tabpane jc-tabs-tabpane-active"
+        role="tabpanel"
+      >
+        <p>
+          Content of Tab Pane 1
+        </p>
+        <p>
+          Content of Tab Pane 1
+        </p>
+        <p>
+          Content of Tab Pane 1
+        </p>
+      </div>
+      <div
+        aria-hidden="true"
+        class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+        role="tabpanel"
+      />
+      <div
+        aria-hidden="true"
+        class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+        role="tabpanel"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/tabs/demo/Custom-add-trigger.js correctly test 1`] = `
+<div>
+  <div
+    style="margin-bottom:16px"
+  >
+    <button
+      class="jc-btn"
+      type="button"
+    >
+      <span>
+        ADD
+      </span>
+    </button>
+  </div>
+  <div
+    class="jc-tabs jc-tabs-top jc-tabs-card jc-tabs-editable-card jc-tabs-no-animation"
+  >
+    <div
+      class="jc-tabs-bar"
+      role="tablist"
+      tabindex="0"
+    >
+      <div
+        class="jc-tabs-nav-container"
+      >
+        <span
+          class="jc-tabs-tab-prev jc-tabs-tab-btn-disabled"
+          unselectable="unselectable"
+        >
+          <span
+            class="jc-tabs-tab-prev-icon"
+          />
+        </span>
+        <span
+          class="jc-tabs-tab-next jc-tabs-tab-btn-disabled"
+          unselectable="unselectable"
+        >
+          <span
+            class="jc-tabs-tab-next-icon"
+          />
+        </span>
+        <div
+          class="jc-tabs-nav-wrap"
+        >
+          <div
+            class="jc-tabs-nav-scroll"
+          >
+            <div
+              class="jc-tabs-nav jc-tabs-nav-animated"
+            >
+              <div
+                class="jc-tabs-ink-bar jc-tabs-ink-bar-animated"
+              />
+              <div
+                aria-disabled="false"
+                aria-selected="true"
+                class="jc-tabs-tab-active jc-tabs-tab"
+                role="tab"
+              >
+                <div>
+                  Tab 1
+                  <i
+                    class="jcicon jcicon-close "
+                  />
+                </div>
+              </div>
+              <div
+                aria-disabled="false"
+                aria-selected="false"
+                class=" jc-tabs-tab"
+                role="tab"
+              >
+                <div>
+                  Tab 2
+                  <i
+                    class="jcicon jcicon-close "
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="jc-tabs-content jc-tabs-content-no-animated"
+    >
+      <div
+        aria-hidden="false"
+        class="jc-tabs-tabpane jc-tabs-tabpane-active"
+        role="tabpanel"
+      >
+        Content of Tab Pane 1
+      </div>
+      <div
+        aria-hidden="true"
+        class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+        role="tabpanel"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/tabs/demo/Disabled.js correctly test 1`] = `
+<div
+  class="jc-tabs jc-tabs-top jc-tabs-line"
+>
+  <div
+    class="jc-tabs-bar"
+    role="tablist"
+    tabindex="0"
+  >
+    <div
+      class="jc-tabs-nav-container"
+    >
+      <span
+        class="jc-tabs-tab-prev jc-tabs-tab-btn-disabled"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-tabs-tab-prev-icon"
+        />
+      </span>
+      <span
+        class="jc-tabs-tab-next jc-tabs-tab-btn-disabled"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-tabs-tab-next-icon"
+        />
+      </span>
+      <div
+        class="jc-tabs-nav-wrap"
+      >
+        <div
+          class="jc-tabs-nav-scroll"
+        >
+          <div
+            class="jc-tabs-nav jc-tabs-nav-animated"
+          >
+            <div
+              class="jc-tabs-ink-bar jc-tabs-ink-bar-animated"
+            />
+            <div
+              aria-disabled="false"
+              aria-selected="true"
+              class="jc-tabs-tab-active jc-tabs-tab"
+              role="tab"
+            >
+              Tab 1
+            </div>
+            <div
+              aria-disabled="true"
+              aria-selected="false"
+              class=" jc-tabs-tab jc-tabs-tab-disabled"
+              role="tab"
+            >
+              Tab 2
+            </div>
+            <div
+              aria-disabled="false"
+              aria-selected="false"
+              class=" jc-tabs-tab"
+              role="tab"
+            >
+              Tab 3
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-tabs-content jc-tabs-content-animated"
+    style="margin-left:0%"
+  >
+    <div
+      aria-hidden="false"
+      class="jc-tabs-tabpane jc-tabs-tabpane-active"
+      role="tabpanel"
+    >
+      Tab 1
+    </div>
+    <div
+      aria-hidden="true"
+      class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+      role="tabpanel"
+    />
+    <div
+      aria-hidden="true"
+      class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+      role="tabpanel"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders ./components/tabs/demo/Editable-card.js correctly test 1`] = `
+<div
+  class="jc-tabs jc-tabs-top jc-tabs-card jc-tabs-editable-card jc-tabs-no-animation"
+>
+  <div
+    class="jc-tabs-bar"
+    role="tablist"
+    tabindex="0"
+  >
+    <span
+      style="float:right"
+    >
+      <i
+        class="jcicon jcicon-plus  jc-tabs-new-tab"
+      />
+    </span>
+    <div
+      class="jc-tabs-nav-container"
+    >
+      <span
+        class="jc-tabs-tab-prev jc-tabs-tab-btn-disabled"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-tabs-tab-prev-icon"
+        />
+      </span>
+      <span
+        class="jc-tabs-tab-next jc-tabs-tab-btn-disabled"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-tabs-tab-next-icon"
+        />
+      </span>
+      <div
+        class="jc-tabs-nav-wrap"
+      >
+        <div
+          class="jc-tabs-nav-scroll"
+        >
+          <div
+            class="jc-tabs-nav jc-tabs-nav-animated"
+          >
+            <div
+              class="jc-tabs-ink-bar jc-tabs-ink-bar-animated"
+            />
+            <div
+              aria-disabled="false"
+              aria-selected="true"
+              class="jc-tabs-tab-active jc-tabs-tab"
+              role="tab"
+            >
+              <div>
+                Tab 1
+                <i
+                  class="jcicon jcicon-close "
+                />
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              aria-selected="false"
+              class=" jc-tabs-tab"
+              role="tab"
+            >
+              <div>
+                Tab 2
+                <i
+                  class="jcicon jcicon-close "
+                />
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              aria-selected="false"
+              class=" jc-tabs-tab"
+              role="tab"
+            >
+              <div
+                class="jc-tabs-tab-unclosable"
+              >
+                Tab 3
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-tabs-content jc-tabs-content-no-animated"
+  >
+    <div
+      aria-hidden="false"
+      class="jc-tabs-tabpane jc-tabs-tabpane-active"
+      role="tabpanel"
+    >
+      Content of Tab 1
+    </div>
+    <div
+      aria-hidden="true"
+      class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+      role="tabpanel"
+    />
+    <div
+      aria-hidden="true"
+      class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+      role="tabpanel"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders ./components/tabs/demo/Extra.js correctly test 1`] = `
+<div
+  class="jc-tabs jc-tabs-top jc-tabs-line"
+>
+  <div
+    class="jc-tabs-bar"
+    role="tablist"
+    tabindex="0"
+  >
+    <div
+      class="jc-tabs-extra-content"
+      style="float:right"
+    >
+      <button
+        class="jc-btn"
+        type="button"
+      >
+        <span>
+          Extra Action
+        </span>
+      </button>
+    </div>
+    <div
+      class="jc-tabs-nav-container"
+    >
+      <span
+        class="jc-tabs-tab-prev jc-tabs-tab-btn-disabled"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-tabs-tab-prev-icon"
+        />
+      </span>
+      <span
+        class="jc-tabs-tab-next jc-tabs-tab-btn-disabled"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-tabs-tab-next-icon"
+        />
+      </span>
+      <div
+        class="jc-tabs-nav-wrap"
+      >
+        <div
+          class="jc-tabs-nav-scroll"
+        >
+          <div
+            class="jc-tabs-nav jc-tabs-nav-animated"
+          >
+            <div
+              class="jc-tabs-ink-bar jc-tabs-ink-bar-animated"
+            />
+            <div
+              aria-disabled="false"
+              aria-selected="true"
+              class="jc-tabs-tab-active jc-tabs-tab"
+              role="tab"
+            >
+              Tab 1
+            </div>
+            <div
+              aria-disabled="false"
+              aria-selected="false"
+              class=" jc-tabs-tab"
+              role="tab"
+            >
+              Tab 2
+            </div>
+            <div
+              aria-disabled="false"
+              aria-selected="false"
+              class=" jc-tabs-tab"
+              role="tab"
+            >
+              Tab 3
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-tabs-content jc-tabs-content-animated"
+    style="margin-left:0%"
+  >
+    <div
+      aria-hidden="false"
+      class="jc-tabs-tabpane jc-tabs-tabpane-active"
+      role="tabpanel"
+    >
+      Content of tab 1
+    </div>
+    <div
+      aria-hidden="true"
+      class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+      role="tabpanel"
+    />
+    <div
+      aria-hidden="true"
+      class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+      role="tabpanel"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders ./components/tabs/demo/Icon.js correctly test 1`] = `
+<div
+  class="jc-tabs jc-tabs-top jc-tabs-line"
+>
+  <div
+    class="jc-tabs-bar"
+    role="tablist"
+    tabindex="0"
+  >
+    <div
+      class="jc-tabs-nav-container"
+    >
+      <span
+        class="jc-tabs-tab-prev jc-tabs-tab-btn-disabled"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-tabs-tab-prev-icon"
+        />
+      </span>
+      <span
+        class="jc-tabs-tab-next jc-tabs-tab-btn-disabled"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-tabs-tab-next-icon"
+        />
+      </span>
+      <div
+        class="jc-tabs-nav-wrap"
+      >
+        <div
+          class="jc-tabs-nav-scroll"
+        >
+          <div
+            class="jc-tabs-nav jc-tabs-nav-animated"
+          >
+            <div
+              class="jc-tabs-ink-bar jc-tabs-ink-bar-animated"
+            />
+            <div
+              aria-disabled="false"
+              aria-selected="false"
+              class=" jc-tabs-tab"
+              role="tab"
+            >
+              <span>
+                <i
+                  class="jcicon jcicon-apple "
+                />
+                Tab 1
+              </span>
+            </div>
+            <div
+              aria-disabled="false"
+              aria-selected="true"
+              class="jc-tabs-tab-active jc-tabs-tab"
+              role="tab"
+            >
+              <span>
+                <i
+                  class="jcicon jcicon-android "
+                />
+                Tab 2
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-tabs-content jc-tabs-content-animated"
+    style="margin-left:-100%"
+  >
+    <div
+      aria-hidden="true"
+      class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+      role="tabpanel"
+    />
+    <div
+      aria-hidden="false"
+      class="jc-tabs-tabpane jc-tabs-tabpane-active"
+      role="tabpanel"
+    >
+      Tab 2
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/tabs/demo/Position.js correctly test 1`] = `
+<div>
+  <div
+    style="margin-bottom:16px"
+  >
+    Tab position：
+    <div
+      class="jc-select jc-select-enabled"
+    >
+      <div
+        aria-autocomplete="list"
+        aria-expanded="false"
+        aria-haspopup="true"
+        class="jc-select-selection
+            jc-select-selection--single"
+        role="combobox"
+        tabindex="0"
+      >
+        <div
+          class="jc-select-selection__rendered"
+        >
+          <div
+            class="jc-select-selection-selected-value"
+            style="display:block;opacity:1"
+            title="top"
+          >
+            top
+          </div>
+        </div>
+        <span
+          class="jc-select-arrow"
+          style="user-select:none;-webkit-user-select:none"
+          unselectable="unselectable"
+        >
+          <b />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="jc-tabs jc-tabs-top jc-tabs-line"
+  >
+    <div
+      class="jc-tabs-bar"
+      role="tablist"
+      tabindex="0"
+    >
+      <div
+        class="jc-tabs-nav-container"
+      >
+        <span
+          class="jc-tabs-tab-prev jc-tabs-tab-btn-disabled"
+          unselectable="unselectable"
+        >
+          <span
+            class="jc-tabs-tab-prev-icon"
+          />
+        </span>
+        <span
+          class="jc-tabs-tab-next jc-tabs-tab-btn-disabled"
+          unselectable="unselectable"
+        >
+          <span
+            class="jc-tabs-tab-next-icon"
+          />
+        </span>
+        <div
+          class="jc-tabs-nav-wrap"
+        >
+          <div
+            class="jc-tabs-nav-scroll"
+          >
+            <div
+              class="jc-tabs-nav jc-tabs-nav-animated"
+            >
+              <div
+                class="jc-tabs-ink-bar jc-tabs-ink-bar-animated"
+              />
+              <div
+                aria-disabled="false"
+                aria-selected="true"
+                class="jc-tabs-tab-active jc-tabs-tab"
+                role="tab"
+              >
+                Tab 1
+              </div>
+              <div
+                aria-disabled="false"
+                aria-selected="false"
+                class=" jc-tabs-tab"
+                role="tab"
+              >
+                Tab 2
+              </div>
+              <div
+                aria-disabled="false"
+                aria-selected="false"
+                class=" jc-tabs-tab"
+                role="tab"
+              >
+                Tab 3
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="jc-tabs-content jc-tabs-content-animated"
+      style="margin-left:0%"
+    >
+      <div
+        aria-hidden="false"
+        class="jc-tabs-tabpane jc-tabs-tabpane-active"
+        role="tabpanel"
+      >
+        Content of Tab 1
+      </div>
+      <div
+        aria-hidden="true"
+        class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+        role="tabpanel"
+      />
+      <div
+        aria-hidden="true"
+        class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+        role="tabpanel"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/tabs/demo/Size.js correctly test 1`] = `
+<div>
+  <div
+    class="jc-radio-group"
+    style="margin-bottom:16px"
+  >
+    <label
+      class="jc-radio-button-wrapper jc-radio-button-wrapper-checked"
+    >
+      <span
+        class="jc-radio-button jc-radio-button-checked"
+      >
+        <input
+          checked=""
+          class="jc-radio-button-input"
+          type="radio"
+          value="small"
+        />
+        <span
+          class="jc-radio-button-inner"
+        />
+      </span>
+      <span>
+        Small
+      </span>
+    </label>
+    <label
+      class="jc-radio-button-wrapper"
+    >
+      <span
+        class="jc-radio-button"
+      >
+        <input
+          class="jc-radio-button-input"
+          type="radio"
+          value="default"
+        />
+        <span
+          class="jc-radio-button-inner"
+        />
+      </span>
+      <span>
+        Default
+      </span>
+    </label>
+    <label
+      class="jc-radio-button-wrapper"
+    >
+      <span
+        class="jc-radio-button"
+      >
+        <input
+          class="jc-radio-button-input"
+          type="radio"
+          value="large"
+        />
+        <span
+          class="jc-radio-button-inner"
+        />
+      </span>
+      <span>
+        Large
+      </span>
+    </label>
+  </div>
+  <div
+    class="jc-tabs jc-tabs-top jc-tabs-small jc-tabs-line"
+  >
+    <div
+      class="jc-tabs-bar"
+      role="tablist"
+      tabindex="0"
+    >
+      <div
+        class="jc-tabs-nav-container"
+      >
+        <span
+          class="jc-tabs-tab-prev jc-tabs-tab-btn-disabled"
+          unselectable="unselectable"
+        >
+          <span
+            class="jc-tabs-tab-prev-icon"
+          />
+        </span>
+        <span
+          class="jc-tabs-tab-next jc-tabs-tab-btn-disabled"
+          unselectable="unselectable"
+        >
+          <span
+            class="jc-tabs-tab-next-icon"
+          />
+        </span>
+        <div
+          class="jc-tabs-nav-wrap"
+        >
+          <div
+            class="jc-tabs-nav-scroll"
+          >
+            <div
+              class="jc-tabs-nav jc-tabs-nav-animated"
+            >
+              <div
+                class="jc-tabs-ink-bar jc-tabs-ink-bar-animated"
+              />
+              <div
+                aria-disabled="false"
+                aria-selected="true"
+                class="jc-tabs-tab-active jc-tabs-tab"
+                role="tab"
+              >
+                Tab 1
+              </div>
+              <div
+                aria-disabled="false"
+                aria-selected="false"
+                class=" jc-tabs-tab"
+                role="tab"
+              >
+                Tab 2
+              </div>
+              <div
+                aria-disabled="false"
+                aria-selected="false"
+                class=" jc-tabs-tab"
+                role="tab"
+              >
+                Tab 3
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="jc-tabs-content jc-tabs-content-animated"
+      style="margin-left:0%"
+    >
+      <div
+        aria-hidden="false"
+        class="jc-tabs-tabpane jc-tabs-tabpane-active"
+        role="tabpanel"
+      >
+        Content of tab 1
+      </div>
+      <div
+        aria-hidden="true"
+        class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+        role="tabpanel"
+      />
+      <div
+        aria-hidden="true"
+        class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+        role="tabpanel"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/tabs/demo/Slide.js correctly test 1`] = `
+<div>
+  <div
+    class="jc-radio-group"
+    style="margin-bottom:8px"
+  >
+    <label
+      class="jc-radio-button-wrapper jc-radio-button-wrapper-checked"
+    >
+      <span
+        class="jc-radio-button jc-radio-button-checked"
+      >
+        <input
+          checked=""
+          class="jc-radio-button-input"
+          type="radio"
+          value="top"
+        />
+        <span
+          class="jc-radio-button-inner"
+        />
+      </span>
+      <span>
+        Horizontal
+      </span>
+    </label>
+    <label
+      class="jc-radio-button-wrapper"
+    >
+      <span
+        class="jc-radio-button"
+      >
+        <input
+          class="jc-radio-button-input"
+          type="radio"
+          value="left"
+        />
+        <span
+          class="jc-radio-button-inner"
+        />
+      </span>
+      <span>
+        Vertical
+      </span>
+    </label>
+  </div>
+  <div
+    class="jc-tabs jc-tabs-top jc-tabs-line"
+    style="height:220px"
+  >
+    <div
+      class="jc-tabs-bar"
+      role="tablist"
+      tabindex="0"
+    >
+      <div
+        class="jc-tabs-nav-container"
+      >
+        <span
+          class="jc-tabs-tab-prev jc-tabs-tab-btn-disabled"
+          unselectable="unselectable"
+        >
+          <span
+            class="jc-tabs-tab-prev-icon"
+          />
+        </span>
+        <span
+          class="jc-tabs-tab-next jc-tabs-tab-btn-disabled"
+          unselectable="unselectable"
+        >
+          <span
+            class="jc-tabs-tab-next-icon"
+          />
+        </span>
+        <div
+          class="jc-tabs-nav-wrap"
+        >
+          <div
+            class="jc-tabs-nav-scroll"
+          >
+            <div
+              class="jc-tabs-nav jc-tabs-nav-animated"
+            >
+              <div
+                class="jc-tabs-ink-bar jc-tabs-ink-bar-animated"
+              />
+              <div
+                aria-disabled="false"
+                aria-selected="true"
+                class="jc-tabs-tab-active jc-tabs-tab"
+                role="tab"
+              >
+                Tab 1
+              </div>
+              <div
+                aria-disabled="false"
+                aria-selected="false"
+                class=" jc-tabs-tab"
+                role="tab"
+              >
+                Tab 2
+              </div>
+              <div
+                aria-disabled="false"
+                aria-selected="false"
+                class=" jc-tabs-tab"
+                role="tab"
+              >
+                Tab 3
+              </div>
+              <div
+                aria-disabled="false"
+                aria-selected="false"
+                class=" jc-tabs-tab"
+                role="tab"
+              >
+                Tab 4
+              </div>
+              <div
+                aria-disabled="false"
+                aria-selected="false"
+                class=" jc-tabs-tab"
+                role="tab"
+              >
+                Tab 5
+              </div>
+              <div
+                aria-disabled="false"
+                aria-selected="false"
+                class=" jc-tabs-tab"
+                role="tab"
+              >
+                Tab 6
+              </div>
+              <div
+                aria-disabled="false"
+                aria-selected="false"
+                class=" jc-tabs-tab"
+                role="tab"
+              >
+                Tab 7
+              </div>
+              <div
+                aria-disabled="false"
+                aria-selected="false"
+                class=" jc-tabs-tab"
+                role="tab"
+              >
+                Tab 8
+              </div>
+              <div
+                aria-disabled="false"
+                aria-selected="false"
+                class=" jc-tabs-tab"
+                role="tab"
+              >
+                Tab 9
+              </div>
+              <div
+                aria-disabled="false"
+                aria-selected="false"
+                class=" jc-tabs-tab"
+                role="tab"
+              >
+                Tab 10
+              </div>
+              <div
+                aria-disabled="false"
+                aria-selected="false"
+                class=" jc-tabs-tab"
+                role="tab"
+              >
+                Tab 11
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="jc-tabs-content jc-tabs-content-animated"
+      style="margin-left:0%"
+    >
+      <div
+        aria-hidden="false"
+        class="jc-tabs-tabpane jc-tabs-tabpane-active"
+        role="tabpanel"
+      >
+        Content of tab 1
+      </div>
+      <div
+        aria-hidden="true"
+        class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+        role="tabpanel"
+      />
+      <div
+        aria-hidden="true"
+        class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+        role="tabpanel"
+      />
+      <div
+        aria-hidden="true"
+        class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+        role="tabpanel"
+      />
+      <div
+        aria-hidden="true"
+        class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+        role="tabpanel"
+      />
+      <div
+        aria-hidden="true"
+        class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+        role="tabpanel"
+      />
+      <div
+        aria-hidden="true"
+        class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+        role="tabpanel"
+      />
+      <div
+        aria-hidden="true"
+        class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+        role="tabpanel"
+      />
+      <div
+        aria-hidden="true"
+        class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+        role="tabpanel"
+      />
+      <div
+        aria-hidden="true"
+        class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+        role="tabpanel"
+      />
+      <div
+        aria-hidden="true"
+        class="jc-tabs-tabpane jc-tabs-tabpane-inactive"
+        role="tabpanel"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../../src/components/Release/PriceSaleMode/v1.0.0/view/index.js"],"names":["PriceSaleMode"],"mappings":";;;;;;AAEA;;;;;;kBAEeA,uB","file":"index.js","sourcesContent":["\r\n\r\nimport PriceSaleMode from './PriceSaleMode';\r\n\r\nexport default PriceSaleMode;"]}

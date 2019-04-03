@@ -1,0 +1,1122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<List /> Basic usage of List 1`] = `
+<div
+  className="jc-list jc-list-split"
+>
+  <div>
+    <div
+      className="jc-spin-nested-loading"
+      style={null}
+    >
+      <div
+        className="jc-spin-container"
+      >
+        <div
+          className="jc-list-item"
+        >
+          <div
+            className="jc-list-item-meta"
+          >
+            <div
+              className="jc-list-item-meta-avatar"
+            >
+              <span
+                className="jc-avatar jc-avatar-circle jc-avatar-image"
+              >
+                <img
+                  alt=""
+                  onError={[Function]}
+                  src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+                />
+              </span>
+            </div>
+            <div
+              className="jc-list-item-meta-content"
+            >
+              <h4
+                className="jc-list-item-meta-title"
+              >
+                <a
+                  href="https://ant.design"
+                >
+                  Ant Design Title 1
+                </a>
+              </h4>
+              <div
+                className="jc-list-item-meta-description"
+              >
+                Ant Design, a design language for background applications, is refined by Ant UED Team
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="jc-list-item"
+        >
+          <div
+            className="jc-list-item-meta"
+          >
+            <div
+              className="jc-list-item-meta-avatar"
+            >
+              <span
+                className="jc-avatar jc-avatar-circle jc-avatar-image"
+              >
+                <img
+                  alt=""
+                  onError={[Function]}
+                  src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+                />
+              </span>
+            </div>
+            <div
+              className="jc-list-item-meta-content"
+            >
+              <h4
+                className="jc-list-item-meta-title"
+              >
+                <a
+                  href="https://ant.design"
+                >
+                  Ant Design Title 2
+                </a>
+              </h4>
+              <div
+                className="jc-list-item-meta-description"
+              >
+                Ant Design, a design language for background applications, is refined by Ant UED Team
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="jc-list-item"
+        >
+          <div
+            className="jc-list-item-meta"
+          >
+            <div
+              className="jc-list-item-meta-avatar"
+            >
+              <span
+                className="jc-avatar jc-avatar-circle jc-avatar-image"
+              >
+                <img
+                  alt=""
+                  onError={[Function]}
+                  src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+                />
+              </span>
+            </div>
+            <div
+              className="jc-list-item-meta-content"
+            >
+              <h4
+                className="jc-list-item-meta-title"
+              >
+                <a
+                  href="https://ant.design"
+                >
+                  Ant Design Title 3
+                </a>
+              </h4>
+              <div
+                className="jc-list-item-meta-description"
+              >
+                Ant Design, a design language for background applications, is refined by Ant UED Team
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="jc-list-item"
+        >
+          <div
+            className="jc-list-item-meta"
+          >
+            <div
+              className="jc-list-item-meta-avatar"
+            >
+              <span
+                className="jc-avatar jc-avatar-circle jc-avatar-image"
+              >
+                <img
+                  alt=""
+                  onError={[Function]}
+                  src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+                />
+              </span>
+            </div>
+            <div
+              className="jc-list-item-meta-content"
+            >
+              <h4
+                className="jc-list-item-meta-title"
+              >
+                <a
+                  href="https://ant.design"
+                >
+                  Ant Design Title 4
+                </a>
+              </h4>
+              <div
+                className="jc-list-item-meta-description"
+              >
+                Ant Design, a design language for background applications, is refined by Ant UED Team
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<List /> LoadMoreList usage of List 1`] = `
+<div
+  className="jc-list demo-loadmore-list jc-list-split jc-list-loading jc-list-something-after-last-item"
+>
+  <div>
+    <div
+      className="jc-spin-nested-loading"
+      style={null}
+    >
+      <div>
+        <div
+          className="jc-spin jc-spin-spinning jc-spin-show-text"
+        >
+          <span
+            className="jc-spin-dot jc-spin-dot-spin"
+          >
+            <i />
+            <i />
+            <i />
+            <i />
+          </span>
+        </div>
+      </div>
+      <div
+        className="jc-spin-container jc-spin-blur"
+      >
+        <div
+          style={
+            Object {
+              "minHeight": 53,
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "height": 32,
+          "lineHeight": "32px",
+          "marginTop": 12,
+          "textAlign": "center",
+        }
+      }
+    >
+      <button
+        className="jc-btn"
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          loading more
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<List /> Simple usage of List 1`] = `
+<div>
+  <h3
+    style={
+      Object {
+        "marginBottom": 16,
+      }
+    }
+  >
+    Default Size
+  </h3>
+  <div
+    className="jc-list jc-list-split jc-list-bordered jc-list-something-after-last-item"
+  >
+    <div
+      className="jc-list-header"
+    >
+      <div>
+        Header
+      </div>
+    </div>
+    <div>
+      <div
+        className="jc-spin-nested-loading"
+        style={null}
+      >
+        <div
+          className="jc-spin-container"
+        >
+          <div
+            className="jc-list-item"
+          >
+            <div
+              className="jc-list-item-content jc-list-item-content-single"
+            >
+              Racing car sprays burning fuel into crowd.
+            </div>
+          </div>
+          <div
+            className="jc-list-item"
+          >
+            <div
+              className="jc-list-item-content jc-list-item-content-single"
+            >
+              Japanese princess to wed commoner.
+            </div>
+          </div>
+          <div
+            className="jc-list-item"
+          >
+            <div
+              className="jc-list-item-content jc-list-item-content-single"
+            >
+              Australian walks 100km after outback crash.
+            </div>
+          </div>
+          <div
+            className="jc-list-item"
+          >
+            <div
+              className="jc-list-item-content jc-list-item-content-single"
+            >
+              Man charged over missing wedding girl.
+            </div>
+          </div>
+          <div
+            className="jc-list-item"
+          >
+            <div
+              className="jc-list-item-content jc-list-item-content-single"
+            >
+              Los Angeles battles huge wildfires.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="jc-list-footer"
+    >
+      <div>
+        Footer
+      </div>
+    </div>
+  </div>
+  <h3
+    style={
+      Object {
+        "margin": "16px 0",
+      }
+    }
+  >
+    Small Size
+  </h3>
+  <div
+    className="jc-list jc-list-sm jc-list-split jc-list-bordered jc-list-something-after-last-item"
+  >
+    <div
+      className="jc-list-header"
+    >
+      <div>
+        Header
+      </div>
+    </div>
+    <div>
+      <div
+        className="jc-spin-nested-loading"
+        style={null}
+      >
+        <div
+          className="jc-spin-container"
+        >
+          <div
+            className="jc-list-item"
+          >
+            <div
+              className="jc-list-item-content jc-list-item-content-single"
+            >
+              Racing car sprays burning fuel into crowd.
+            </div>
+          </div>
+          <div
+            className="jc-list-item"
+          >
+            <div
+              className="jc-list-item-content jc-list-item-content-single"
+            >
+              Japanese princess to wed commoner.
+            </div>
+          </div>
+          <div
+            className="jc-list-item"
+          >
+            <div
+              className="jc-list-item-content jc-list-item-content-single"
+            >
+              Australian walks 100km after outback crash.
+            </div>
+          </div>
+          <div
+            className="jc-list-item"
+          >
+            <div
+              className="jc-list-item-content jc-list-item-content-single"
+            >
+              Man charged over missing wedding girl.
+            </div>
+          </div>
+          <div
+            className="jc-list-item"
+          >
+            <div
+              className="jc-list-item-content jc-list-item-content-single"
+            >
+              Los Angeles battles huge wildfires.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="jc-list-footer"
+    >
+      <div>
+        Footer
+      </div>
+    </div>
+  </div>
+  <h3
+    style={
+      Object {
+        "margin": "16px 0",
+      }
+    }
+  >
+    Large Size
+  </h3>
+  <div
+    className="jc-list jc-list-lg jc-list-split jc-list-bordered jc-list-something-after-last-item"
+  >
+    <div
+      className="jc-list-header"
+    >
+      <div>
+        Header
+      </div>
+    </div>
+    <div>
+      <div
+        className="jc-spin-nested-loading"
+        style={null}
+      >
+        <div
+          className="jc-spin-container"
+        >
+          <div
+            className="jc-list-item"
+          >
+            <div
+              className="jc-list-item-content jc-list-item-content-single"
+            >
+              Racing car sprays burning fuel into crowd.
+            </div>
+          </div>
+          <div
+            className="jc-list-item"
+          >
+            <div
+              className="jc-list-item-content jc-list-item-content-single"
+            >
+              Japanese princess to wed commoner.
+            </div>
+          </div>
+          <div
+            className="jc-list-item"
+          >
+            <div
+              className="jc-list-item-content jc-list-item-content-single"
+            >
+              Australian walks 100km after outback crash.
+            </div>
+          </div>
+          <div
+            className="jc-list-item"
+          >
+            <div
+              className="jc-list-item-content jc-list-item-content-single"
+            >
+              Man charged over missing wedding girl.
+            </div>
+          </div>
+          <div
+            className="jc-list-item"
+          >
+            <div
+              className="jc-list-item-content jc-list-item-content-single"
+            >
+              Los Angeles battles huge wildfires.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="jc-list-footer"
+    >
+      <div>
+        Footer
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<List /> Vertical usage of List 1`] = `
+<div
+  className="jc-list jc-list-vertical jc-list-lg jc-list-split jc-list-something-after-last-item"
+>
+  <div>
+    <div
+      className="jc-spin-nested-loading"
+      style={null}
+    >
+      <div
+        className="jc-spin-container"
+      >
+        <div
+          className="jc-list-item"
+        >
+          <div
+            className="jc-list-item-extra-wrap"
+          >
+            <div
+              className="jc-list-item-main"
+            >
+              <div
+                className="jc-list-item-meta"
+              >
+                <div
+                  className="jc-list-item-meta-avatar"
+                >
+                  <span
+                    className="jc-avatar jc-avatar-circle jc-avatar-image"
+                  >
+                    <img
+                      alt=""
+                      onError={[Function]}
+                      src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+                    />
+                  </span>
+                </div>
+                <div
+                  className="jc-list-item-meta-content"
+                >
+                  <h4
+                    className="jc-list-item-meta-title"
+                  >
+                    <a
+                      href="http://ant.design"
+                    >
+                      ant design part 0
+                    </a>
+                  </h4>
+                  <div
+                    className="jc-list-item-meta-description"
+                  >
+                    Ant Design, a design language for background applications, is refined by Ant UED Team.
+                  </div>
+                </div>
+              </div>
+              <div
+                className="jc-list-item-content"
+              >
+                We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.
+              </div>
+              <ul
+                className="jc-list-item-action"
+              >
+                <li>
+                  <span>
+                    <i
+                      className="jcicon jcicon-star-o "
+                      style={
+                        Object {
+                          "marginRight": 8,
+                        }
+                      }
+                    />
+                    156
+                  </span>
+                  <em
+                    className="jc-list-item-action-split"
+                  />
+                </li>
+                <li>
+                  <span>
+                    <i
+                      className="jcicon jcicon-like-o "
+                      style={
+                        Object {
+                          "marginRight": 8,
+                        }
+                      }
+                    />
+                    156
+                  </span>
+                  <em
+                    className="jc-list-item-action-split"
+                  />
+                </li>
+                <li>
+                  <span>
+                    <i
+                      className="jcicon jcicon-message "
+                      style={
+                        Object {
+                          "marginRight": 8,
+                        }
+                      }
+                    />
+                    2
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="jc-list-item-extra"
+            >
+              <img
+                alt="logo"
+                src="https://gw.alipayobjects.com/zos/rmsportal/mqaQswcyDLcXyDKnZfES.png"
+                width={272}
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="jc-list-item"
+        >
+          <div
+            className="jc-list-item-extra-wrap"
+          >
+            <div
+              className="jc-list-item-main"
+            >
+              <div
+                className="jc-list-item-meta"
+              >
+                <div
+                  className="jc-list-item-meta-avatar"
+                >
+                  <span
+                    className="jc-avatar jc-avatar-circle jc-avatar-image"
+                  >
+                    <img
+                      alt=""
+                      onError={[Function]}
+                      src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+                    />
+                  </span>
+                </div>
+                <div
+                  className="jc-list-item-meta-content"
+                >
+                  <h4
+                    className="jc-list-item-meta-title"
+                  >
+                    <a
+                      href="http://ant.design"
+                    >
+                      ant design part 1
+                    </a>
+                  </h4>
+                  <div
+                    className="jc-list-item-meta-description"
+                  >
+                    Ant Design, a design language for background applications, is refined by Ant UED Team.
+                  </div>
+                </div>
+              </div>
+              <div
+                className="jc-list-item-content"
+              >
+                We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.
+              </div>
+              <ul
+                className="jc-list-item-action"
+              >
+                <li>
+                  <span>
+                    <i
+                      className="jcicon jcicon-star-o "
+                      style={
+                        Object {
+                          "marginRight": 8,
+                        }
+                      }
+                    />
+                    156
+                  </span>
+                  <em
+                    className="jc-list-item-action-split"
+                  />
+                </li>
+                <li>
+                  <span>
+                    <i
+                      className="jcicon jcicon-like-o "
+                      style={
+                        Object {
+                          "marginRight": 8,
+                        }
+                      }
+                    />
+                    156
+                  </span>
+                  <em
+                    className="jc-list-item-action-split"
+                  />
+                </li>
+                <li>
+                  <span>
+                    <i
+                      className="jcicon jcicon-message "
+                      style={
+                        Object {
+                          "marginRight": 8,
+                        }
+                      }
+                    />
+                    2
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="jc-list-item-extra"
+            >
+              <img
+                alt="logo"
+                src="https://gw.alipayobjects.com/zos/rmsportal/mqaQswcyDLcXyDKnZfES.png"
+                width={272}
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="jc-list-item"
+        >
+          <div
+            className="jc-list-item-extra-wrap"
+          >
+            <div
+              className="jc-list-item-main"
+            >
+              <div
+                className="jc-list-item-meta"
+              >
+                <div
+                  className="jc-list-item-meta-avatar"
+                >
+                  <span
+                    className="jc-avatar jc-avatar-circle jc-avatar-image"
+                  >
+                    <img
+                      alt=""
+                      onError={[Function]}
+                      src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+                    />
+                  </span>
+                </div>
+                <div
+                  className="jc-list-item-meta-content"
+                >
+                  <h4
+                    className="jc-list-item-meta-title"
+                  >
+                    <a
+                      href="http://ant.design"
+                    >
+                      ant design part 2
+                    </a>
+                  </h4>
+                  <div
+                    className="jc-list-item-meta-description"
+                  >
+                    Ant Design, a design language for background applications, is refined by Ant UED Team.
+                  </div>
+                </div>
+              </div>
+              <div
+                className="jc-list-item-content"
+              >
+                We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.
+              </div>
+              <ul
+                className="jc-list-item-action"
+              >
+                <li>
+                  <span>
+                    <i
+                      className="jcicon jcicon-star-o "
+                      style={
+                        Object {
+                          "marginRight": 8,
+                        }
+                      }
+                    />
+                    156
+                  </span>
+                  <em
+                    className="jc-list-item-action-split"
+                  />
+                </li>
+                <li>
+                  <span>
+                    <i
+                      className="jcicon jcicon-like-o "
+                      style={
+                        Object {
+                          "marginRight": 8,
+                        }
+                      }
+                    />
+                    156
+                  </span>
+                  <em
+                    className="jc-list-item-action-split"
+                  />
+                </li>
+                <li>
+                  <span>
+                    <i
+                      className="jcicon jcicon-message "
+                      style={
+                        Object {
+                          "marginRight": 8,
+                        }
+                      }
+                    />
+                    2
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="jc-list-item-extra"
+            >
+              <img
+                alt="logo"
+                src="https://gw.alipayobjects.com/zos/rmsportal/mqaQswcyDLcXyDKnZfES.png"
+                width={272}
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="jc-list-item"
+        >
+          <div
+            className="jc-list-item-extra-wrap"
+          >
+            <div
+              className="jc-list-item-main"
+            >
+              <div
+                className="jc-list-item-meta"
+              >
+                <div
+                  className="jc-list-item-meta-avatar"
+                >
+                  <span
+                    className="jc-avatar jc-avatar-circle jc-avatar-image"
+                  >
+                    <img
+                      alt=""
+                      onError={[Function]}
+                      src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+                    />
+                  </span>
+                </div>
+                <div
+                  className="jc-list-item-meta-content"
+                >
+                  <h4
+                    className="jc-list-item-meta-title"
+                  >
+                    <a
+                      href="http://ant.design"
+                    >
+                      ant design part 3
+                    </a>
+                  </h4>
+                  <div
+                    className="jc-list-item-meta-description"
+                  >
+                    Ant Design, a design language for background applications, is refined by Ant UED Team.
+                  </div>
+                </div>
+              </div>
+              <div
+                className="jc-list-item-content"
+              >
+                We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.
+              </div>
+              <ul
+                className="jc-list-item-action"
+              >
+                <li>
+                  <span>
+                    <i
+                      className="jcicon jcicon-star-o "
+                      style={
+                        Object {
+                          "marginRight": 8,
+                        }
+                      }
+                    />
+                    156
+                  </span>
+                  <em
+                    className="jc-list-item-action-split"
+                  />
+                </li>
+                <li>
+                  <span>
+                    <i
+                      className="jcicon jcicon-like-o "
+                      style={
+                        Object {
+                          "marginRight": 8,
+                        }
+                      }
+                    />
+                    156
+                  </span>
+                  <em
+                    className="jc-list-item-action-split"
+                  />
+                </li>
+                <li>
+                  <span>
+                    <i
+                      className="jcicon jcicon-message "
+                      style={
+                        Object {
+                          "marginRight": 8,
+                        }
+                      }
+                    />
+                    2
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="jc-list-item-extra"
+            >
+              <img
+                alt="logo"
+                src="https://gw.alipayobjects.com/zos/rmsportal/mqaQswcyDLcXyDKnZfES.png"
+                width={272}
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="jc-list-item"
+        >
+          <div
+            className="jc-list-item-extra-wrap"
+          >
+            <div
+              className="jc-list-item-main"
+            >
+              <div
+                className="jc-list-item-meta"
+              >
+                <div
+                  className="jc-list-item-meta-avatar"
+                >
+                  <span
+                    className="jc-avatar jc-avatar-circle jc-avatar-image"
+                  >
+                    <img
+                      alt=""
+                      onError={[Function]}
+                      src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+                    />
+                  </span>
+                </div>
+                <div
+                  className="jc-list-item-meta-content"
+                >
+                  <h4
+                    className="jc-list-item-meta-title"
+                  >
+                    <a
+                      href="http://ant.design"
+                    >
+                      ant design part 4
+                    </a>
+                  </h4>
+                  <div
+                    className="jc-list-item-meta-description"
+                  >
+                    Ant Design, a design language for background applications, is refined by Ant UED Team.
+                  </div>
+                </div>
+              </div>
+              <div
+                className="jc-list-item-content"
+              >
+                We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.
+              </div>
+              <ul
+                className="jc-list-item-action"
+              >
+                <li>
+                  <span>
+                    <i
+                      className="jcicon jcicon-star-o "
+                      style={
+                        Object {
+                          "marginRight": 8,
+                        }
+                      }
+                    />
+                    156
+                  </span>
+                  <em
+                    className="jc-list-item-action-split"
+                  />
+                </li>
+                <li>
+                  <span>
+                    <i
+                      className="jcicon jcicon-like-o "
+                      style={
+                        Object {
+                          "marginRight": 8,
+                        }
+                      }
+                    />
+                    156
+                  </span>
+                  <em
+                    className="jc-list-item-action-split"
+                  />
+                </li>
+                <li>
+                  <span>
+                    <i
+                      className="jcicon jcicon-message "
+                      style={
+                        Object {
+                          "marginRight": 8,
+                        }
+                      }
+                    />
+                    2
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="jc-list-item-extra"
+            >
+              <img
+                alt="logo"
+                src="https://gw.alipayobjects.com/zos/rmsportal/mqaQswcyDLcXyDKnZfES.png"
+                width={272}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="jc-list-pagination"
+    >
+      <ul
+        className="jc-pagination "
+        style={Object {}}
+        unselectable="unselectable"
+      >
+        <li
+          aria-disabled={true}
+          className="jc-pagination-disabled jc-pagination-prev"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          tabIndex={null}
+          title="Previous Page"
+        >
+          <a
+            className="jc-pagination-item-link"
+          />
+        </li>
+        <li
+          className="jc-pagination-item jc-pagination-item-1 jc-pagination-item-active"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          tabIndex="0"
+          title={1}
+        >
+          <a>
+            1
+          </a>
+        </li>
+        <li
+          aria-disabled={true}
+          className="jc-pagination-disabled jc-pagination-next"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          tabIndex={null}
+          title="Next Page"
+        >
+          <a
+            className="jc-pagination-item-link"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<List /> VirtualizedExample usage of List 1`] = `
+<div
+  className="jc-list jc-list-split"
+>
+  <div>
+    <div
+      className="jc-spin jc-spin-show-text"
+    >
+      <span
+        className="jc-spin-dot jc-spin-dot-spin"
+      >
+        <i />
+        <i />
+        <i />
+        <i />
+      </span>
+    </div>
+  </div>
+</div>
+`;

@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../../src/components/Release/GoodImageShop/v1.0.0/view/index.js"],"names":["GoodImageShop"],"mappings":";;;;;;AACA;;;;;;kBACeA,uB","file":"index.js","sourcesContent":["\r\nimport GoodImageShop from \"./GoodImageShop\";\r\nexport default GoodImageShop;\r\n"]}

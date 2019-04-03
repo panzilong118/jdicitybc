@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../../src/components/Release/BasicPlace/v1.0.0/view/index.js"],"names":["BasicPlace"],"mappings":";;;;;;AACA;;;;;;kBACeA,oB","file":"index.js","sourcesContent":["\r\nimport BasicPlace from \"./BasicPlace\";\r\nexport default BasicPlace;\r\n"]}

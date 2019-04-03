@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../../src/components/Release/ReleaseAdvertisingWord/v1.0.0/view/index.js"],"names":["ReleaseAdvertisingWord"],"mappings":";;;;;;AAAA;;;;;;kBACeA,gC","file":"index.js","sourcesContent":["import ReleaseAdvertisingWord from './ReleaseAdvertisingWord';\r\nexport default ReleaseAdvertisingWord;"]}

@@ -1,0 +1,416 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/input-number/demo/basic.js correctly test 1`] = `
+<div
+  class="jc-input-number"
+>
+  <div
+    class="jc-input-number-handler-wrap"
+  >
+    <span
+      aria-disabled="false"
+      aria-label="Increase Value"
+      class="jc-input-number-handler jc-input-number-handler-up "
+      role="button"
+      unselectable="unselectable"
+    >
+      <span
+        class="jc-input-number-handler-up-inner"
+        unselectable="unselectable"
+      />
+    </span>
+    <span
+      aria-disabled="false"
+      aria-label="Decrease Value"
+      class="jc-input-number-handler jc-input-number-handler-down "
+      role="button"
+      unselectable="unselectable"
+    >
+      <span
+        class="jc-input-number-handler-down-inner"
+        unselectable="unselectable"
+      />
+    </span>
+  </div>
+  <div
+    aria-valuemax="10"
+    aria-valuemin="1"
+    aria-valuenow="3"
+    class="jc-input-number-input-wrap"
+    role="spinbutton"
+  >
+    <input
+      autocomplete="off"
+      class="jc-input-number-input"
+      max="10"
+      min="1"
+      step="1"
+      value="3"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders ./components/input-number/demo/digit.js correctly test 1`] = `
+<div
+  class="jc-input-number"
+>
+  <div
+    class="jc-input-number-handler-wrap"
+  >
+    <span
+      aria-disabled="false"
+      aria-label="Increase Value"
+      class="jc-input-number-handler jc-input-number-handler-up "
+      role="button"
+      unselectable="unselectable"
+    >
+      <span
+        class="jc-input-number-handler-up-inner"
+        unselectable="unselectable"
+      />
+    </span>
+    <span
+      aria-disabled="false"
+      aria-label="Decrease Value"
+      class="jc-input-number-handler jc-input-number-handler-down "
+      role="button"
+      unselectable="unselectable"
+    >
+      <span
+        class="jc-input-number-handler-down-inner"
+        unselectable="unselectable"
+      />
+    </span>
+  </div>
+  <div
+    aria-valuemax="10"
+    aria-valuemin="0"
+    class="jc-input-number-input-wrap"
+    role="spinbutton"
+  >
+    <input
+      autocomplete="off"
+      class="jc-input-number-input"
+      max="10"
+      min="0"
+      step="0.1"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`renders ./components/input-number/demo/disabled.js correctly test 1`] = `
+<div>
+  <div
+    class="jc-input-number jc-input-number-disabled"
+  >
+    <div
+      class="jc-input-number-handler-wrap"
+    >
+      <span
+        aria-disabled="true"
+        aria-label="Increase Value"
+        class="jc-input-number-handler jc-input-number-handler-up "
+        role="button"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-input-number-handler-up-inner"
+          unselectable="unselectable"
+        />
+      </span>
+      <span
+        aria-disabled="true"
+        aria-label="Decrease Value"
+        class="jc-input-number-handler jc-input-number-handler-down "
+        role="button"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-input-number-handler-down-inner"
+          unselectable="unselectable"
+        />
+      </span>
+    </div>
+    <div
+      aria-valuemax="10"
+      aria-valuemin="1"
+      aria-valuenow="3"
+      class="jc-input-number-input-wrap"
+      role="spinbutton"
+    >
+      <input
+        autocomplete="off"
+        class="jc-input-number-input"
+        disabled=""
+        max="10"
+        min="1"
+        step="1"
+        value="3"
+      />
+    </div>
+  </div>
+  <div
+    style="margin-top:20px"
+  >
+    <button
+      class="jc-btn jc-btn-primary"
+      type="button"
+    >
+      <span>
+        Toggle disabled
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/input-number/demo/formatter.js correctly test 1`] = `
+<div>
+  <div
+    class="jc-input-number"
+  >
+    <div
+      class="jc-input-number-handler-wrap"
+    >
+      <span
+        aria-disabled="false"
+        aria-label="Increase Value"
+        class="jc-input-number-handler jc-input-number-handler-up "
+        role="button"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-input-number-handler-up-inner"
+          unselectable="unselectable"
+        />
+      </span>
+      <span
+        aria-disabled="false"
+        aria-label="Decrease Value"
+        class="jc-input-number-handler jc-input-number-handler-down "
+        role="button"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-input-number-handler-down-inner"
+          unselectable="unselectable"
+        />
+      </span>
+    </div>
+    <div
+      aria-valuemin="-9007199254740991"
+      aria-valuenow="1000"
+      class="jc-input-number-input-wrap"
+      role="spinbutton"
+    >
+      <input
+        autocomplete="off"
+        class="jc-input-number-input"
+        min="-9007199254740991"
+        step="1"
+        value="$ 1,000"
+      />
+    </div>
+  </div>
+  <div
+    class="jc-input-number"
+  >
+    <div
+      class="jc-input-number-handler-wrap"
+    >
+      <span
+        aria-disabled="true"
+        aria-label="Increase Value"
+        class="jc-input-number-handler jc-input-number-handler-up jc-input-number-handler-up-disabled"
+        role="button"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-input-number-handler-up-inner"
+          unselectable="unselectable"
+        />
+      </span>
+      <span
+        aria-disabled="false"
+        aria-label="Decrease Value"
+        class="jc-input-number-handler jc-input-number-handler-down "
+        role="button"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-input-number-handler-down-inner"
+          unselectable="unselectable"
+        />
+      </span>
+    </div>
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="100"
+      class="jc-input-number-input-wrap"
+      role="spinbutton"
+    >
+      <input
+        autocomplete="off"
+        class="jc-input-number-input"
+        max="100"
+        min="0"
+        step="1"
+        value="100%"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/input-number/demo/size.js correctly test 1`] = `
+<div>
+  <div
+    class="jc-input-number jc-input-number-lg"
+  >
+    <div
+      class="jc-input-number-handler-wrap"
+    >
+      <span
+        aria-disabled="false"
+        aria-label="Increase Value"
+        class="jc-input-number-handler jc-input-number-handler-up "
+        role="button"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-input-number-handler-up-inner"
+          unselectable="unselectable"
+        />
+      </span>
+      <span
+        aria-disabled="false"
+        aria-label="Decrease Value"
+        class="jc-input-number-handler jc-input-number-handler-down "
+        role="button"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-input-number-handler-down-inner"
+          unselectable="unselectable"
+        />
+      </span>
+    </div>
+    <div
+      aria-valuemax="100000"
+      aria-valuemin="1"
+      aria-valuenow="3"
+      class="jc-input-number-input-wrap"
+      role="spinbutton"
+    >
+      <input
+        autocomplete="off"
+        class="jc-input-number-input"
+        max="100000"
+        min="1"
+        step="1"
+        value="3"
+      />
+    </div>
+  </div>
+  <div
+    class="jc-input-number"
+  >
+    <div
+      class="jc-input-number-handler-wrap"
+    >
+      <span
+        aria-disabled="false"
+        aria-label="Increase Value"
+        class="jc-input-number-handler jc-input-number-handler-up "
+        role="button"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-input-number-handler-up-inner"
+          unselectable="unselectable"
+        />
+      </span>
+      <span
+        aria-disabled="false"
+        aria-label="Decrease Value"
+        class="jc-input-number-handler jc-input-number-handler-down "
+        role="button"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-input-number-handler-down-inner"
+          unselectable="unselectable"
+        />
+      </span>
+    </div>
+    <div
+      aria-valuemax="100000"
+      aria-valuemin="1"
+      aria-valuenow="3"
+      class="jc-input-number-input-wrap"
+      role="spinbutton"
+    >
+      <input
+        autocomplete="off"
+        class="jc-input-number-input"
+        max="100000"
+        min="1"
+        step="1"
+        value="3"
+      />
+    </div>
+  </div>
+  <div
+    class="jc-input-number jc-input-number-sm"
+  >
+    <div
+      class="jc-input-number-handler-wrap"
+    >
+      <span
+        aria-disabled="false"
+        aria-label="Increase Value"
+        class="jc-input-number-handler jc-input-number-handler-up "
+        role="button"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-input-number-handler-up-inner"
+          unselectable="unselectable"
+        />
+      </span>
+      <span
+        aria-disabled="false"
+        aria-label="Decrease Value"
+        class="jc-input-number-handler jc-input-number-handler-down "
+        role="button"
+        unselectable="unselectable"
+      >
+        <span
+          class="jc-input-number-handler-down-inner"
+          unselectable="unselectable"
+        />
+      </span>
+    </div>
+    <div
+      aria-valuemax="100000"
+      aria-valuemin="1"
+      aria-valuenow="3"
+      class="jc-input-number-input-wrap"
+      role="spinbutton"
+    >
+      <input
+        autocomplete="off"
+        class="jc-input-number-input"
+        max="100000"
+        min="1"
+        step="1"
+        value="3"
+      />
+    </div>
+  </div>
+</div>
+`;

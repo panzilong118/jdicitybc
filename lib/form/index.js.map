@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../components/form/index.js"],"names":[],"mappings":";;;;;;AAGA;;;;;;kCAHA","file":"index.js","sourcesContent":["/**\r\n * Created by huangxiao3 on 2018/3/26.\r\n */\r\nimport Form from './Form';\r\nexport default Form;\r\n"]}

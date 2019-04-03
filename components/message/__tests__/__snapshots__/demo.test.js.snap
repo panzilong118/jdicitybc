@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/message/demo/duration.js correctly test 1`] = `
+<button
+  class="jc-btn"
+  type="button"
+>
+  <span>
+    Customized display duration
+  </span>
+</button>
+`;
+
+exports[`renders ./components/message/demo/info.js correctly test 1`] = `
+<button
+  class="jc-btn jc-btn-primary"
+  type="button"
+>
+  <span>
+    Display normal message
+  </span>
+</button>
+`;
+
+exports[`renders ./components/message/demo/loading.js correctly test 1`] = `
+<button
+  class="jc-btn"
+  type="button"
+>
+  <span>
+    Display a loading indicator
+  </span>
+</button>
+`;
+
+exports[`renders ./components/message/demo/other.js correctly test 1`] = `
+<div>
+  <button
+    class="jc-btn"
+    type="button"
+  >
+    <span>
+      Success
+    </span>
+  </button>
+  <button
+    class="jc-btn"
+    type="button"
+  >
+    <span>
+      Error
+    </span>
+  </button>
+  <button
+    class="jc-btn"
+    type="button"
+  >
+    <span>
+      Warning
+    </span>
+  </button>
+</div>
+`;

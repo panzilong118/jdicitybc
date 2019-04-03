@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../../src/components/Release/OtherElseInfo/v1.0.0/view/index.js"],"names":["OtherElseInfo"],"mappings":";;;;;;AAEA;;;;;;kBACeA,uB","file":"index.js","sourcesContent":["\r\n\r\nimport OtherElseInfo from './OtherElseInfo';\r\nexport default OtherElseInfo;"]}

@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input/> demo test Snapshot 1`] = `
+<span
+  className="jc-input-group-wrapper"
+  style={undefined}
+>
+  <span
+    className="jc-input-wrapper jc-input-group"
+  >
+    <span
+      className="jc-input-group-addon"
+    >
+       
+      Http://
+       
+    </span>
+    <input
+      className="jc-input"
+      defaultValue="mysite"
+      disabled={false}
+      onKeyDown={[Function]}
+      style={null}
+      type="text"
+    />
+    <span
+      className="jc-input-group-addon"
+    >
+       
+      .com
+       
+    </span>
+  </span>
+</span>
+`;
+
+exports[`<Input/> demo test Snapshot 2`] = `
+<div
+  className="jc-row"
+  style={
+    Object {
+      "marginLeft": -8,
+      "marginRight": -8,
+    }
+  }
+>
+  <div
+    className="jc-col-8"
+    style={
+      Object {
+        "paddingLeft": 8,
+        "paddingRight": 8,
+      }
+    }
+  >
+    123
+  </div>
+  <div
+    className="jc-col-8"
+    style={
+      Object {
+        "paddingLeft": 8,
+        "paddingRight": 8,
+      }
+    }
+  >
+    456
+  </div>
+  <div
+    className="jc-col-8"
+    style={
+      Object {
+        "paddingLeft": 8,
+        "paddingRight": 8,
+      }
+    }
+  >
+    789
+  </div>
+</div>
+`;

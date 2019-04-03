@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/affix/demo/basic.js correctly test 1`] = `
+<div>
+  <div>
+    <div
+      class=""
+    >
+      <button
+        class="jc-btn jc-btn-primary"
+        type="button"
+      >
+        <span>
+          Affix top
+        </span>
+      </button>
+    </div>
+  </div>
+  <br />
+  <div>
+    <div
+      class=""
+    >
+      <button
+        class="jc-btn jc-btn-primary"
+        type="button"
+      >
+        <span>
+          Affix bottom
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/affix/demo/on-change.js correctly test 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <button
+      class="jc-btn"
+      type="button"
+    >
+      <span>
+        120px to affix top
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/affix/demo/target.js correctly test 1`] = `
+<div
+  class="scrollable-container"
+  style="height:200px;background:orange;overflow:auto"
+>
+  <div
+    class="background"
+    style="height:300px"
+  >
+    <div>
+      <div
+        class=""
+      >
+        <button
+          class="jc-btn jc-btn-primary"
+          type="button"
+        >
+          <span>
+            Fixed at the top of container
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

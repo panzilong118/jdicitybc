@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../../src/components/Release/ReleaseOtherConfig/v1.0.0/view/index.js"],"names":["ReleaseOtherConfig"],"mappings":";;;;;;AAAA;;;;;;kBACeA,4B","file":"index.js","sourcesContent":["import ReleaseOtherConfig from './ReleaseOtherConfig';\r\nexport default ReleaseOtherConfig;"]}

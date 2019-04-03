@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../components/calendar/locale/tr_TR.js"],"names":[],"mappings":";;;;;;AAAA","file":"tr_TR.js","sourcesContent":["import tr_TR from '../../date-picker/locale/tr_TR';\r\nexport default tr_TR;\r\n"]}

@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should support maxLength 1`] = `
+<Input
+  disabled={false}
+  maxLength="3"
+  prefixCls="jc-input"
+  type="text"
+>
+  <input
+    className="jc-input"
+    disabled={false}
+    maxLength="3"
+    onKeyDown={[Function]}
+    type="text"
+  />
+</Input>
+`;
+
+exports[`Input.Search should support suffix 1`] = `
+<Search
+  enterButton={false}
+  inputPrefixCls="jc-input"
+  prefixCls="jc-input-search"
+  suffix="suffix"
+>
+  <Input
+    className="jc-input-search"
+    disabled={false}
+    onPressEnter={[Function]}
+    prefixCls="jc-input"
+    suffix={
+      Array [
+        "suffix",
+        <Icon
+          className="jc-input-search-icon"
+          prefixCls="jcicon"
+          spin={false}
+          style={Object {}}
+          type="search"
+        />,
+      ]
+    }
+    type="text"
+  >
+    <span
+      className="jc-input-search jc-input-affix-wrapper"
+    >
+      <input
+        className="jc-input"
+        disabled={false}
+        onKeyDown={[Function]}
+        style={null}
+        type="text"
+      />
+      <span
+        className="jc-input-suffix"
+      >
+         
+        suffix
+        <Icon
+          className="jc-input-search-icon"
+          key="searchIcon"
+          prefixCls="jcicon"
+          spin={false}
+          style={Object {}}
+          type="search"
+        >
+          <i
+            className="jcicon jcicon-search  jc-input-search-icon"
+            style={Object {}}
+          />
+        </Icon>
+         
+      </span>
+    </span>
+  </Input>
+</Search>
+`;
+
+exports[`TextArea should support disabled 1`] = `
+<TextArea
+  disabled={true}
+  prefixCls="jc-input"
+>
+  <textarea
+    className="jc-input jc-input-disabled"
+    disabled={true}
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    style={Object {}}
+  />
+</TextArea>
+`;
+
+exports[`TextArea should support maxLength 1`] = `
+<TextArea
+  maxLength="10"
+  prefixCls="jc-input"
+>
+  <textarea
+    className="jc-input"
+    maxLength="10"
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    style={Object {}}
+  />
+</TextArea>
+`;

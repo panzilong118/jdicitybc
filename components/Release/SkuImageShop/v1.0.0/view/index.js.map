@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../../src/components/Release/SkuImageShop/v1.0.0/view/index.js"],"names":["SkuImageShop"],"mappings":";;;;;;AACA;;;;;;kBACeA,sB","file":"index.js","sourcesContent":["\r\nimport SkuImageShop from \"./SkuImageShop\";\r\nexport default SkuImageShop;\r\n"]}
