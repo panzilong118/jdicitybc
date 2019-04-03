@@ -1,0 +1,105 @@
+.ui-header {
+    height: 66px;
+    border-bottom: 2px solid #e9e9e9;
+    min-width: 1200px;
+}
+
+.ui-header h2 {
+    float: left;
+    margin-left: 20px;
+    line-height: 64px;
+    font-size: 16px;
+    color: #33aefe
+}
+
+.ui-header .userInfo {
+    float: right;
+    border-left: 1px solid #ececec;
+    padding-left: 30px;
+    padding-right: 10px;
+    line-height: 66px;
+}
+
+.ui-header .ui-badge {
+    width: 50px;
+    position: relative;
+    margin-bottom: 7px;
+}
+
+.ui-header .jc-badge-count {
+    height: 16px;
+    padding: 0 3px;
+    top: -11px;
+}
+
+.ui-header .jc-badge-count .jc-scroll-number-only {
+    margin-top: -2px;
+    height: 18px;
+    line-height: 18px;
+}
+
+.ui-header .mBadge .jc-badge-count {
+    line-height: 14px;
+}
+
+.ui-header .userInfo .jc-badge-count {
+    line-height: 16px;
+}
+
+.moremenu .jc-dropdown-link {
+    float: right;
+    font-size: 14px;
+    height: 20px;
+}
+
+
+/*选中样式*/
+
+.ui-header .jc-menu-horizontal .jc-menu-item-selected {
+    border-bottom: 0px solid #108ee9;
+}
+
+.ui-header .jc-menu-item {
+    padding: 0px 15px;
+}
+
+.ui-header .jc-menu-item a {
+    color: #999 !important;
+    font-size: 14px;
+}
+
+.ui-header .jc-menu-item-selected a {
+    color: #333 !important;
+    font-size: 14px;
+}
+
+.jc-dropdown-menu-item-selected {
+    color: #108ee9;
+    background-color: #ecf6fd;
+}
+
+.moremenu .jc-badge {
+    float: right;
+    margin-top: 24px;
+    padding-right: 20px;
+}
+
+.moremenu .jc-badge-count {
+    margin-left: 36px;
+    margin-top: -4px;
+}
+
+.operating-framewrok-onlytop-logo {
+    display: inline-block;
+    background: #333746;
+    height: 65px;
+    float: left;
+    width: 200px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.operating-framewrok-onlytop-logo img {
+    width: 180px;
+    height: 60px;
+}

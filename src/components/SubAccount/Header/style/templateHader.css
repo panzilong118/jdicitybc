@@ -1,0 +1,71 @@
+.subaccount-framework-header {
+    background: #ffffff;
+    height: 64px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.subaccount-framework-container {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.subaccount-framework-container>ul {
+    float: left;
+}
+
+.subaccount-framework-container>ul>li {
+    float: left;
+}
+
+.subaccount-framework-container>ul>li>img {
+    height: 50px;
+}
+
+.subaccount-framework-logo {
+    display: inline-block;
+    width: 199px;
+    height: 50px;
+    border-right: 1px solid #e5e5e5;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+
+.subaccount-framework-logo img {
+    width: 180px;
+    height: 60px;
+    margin-top: -6px;
+}
+
+.subaccount-framework-title {
+    color: #e43636;
+    font-size: 16px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+/*选中样式*/
+
+.subaccount-framework-header .jc-menu-horizontal .jc-menu-item-selected {
+    border-bottom: 0px solid #108ee9;
+}
+
+.subaccount-framework-header .jc-menu-item a {
+    color: #999 !important;
+    font-size: 16px;
+}
+
+.subaccount-framework-header .jc-menu-item-selected a {
+    color: #333 !important;
+    font-size: 16px;
+}
+
+.jc-menu-horizontal {
+    border: 0;
+    box-shadow: none;
+    z-index: 0;
+}
+
+.subaccount-framework-header .jc-menu-item {
+    padding: 0px 15px;
+}

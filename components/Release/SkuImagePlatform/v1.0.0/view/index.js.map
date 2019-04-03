@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../src/components/Release/SkuImagePlatform/v1.0.0/view/index.js"],"names":["SkuImagePlatform"],"mappings":";;;;;;AACA;;;;;;kBACeA,0B","file":"index.js","sourcesContent":["\r\nimport SkuImagePlatform from \"./SkuImagePlatform\";\r\nexport default SkuImagePlatform;\r\n"]}

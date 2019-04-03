@@ -1,0 +1,224 @@
+// top-tools-wrap
+@toolsHeight: 30px;
+@toolsFontSize: 12px;
+@toolsBgColor: #333;
+// top-tools-container
+@toolsContainerWidth: 1200px;
+@toolsContainerLineHeight: 30px;
+// down-menu
+@toolsMenuTextColor: #eee;
+@toolsMenuHovrTextColor: #333;
+@toolsMenuContBgColor: #f7f7f7;
+.top-tools-wrap {
+  font-size: @toolsFontSize;
+  height: @toolsHeight;
+  background-color: @toolsBgColor;
+  .top-tools-container {
+    margin: 0 auto;
+    width: @toolsContainerWidth;
+    line-height: @toolsContainerLineHeight;
+    .down-menu {
+      padding: 0 10px;
+      position: relative;
+      height: @toolsContainerLineHeight;
+      > .down-menu-cont {
+        display: none;
+      }
+      > a {
+        color: @toolsMenuTextColor;
+      }
+    }
+    .down-menu:hover {
+      background: @toolsMenuContBgColor;
+      border-bottom: 1px solid #e5e5e5;
+      > .down-menu-cont {
+        background: @toolsMenuContBgColor;
+        display: block;
+        position: absolute;
+        z-index: 9;
+      }
+      > a {
+        color: @toolsMenuHovrTextColor;
+      }
+    }
+  }
+  // 归属地
+  .localCont {
+    padding: 5px;
+    width: 400px;
+    left: 0;
+    li {
+      float: left;
+      margin: 1px 3px;
+      span {
+        cursor: pointer;
+        padding: 5px 10px;
+      }
+      .active, span:hover {
+        background: #e43636;
+        color: @toolsMenuTextColor
+      }
+    }
+  }
+  // 用户信息
+  .user {
+    width: 200px;
+    padding: 10px 20px;
+    line-height: 40px;
+    left: 0;
+    .user-pic {
+      * {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        float: left;
+        margin-right: 10px;
+      }
+      p {
+        background: #ccc;
+        * {
+          font-size: 24px;
+          margin-top: 7px;
+          color: #f8f8f8;
+        }
+      }
+    }
+    a {
+      padding: 0 10px;
+    }
+  }
+  // select下拉列表
+  .select {
+    padding: 10px;
+    height: 130px;
+    overflow-y: auto;
+    left: 0;
+    li {
+      height: 26px;
+      line-height: 26px;
+      overflow: hidden;
+      a {
+        display: block;
+        padding: 0 10px;
+        color: #999;
+      }
+      a:hover, .active {
+        background: #eee;
+      }
+    }
+  }
+  // 我的商城
+  .my-mall {
+    left: 0;
+    width: 350px;
+    background: transparent !important;
+    li {
+      padding: 5px 15px;
+      float: left;
+      background: #f7f7f7;
+      dl {
+        dd {
+          height: 22px;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+  // 二维码
+  .codeImg {
+    width: 200px;
+    right: 0;
+    padding: 0 10px;
+    li {
+      padding: 10px;
+      img {
+        width: 85px;
+        height: 85px;
+        float: left;
+        margin-right: 10px;
+        background: #eee;
+      }
+    }
+    li + li {
+      border-top: 1px dashed #ccc;
+    }
+  }
+
+  .width380 {
+    width: 380px;
+  }
+  .signName {
+    color: #eee;
+    padding: 0 15px;
+  }
+  .mt2 {
+    margin-top: 2px;
+  }
+  .active-text {
+    color: #e43636
+  }
+  .vertical {
+    height: 11px;
+    width: 1px;
+    background: transparent;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+  }
+  .bg-eee {
+    background-color: #eee;
+  }
+  .bg-999 {
+    background-color: #999;
+  }
+  .bg-666 {
+    background-color: #666;
+  }
+  .deg180:hover .arrows {
+    transform: rotate(180deg)
+  }
+  .phone-icon {
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+  }
+  .badge {
+    position: absolute;
+    padding: 0 4px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    z-index: 1;
+    background-color: #ff4728;
+    color: #fff;
+    left: 25px;
+    line-height: 14px;
+    margin-top: 2px;
+  }
+}
+
+// 收货地弹框
+.unChooseLocal {
+  ul:after {
+    clear: both;
+    display: block;
+    content: ' ';
+  }
+  ul {
+    li {
+      float: left;
+      width: 25%;
+      text-align: center;
+      span {
+        cursor: pointer;
+        padding: 5px;
+        margin: 0 5px;
+        display: block;
+      }
+      span:hover {
+        background: #e43636;
+        color: #fff;
+      }
+    }
+  }
+}

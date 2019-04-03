@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../src/components/Release/GoodImagePlatform/v1.0.0/view/index.js"],"names":["GoodImagePlatform"],"mappings":";;;;;;AACA;;;;;;kBACeA,2B","file":"index.js","sourcesContent":["\r\nimport GoodImagePlatform from \"./GoodImagePlatform\";\r\nexport default GoodImagePlatform;\r\n"]}

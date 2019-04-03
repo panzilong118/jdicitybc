@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../src/components/Release/BasicIndustryTag/v1.0.0/view/index.js"],"names":["BindBasicIndustryTag"],"mappings":";;;;;;AACA;;;;;;kBACeA,8B","file":"index.js","sourcesContent":["\r\nimport BindBasicIndustryTag from \"./BindBasicIndustryTag\";\r\nexport default BindBasicIndustryTag;\r\n"]}

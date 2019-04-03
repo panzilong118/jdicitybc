@@ -1,0 +1,41 @@
+.ui-buyer .jc-breadcurmb-business {
+    background: #f4f5f9;
+    padding-left: 20px;
+}
+
+.ui-shop .jc-breadcurmb-business {
+    background: #f4f5f9;
+    padding-left: 12px;
+}
+
+.ui-platform .jc-breadcurmb-business {
+    background: transparent;
+    padding-left: 0px;
+}
+
+.jc-breadcurmb-business {
+    height: 44px;
+    line-height: 44px;
+}
+
+.jc-breadcurmb-business span.jc-bc-item {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    color: #333;
+}
+
+.jc-breadcurmb-business span.jc-bc-item a {
+    color: #999;
+    cursor: pointer;
+}
+
+.jc-breadcurmb-business span.jc-bc-item a:hover {
+    color: #009afe;
+}
+
+.jc-breadcurmb-business span.jc-bc-item span.jc-bc-split {
+    display: inline-block;
+    padding: 0px 8px;
+    color: #999;
+}

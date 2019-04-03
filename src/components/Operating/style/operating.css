@@ -1,0 +1,21 @@
+body {
+  min-width:1200px !important;
+}
+.operating-layout {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.operating-layout-left{
+	width: 200px;
+   	position: absolute;
+   	top: 0px;
+   	left: 0px;
+   	bottom: 0px;
+    background: #333946;
+}
+.operating-layout-right{
+	margin-left: 200px;
+	display: block;
+}

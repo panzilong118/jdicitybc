@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../src/components/Release/ReleaseBtns/v.1.0.0/view/index.js"],"names":["ReleaseBtns"],"mappings":";;;;;;AAAA;;;;;;kBACeA,qB","file":"index.js","sourcesContent":["import ReleaseBtns from './ReleaseBtns';\r\nexport default ReleaseBtns;"]}

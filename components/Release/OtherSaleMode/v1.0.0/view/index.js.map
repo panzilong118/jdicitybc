@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../src/components/Release/OtherSaleMode/v1.0.0/view/index.js"],"names":["OtherSaleMode"],"mappings":";;;;;;AAAA;;;;;;kBACeA,uB","file":"index.js","sourcesContent":["import OtherSaleMode from './OtherSaleMode';\r\nexport default OtherSaleMode;"]}

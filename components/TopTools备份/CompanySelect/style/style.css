@@ -1,0 +1,8 @@
+.menu_selects {
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #333;
+  color: #333;
+  padding: 2px 3px;
+  width:180px;
+}

@@ -1,0 +1,186 @@
+/* common.css Date:2017-06-07 10:21:54 */
+@charset "UTF-8";@font-face {
+	font-family:iconfont;src:url(i/iconfont/iconfont.eot);src:url(i/iconfont/iconfont.eot?#iefix) format("embedded-opentype"),url(i/iconfont/iconfont.woff) format("woff"),url(i/iconfont/iconfont.ttf) format("truetype"),url(i/iconfont/iconfont.svg#iconfont) format("svg")
+}
+
+.iconfont {
+	font-family: iconfont!important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: .2px;
+	-moz-osx-font-smoothing: grayscale
+}
+.m-fixedbar {
+	position: fixed;
+	_position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 35px;
+	font-family: 'Microsoft Yahei';
+	background: #f6f7fa;
+	z-index: 5
+}
+
+.fixedbar-bd {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 35px;
+	margin-top: -54px
+}
+
+.fixedbar-ft {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 35px
+}
+
+.fixedbar-item {
+	text-align: center;
+	position: relative;
+	-webkit-transition: all .25s ease;
+	transition: all .25s ease
+}
+
+.fixedbar-item a {
+	display: block;
+	padding: 15px 0
+}
+
+.fixedbar-item i {
+	font-size: 20px;
+	color: #e43636
+}
+
+.fixedbar-item .fixedbar-text {
+	display: block;
+	width: 19px;
+	margin: 5px auto 0
+}
+
+.fixedbar-item:hover {
+	background: #e43636
+}
+
+.fixedbar-item:hover a,.fixedbar-item:hover i {
+	color: #fff
+}
+
+.fixedbar-gotop {
+	border-top: 1px solid #e6e6e6
+}
+
+.fixedbar-gotop a {
+	padding: 9px 0
+}
+
+.fixedbar-gotop i {
+	font-size: 16px;
+	color: #a7a7a7
+}
+/* fixedbar 样式修改 by：fanwb  date:20180622*/
+.box-fixedbar .m-fixedbar{ width: 44px; background: #f4f5f9; top: 30%; height: auto;}
+.box-fixedbar .fixedbar-bd{ width: auto; position: static; background: #f4f5f9; margin-top: 0; padding-bottom: 4px;}
+.box-fixedbar .fixedbar-ft{ width: auto; position: static; background: #eceef4;}
+.box-fixedbar .fixedbar-gotop{ border-top: 3px solid #fff;}
+.box-fixedbar .fixedbar-gotop a{ padding: 11px 0;}
+.box-fixedbar .fixedbar-show{display: none; position: static; width: auto}
+.box-fixedbar .fixedbar-item a{ padding: 14px 0 10px;}
+.box-fixedbar .fixedbar-item i{ color: #666;}
+.box-fixedbar .fixedbar-item .fixedbar-text{ width: 28px; visibility: hidden; line-height: 14px; height: 28px; overflow: hidden;}
+.box-fixedbar .fixedbar-item .sidecart{ position:relative; z-index: 1; padding-top: 20px;}
+.box-fixedbar .fixedbar-item .sidecart .fixedbar-text{ width: auto;}
+.box-fixedbar .fixedbar-item .sidecart .goods-num{
+  display: none;
+  position: absolute;
+  z-index: 10;
+  min-width: 16px;
+  height: 15px;
+  top: 12px;
+  right: 3px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #fff;
+  background: #ff4728;
+  text-align: center;
+  border-radius: 15px;
+  padding: 0 3px;
+}
+.box-fixedbar .fixedbar-item:hover{ background-color: transparent; }
+.box-fixedbar .fixedbar-item:hover i{ color: #e43636; }
+.box-fixedbar .fixedbar-item:hover .fixedbar-text{ visibility: visible; color: #333;}
+.box-fixedbar .fixedbar-item .hnc-mobile-pop{
+  top: 0px;
+  right: 54px;
+  width: 190px;
+  position: absolute;
+  top: 38px;
+  right: -10px;
+  background-color: rgb(255, 255, 255);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(229, 229, 229);
+  border-image: initial;
+}
+.box-fixedbar .fixedbar-item .hnc-mobile-pop-right{
+  display: none;
+  right: 54px !important;
+  top: -43px !important;
+  background-color: #fff !important;
+}
+.box-fixedbar .hnc-mobile-pop .mobile-pop-item{
+  padding: 10px;
+  border-bottom: 1px dashed #ddd;
+  margin-bottom: -1px;
+}
+.box-fixedbar .hnc-mobile-pop .mobile-pop-item{
+  padding: 10px;
+  border-bottom: 1px dashed #ddd;
+  margin-bottom: -1px;
+}
+.box-fixedbar .hnc-mobile-pop .mobile_pop_qrcode{
+  float: left;
+  padding-right: 10px;
+  line-height: 0;
+}
+.box-fixedbar .hnc-mobile-pop .mobile_pop_qrcode img{
+  border: 1px solid #ddd;
+}
+.box-fixedbar .hnc-mobile-pop .mobile_pop_info{
+  line-height: 20px;
+  color: #666;
+  font-size: 12px;
+  text-align: left;
+}
+
+.box-fixedbar .fixedbar-item .arrow-rig{position: absolute;right: -1px;top: 60px;}
+.box-fixedbar .fixedbar-item .arrow-rig .right{position: relative;background: #fff;border: 1px solid #e5e5e5;border-left-color: #fff;}
+.box-fixedbar .fixedbar-item .arrow-rig .right:before, .box-fixedbar .fixedbar-item .arrow-rig .right:after{
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.box-fixedbar .fixedbar-item .arrow-rig .right:before{
+  border-color: rgba(229, 229, 229, 0);
+  border-left-color: #e5e5e5;
+  border-width: 7px;
+  margin-top: -7px;
+}
+.box-fixedbar .fixedbar-item .arrow-rig .right:after{
+  border-color: rgba(255, 255, 255, 0);
+  border-left-color: #fff;
+  border-width: 6px;
+  margin-top: -6px;
+}
+/* 针对侧边栏出现滚动条时,调整页面宽度,以确保右侧栏不遮盖内容*/
+@media screen and (max-width: 1300px) {
+  body{min-width: 1300px;}
+}

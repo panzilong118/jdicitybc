@@ -1,0 +1,15 @@
+.imgBox{
+  position: absolute;
+  left: 0;
+  top: 0;
+  border:1px solid #e5e5e5;
+}
+.pl-60{
+  padding-left: 70px;
+  height: 60px;
+}
+.tableBorderSelect .jc-table {
+  border-top: 1px solid #e9e9e9;
+  border-left: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9;
+}

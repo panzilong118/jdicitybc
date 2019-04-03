@@ -1,0 +1,26 @@
+body {
+    min-width: 1200px;
+    background: #e7e8ec !important;
+}
+
+.shop-framework-body-container {
+    display: block;
+    width: 1200px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.shop-framework-body-container-left {
+    width: 200px;
+    background: #fafbfc;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.shop-framework-body-container-right {
+    display: block;
+    width: 1000px;
+    margin-left: 200px;
+}

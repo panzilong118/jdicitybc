@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../src/components/Release/OtherAftersaleStatement/v1.0.0/view/index.js"],"names":["OtherAftersaleStatement"],"mappings":";;;;;;AAEA;;;;;;kBACeA,iC","file":"index.js","sourcesContent":["\r\n\r\nimport OtherAftersaleStatement from './OtherAftersaleStatement';\r\nexport default OtherAftersaleStatement;"]}

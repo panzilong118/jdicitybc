@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../src/components/Release/PriceStockTable/v1.0.1/view/index.js"],"names":["default"],"mappings":";;;;;;;;;;;;;QAEOA,O","file":"index.js","sourcesContent":["\r\n\r\nexport default from './BindPriceStockTable';"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../src/components/Release/AdminInformation/v1.0.0/view/index.js"],"names":["BindAdminInformation"],"mappings":";;;;;;AACA;;;;;;kBACeA,8B","file":"index.js","sourcesContent":["\r\nimport BindAdminInformation from \"./BindAdminInformation\";\r\nexport default BindAdminInformation;\r\n"]}

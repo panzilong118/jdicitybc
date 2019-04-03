@@ -1,0 +1,63 @@
+.rightBox{
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 35px;
+  height: 100%;
+  background-color: #f6f7fa;}
+
+.rightBox .custo{
+  position: absolute;
+  top: 50%;
+  margin-top: -54.5px;
+  width: 35px;
+  height: 109px;
+  background-color: #e33535;
+  color: #fff;
+  cursor: pointer;}
+
+.rightBox .custo .tb{
+  padding-left: 8px;
+  font-size: 20px;
+}
+
+.rightBox .custo .wenzi{
+  display: block;
+  width: 20px;
+  margin-left: 12px;
+  font-size: 12px;
+}
+
+.rightBox .toTop{
+  position: absolute;
+  bottom: 10px;
+  width: 35px;
+  height: 31px;
+  cursor: pointer;
+  border-top: 1px solid #e5e5e5;}
+
+.rightBox .toTop .top{
+  font-size: 20px;
+  padding-left: 8px;
+}
+
+
+.rightBox .feedback{
+  position: absolute;
+  bottom: 43px;
+  width: 35px;
+  height: 90px;
+  cursor: pointer;}
+
+.rightBox .feedback .tb{
+  padding-left: 8px;
+  font-size: 20px;
+  color: #e33535;
+}
+.rightBox .feedback .wenzi{
+  display: block;
+  width: 20px;
+  margin-left: 12px;
+  font-size: 12px;
+  color:#000;
+}

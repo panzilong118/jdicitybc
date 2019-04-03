@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../src/components/Release/ReleasePriceAndStock/v1.0.2/view/index.js"],"names":["ReleasePriceAndStock"],"mappings":";;;;;;AAAA;;;;;;kBACeA,8B","file":"index.js","sourcesContent":["import ReleasePriceAndStock from './ReleasePriceAndStock';\r\nexport default ReleasePriceAndStock;"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../src/components/Release/ReleaseGoodsDesc/v1.0.0/view/index.js"],"names":["ReleaseGoodsDesc"],"mappings":";;;;;;AAAA;;;;;;kBACeA,0B","file":"index.js","sourcesContent":["import ReleaseGoodsDesc from './ReleaseGoodsDesc';\r\nexport default ReleaseGoodsDesc;"]}

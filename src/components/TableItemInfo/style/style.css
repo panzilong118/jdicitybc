@@ -1,0 +1,17 @@
+.table-item-info .item-img {
+  width:60px;
+  height:60px;
+  float:left;
+  border: 1px solid #e5e5e5;
+}
+.table-item-info .item-info {
+  float:left;
+  margin-left:10px;
+  overflow:hidden;
+}
+.table-item-info .item-name {
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  width:200px;
+}

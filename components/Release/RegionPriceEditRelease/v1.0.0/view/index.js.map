@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../src/components/Release/RegionPriceEditRelease/v1.0.0/view/index.js"],"names":["RegionPriceEdit"],"mappings":";;;;;;AACA;;;;;;kBACeA,yB","file":"index.js","sourcesContent":["\r\nimport RegionPriceEdit from './RegionPriceEdit';\r\nexport default RegionPriceEdit;"]}
