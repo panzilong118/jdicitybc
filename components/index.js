@@ -136,4 +136,4 @@ export { default as Tag } from './tag';
 
 export { default as Divider } from './divider';
 
-export { default as CInput } from './cinput';
+export { default as Cinput } from './cinput';
