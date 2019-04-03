@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../../components/calendar/locale/fr_BE.js"],"names":[],"mappings":";;;;;;AAAA","file":"fr_BE.js","sourcesContent":["import fr_BE from '../../date-picker/locale/fr_BE';\r\nexport default fr_BE;\r\n"]}
+{"version":3,"sources":["../../../components/calendar/locale/fr_BE.js"],"names":[],"mappings":";;;;;;AAAA","file":"fr_BE.js","sourcesContent":["import fr_BE from '../../date-picker/locale/fr_BE';\nexport default fr_BE;\n"]}

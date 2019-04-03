@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../../components/calendar/locale/it_IT.js"],"names":[],"mappings":";;;;;;AAAA","file":"it_IT.js","sourcesContent":["import it_IT from '../../date-picker/locale/it_IT';\r\nexport default it_IT;\r\n"]}
+{"version":3,"sources":["../../../components/calendar/locale/it_IT.js"],"names":[],"mappings":";;;;;;AAAA","file":"it_IT.js","sourcesContent":["import it_IT from '../../date-picker/locale/it_IT';\nexport default it_IT;\n"]}

@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../../components/calendar/locale/zh_CN.js"],"names":[],"mappings":";;;;;;AAAA","file":"zh_CN.js","sourcesContent":["import zh_CN from '../../date-picker/locale/zh_CN';\r\nexport default zh_CN;\r\n"]}
+{"version":3,"sources":["../../../components/calendar/locale/zh_CN.js"],"names":[],"mappings":";;;;;;AAAA","file":"zh_CN.js","sourcesContent":["import zh_CN from '../../date-picker/locale/zh_CN';\nexport default zh_CN;\n"]}

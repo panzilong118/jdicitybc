@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../../components/time-picker/locale/pt_PT.js"],"names":["locale","placeholder"],"mappings":";;;;;AAAA,IAAMA,SAAS;AACbC,eAAa;AADA,CAAf;;kBAIeD,M","file":"pt_PT.js","sourcesContent":["const locale = {\r\n  placeholder: 'Hora',\r\n};\r\n\r\nexport default locale;\r\n"]}
+{"version":3,"sources":["../../../components/time-picker/locale/pt_PT.js"],"names":["locale","placeholder"],"mappings":";;;;;AAAA,IAAMA,SAAS;AACbC,eAAa;AADA,CAAf;;kBAIeD,M","file":"pt_PT.js","sourcesContent":["const locale = {\n  placeholder: 'Hora',\n};\n\nexport default locale;\n"]}

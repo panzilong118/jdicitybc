@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../../components/slider/style/index.js"],"names":[],"mappings":";;AAAA;;AACA;;AAGA","file":"index.js","sourcesContent":["import '../../style/index.less';\r\nimport './index.less';\r\n\r\n// style dependencies\r\nimport '../../tooltip/style';\r\n"]}
+{"version":3,"sources":["../../../components/slider/style/index.js"],"names":[],"mappings":";;AAAA;;AACA;;AAGA","file":"index.js","sourcesContent":["import '../../style/index.less';\nimport './index.less';\n\n// style dependencies\nimport '../../tooltip/style';\n"]}

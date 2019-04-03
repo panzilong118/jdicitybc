@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../../components/calendar/locale/ar_EG.js"],"names":[],"mappings":";;;;;;AAAA","file":"ar_EG.js","sourcesContent":["import ar_EG from '../../date-picker/locale/ar_EG';\r\nexport default ar_EG;\r\n"]}
+{"version":3,"sources":["../../../components/calendar/locale/ar_EG.js"],"names":[],"mappings":";;;;;;AAAA","file":"ar_EG.js","sourcesContent":["import ar_EG from '../../date-picker/locale/ar_EG';\nexport default ar_EG;\n"]}

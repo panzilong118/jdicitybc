@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../../components/calendar/locale/fi_FI.js"],"names":[],"mappings":";;;;;;AAAA","file":"fi_FI.js","sourcesContent":["import fi_FI from '../../date-picker/locale/fi_FI';\r\nexport default fi_FI;\r\n"]}
+{"version":3,"sources":["../../../components/calendar/locale/fi_FI.js"],"names":[],"mappings":";;;;;;AAAA","file":"fi_FI.js","sourcesContent":["import fi_FI from '../../date-picker/locale/fi_FI';\nexport default fi_FI;\n"]}

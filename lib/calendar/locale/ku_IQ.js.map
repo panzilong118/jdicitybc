@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../../components/calendar/locale/ku_IQ.js"],"names":[],"mappings":";;;;;;AAAA","file":"ku_IQ.js","sourcesContent":["import ku_IQ from '../../date-picker/locale/ku_IQ';\r\nexport default ku_IQ;\r\n"]}
+{"version":3,"sources":["../../../components/calendar/locale/ku_IQ.js"],"names":[],"mappings":";;;;;;AAAA","file":"ku_IQ.js","sourcesContent":["import ku_IQ from '../../date-picker/locale/ku_IQ';\nexport default ku_IQ;\n"]}

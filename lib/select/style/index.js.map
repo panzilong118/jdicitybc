@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../../components/select/style/index.js"],"names":[],"mappings":";;AAGA","file":"index.js","sourcesContent":["/**\r\n * Created by gaoqingli on 2018/3/30.\r\n */\r\nimport './index.less';\r\n"]}
+{"version":3,"sources":["../../../components/select/style/index.js"],"names":[],"mappings":";;AAGA","file":"index.js","sourcesContent":["/**\n * Created by gaoqingli on 2018/3/30.\n */\nimport './index.less';\n"]}

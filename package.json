@@ -1,7 +1,7 @@
 {
-    "name": "jdcloudui",
-    "version": "1.0.15",
-    "description": "base component test",
+    "name": "panzilongtest",
+    "version": "0.0.1",
+    "description": "JD Intelligent City business component",
     "main": "lib/index.js",
     "scripts": {
         "dev1": "webpack-dev-server --mode development --config webpack/webpack.dev.js",
@@ -17,10 +17,11 @@
         "topublish": "npm publish --access=public"
     },
     "keywords": [
-        "base",
+        "business",
         "component"
     ],
     "dependencies": {
+        "antd": "^3.12.4",
         "array-tree-filter": "^2.1.0",
         "babel-plugin-transform-decorators-legacy": "^1.3.4",
         "classnames": "~2.2.0",
@@ -124,6 +125,6 @@
     "transform": {
         "^.+\\.md?$": "markdown-loader-jest"
     },
-    "author": "selinachen",
+    "author": "panzilong",
     "license": "ISC"
 }
