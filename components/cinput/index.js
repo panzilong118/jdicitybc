@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Input } from 'antd';
-import './styles/index.css';
 
 class Cinput extends Component {
   onInputChange(e, index) {
