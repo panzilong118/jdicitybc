@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Input } from 'antd';
 import inputLess from './style/index.less';
 
-class CInput extends Component {
+class Cinput extends Component {
   onInputChange(e, index) {
     const { handleInputChange } = this.props;
     handleInputChange(e.target.value, index);
@@ -28,4 +28,4 @@ class CInput extends Component {
   }
 }
 
-export default CInput;
+export default Cinput;
