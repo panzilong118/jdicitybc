@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`<Modal /> Spin Inside a container 1`] = `
-<div
-  className="example"
-/>
-`;
-
-exports[`<Modal /> Spin basic 1`] = `null`;

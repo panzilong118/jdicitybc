@@ -6,6 +6,9 @@ const theme = require(path.resolve(__dirname, '../webpack/theme.js'))();
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+function resolve(dir) {
+  return path.join(__dirname, '..', dir);
+}
 
 // html页面 pagesArray
 function getPages() {
@@ -75,6 +78,11 @@ module.exports = {
                     }
                 }
             ]
+        }, {
+          enforce: 'pre',
+          test: /\.js$/,
+          include: [resolve('components'), resolve('src')],
+          loader: 'eslint-loader',
         }]
     },
 

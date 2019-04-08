@@ -13,11 +13,11 @@ class Cinput extends Component {
       index,
     } = this.props;
     return (
-      <div className='sectionInput' key={index}>
-        <div className='inputName'>{item.inputBoxDetail.name}</div>
+      <div className="sectionInput" key={index}>
+        <div className="inputName">{item.inputBoxDetail.name}</div>
         <div>
           <Input
-            className='inputStyle'
+            className="inputStyle"
             value={item.inputBoxDetail.value}
             onChange={(e) => this.onInputChange(e, index)}
           />
