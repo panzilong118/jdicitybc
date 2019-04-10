@@ -1,0 +1,70 @@
+@import '../../../variable.less';
+
+.jobWrap {
+  position: absolute;
+}
+
+.job {
+  display: inline-block;
+  position: absolute;
+  // transform: translate(-50%, -50%);
+  text-align: center;
+  &:hover {
+    .flexibleControl, .bottomRight {
+      display: block;
+    }
+  }
+}
+
+.input {
+  width: 6px;
+  height: 6px;
+  border: 1px solid #DDE2E9;
+  background: white;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  box-sizing: content-box;
+  &:hover {
+    background: @blue;
+    border-color: @blue;
+  }
+}
+
+.flexibleControl, .bottomRight {
+  position: absolute;
+  z-index: 10;
+  display: none;
+  transition: all .3s ease;
+}
+
+@blue: #05ddff;
+@lighter-blue: #05ddffa1;
+
+.flexibleControl {
+  border: 1px dashed @lighter-blue;
+  &:hover {
+    border: 1px dashed @blue;
+  }
+}
+
+.bottomRight {
+  right: -1px;
+  bottom: -1px;
+  cursor: nwse-resize;
+  fill: @lighter-blue;
+  &:hover {
+    fill: @blue;
+  }
+}
+
+.resize {
+  .flexibleControl, .bottomRight {
+    display: block;
+  }
+}
