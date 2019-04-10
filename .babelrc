@@ -1,10 +1,24 @@
 {
     "presets": ["es2015", "react", "stage-0"],
-    "plugins": ["transform-class-properties", ["import", {
+    "plugins": [
+      "transform-class-properties",
+      [
+        "import",
+        {
             "libraryName": "components",
             "libraryDirectory": "",
             "style": true
-        }],
-        ["transform-decorators-legacy"]
+        }
+      ],
+      ["transform-decorators-legacy"],
+      [
+        "transform-imports",
+        {
+          "uc-fun": {
+            "transform": "uc-fun/${member}",
+            "preventFullImport": true
+          }
+        }
+      ]
     ]
 }

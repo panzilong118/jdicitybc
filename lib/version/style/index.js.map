@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/version/style/index.js"],"names":[],"mappings":";;AACA","file":"index.js","sourcesContent":["// empty file prevent babel-plugin-import error\nimport '../../style/index.less';\n"]}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/upload/style/index.js"],"names":[],"mappings":";;AAAA;;AACA;;AAGA;;AACA","file":"index.js","sourcesContent":["import '../../style/index.less';\nimport './index.less';\n\n// style dependencies\nimport '../../progress/style';\nimport '../../tooltip/style';\n"]}

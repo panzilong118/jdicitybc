@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/time-picker/locale/ja_JP.js"],"names":["locale","placeholder"],"mappings":";;;;;AAAA,IAAMA,SAAS;AACbC,eAAa;AADA,CAAf;;kBAIeD,M","file":"ja_JP.js","sourcesContent":["const locale = {\n  placeholder: '時刻を選択',\n};\n\nexport default locale;\n"]}

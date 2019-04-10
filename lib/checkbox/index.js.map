@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../components/checkbox/index.js"],"names":["Group"],"mappings":";;;;;;AAGA;;;;AAEA;;;;;;AALA;;;AAOA,mBAASA,KAAT","file":"index.js","sourcesContent":["/**\n * @author chenyanhua\n */\nimport Checkbox from './Checkbox';\n\nimport Group from './Group';\n\nCheckbox.Group = Group;\nexport default Checkbox;\n"]}

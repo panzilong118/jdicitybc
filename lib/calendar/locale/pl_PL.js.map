@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/calendar/locale/pl_PL.js"],"names":[],"mappings":";;;;;;AAAA","file":"pl_PL.js","sourcesContent":["import pl_PL from '../../date-picker/locale/pl_PL';\nexport default pl_PL;\n"]}

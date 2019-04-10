@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/time-picker/locale/nl_BE.js"],"names":["locale","placeholder"],"mappings":";;;;;AAAA,IAAMA,SAAS;AACbC,eAAa;AADA,CAAf;;kBAIeD,M","file":"nl_BE.js","sourcesContent":["const locale = {\n  placeholder: 'Selecteer tijd',\n};\n\nexport default locale;\n"]}

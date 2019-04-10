@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/time-picker/locale/tr_TR.js"],"names":["locale","placeholder"],"mappings":";;;;;AAAA,IAAMA,SAAS;AACbC,eAAa;AADA,CAAf;;kBAIeD,M","file":"tr_TR.js","sourcesContent":["const locale = {\n  placeholder: 'Zaman Seç',\n};\n\nexport default locale;\n"]}

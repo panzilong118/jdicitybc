@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/time-picker/locale/fi_FI.js"],"names":["locale","placeholder"],"mappings":";;;;;AAAA,IAAMA,SAAS;AACbC,eAAa;AADA,CAAf;;kBAIeD,M","file":"fi_FI.js","sourcesContent":["const locale = {\n  placeholder: 'Valitse aika',\n};\n\nexport default locale;\n"]}

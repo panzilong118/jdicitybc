@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../components/pagination/index.js"],"names":["PaginationProps"],"mappings":";;;;;;;AAAA;;;;;uBAESA,e","file":"index.js","sourcesContent":["import Pagination from './Pagination';\n\nexport { PaginationProps } from './Pagination';\n\nexport default Pagination;\n"]}

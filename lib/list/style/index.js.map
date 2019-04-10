@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/list/style/index.js"],"names":[],"mappings":";;AAAA;;AACA;;AAGA;;AACA;;AACA","file":"index.js","sourcesContent":["import '../../style/index.less';\nimport './index.less';\n\n// style dependencies\nimport '../../spin/style';\nimport '../../pagination/style';\nimport '../../grid/style';\n"]}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/pagination/style/index.js"],"names":[],"mappings":";;AAAA;;AACA;;AAGA;;AACA","file":"index.js","sourcesContent":["import '../../style/index.less';\nimport './index.less';\n\n// style dependencies\nimport '../../select/style';\nimport '../../input/style';\n"]}

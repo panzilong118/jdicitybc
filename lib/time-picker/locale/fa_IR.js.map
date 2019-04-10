@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/time-picker/locale/fa_IR.js"],"names":["locale","placeholder"],"mappings":";;;;;AAAA,IAAMA,SAAS;AACbC,eAAa;AADA,CAAf;;kBAIeD,M","file":"fa_IR.js","sourcesContent":["const locale = {\n  placeholder: 'انتخاب زمان',\n};\n\nexport default locale;\n"]}

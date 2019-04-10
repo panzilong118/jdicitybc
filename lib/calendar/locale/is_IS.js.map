@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/calendar/locale/is_IS.js"],"names":[],"mappings":";;;;;;AAAA","file":"is_IS.js","sourcesContent":["import is_IS from '../../date-picker/locale/is_IS';\nexport default is_IS;\n"]}

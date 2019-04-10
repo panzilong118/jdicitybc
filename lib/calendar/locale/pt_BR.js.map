@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/calendar/locale/pt_BR.js"],"names":[],"mappings":";;;;;;AAAA","file":"pt_BR.js","sourcesContent":["import pt_BR from '../../date-picker/locale/pt_BR';\nexport default pt_BR;\n"]}

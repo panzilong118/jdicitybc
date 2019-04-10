@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/time-picker/locale/cs_CZ.js"],"names":["locale","placeholder"],"mappings":";;;;;AAAA,IAAMA,SAAS;AACbC,eAAa;AADA,CAAf;;kBAIeD,M","file":"cs_CZ.js","sourcesContent":["const locale = {\n  placeholder: 'Vybrat čas',\n};\n\nexport default locale;\n"]}

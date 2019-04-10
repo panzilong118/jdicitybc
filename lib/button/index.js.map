@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../components/button/index.js"],"names":["Group"],"mappings":";;;;;;AAGA;;;;AAEA;;;;;;AALA;;;AAOA,iBAAOA,KAAP","file":"index.js","sourcesContent":["/**\n * Created by gaoqingli on 2018/3/19.\n */\nimport Button from './button';\n\nimport ButtonGroup from './button-group';\n\nButton.Group = ButtonGroup;\nexport default Button;\n"]}

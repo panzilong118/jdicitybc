@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/time-picker/locale/en_GB.js"],"names":["locale","placeholder"],"mappings":";;;;;AAAA,IAAMA,SAAS;AACbC,eAAa;AADA,CAAf;;kBAIeD,M","file":"en_GB.js","sourcesContent":["const locale = {\n  placeholder: 'Select time',\n};\n\nexport default locale;\n"]}

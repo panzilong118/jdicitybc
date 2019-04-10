@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/calendar/locale/ko_KR.js"],"names":[],"mappings":";;;;;;AAAA","file":"ko_KR.js","sourcesContent":["import ko_KR from '../../date-picker/locale/ko_KR';\nexport default ko_KR;\n"]}

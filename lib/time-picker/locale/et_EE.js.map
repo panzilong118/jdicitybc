@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/time-picker/locale/et_EE.js"],"names":["locale","placeholder"],"mappings":";;;;;AAAA,IAAMA,SAAS;AACbC,eAAa;AADA,CAAf;;kBAIeD,M","file":"et_EE.js","sourcesContent":["const locale = {\n  placeholder: 'Vali aeg',\n};\n\nexport default locale;\n"]}

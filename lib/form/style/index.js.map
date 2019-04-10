@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/form/style/index.js"],"names":[],"mappings":";;AAGA;;AACA;;AAEA","file":"index.js","sourcesContent":["/**\n * Created by huangxiao3 on 2018/3/26.\n */\nimport '../../style/index.less';\nimport './index.less';\n// style dependencies\nimport '../../grid/style';\n"]}

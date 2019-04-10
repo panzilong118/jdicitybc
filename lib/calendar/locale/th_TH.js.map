@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/calendar/locale/th_TH.js"],"names":[],"mappings":";;;;;;AAAA","file":"th_TH.js","sourcesContent":["import th_TH from '../../date-picker/locale/th_TH';\nexport default th_TH;\n"]}

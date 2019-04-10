@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/time-picker/locale/ru_RU.js"],"names":["locale","placeholder"],"mappings":";;;;;AAAA;;;AAGA,IAAMA,SAAS;AACbC,eAAa;AADA,CAAf;;kBAIeD,M","file":"ru_RU.js","sourcesContent":["/**\n * Created by Andrey Gayvoronsky on 13/04/16.\n */\nconst locale = {\n  placeholder: 'Выберите время',\n};\n\nexport default locale;\n"]}

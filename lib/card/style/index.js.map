@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/card/style/index.js"],"names":[],"mappings":";;AAAA;;AACA;;AAGA","file":"index.js","sourcesContent":["import '../../style/index.less';\nimport './index.less';\n\n// style dependencies\nimport '../../tabs/style';\n"]}

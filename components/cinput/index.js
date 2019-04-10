@@ -15,6 +15,7 @@ class Cinput extends Component {
     return (
       <div className="sectionInput" key={index}>
         <div className="inputName">{item.inputBoxDetail.name}</div>
+        <div>hahaha哈哈哈哈</div>
         <div>
           <Input
             className="inputStyle"

@@ -1,0 +1,19 @@
+@import '../../../variable.less';
+
+:global {
+  // 此处如果没有 temp 会导致打包的时候 uc-flow 的 css 丢失
+  .temp {
+    background: black;
+  }
+
+  .uc-flow {
+    width: 100%;
+    height: 100%;
+  }
+
+  .uc-flow-panel {
+    position: relative;
+    overflow: hidden;
+    transform-origin: top left;
+  }
+}

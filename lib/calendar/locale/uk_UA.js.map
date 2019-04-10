@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/calendar/locale/uk_UA.js"],"names":[],"mappings":";;;;;;AAAA","file":"uk_UA.js","sourcesContent":["import uk_UA from '../../date-picker/locale/uk_UA';\nexport default uk_UA;\n"]}

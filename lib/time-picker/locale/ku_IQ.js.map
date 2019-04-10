@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/time-picker/locale/ku_IQ.js"],"names":["locale","placeholder"],"mappings":";;;;;AAAA,IAAMA,SAAS;AACbC,eAAa;AADA,CAAf;;kBAIeD,M","file":"ku_IQ.js","sourcesContent":["const locale = {\n  placeholder: 'Demê hilbijêre',\n};\n\nexport default locale;\n"]}

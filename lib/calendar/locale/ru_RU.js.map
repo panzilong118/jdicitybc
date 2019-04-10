@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/calendar/locale/ru_RU.js"],"names":[],"mappings":";;;;;;AAAA","file":"ru_RU.js","sourcesContent":["import ru_RU from '../../date-picker/locale/ru_RU';\nexport default ru_RU;\n"]}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/time-picker/locale/zh_CN.js"],"names":["locale","placeholder"],"mappings":";;;;;AAAA,IAAMA,SAAS;AACbC,eAAa;AADA,CAAf;;kBAIeD,M","file":"zh_CN.js","sourcesContent":["const locale = {\n  placeholder: '请选择时间',\n};\n\nexport default locale;\n"]}

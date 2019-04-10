@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../components/locale-provider/en_US.js"],"names":[],"mappings":";;;;;;AAAA","file":"en_US.js","sourcesContent":["import defaultLocale from './default';\n\nexport default defaultLocale;\n"]}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../components/dropdown/index.js"],"names":["Button"],"mappings":";;;;;;AAGA;;;;AACA;;;;;;AAJA;;;AAKA,mBAASA,MAAT","file":"index.js","sourcesContent":["/**\n * Created by huangxiao3 on 2018/3/27.\n */\nimport Dropdown from './dropdown';\nimport DropdownButton from './dropdown-button';\nDropdown.Button = DropdownButton;\nexport default Dropdown;"]}

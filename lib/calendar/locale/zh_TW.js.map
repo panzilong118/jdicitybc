@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../components/calendar/locale/zh_TW.js"],"names":[],"mappings":";;;;;;AAAA","file":"zh_TW.js","sourcesContent":["import zh_TW from '../../date-picker/locale/zh_TW';\nexport default zh_TW;\n"]}
