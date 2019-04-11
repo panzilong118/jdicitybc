@@ -11,6 +11,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = {
   entry: {
       "jdcloudui.js": path.resolve(__rootPath, 'components/index.js'),
+      "jdcloudui.css": path.resolve(__rootPath, 'dist/jdcloudui.less'),
   },
   output: {
     path: path.resolve(__rootPath, 'dist'),

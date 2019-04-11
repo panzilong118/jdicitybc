@@ -38,12 +38,13 @@ function getEntry() {
       }
   });
   // 添加文件
-  filesList.push("components/style/index.less");
+  // filesList.push("components/style/index.less");
 
   filesList.forEach((item, index) => {
     var filePath = item.replace(".less", "");
     entry[filePath.replace("components/", "")] = filePath;
   });
+  console.log(entry, '<---entry');
   return entry;
 }
 
