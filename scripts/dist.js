@@ -12,7 +12,7 @@ var glob = require('glob');
 var componentsLessFiles = glob.sync("components/*/**/style/index.less");
 
 //所有样式
-var allLessContent = `@import "../components/style/index.less";\n`;
+var allLessContent = ``;
 
 componentsLessFiles.forEach(function(file) {
      allLessContent += `@import "../${file}";\n`;

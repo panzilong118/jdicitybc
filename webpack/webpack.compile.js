@@ -29,7 +29,7 @@ function getEntry() {
 
   // 获取所有的less文件
   var getLessFiles = glob.sync("components/**/*.less");
-  console.log(getLessFiles, '<---getLessFiles');
+
   var filesList = [];
   getLessFiles.forEach((item)=>{
      // 去除components/style下文件
@@ -44,7 +44,7 @@ function getEntry() {
     var filePath = item.replace(".less", "");
     entry[filePath.replace("components/", "")] = filePath;
   });
-  console.log(entry, '<---entry');
+
   return entry;
 }
 
@@ -72,7 +72,12 @@ module.exports = {
       exclude: /node_modules/,
       use: ExtractTextPlugin.extract({
         use: [
-          "css-loader",
+          {
+              loader: 'css-loader',
+              options: {
+                  module: true
+              }
+          },
           {
             loader: 'postcss-loader',
             options: {

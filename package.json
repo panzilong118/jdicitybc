@@ -8,10 +8,10 @@
         "dev": "node ./server/server.js",
         "compile-less": "webpack --mode production --config webpack/webpack.compile.js",
         "compile-js": "babel components --out-dir lib --source-maps --copy-files --ignore demo,__tests__",
-        "compile": "npm run compile-less && npm run compile-js && node webpack/initCSSJS.js",
+        "compile": "npm run compile-less && npm run compile-js && node webpack/initCSSJS.js && npm run dist",
         "install-theme-less": "node ./scripts/install-theme-less",
         "testbabel": "node ./scripts/prepub",
-        "dist": "node ./scripts/dist && webpack --mode production --config webpack/webpack.dist.js",
+        "dist": "node ./scripts/dist",
         "test": "jest --config .jest.js ",
         "prepublish": "npm run compile",
         "topublish": "npm publish --access=public"
