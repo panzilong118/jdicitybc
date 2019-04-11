@@ -21,7 +21,7 @@
 import React, { Component } from 'react';
 // import { KEY_CODE } from 'src/config';
 import { stopPropagation } from './util/domEvent';
-// import './index.less';
+import './style/index.less';
 import { getInRectRange } from './util/computePosition';
 import { validFunc } from './util/validate';
 import Line from './line';

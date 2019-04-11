@@ -16,7 +16,7 @@
  * */
 
 import React from 'react';
-// import styles from './line.less';
+import './style/line.less';
 import { getLinePath } from './util/drag';
 import Arrows from './Arrows';
 import { getAnchorPosition } from './util/computePosition';
@@ -63,7 +63,7 @@ class Line extends React.Component {
       <path
         key={`line-${idx}`}
         markerEnd={`url(#marker-arrow${active ? '-active' : ''})`}
-        className={`line ${active ? 'active' : ''}`}
+        className="line"
         d={path}
         onClick={e => onClick(e, idx)}
       />

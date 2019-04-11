@@ -1,0 +1,99 @@
+.temp {
+  background: black;
+}
+.uc-flow {
+  width: 100%;
+  height: 100%;
+}
+.uc-flow-panel {
+  position: relative;
+  overflow: hidden;
+  -webkit-transform-origin: top left;
+     -moz-transform-origin: top left;
+      -ms-transform-origin: top left;
+          transform-origin: top left;
+}
+.jobWrap {
+  position: absolute;
+}
+.job {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+.job:hover .flexibleControl,
+.job:hover .bottomRight {
+  display: block;
+}
+.input {
+  width: 6px;
+  height: 6px;
+  border: 1px solid #DDE2E9;
+  background: white;
+  -moz-border-radius: 50%;
+       border-radius: 50%;
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+.input:hover {
+  background: #05ddff;
+  border-color: #05ddff;
+}
+.flexibleControl,
+.bottomRight {
+  position: absolute;
+  z-index: 10;
+  display: none;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.flexibleControl {
+  border: 1px dashed #05ddff a1;
+  border: 1px dashed rgba(5, 221, 255, 0.63137) a1;
+}
+.flexibleControl:hover {
+  border: 1px dashed #05ddff;
+}
+.bottomRight {
+  right: -1px;
+  bottom: -1px;
+  cursor: nwse-resize;
+  fill: rgba(5, 221, 255, 0.63137) a1;
+}
+.bottomRight:hover {
+  fill: #05ddff;
+}
+.resize .flexibleControl,
+.resize .bottomRight {
+  display: block;
+}
+.marker#marker-arrow path {
+  fill: #B5BED4;
+}
+.marker#marker-arrow-active path {
+  fill: #1890FF;
+}
+.line {
+  stroke: #B5BED4;
+  stroke-width: 1;
+  fill: none;
+}
+.line:hover {
+  stroke-width: 2;
+}
+.active.line {
+  stroke: #1890FF;
+  stroke-width: 2;
+}

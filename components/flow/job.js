@@ -1,6 +1,6 @@
 import React from 'react';
 import { get, debounce } from 'lodash';
-// import styles from './job.less';
+import './style/job.less';
 import { getTranslate, dragHandler } from './util/drag';
 import { getAnchorOffset } from './util/computePosition';
 import Tooltip from './util/Tooltip';
@@ -35,6 +35,7 @@ class Job extends React.Component {
           render={() => (
             <div
               style={{ top: y, left: x }}
+              className="input"
               ref={el => canDrag && el && this.mouseMove(el, nodeIdx, idx)}
               onMouseEnter={() => this.setTarget(nodeIdx, idx)}
             />
@@ -42,6 +43,7 @@ class Job extends React.Component {
         /> : <div
           style={{ top: y, left: x }}
           key={`anchor-${idx}`}
+          className="input"
           ref={el => (
             canDrag && el && this.mouseMove(el, nodeIdx, idx)
           )}
@@ -57,6 +59,7 @@ class Job extends React.Component {
     const colCtrl = [0, '100%'].map(left => (
       <div
         key={`col-${id}-${left}`}
+        className="flexibleControl"
         style={{
           left,
           top: 0,
@@ -69,6 +72,7 @@ class Job extends React.Component {
     const rowCtrl = [0, '100%'].map(top => (
       <div
         key={`row-${id}-${top}`}
+        className="flexibleControl"
         style={{
           top,
           left: 0,
@@ -83,6 +87,7 @@ class Job extends React.Component {
         key={`br-${id}`}
         height="12"
         width="12"
+        className="bottomRight"
         ref={el => this.resize(el, node)}
       >
         <polygon points="0,12 12,12 12,0" />
@@ -179,11 +184,13 @@ class Job extends React.Component {
           return !node.ext.delete && (
             <span
               key={`job-wrap-${idx}`}
+              className="jobWrap"
               ref={el => el && this.bindDrag(el, { idx })}
               style={getTranslate({ x, y })}
             >
               <div
                 key={`job-${idx}`}
+                className="job"
                 style={{ width, height }}
                 onClick={e => onClick(e, idx)}
               >
