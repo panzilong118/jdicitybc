@@ -18,7 +18,7 @@ class Cinput extends Component {
         <div className="inputName">{item.inputBoxDetail.name}</div>
         <div className="test">hahaha哈哈哈哈</div>
         <div className="test">test</div>
-        <div className="test">demo</div>
+        <div className="inputName">demo</div>
         <div>
           <Input
             className="inputStyle"
