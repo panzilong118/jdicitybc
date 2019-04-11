@@ -1,8 +1,8 @@
-._29uiw_OfJaKC2RUSsSh31m {
+.sectionInput {
   margin-bottom: 8px;
   background: yellow;
 }
-._1s7XpVUSA-ATTUyBVC5u4R {
+.inputName {
   font-size: 14px;
   font-family: PingFang-SC-Regular;
   font-weight: 400;
@@ -12,10 +12,10 @@
   height: 32px;
   margin: 5px 0 5px 24px;
 }
-.nuPS3lhGO4VQ07oDD9pAL {
-  color: red;
+.test {
+  color: green;
 }
-._3feQhVY1xiruRz50jN507f {
+.inputStyle {
   width: 262px;
   height: 24px;
   background: #ffffff;

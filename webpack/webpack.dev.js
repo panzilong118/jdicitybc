@@ -91,7 +91,7 @@ module.exports = {
             path.resolve(__rootPath, 'components'),
             'node_modules'
         ],
-    extensions: ['.js', '.json', '.jsx', '.less'],
+        extensions: ['.js', '.json', '.jsx', '.less'],
         alias: {
             components: path.resolve(__rootPath, 'components'),
         }
