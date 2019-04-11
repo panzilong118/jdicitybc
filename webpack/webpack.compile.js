@@ -21,13 +21,11 @@ function getEntry() {
   var entry = {};
 
   // 获取所有的less文件
-  var getLessFiles = glob.sync("components/**/style/*.less");
-  console.log(getLessFiles, '<---getLessFiles');
+  var getLessFiles = glob.sync("components/**/style/index.js");
   getLessFiles.forEach((item)=>{
-      var filePath = item.replace(".less", "");
+      var filePath = item.replace(".js", "");
       entry[filePath.replace("components/", "")] = item;
   });
-  console.log(entry, '<---entry');
   // 获取所有的less文件
   // var getLessFiles = glob.sync("components/**/*.less");
   // console.log(getLessFiles, '<---getLessFiles');

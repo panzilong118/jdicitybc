@@ -5,14 +5,11 @@ var glob = require('glob');
 var entry = {};
 
 // 生成lib/**/style/css.js
-var getLessFiles = glob.sync("lib/**/style/*.less");
+var getLessFiles = glob.sync("lib/**/style/index.js");
 getLessFiles.forEach((file)=>{
     let newFile = file.replace("index","css");
-    console.log(newFile, '<----newFile');
     var text = fs.readFileSync(file, 'utf8');
-    console.log(text, '<----text');
     let newText = text.replace(/less/g, "css").replace(/style\'/g,"style/css'");
-    console.log(newText, '<----newText');
     fs.open(newFile, 'w', (err, fd) => {
         fs.writeFile(newFile, newText, (err) => {
             if (err) throw err;

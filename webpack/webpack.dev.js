@@ -59,13 +59,7 @@ module.exports = {
             use: ['style-loader', 'css-loader']
         }, {
             test: /\.less$/,
-            use: ['style-loader',
-                {
-                    loader: 'css-loader',
-                    options: {
-                        module: true
-                    }
-                },
+            use: ['style-loader', 'css-loader',
                 {
                     loader: 'postcss-loader',
                     options: {
@@ -75,8 +69,14 @@ module.exports = {
                         ],
                         sourceMap: true
                     }
-                },
-                'less-loader'
+                }, {
+                    loader: 'less-loader',
+                    options: {
+                        modifyVars: theme,
+                        javascriptEnabled: true,
+                        sourceMap: true
+                    }
+                }
             ]
         }, {
           enforce: 'pre',

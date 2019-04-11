@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Input } from 'antd';
-import inputLess from './style/index.less';
+// import './style/index.less';
 
 class Cinput extends Component {
   onInputChange(e, index) {
@@ -14,13 +14,14 @@ class Cinput extends Component {
       index,
     } = this.props;
     return (
-      <div className={inputLess.sectionInput} key={index}>
-        <div className={inputLess.inputName}>{item.inputBoxDetail.name}</div>
-        <div className={inputLess.test}>hahaha哈哈哈哈</div>
+      <div className="sectionInput" key={index}>
+        <div className="inputName">{item.inputBoxDetail.name}</div>
+        <div className="test">hahaha哈哈哈哈</div>
         <div className="test">test</div>
+        <div className="test">demo</div>
         <div>
           <Input
-            className={inputLess.inputStyle}
+            className="inputStyle"
             value={item.inputBoxDetail.value}
             onChange={(e) => this.onInputChange(e, index)}
           />
