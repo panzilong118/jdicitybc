@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import * as React from 'react';
 import { Input } from 'antd';
-// import './style/index.less';
-// import './style/test.less';
+import Blue from './blue';
 
-class Cinput extends Component {
+export default class Cinput extends React.Component {
   onInputChange(e, index) {
     const { handleInputChange } = this.props;
     handleInputChange(e.target.value, index);
@@ -26,9 +25,8 @@ class Cinput extends Component {
             onChange={(e) => this.onInputChange(e, index)}
           />
         </div>
+        <Blue />
       </div>
     );
   }
 }
-
-export default Cinput;
