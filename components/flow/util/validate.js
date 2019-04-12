@@ -1,5 +1,5 @@
 
-import getType from 'uc-fun/getType';
+import { getType } from 'uc-fun';
 
 /**
  *  call function is function is valide

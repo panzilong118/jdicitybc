@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Input } from 'antd';
-import './style/index.less';
-import './style/test.less';
+// import './style/index.less';
+// import './style/test.less';
 
 class Cinput extends Component {
   onInputChange(e, index) {

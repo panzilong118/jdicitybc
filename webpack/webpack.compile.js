@@ -26,9 +26,10 @@ function getEntry() {
       var filePath = item.replace(".js", "");
       entry[filePath.replace("components/", "")] = item;
   });
-  // 获取所有的less文件
+
+  // // 获取所有的less文件
   // var getLessFiles = glob.sync("components/**/*.less");
-  // console.log(getLessFiles, '<---getLessFiles');
+
   // var filesList = [];
   // getLessFiles.forEach((item)=>{
   //    // 去除components/style下文件
@@ -37,14 +38,12 @@ function getEntry() {
   //     }
   // });
   // // 添加文件
-  // // filesList.push("components/style/index.less");
-  // console.log(filesList, '<---filesList');
+  // filesList.push("components/style/index.less");
+
   // filesList.forEach((item, index) => {
   //   var filePath = item.replace(".less", "");
   //   entry[filePath.replace("components/", "")] = filePath;
   // });
-  // console.log(filesList, '<---filesList');
-  // console.log(entry, '<---entry');
   return entry;
 }
 

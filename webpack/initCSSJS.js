@@ -8,7 +8,9 @@ var entry = {};
 var getLessFiles = glob.sync("lib/**/style/index.js");
 getLessFiles.forEach((file)=>{
     let newFile = file.replace("index","css");
+    console.log(newFile);
     var text = fs.readFileSync(file, 'utf8');
+    console.log(text);
     let newText = text.replace(/less/g, "css").replace(/style\'/g,"style/css'");
     fs.open(newFile, 'w', (err, fd) => {
         fs.writeFile(newFile, newText, (err) => {

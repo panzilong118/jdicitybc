@@ -1,4 +1,4 @@
-import isBigger from 'uc-fun/isBigger';
+import { isBigger } from 'uc-fun';
 
 export const INVALID_IDX = -1;
 export const valideIdxCheck = num => {
