@@ -2,7 +2,8 @@ import React from 'react';
 
 export default function Axis({ x, y }) {
   const getLine = (num, getProps) => [...Array(num)].map((i, idx) => {
-    const rate = `${idx * 100 / num}%`;
+    const temp = `${idx * 100}%`;
+    const rate = `${temp / num}%`;
     return <line key={idx} {...getProps(rate)} />;
   });
   return (

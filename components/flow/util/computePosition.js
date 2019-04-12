@@ -25,8 +25,9 @@ export function justifyTarget(source, target) {
 }
 
 export function getAnchorOffset(anchorIdx, { width, height }, anchors) {
+  const temp = (anchorIdx + 1) * width;
   const offset = {
-    x: (anchorIdx + 1) * width / (anchors.length + 1),
+    x: temp / (anchors.length + 1),
     y: height
   };
   // 向宿主节点埋一个属性

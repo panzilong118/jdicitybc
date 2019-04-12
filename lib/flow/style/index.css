@@ -55,13 +55,13 @@
   position: absolute;
   z-index: 10;
   display: none;
-  -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .flexibleControl {
-  border: 1px dashed #05ddff a1;
-  border: 1px dashed rgba(5, 221, 255, 0.63137) a1;
+  border: 1px dashed #05ddff;
+  border: 1px dashed rgba(5, 221, 255, 0.63137);
 }
 .flexibleControl:hover {
   border: 1px dashed #05ddff;
@@ -70,7 +70,7 @@
   right: -1px;
   bottom: -1px;
   cursor: nwse-resize;
-  fill: rgba(5, 221, 255, 0.63137) a1;
+  fill: rgba(5, 221, 255, 0.63137);
 }
 .bottomRight:hover {
   fill: #05ddff;

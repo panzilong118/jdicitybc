@@ -13,7 +13,9 @@
 
 import React from 'react';
 import { Tooltip } from 'antd';
-import { getType, stringRealLen, stringEllipsis } from 'uc-fun';
+import getType from 'uc-fun/getType';
+import stringRealLen from 'uc-fun/stringRealLen';
+import stringEllipsis from 'uc-fun/stringEllipsis';
 
 class UCToolTip extends React.Component {
   render() {

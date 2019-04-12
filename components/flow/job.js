@@ -7,19 +7,14 @@ import Tooltip from './util/Tooltip';
 import { validFunc } from './util/validate';
 
 class Job extends React.Component {
-  restoreStyle = debounce(() => {
-    // eslint-disable-next-line
-    this.setState({ resizeNodeIdx: -1 });
-  }, 1000);
-
   state = {
     resizeNodeIdx: -1
   };
 
-  get dragHandler() {
-    const { scale } = this.props;
-    return dragHandler(scale);
-  }
+  restoreStyle = debounce(() => {
+    // eslint-disable-next-line
+    this.setState({ resizeNodeIdx: -1 });
+  }, 1000);
 
   getAnchor(anchors, { height, width }, nodeIdx, canDrag) {
     const len = get(anchors, 'length');
@@ -52,6 +47,24 @@ class Job extends React.Component {
         </div>
       );
     });
+  }
+
+  setTarget = (target, targetAnchor) => {
+    const { tmpLine } = this;
+    if (!tmpLine) return;
+    const { onDrawLine, onDragLine } = this.props;
+    const line = {
+      ...tmpLine,
+      target,
+      targetAnchor
+    };
+    onDragLine({});
+    onDrawLine(line);
+  };
+
+  get dragHandler() {
+    const { scale } = this.props;
+    return dragHandler(scale);
   }
 
   getFlexibleControl(node) {
@@ -97,38 +110,6 @@ class Job extends React.Component {
     return [...rowCtrl, ...colCtrl, bottomRightCtrl];
   }
 
-  resize = (el, node, direction) => {
-    const { onResize } = this.props;
-    const getDistance = (curDirect, cur, boxLen) =>
-      (direction && direction !== curDirect ? boxLen : cur);
-
-    this.dragHandler(el, point => {
-      const { x, y } = point;
-      const { id, width, height } = node;
-      const size = {
-        width: getDistance('dx', x, width),
-        height: getDistance('dy', y, height)
-      };
-      validFunc(onResize, id, size);
-      const { resizeNodeIdx } = this.state;
-      resizeNodeIdx === -1 && this.setState({ resizeNodeIdx: node.id });
-      this.restoreStyle(el);
-    });
-  };
-
-  setTarget = (target, targetAnchor) => {
-    const { tmpLine } = this;
-    if (!tmpLine) return;
-    const { onDrawLine, onDragLine } = this.props;
-    const line = {
-      ...tmpLine,
-      target,
-      targetAnchor
-    };
-    onDragLine({});
-    onDrawLine(line);
-  };
-
   mouseMove = (el, source, sourceAnchor) => {
     const { nodes } = this.props;
     const { onDragLine } = this.props;
@@ -154,6 +135,25 @@ class Job extends React.Component {
     );
   };
 
+  resize = (el, node, direction) => {
+    const { onResize } = this.props;
+    const getDistance = (curDirect, cur, boxLen) =>
+      (direction && direction !== curDirect ? boxLen : cur);
+
+    this.dragHandler(el, point => {
+      const { x, y } = point;
+      const { id, width, height } = node;
+      const size = {
+        width: getDistance('dx', x, width),
+        height: getDistance('dy', y, height)
+      };
+      validFunc(onResize, id, size);
+      const { resizeNodeIdx } = this.state;
+      resizeNodeIdx === -1 && this.setState({ resizeNodeIdx: node.id });
+      this.restoreStyle(el);
+    });
+  };
+
   bindDrag(el, { idx }) {
     const { onDrag } = this.props;
     if (!onDrag) return;
@@ -169,7 +169,7 @@ class Job extends React.Component {
   }
 
   render() {
-    const { resizeNodeIdx } = this.state;
+    // const { resizeNodeIdx } = this.state;
     const {
       nodes, render, onClick, flexible
     } = this.props;

@@ -88,6 +88,50 @@ class Flow extends Component {
     };
   };
 
+  // 监听删除键 & 上下左右键
+  onKeyDown = event => {
+    const {
+      onDeleteJob,
+      onDeleteLine,
+      onDrag,
+      nodes,
+      disable
+    } = this.props;
+    if (disable) return;
+
+    const {
+      selected: { job, line }
+    } = this.state;
+    if (this.actionValideDelete(event.keyCode)) {
+      if (valideIdxCheck(job)) {
+        validFunc(onDeleteJob, job);
+      }
+
+      if (valideIdxCheck(line)) {
+        validFunc(onDeleteLine, line);
+      }
+      this.setState({ selected: {} });
+    }
+    // 上下左右键
+    if (this.actionValideKeyDown(event.keyCode)) {
+      event.preventDefault();
+      const { x, y } = nodes[job];
+      let newX = x;
+      let newY = y;
+      const code = event.keyCode;
+      if (code === 37) newX--; // left
+      if (code === 38) newY--; // top
+      if (code === 39) newX++; // right
+      if (code === 40) newY++; // bottom
+
+      if (valideIdxCheck(job)) {
+        validFunc(onDrag, job, { x: newX, y: newY });
+      }
+      this.setState({ selected: { job } });
+    }
+    this.setState({ selected: {} });
+  }
+
   get linesWithCoordinate() {
     const { lines } = this.props;
 
@@ -161,56 +205,14 @@ class Flow extends Component {
     return this.focus && allowCode.indexOf(keyCode) >= 0;
   };
 
-  // 监听删除键 & 上下左右键
-  onKeyDown = event => {
-    const {
-      onDeleteJob,
-      onDeleteLine,
-      onDrag,
-      nodes,
-      disable
-    } = this.props;
-    if (disable) return;
-
-    const {
-      selected: { job, line }
-    } = this.state;
-    if (this.actionValideDelete(event.keyCode)) {
-      if (valideIdxCheck(job)) {
-        validFunc(onDeleteJob, job);
-      }
-
-      if (valideIdxCheck(line)) {
-        validFunc(onDeleteLine, line);
-      }
-      this.setState({ selected: {} });
-    }
-    // 上下左右键
-    if (this.actionValideKeyDown(event.keyCode)) {
-      event.preventDefault();
-      const { x, y } = nodes[job];
-      let newX = x;
-      let newY = y;
-      const code = event.keyCode;
-      if (code === 37) newX--; // left
-      if (code === 38) newY--; // top
-      if (code === 39) newX++; // right
-      if (code === 40) newY++; // bottom
-
-      if (valideIdxCheck(job)) {
-        validFunc(onDrag, job, { x: newX, y: newY });
-      }
-      this.setState({ selected: { job } });
-    }
-    this.setState({ selected: {} });
-  }
-
   bindDrag = (idx, { x, y }) => {
     const { onDrag, nodes } = this.props;
     const node = nodes[idx];
+    const tempx = x - node.width;
+    const tempy = y - node.height;
     const point = {
-      x: x - node.width / 2,
-      y: y - node.height / 2
+      x: tempx / 2,
+      y: tempy / 2
     };
     onDrag(idx, getInRectRange(point, this.getPanelRange(idx)));
   };
