@@ -1,6 +1,9 @@
 import * as React from 'react';
 import { Input } from 'antd';
 import Blue from './blue';
+import './style/index.less';
+import './style/red.less';
+import './style/test.less';
 
 export default class Cinput extends React.Component {
   onInputChange(e, index) {
