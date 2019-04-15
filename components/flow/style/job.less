@@ -1,10 +1,10 @@
 @import './variable.less';
 
-.jobWrap {
+.jdic-jobWrap {
   position: absolute;
 }
 
-.job {
+.jdic-job {
   display: inline-block;
   position: absolute;
   // transform: translate(-50%, -50%);
@@ -16,7 +16,7 @@
   }
 }
 
-.input {
+.jdic-input {
   width: 6px;
   height: 6px;
   border: 1px solid #DDE2E9;
@@ -36,7 +36,7 @@
   }
 }
 
-.flexibleControl, .bottomRight {
+.jdic-flexibleControl, .jdic-bottomRight {
   position: absolute;
   z-index: 10;
   display: none;
@@ -46,14 +46,14 @@
 @blue: #05ddff;
 @lighter-blue: #05ddffa1;
 
-.flexibleControl {
+.jdic-flexibleControl {
   border: 1px dashed @lighter-blue;
   &:hover {
     border: 1px dashed @blue;
   }
 }
 
-.bottomRight {
+.jdic-bottomRight {
   right: -1px;
   bottom: -1px;
   cursor: nwse-resize;
@@ -63,7 +63,7 @@
   }
 }
 
-.resize {
+.jdic-resize {
   .flexibleControl, .bottomRight {
     display: block;
   }

@@ -249,7 +249,7 @@ class Flow extends Component {
       <div
         tabIndex="0"
         style={{ transform: `scale(${scalePercent})`, ...style }}
-        className={`uc-flow-panel ${className}`}
+        className={`jdic-uc-flow-panel ${className}`}
         onMouseMove={this.onMouseMove}
         ref={el => el && this.bindPanelBox(el)}
         onClick={stopPropagation(this.clearActive)}
@@ -266,7 +266,7 @@ class Flow extends Component {
           activeIdx={selected.job}
           onClick={(e, idx) => this.active(e, 'job', idx)}
         />
-        <svg className="uc-flow">
+        <svg className="jdic-uc-flow">
           <Line
             lines={lines}
             nodes={nodes}

@@ -63,7 +63,7 @@ class Line extends React.Component {
       <path
         key={`line-${idx}`}
         markerEnd={`url(#marker-arrow${active ? '-active' : ''})`}
-        className={`line ${active ? 'active' : ''}`}
+        className={`jdic-line ${active ? 'jdic-active' : ''}`}
         d={path}
         onClick={e => onClick(e, idx)}
       />

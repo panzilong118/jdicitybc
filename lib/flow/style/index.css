@@ -1,11 +1,11 @@
 .temp {
   background: black;
 }
-.uc-flow {
+.jdic-uc-flow {
   width: 100%;
   height: 100%;
 }
-.uc-flow-panel {
+.jdic-uc-flow-panel {
   position: relative;
   overflow: hidden;
   -webkit-transform-origin: top left;
@@ -13,19 +13,19 @@
       -ms-transform-origin: top left;
           transform-origin: top left;
 }
-.jobWrap {
+.jdic-jobWrap {
   position: absolute;
 }
-.job {
+.jdic-job {
   display: inline-block;
   position: absolute;
   text-align: center;
 }
-.job:hover .flexibleControl,
-.job:hover .bottomRight {
+.jdic-job:hover .flexibleControl,
+.jdic-job:hover .bottomRight {
   display: block;
 }
-.input {
+.jdic-input {
   width: 6px;
   height: 6px;
   border: 1px solid #DDE2E9;
@@ -46,12 +46,12 @@
      -moz-box-sizing: content-box;
           box-sizing: content-box;
 }
-.input:hover {
+.jdic-input:hover {
   background: #05ddff;
   border-color: #05ddff;
 }
-.flexibleControl,
-.bottomRight {
+.jdic-flexibleControl,
+.jdic-bottomRight {
   position: absolute;
   z-index: 10;
   display: none;
@@ -59,24 +59,24 @@
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.flexibleControl {
+.jdic-flexibleControl {
   border: 1px dashed #05ddff;
   border: 1px dashed rgba(5, 221, 255, 0.63137);
 }
-.flexibleControl:hover {
+.jdic-flexibleControl:hover {
   border: 1px dashed #05ddff;
 }
-.bottomRight {
+.jdic-bottomRight {
   right: -1px;
   bottom: -1px;
   cursor: nwse-resize;
   fill: rgba(5, 221, 255, 0.63137);
 }
-.bottomRight:hover {
+.jdic-bottomRight:hover {
   fill: #05ddff;
 }
-.resize .flexibleControl,
-.resize .bottomRight {
+.jdic-resize .flexibleControl,
+.jdic-resize .bottomRight {
   display: block;
 }
 .marker#marker-arrow path {
@@ -85,15 +85,15 @@
 .marker#marker-arrow-active path {
   fill: #1890FF;
 }
-.line {
+.jdic-line {
   stroke: #B5BED4;
   stroke-width: 1;
   fill: none;
 }
-.line:hover {
+.jdic-line:hover {
   stroke-width: 2;
 }
-.active.line {
+.jdic-active.jdic-line {
   stroke: #1890FF;
   stroke-width: 2;
 }
