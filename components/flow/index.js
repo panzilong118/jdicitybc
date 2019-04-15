@@ -208,11 +208,9 @@ class Flow extends Component {
   bindDrag = (idx, { x, y }) => {
     const { onDrag, nodes } = this.props;
     const node = nodes[idx];
-    const tempx = x - node.width;
-    const tempy = y - node.height;
     const point = {
-      x: tempx / 2,
-      y: tempy / 2
+      x: x - node.width / 2,
+      y: y - node.height / 2
     };
     onDrag(idx, getInRectRange(point, this.getPanelRange(idx)));
   };
