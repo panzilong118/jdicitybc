@@ -14,11 +14,11 @@ export default class Cinput extends React.Component {
       index,
     } = this.props;
     return (
-      <div className="jdic-sectionInput" key={index}>
-        <div className="jdic-inputName">{item.inputBoxDetail.name}</div>
+      <div className="jdic-sectioninput" key={index}>
+        <div className="jdic-inputname">{item.inputBoxDetail.name}</div>
         <div>
           <Input
-            className="jdic-inputStyle"
+            className="jdic-inputstyle"
             value={item.inputBoxDetail.value}
             onChange={(e) => this.onInputChange(e, index)}
           />

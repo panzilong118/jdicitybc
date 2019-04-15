@@ -134,6 +134,10 @@
     "transform": {
         "^.+\\.md?$": "markdown-loader-jest"
     },
+    "jest": {
+      "verbose": true,
+      "testURL": "http://localhost:8080/"
+    },
     "author": "panzilong",
     "license": "ISC"
 }

@@ -1,9 +1,15 @@
+/**
+ * Created by gaoqingli on 2018/4/18.
+ */
 import * as React from 'react';
+
 import * as ReactDOM from 'react-dom';
+
 import Animate from 'rc-animate';
+
 import classNames from 'classnames';
+
 import Icon from '../icon';
-import Blue from './blue';
 
 function noop() { }
 
@@ -101,9 +107,6 @@ export default class Alert extends React.Component {
                   {showIcon ? <Icon className={`${prefixCls}-icon`} type={iconType} /> : null}
                   <span className={`${prefixCls}-message`}>{message}</span>
                   <span className={`${prefixCls}-description`}>{description}</span>
-                  <span className="red">red</span>
-                  <span className="green">green</span>
-                  <Blue />
                   {closeIcon}
               </div>
           </Animate>
