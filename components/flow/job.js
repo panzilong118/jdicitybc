@@ -169,7 +169,7 @@ class Job extends React.Component {
   }
 
   render() {
-    // const { resizeNodeIdx } = this.state;
+    const { resizeNodeIdx } = this.state;
     const {
       nodes, render, onClick, flexible
     } = this.props;
@@ -190,7 +190,10 @@ class Job extends React.Component {
             >
               <div
                 key={`job-${idx}`}
-                className="job"
+                className={`
+                    job
+                    ${resizeNodeIdx === node.id ? 'resize' : ''}
+                  `}
                 style={{ width, height }}
                 onClick={e => onClick(e, idx)}
               >
