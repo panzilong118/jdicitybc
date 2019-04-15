@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../../components/cinput/style/index.js"],"names":[],"mappings":";;AAAA;;AACA;;AACA","file":"index.js","sourcesContent":["import './index.less';\nimport './test.less';\nimport './red.less';\n"]}
+{"version":3,"sources":["../../../components/cinput/style/index.js"],"names":[],"mappings":";;AAAA","file":"index.js","sourcesContent":["import './index.less';\n"]}

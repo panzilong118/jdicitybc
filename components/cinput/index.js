@@ -1,9 +1,6 @@
 import * as React from 'react';
 import { Input } from 'antd';
-import Blue from './blue';
 import './style/index.less';
-import './style/red.less';
-import './style/test.less';
 
 export default class Cinput extends React.Component {
   onInputChange(e, index) {
@@ -17,18 +14,15 @@ export default class Cinput extends React.Component {
       index,
     } = this.props;
     return (
-      <div className="sectionInput" key={index}>
-        <div className="inputName">{item.inputBoxDetail.name}</div>
-        <div className="yellow">yellow</div>
-        <div className="green">green</div>
+      <div className="jdic-sectionInput" key={index}>
+        <div className="jdic-inputName">{item.inputBoxDetail.name}</div>
         <div>
           <Input
-            className="inputStyle"
+            className="jdic-inputStyle"
             value={item.inputBoxDetail.value}
             onChange={(e) => this.onInputChange(e, index)}
           />
         </div>
-        <Blue />
       </div>
     );
   }
