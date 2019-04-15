@@ -80,6 +80,7 @@
         "warning": "^3.0.0"
     },
     "devDependencies": {
+        "@babel/polyfill": "^7.4.3",
         "babel-cli": "^6.26.0",
         "babel-eslint": "^9.0.0",
         "babel-jest": "^22.4.1",

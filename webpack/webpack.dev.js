@@ -30,8 +30,8 @@ function getPages() {
 }
 
 module.exports = {
-    mode: 'production',
-    devtool: 'inline-source-map',
+    mode: 'development',
+    devtool: 'eval',
     // 入口文件
     entry: {
         index: ['webpack-hot-middleware/client?noInfo=true&reload=true', path.resolve(__rootPath, 'src/index.js')]
