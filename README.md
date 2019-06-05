@@ -26,30 +26,32 @@ export default Cinput;
 Cinput/other.js  ： 尽量和 index.js 同级，除非需要其他资源文件支持才可创建新的文件夹
 Cinput/style/index.less ：一般用于存放该组件的样式。
 Cinput/style/other.less ：和 index.less同级的其他自定义样式。
- 注：1、根据该文件组织结构，不需要在组件js文件里显示引用对应的less文件，组件会自动引入样式。todo： 暂时不支持，还是需要在组件文件*.js中单独引入样式，需要后续处理
-组件没有样式, .babelrc需要引入多个样式库 - https://github.com/ant-design/babel-plugin-import
-在组件中单独引入less，可以解决问题。但是需要多个样式库, 尝试了在.babelrc 引入多个样式库，但是引入后样式不生， 两个库只能二选一
-         2、若b.less引用了a.less定义的变量，需在b.less中引入a.less
-cinput/demo - 在组件下创建demo文件夹，展示使用组件的多个示例代码， 这个demo的意义是可以把demo中的代码放到src/index.js就可以看组件效果 todo：这个是与test jest配合吗？
-cinput/__test__ - 在组件目录下，新建__test__文件夹，用于存放测试用例以及测试结果。
+注：若b.less引用了a.less定义的变量，需在b.less中引入a.less
+
 2.4 lib - 编译后的文件目录
+
 2.5 src/index.js - 做组件的开发和调试使用
+
 3.创建组件
 3.1 步骤
 1）已有项目中沉淀的组件
 2）由于组件共性，逐步沉淀到公共组件文件夹中：src/components/common
 3）经历实际项目验证后，可以抽取到react公共组件库中
+
 3.2 组件样板参考
 1）简单组件 - Cinput
 2）复杂组件 - Flow
+
 3.3 复杂组件引入文件的组织结构 - 保持组件的独立性，逐步梳理出组件的公共依赖.
 1)uc-fun的加入
-2)公共库的提取
+2)公共库的提取 eg. d3.js
+
 3.4 样式定义
 1）样式不支持css module的写法
-2）要求 class命名： 小写，以中划线“-”分割，class 以  jdic-** 开头
+2）要求 class命名： 小写，以中划线“-”分割，class 以  jdic-** 开头?
 3）需要在组件文件*.js中单独引入样式 - import './style/index.less';
 3）todo - 引入prefixCls
+
 4.组件开发&项目自测
 4.1 运行：npm run dev , 浏览器输入http://localhost:8080
 4.2 编译 : npm run compile   
