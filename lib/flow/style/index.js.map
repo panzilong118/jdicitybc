@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../../components/flow/style/index.js"],"names":[],"mappings":";;AAAA;;AACA;;AACA","file":"index.js","sourcesContent":["import './index.less';\nimport './job.less';\nimport './line.less';\n"]}
+{"version":3,"sources":["../../../components/Flow/style/index.js"],"names":[],"mappings":";;AAAA;;AACA;;AACA","file":"index.js","sourcesContent":["import './index.less';\nimport './job.less';\nimport './line.less';\n"]}

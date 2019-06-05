@@ -1,7 +1,7 @@
-export { default as Cinput } from './cinput';
+export { default as Cinput } from './Cinput';
 
-export { default as Flow } from './flow';
+export { default as Flow } from './Flow';
 
-export { default as Alert } from './alert';
+export { default as Alert } from './Alert';
 
 export { default as Icon } from './icon';

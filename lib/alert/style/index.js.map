@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../../components/alert/style/index.js"],"names":[],"mappings":";;AAAA;;AACA","file":"index.js","sourcesContent":["import '../../style/index.less';\nimport './index.less';\n"]}
+{"version":3,"sources":["../../../components/Alert/style/index.js"],"names":[],"mappings":";;AAAA;;AACA","file":"index.js","sourcesContent":["import '../../style/index.less';\nimport './index.less';\n"]}
