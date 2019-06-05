@@ -78,13 +78,13 @@ module.exports = {
                     }
                 }
             ]
+        },
+        {
+          enforce: 'pre',
+          test: /\.js$/,
+          include: [resolve('components'), resolve('src')],
+          loader: 'eslint-loader',
         }
-        // {
-        //   enforce: 'pre',
-        //   test: /\.js$/,
-        //   include: [resolve('components'), resolve('src')],
-        //   loader: 'eslint-loader',
-        // }
       ]
     },
 
