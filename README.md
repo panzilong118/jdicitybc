@@ -48,7 +48,7 @@ Cinput/style/other.less ：和 index.less同级的其他自定义样式。
 
 3.4 样式定义
 1）样式不支持css module的写法
-2）要求 class命名： 小写，以中划线“-”分割，class 以  jdic-** 开头?
+2）要求 class命名： 小写，以中划线“-”分割，class 以  jdic-** 开头 todo - 验证下flow组件
 3）需要在组件文件*.js中单独引入样式 - import './style/index.less';
 3）todo - 引入prefixCls
 
