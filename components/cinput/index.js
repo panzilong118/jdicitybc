@@ -3,9 +3,9 @@ import { Input, Button } from 'antd';
 import './style/index.less';
 
 export default class Cinput extends React.Component {
-  onInputChange(e, index) {
-    const { handleInputChange } = this.props;
-    handleInputChange(e.target.value, index);
+  handleValueChange(e, index) {
+    const { handleValueChange, panelConfigIndex } = this.props;
+    handleValueChange(e.target.value, index, panelConfigIndex);
   }
 
   render() {
@@ -20,7 +20,7 @@ export default class Cinput extends React.Component {
           <Input
             className="jdic-inputstyle"
             value={item.inputBoxDetail.value}
-            onChange={(e) => this.onInputChange(e, index)}
+            onChange={(e) => this.handleValueChange(e, index)}
           />
         </div>
         <Button type="primary">Primary</Button>
