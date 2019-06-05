@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Input } from 'antd';
+import { Input, Button } from 'antd';
 import './style/index.less';
 
 export default class Cinput extends React.Component {
@@ -23,6 +23,11 @@ export default class Cinput extends React.Component {
             onChange={(e) => this.onInputChange(e, index)}
           />
         </div>
+        <Button type="primary">Primary</Button>
+        <Button>Default</Button>
+        <Button type="dashed">Dashed</Button>
+        <Button type="danger">Danger</Button>
+        <Button type="link">Link</Button>
       </div>
     );
   }

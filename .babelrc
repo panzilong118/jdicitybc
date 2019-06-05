@@ -5,8 +5,7 @@
       [
         "import",
         {
-            "libraryName": "components",
-            "libraryDirectory": "",
+            "libraryName": "antd",
             "style": true
         }
       ],
