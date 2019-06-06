@@ -55,31 +55,33 @@ Cinput/style/other.less ：和 index.less同级的其他自定义样式。
 1）样式不支持css module的写法
 2）要求 class命名： 小写，以中划线“-”分割，class 以  jdic-** 开头
 3）需要在组件文件*.js中单独引入样式 - import './style/index.less';
-3）todo - 引入prefixCls
+3）引入prefixCls
 
 4.组件开发&项目自测
 4.1 运行：npm run dev , 浏览器输入http://localhost:8080
-4.2 编译 : npm run compile 需要修改脚手架 不能没有这个文件 components/flow/style/index.js, npm run compile的时候去掉npm run compile-less
+4.2 编译 : npm run compile
 4.3 项目自测， 编译后的目录：lib   -->替换 项目目录 / node_modules / jdicitybc / lib
 4.4 todo: 配置npm link
 
 5.创建测试项目(jest)，并通过Jest测试 (todo)
 jest单元测试:分为两种，dom测试和断言测试
-(1)dom测试
+5.1dom测试
 说明：会根据测试用例的场景，生成组件最终生成的真实dom结构。如果修改组件后，执行dom测试，会提示dom结构发生改变，方便我们校验。
 使用：
 在组件目录下，新建__test__文件夹，用于存放测试用例以及测试结果。
 测试用例的文件要以XXX.test.js命名
 dom测试的结果会在_snapshots_文件夹下生成
 具体的jest的语法可以在网上搜索下相关资料，并参考ant的测试用例使用
-(2)断言测试
+
+5.2断言测试
 说明：会根据自定义的断言进行测试，有任意一个断言失败则不通过，并在控制台提示错误
 其他说明同上
-(3)具体操作
+
+5.3具体操作
 控制台执行： npm test --rootDir /components/alert
 其中/components/alert为需要执行测试组件的目录
 
-6.撰写readme文档
+6.撰写readme文档 (todo)
 todo文档生成器
 
 7.组件发布到npm官网或私服 -  http://cf-b2b.jdcloud.com/pages/viewpage.action?pageId=493254

@@ -4,13 +4,17 @@
   background: black;
 }
 
-.jdic-uc-flow {
-  width: 100%;
-  height: 100%;
-}
+@flow-prefix-cls: ~"jdic-flow";
 
-.jdic-uc-flow-panel {
-  position: relative;
-  overflow: hidden;
-  transform-origin: top left;
+.@{flow-prefix-cls} {
+  &-uc-flow {
+    width: 100%;
+    height: 100%;
+  }
+
+  &-uc-flow-panel {
+    position: relative;
+    overflow: hidden;
+    transform-origin: top left;
+  }
 }

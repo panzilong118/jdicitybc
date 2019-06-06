@@ -1,6 +1,6 @@
 {
     "name": "panzilongtest",
-    "version": "0.0.13",
+    "version": "0.0.17",
     "description": "JD Intelligent City business component",
     "main": "lib/index.js",
     "scripts": {

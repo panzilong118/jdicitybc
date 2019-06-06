@@ -45,6 +45,10 @@ const KEY_CODE = {
 };
 
 class Flow extends Component {
+  static defaultProps = {
+      prefixCls: 'jdic-flow',
+  };
+
   state = {
     selected: {
       job: INVALID_IDX,
@@ -241,7 +245,8 @@ class Flow extends Component {
       render,
       onDrawLine,
       flexible,
-      onResize
+      onResize,
+      prefixCls
     } = this.props;
     const { tmpLine, selected } = this.state;
     const scalePercent = scale / 100;
@@ -249,7 +254,7 @@ class Flow extends Component {
       <div
         tabIndex="0"
         style={{ transform: `scale(${scalePercent})`, ...style }}
-        className={`jdic-uc-flow-panel ${className}`}
+        className={`${prefixCls}-uc-flow-panel ${className}`}
         onMouseMove={this.onMouseMove}
         ref={el => el && this.bindPanelBox(el)}
         onClick={stopPropagation(this.clearActive)}
@@ -266,7 +271,7 @@ class Flow extends Component {
           activeIdx={selected.job}
           onClick={(e, idx) => this.active(e, 'job', idx)}
         />
-        <svg className="jdic-uc-flow">
+        <svg className={`${prefixCls}-uc-flow`}>
           <Line
             lines={lines}
             nodes={nodes}
