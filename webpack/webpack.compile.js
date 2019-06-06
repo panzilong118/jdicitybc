@@ -21,29 +21,30 @@ function getEntry() {
   var entry = {};
 
   // 获取所有的less文件
-  var getLessFiles = glob.sync("components/**/style/index.js");
-  getLessFiles.forEach((item)=>{
-      var filePath = item.replace(".js", "");
-      entry[filePath.replace("components/", "")] = item;
-  });
-
-  // // 获取所有的less文件
-  // var getLessFiles = glob.sync("components/**/*.less");
-
-  // var filesList = [];
+  // var getLessFiles = glob.sync("components/**/style/index.js");
   // getLessFiles.forEach((item)=>{
-  //    // 去除components/style下文件
-  //    if(item.indexOf("components/style")<0){
-  //       filesList.push(item);
-  //     }
+  //     var filePath = item.replace(".js", "");
+  //     entry[filePath.replace("components/", "")] = item;
   // });
-  // // 添加文件
-  // filesList.push("components/style/index.less");
 
-  // filesList.forEach((item, index) => {
-  //   var filePath = item.replace(".less", "");
-  //   entry[filePath.replace("components/", "")] = filePath;
-  // });
+  // 获取所有的less文件
+  var getLessFiles = glob.sync("components/**/*.less");
+
+  var filesList = [];
+  getLessFiles.forEach((item)=>{
+     // 去除components/style下文件
+     if(item.indexOf("components/style")<0){
+        filesList.push(item);
+      }
+  });
+  // 添加文件
+  filesList.push("components/style/index.less");
+
+  filesList.forEach((item, index) => {
+    var filePath = item.replace(".less", "");
+    entry[filePath.replace("components/", "")] = filePath;
+  });
+  console.log(entry, '<---entry');
   return entry;
 }
 

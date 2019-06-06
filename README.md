@@ -54,9 +54,10 @@ Cinput/style/other.less ：和 index.less同级的其他自定义样式。
 
 4.组件开发&项目自测
 4.1 运行：npm run dev , 浏览器输入http://localhost:8080
-4.2 编译 : npm run compile   
+4.2 编译 : npm run compile 需要修改脚手架 不能没有这个文件 components/flow/style/index.js, npm run compile的时候去掉npm run compile-less
 4.3 项目自测， 编译后的目录：lib   -->替换 项目目录 / node_modules / jdicitybc / lib
 4.4 todo: 配置npm link
+
 5.创建测试项目(jest)，并通过Jest测试
 jest单元测试:分为两种，dom测试和断言测试
 (1)dom测试

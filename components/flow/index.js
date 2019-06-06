@@ -266,7 +266,7 @@ class Flow extends Component {
           activeIdx={selected.job}
           onClick={(e, idx) => this.active(e, 'job', idx)}
         />
-        <svg className="jdic-uc-flow">
+        <svg className="jdic-uc-flow test">
           <Line
             lines={lines}
             nodes={nodes}
