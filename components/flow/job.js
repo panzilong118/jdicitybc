@@ -3,8 +3,8 @@ import { get, debounce } from 'lodash';
 import './style/job.less';
 import { getTranslate, dragHandler } from './util/drag';
 import { getAnchorOffset } from './util/computePosition';
-import Tooltip from './util/Tooltip';
-import { validFunc } from './util/validate';
+import Tooltip from '../Tooltip';
+import { validFunc } from '../util/validate';
 
 class Job extends React.Component {
   state = {

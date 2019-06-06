@@ -1,4 +1,4 @@
-import * as d3 from './d3';
+import * as d3 from '../../util/d3';
 
 export const getTranslate = ({ x, y }) => ({ transform: `translate3d(${x}px, ${y}px, 0)` });
 

@@ -20,10 +20,10 @@
 
 import React, { Component } from 'react';
 // import { KEY_CODE } from 'src/config';
-import { stopPropagation } from './util/domEvent';
+import { stopPropagation } from '../util/domEvent';
 import './style/index.less';
 import { getInRectRange } from './util/computePosition';
-import { validFunc } from './util/validate';
+import { validFunc } from '../util/validate';
 import Line from './line';
 import Job from './job';
 import Axis from './Axis';
@@ -266,7 +266,7 @@ class Flow extends Component {
           activeIdx={selected.job}
           onClick={(e, idx) => this.active(e, 'job', idx)}
         />
-        <svg className="jdic-uc-flow test">
+        <svg className="jdic-uc-flow">
           <Line
             lines={lines}
             nodes={nodes}
