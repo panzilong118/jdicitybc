@@ -1,0 +1,24 @@
+@flow-prefix-cls: ~"jdic-tab";
+
+.@{flow-prefix-cls} {
+  &-uc-tab {
+  display: inline-block;
+  margin-right: 2px;
+  height: 39px;
+  line-height: 39px;
+  color: rgba(0, 0, 0, 0.65);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background: rgba(247,249,250,1);
+  padding: 0 16px;
+  border: 1px solid #e8e8e8;
+  border-bottom:none;
+  &:hover {
+    color: black;
+  }
+  }
+  &-uc-tab-active {
+  background: white;
+  border-bottom: none;
+  }
+}
