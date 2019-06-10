@@ -22,7 +22,7 @@ export { default as Cinput } from ‘./Cinput’;
 
 2.3 components/组件文件夹：一个组件对应一个文件夹
 要求：组件所有内容必须包含在该文件夹，不允许放在其他文件夹下。
-公共主题theme和公共util除外(保持与平台项目同步)todo-如何保持？
+公共主题theme和公共util除外(保持与平台项目同步)todo-主题可以类似antd覆盖，util需要记录后同步
 例如：components/Cinput
 要求：组件名称命名规范 文件夹或文件名称：大写，分割使用中划线“-”
 Cinput/index.js ：必须有该文件，将最终完成或合成的组件导出。组件实现也可在该组件内。
@@ -88,7 +88,7 @@ todo文档生成器
 7.1 todo： 创建npm账号
 7.2 todo： 包取名 -  jdicitycc
 7.3 在已有的版本上修改版本号
-7.4 nom login 后输入username, password, email
+7.4 npm login 后输入username, password, email
 7.5 npm publish
 
 8.组件替换
