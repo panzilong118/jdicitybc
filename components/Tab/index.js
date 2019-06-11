@@ -21,9 +21,9 @@ import React, { Component } from 'react';
 import { validFunc } from '../util/validate';
 import './style/index.less';
 
-class Comp extends Component {
+class Tab extends Component {
   static defaultProps = {
-      prefixCls: 'jdic-tab',
+    prefixCls: 'jdic-tab',
   };
 
   render() {
@@ -48,4 +48,4 @@ class Comp extends Component {
   }
 }
 
-export default Comp;
+export default Tab;

@@ -46,7 +46,7 @@ const KEY_CODE = {
 
 class Flow extends Component {
   static defaultProps = {
-      prefixCls: 'jdic-flow',
+    prefixCls: 'jdic-flow',
   };
 
   state = {
