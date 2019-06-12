@@ -30,13 +30,14 @@ class Tab extends Component {
     const {
       tabs, render, active, onChange, className, tabClass, prefixCls
     } = this.props;
+    const tabActive = `${prefixCls}-uc-tab-active`;
     return (
       <ul className={className}>
         {
           tabs.map((name, idx) => (
             <li
               key={idx}
-              className={`${prefixCls}-uc-tab ${tabClass} ${active === idx ? 'jdic-tab-uc-tab-active' : ''}`}
+              className={`${prefixCls}-uc-tab ${tabClass} ${active === idx ? tabActive : ''}`}
               onClick={() => validFunc(onChange, idx)}
             >
               {validFunc(render, name, idx) || name}
