@@ -1,9 +1,4 @@
----
-category: Components
-subtitle: 标签页
-type: 数据展示
-title: Tab
----
+# Tab 标签页
 
 选项卡切换组件。
 
