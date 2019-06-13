@@ -1,6 +1,6 @@
 # jdicitybc
 
-https://panzilong118.github.io/jdicitybc/#/
+组件库使用文档： https://panzilong118.github.io/jdicitybc/#/
 
 1 创建项目脚手架
 1.1 优化开发、编译和发布速度
